@@ -1,0 +1,20 @@
+[
+   {
+      "lat":32.072810,
+      "lon":34.828020,
+      "start_time":"2020-03-03T00:00:00",
+      "end_time":"2020-03-03T05:30:00",
+      "radius":15,
+      "description": "מכון GoActive",
+      "patient_number": "11"
+   },
+   {
+      "lat":32.072810,
+      "lon":34.828020,
+      "start_time":"2020-03-03T00:00:00",
+      "end_time":"2020-03-03T05:30:00",
+      "radius":15,
+      "description": "מכון GoActive",
+      "patient_number": "11"
+   }
+]

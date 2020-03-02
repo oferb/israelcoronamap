@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.city-card {
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#map {
+  height: 50%;
+  width: 75%;
+  margin:0px auto;
+  display:inline-block;
+}
+
+#mapWrapper {
+  width: 100%;
+  height: 90%;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  position:fixed;
+  text-align: center;
+}
+
+.app-header{
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.save-button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+  background: yellow;
+}
