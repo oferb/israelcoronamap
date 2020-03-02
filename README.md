@@ -20,7 +20,10 @@ We've implemented step 1. If you want to help with step 2, please feel free. If 
 
 Code can be reused or completely rewritten. It's fine.
 
+See [this issue](https://github.com/oferb/coronavirus-notifier/issues/1)
+
+
 For questions, please contact Ofer Bartal:
-blueofer@gmail.com
-https://www.linkedin.com/in/ofer-bartal-58a50811/
-https://www.facebook.com/ofer.bartal
+* blueofer@gmail.com
+* https://www.linkedin.com/in/ofer-bartal-58a50811/
+* https://www.facebook.com/ofer.bartal
