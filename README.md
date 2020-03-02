@@ -1,9 +1,10 @@
 # Coronavirus Notifier
 A mobile app to update you about whether you've been near someone that has Coronavirus.
 
-Data about where people with Coronavirus have been is given by the Ministry of Health.
-User data about user's location at specific times is stored locally on device.
-The app then sees if there's a match between the user's whereabouts and the data from the Ministry of Health.
+## How it works
+* Data about where people with Coronavirus have been is given by the Ministry of Health.
+* User data about user's location at specific times is stored locally on device.
+* The app then sees if there's a match between the user's whereabouts and the data from the Ministry of Health.
 
 ## Step 1
 Website where the user actively presses a button to store current location.
