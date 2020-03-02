@@ -11,28 +11,37 @@ html, body {
 }
 
 #map {
-  height: 50%;
-  width: 75%;
+  height: 93vh;
+  width: 95vw;
   margin:0px auto;
   display:inline-block;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-#mapWrapper {
+#map-wrapper {
   width: 100%;
-  height: 90%;
-
+  height: 80vh;
   margin-top: 20px;
   margin-bottom: 20px;
 
-  position:fixed;
+  position:absolute;
   text-align: center;
 }
 
 .app-header{
     width: 100%;
-    padding: 25px;
+    padding: 52px 10px 30px;
     margin: 0;
     text-align: center;
+    color: white;
+    font-size: 55px;
+}
+
+@media only screen and (min-width: 500px) {
+  .app-header {
+    font-size: 80px;
+  }
 }
 
 .save-button-box{
@@ -40,6 +49,32 @@ html, body {
     justify-content: center;
 }
 
+.save-button {
+    width: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    color: #6c6a6a;
+    background: white;
+    box-shadow: 3px 3px 10px -2px;
+}
 .container-1{
-  background: yellow;
+  background: #e8cc04;
+  height: 95vh;
+}
+
+.container-2{
+  height: 100vh;
+  width: 100%;
+}
+
+.app-description{
+    color: white;
+    width: 522px;
+    direction: rtl;
+    margin: 15px auto 44px;
+    text-align: center;
 }

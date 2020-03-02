@@ -5,8 +5,8 @@ function init() {
       return response.json();
     })
     .then((govData) => {
-      // const userData = getUserData();
-      const userData = [
+      const userData = getUserData();
+      const mockData = [
         {
           lat: 32.072810,
           lon: 34.828020,
@@ -15,6 +15,9 @@ function init() {
       ]
       console.log('userData:', userData);
       const exposurePosition = checkExposure(userData, govData);
+      if (exposurePosition) {
+        alert("You have been near a person with Coronavirus: " + JSON.stringify(exposurePosition));
+      }
       console.log('exposurePosition:', exposurePosition);
     });
 }
