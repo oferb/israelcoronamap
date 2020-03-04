@@ -30,18 +30,11 @@ html, body {
 }
 
 .app-header{
-    width: 100%;
-    padding: 52px 10px 30px;
+    padding: 30px;
     margin: 0;
     text-align: center;
     color: white;
     font-size: 55px;
-}
-
-@media only screen and (min-width: 500px) {
-  .app-header {
-    font-size: 80px;
-  }
 }
 
 .save-button-box{
@@ -62,7 +55,7 @@ html, body {
     box-shadow: 3px 3px 10px -2px;
 }
 .container-1{
-  background: #e8cc04;
+  background: #dec303;
   height: 95vh;
 }
 
@@ -73,8 +66,17 @@ html, body {
 
 .app-description{
     color: white;
-    width: 522px;
+    max-width: 500px;
     direction: rtl;
-    margin: 15px auto 44px;
+    margin: 0px auto 30px;
     text-align: center;
+    font-size: 28px;
+    font-weight: initial;
+}
+
+.user-location-box {
+    font-size: 16px;
+    text-align: center;
+    min-width: 100px;
+    margin: 6px;
 }

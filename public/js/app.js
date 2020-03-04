@@ -1,4 +1,7 @@
-var map, infoWindow;
+var map, infoWindow, govData;
+const windowWidth = window.screen.availWidth;
+let globalGovData = []
+let markersArray = [];
 function init() {
   fetch('/json/data.json')
     .then((response) => {
@@ -13,41 +16,56 @@ function init() {
           timestamp: Date.now()
         }
       ]
-      console.log('userData:', userData);
-      const exposurePosition = checkExposure(userData, govData);
+      globalGovData = govData;
+      const exposurePosition = checkExposure(userData, mockData);
       if (exposurePosition) {
         alert("You have been near a person with Coronavirus: " + JSON.stringify(exposurePosition));
       }
-      console.log('exposurePosition:', exposurePosition);
     });
+
+  getGovData();
 }
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 15
+    center: { lat: 31.787545, lng: 35.174675 },
+    zoom: windowWidth >= 500 ? 12 : 10
   });
-  infoWindow = new google.maps.InfoWindow;
-
+  let infoWindow = new google.maps.InfoWindow;
   // Try HTML5 geolocation.
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
+    // navigator.geolocation.getCurrentPosition(function (position) {
+    //   var pos = {
+    //     lat: position.coords.latitude,
+    //     lng: position.coords.longitude
+    //   };
 
-      infoWindow.setPosition(pos);
-      infoWindow.setContent('מיקום נוכחי');
-      infoWindow.open(map);
-      map.setCenter(pos);
-    }, function () {
-      handleLocationError(true, infoWindow, map.getCenter());
-    });
+    //   let marker = new google.maps.Marker({
+    //     position: pos,
+    //     map: map,
+    //     icon: {
+    //       url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+    //     }
+    //   });
+
+    //   infoWindow.setPosition(pos);
+    //   infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
+    //   infoWindow.open(map, marker);
+    //   map.setCenter(pos);
+    // }, function () {
+    //   handleLocationError(true, infoWindow, map.getCenter());
+    // });
+
+    var pos = {
+      lat: 32.002886,
+      lng: 34.913726
+    };
+    map.setCenter(pos);
   } else {
     // Browser doesn't support Geolocation
     handleLocationError(false, infoWindow, map.getCenter());
   }
+  init();
 }
 
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
@@ -85,8 +103,6 @@ function savePosition() {
         userData = [];
       }
       userData.push(pos);
-      console.log("Position count: ", userData.length);
-
       saveUserData(userData);
 
     }, function () {
@@ -102,13 +118,7 @@ function savePosition() {
 function checkExposure(userData, govData) {
   for (let i = 0; i < userData.length; i++) {
     for (let j = 0; j < govData.length; j++) {
-      console.log('XX getTimestamp(govData[j].start_time)', getTimestamp(govData[j].start_time));
-      console.log('XX getTimestamp(govData[j].end_time)', getTimestamp(govData[j].end_time));
-      console.log('XX userData[i].timestamp:', userData[i].timestamp);
       if (userData[i].timestamp >= getTimestamp(govData[j].start_time) && userData[i].timestamp <= getTimestamp(govData[j].end_time)) {
-        // TODO: Correct lat, lon to meters for comparing to radius.
-         console.log('getDistance(userData[i], govData[j]):', getDistance(userData[i], govData[j]));
-         console.log('govData.radius:', govData[j].radius);
         if (getDistance(userData[i], govData[j]) <= govData[j].radius) {
           return govData[j];
         }
@@ -125,6 +135,57 @@ function getDistance(p1, p2) {
 
 function getTimestamp(stringTime) {
   return new Date(stringTime).getTime();
-} 
+}
 
-init();
+function getParam(name) {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  return urlParams.get(name)
+}
+
+function clearMarkers() {
+  for (var i = 0; i < markersArray.length; i++ ) {
+    markersArray[i].setMap(null);
+  }
+  markersArray.length = 0;
+}
+
+function updateMap() {
+  clearMarkers();
+  const daysAgo = parseInt(getParam('daysAgo'));
+  var daysAgoDate = new Date();
+  daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
+  for (let j = 0; j < govData.length; j++) {
+    if (getTimestamp(govData[j].t_end) < daysAgoDate) {
+      continue;
+    }
+    let pos = {
+      lat: govData[j].position[1],
+      lng: govData[j].position[0]
+    };
+    let marker = new google.maps.Marker({
+      position: pos,
+      map: map,
+      icon: {
+        url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+      }
+    });
+    markersArray.push(marker);
+  }
+}
+
+function setDaysAgo(daysAgo) {
+  window.history.pushState("Corona map", "Corona map", "/?daysAgo=" + daysAgo);
+  updateMap();
+}
+
+function getGovData() {
+  fetch('/json/data2.json')
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      govData = data;
+      updateMap();
+    })
+}
