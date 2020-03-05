@@ -1,43 +1,131 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+
+	<meta charset="utf-8">
+
+	<title>מפת הקורונה של ישראל</title>
+
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 	<link href="css/style.css" rel="stylesheet">
 	<script src="js/app.js">
-
-	</script>
-	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
-	<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
-
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async
 	 defer>
-
 	</script>
-	<meta charset="utf-8">
+	<!--========== web tags ==========-->
+	<meta name="description" content="מפת הקורונה של ישראל" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
+
+	<!--========== social media tags ==========-->
+
+	<meta property="og:title" content="מפת הקורונה של ישראל" />
+	<meta property="og:description" content="בדקו היכן ומתי אירעו מקרי הקורונה בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל"
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://israelcoronamap.co.il/" />
+	<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/map.svg?alt=media&token=106b60f7-fdb6-489d-80ba-fd8ffc8f5c71"
+	/>
+
+	<!--========== goolge fonts ==========-->
+	<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+
+	<!--========== css files ==========-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
 </head>
 
-<header>
-	<title>צבע צהוב</title>
-</header>
+<body dir="rtl">
+	<!--========== navbar ==========-->
+	<nav class="wonder-nav">
+		<ul class="wonder-nav-ul">
 
-<body>
-	<div class="container-1">
+			<li class="nav-logo">
+				<a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="israelcoronamap.co.il">
+					Israel corona map
+				</a>
+			</li>
+			<li class="wonder-nav-li">
+				<a class="nav-link" href="https://israelcoronamap.co.il/info">
+					<img src="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/info.svg?alt=media&token=e6976f4a-1867-4d6f-8238-6d1159959d71" style="max-width: 18px;margin-right: -10px;" alt="">
+                        &nbsp;
+                        אודות המיזם
+                    </a>
+                </li>
+            </ul>                            
 
-		<div class="app-header">Israel Corona Map</div>
-		<!-- <h2 class="app-description">שמרו את המקומות שהייתם בהם ו<b>קבלו התראה</b> לטלפון במידה והיה שם <b>חולה קורונה</b></h2> -->
+        </nav>
+        <!--========== navbar end ==========--> 
+        <div id="map-wrapper">
+          <div id="map"></div>
+        </div>
+        <!--========== footer ==========-->
+      <!-- <div class="footer-container">
+        <div onclick="setDaysAgo(0)" ontouchstart="setDaysAgo(0)" class="filter-button">היום</div>
+        <div onclick="setDaysAgo(3)"  class="filter-button">3 ימים</div>
+        <div onclick="setDaysAgo(7)"  class="filter-button">שבוע</div>
+        <div onclick="setDaysAgo(14)"  class="filter-button">שבועיים</div>
+        <div onclick="setDaysAgo(3000)"  class="filter-button">הכול</div>
+      </div> -->
+        <div class="footer-container">
 
-    <div id="map-wrapper">
-      <div id="map"></div>
-    </div>
-    <div class="app-footer">
-      <div onclick="setDaysAgo(0)" ontouchstart="setDaysAgo(0)" class="filter-button">היום</div>
-      <div onclick="setDaysAgo(3)"  class="filter-button">3 ימים</div>
-      <div onclick="setDaysAgo(7)"  class="filter-button">שבוע</div>
-      <div onclick="setDaysAgo(14)"  class="filter-button">שבועיים</div>
-      <div onclick="setDaysAgo(3000)"  class="filter-button">הכול</div>
-    </div>
-  </div>
-</body>
+            <div class="container-fluid" style="padding:0;">
+                <div class="row text-center filter-bar-row" style="position:absolute;bottom: 0;">
+                    <div class="col-lg-2">
+                         <a style="color: #26262C;text-decoration: none;">
+                            <div class="time-filter-box" style="box-shadow: none;font-weight: 700;margin-top: 0;">
+                                                          סננו מפה לפי:
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank" >
+                            <div class="time-filter-box-selected" style="">
+                                                            שבועיים אחרונים
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank" >
+                            <div class="time-filter-box" style="">
+                                                           שבוע אחרון
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank" >
+                            <div class="time-filter-box">
+                                                      3 ימי אחרונים
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank" >
+                            <div class="time-filter-box" style="">
+                                      כל הזמן
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--========== header end ==========--> 
+        
+
+
+        <!---========== scripts ==========-->        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+
 </html>
+
+<!-- Made With ♥ By Yossi Molcho -->

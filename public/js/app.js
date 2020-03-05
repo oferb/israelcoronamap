@@ -163,7 +163,7 @@ function updateMap() {
       position: pos,
       map: map,
       icon: {
-        url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+        url: "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/red%20circle.svg?alt=media&token=1a0a9493-ad97-4231-829a-c5c71b092c56"
       }
     });
     markersArray.push(marker);
