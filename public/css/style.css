@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden
 }
 
 .city-card {
@@ -11,30 +12,23 @@ html, body {
 }
 
 #map {
-  height: 93vh;
-  width: 95vw;
-  margin:0px auto;
-  display:inline-block;
-  overflow: hidden;
-  border-radius: 30px;
+    height: 94vh;
+    width: 100vw;
 }
 
 #map-wrapper {
-  width: 100%;
+  /* width: 100%;
   height: 80vh;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
   position:absolute;
-  text-align: center;
+  text-align: center; */
 }
 
 .app-header{
-    padding: 30px;
-    margin: 0;
+    padding: 1vh;
     text-align: center;
     color: white;
-    font-size: 55px;
+    background: black;
+    font-size: 30px;
 }
 
 .save-button-box{
@@ -55,8 +49,7 @@ html, body {
     box-shadow: 3px 3px 10px -2px;
 }
 .container-1{
-  background: #dec303;
-  height: 95vh;
+  height: 100vh;
 }
 
 .container-2{
@@ -79,4 +72,24 @@ html, body {
     text-align: center;
     min-width: 100px;
     margin: 6px;
+}
+.app-footer{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 16vh;
+}
+
+.filter-button {
+   font-size: 19px;
+    padding: 9px 19px;
+    border-radius: 30px;
+    background: yellow;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 6px -1px #6a6b68;
+    text-align: center;
 }

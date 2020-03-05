@@ -28,39 +28,35 @@ function init() {
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 31.787545, lng: 35.174675 },
-    zoom: windowWidth >= 500 ? 12 : 10
+    center: { lat: 32.072958, lng: 34.969073 },
+    zoom: windowWidth >= 500 ? 12 : 9,
+    gestureHandling: "greedy"
   });
   let infoWindow = new google.maps.InfoWindow;
   // Try HTML5 geolocation.
   if (navigator.geolocation) {
     // navigator.geolocation.getCurrentPosition(function (position) {
     //   var pos = {
-    //     lat: position.coords.latitude,
+    ///     lat: position.coords.latitude,
     //     lng: position.coords.longitude
     //   };
 
-    //   let marker = new google.maps.Marker({
-    //     position: pos,
-    //     map: map,
-    //     icon: {
-    //       url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-    //     }
-    //   });
+      // let marker = new google.maps.Marker({
+      //   position: { lat: 31.787545, lng: 35.174675 },
+      //   map: map,
+      //   // icon: {
+      //   //   // url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+      //   // }
+      // });
 
-    //   infoWindow.setPosition(pos);
-    //   infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
-    //   infoWindow.open(map, marker);
-    //   map.setCenter(pos);
+      // infoWindow.setPosition(pos);
+      // infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
+      // infoWindow.open(map, marker);
+  
+
     // }, function () {
     //   handleLocationError(true, infoWindow, map.getCenter());
     // });
-
-    var pos = {
-      lat: 32.002886,
-      lng: 34.913726
-    };
-    map.setCenter(pos);
   } else {
     // Browser doesn't support Geolocation
     handleLocationError(false, infoWindow, map.getCenter());
@@ -167,7 +163,7 @@ function updateMap() {
       position: pos,
       map: map,
       icon: {
-        url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+        url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
       }
     });
     markersArray.push(marker);

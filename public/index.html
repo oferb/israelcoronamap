@@ -3,16 +3,19 @@
 <head>
 	<link href="css/style.css" rel="stylesheet">
 	<script src="js/app.js">
+
 	</script>
 	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 	<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+
 	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPZ5Fowyi4pBzK9dZUjOK1cYMH4GsZd9w&callback=initMap" async
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async
 	 defer>
+
 	</script>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <header>
@@ -22,13 +25,19 @@
 <body>
 	<div class="container-1">
 
-		<h1 class="app-header">צבע צהוב</h1>
-    <h2 class="app-description">שמרו את המקומות שהייתם בהם ו<b>קבלו התראה</b> לטלפון במידה והיה שם <b>חולה קורונה</b></h2>
-		<div class="save-button-box"><button class="save-button" onclick="savePosition()">שמרו מיקום</button></div>
+		<div class="app-header">Israel Corona Map</div>
+		<!-- <h2 class="app-description">שמרו את המקומות שהייתם בהם ו<b>קבלו התראה</b> לטלפון במידה והיה שם <b>חולה קורונה</b></h2> -->
+
     <div id="map-wrapper">
       <div id="map"></div>
     </div>
+    <div class="app-footer">
+      <div onclick="setDaysAgo(0)" ontouchstart="setDaysAgo(0)" class="filter-button">היום</div>
+      <div onclick="setDaysAgo(3)"  class="filter-button">3 ימים</div>
+      <div onclick="setDaysAgo(7)"  class="filter-button">שבוע</div>
+      <div onclick="setDaysAgo(14)"  class="filter-button">שבועיים</div>
+      <div onclick="setDaysAgo(3000)"  class="filter-button">הכול</div>
+    </div>
   </div>
-  <div class="container-2"/>
 </body>
 </html>
