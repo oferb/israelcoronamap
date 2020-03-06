@@ -33,35 +33,12 @@ function initMap() {
     zoom: windowWidth >= 500 ? 12 : 9,
     gestureHandling: "greedy"
   });
-  let infoWindow = new google.maps.InfoWindow;
-  // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    // navigator.geolocation.getCurrentPosition(function (position) {
-    //   var pos = {
-    ///     lat: position.coords.latitude,
-    //     lng: position.coords.longitude
-    //   };
-
-    // let marker = new google.maps.Marker({
-    //   position: { lat: 31.787545, lng: 35.174675 },
-    //   map: map,
-    //   // icon: {
-    //   //   // url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-    //   // }
-    // });
-
-    // infoWindow.setPosition(pos);
-    // infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
-    // infoWindow.open(map, marker);
-
-
-    // }, function () {
-    //   handleLocationError(true, infoWindow, map.getCenter());
-    // });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, infoWindow, map.getCenter());
-  }
+  infoWindow = new google.maps.InfoWindow;
+  map.addListener('mousedown', function() {
+    if (infoWindow) {
+      infoWindow.close();
+    }
+  });  
   init();
 }
 
@@ -164,9 +141,32 @@ function updateMap() {
       position: pos,
       map: map,
       icon: {
-        url: "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/red%20circle.svg?alt=media&token=1a0a9493-ad97-4231-829a-c5c71b092c56"
+        url: "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue%20circle%20pin.svg?alt=media&token=a6d80cd5-acf4-4748-b581-871ab4763413",
+        scaledSize: new google.maps.Size(20, 20)
       }
     });
+    var contentStringCal = '<div class="infowindow">' + govData[j].description + '</div>';
+    console.log(contentStringCal);
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infoWindow.setContent(contentStringCal);
+        infoWindow.open(map, marker);
+      }
+    })(marker, j));
+    // google.maps.event.addListener(marker, 'mouseout', function () {
+    //   infoWindow.close();
+    // });
+
+    // google.maps.event.addListener(marker, 'mousedown', function () {
+    //   infoWindow.setContent(contentStringCal);
+    //   infoWindow.open(map, marker);
+    // });
+
+    // google.maps.event.addListener(marker, 'mouseover', function () {
+    //   infoWindow.setContent(contentStringCal);
+    //   infoWindow.open(map, marker);
+    // });
     markersArray.push(marker);
   }
 }
@@ -188,7 +188,7 @@ function getGovData() {
 }
 
 function selectFilter(filterType) {
-let threeDaysButton, allDaysButton, oneWeekButton,twoWeekButton;
+  let threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
   threeDaysButton = document.getElementById('three-days-button');
   allDaysButton = document.getElementById('all-days-button');
   oneWeekButton = document.getElementById('one-weeks-button');
@@ -218,15 +218,15 @@ let threeDaysButton, allDaysButton, oneWeekButton,twoWeekButton;
 }
 
 function getButtonElements() {
-   threeDaysButton = document.getElementById('three-days-button');
-   allDaysButton = document.getElementById('all-days-button');
-   oneWeekButton = document.getElementById('one-weeks-button');
-   twoWeekButton = document.getElementById('two-weeks-button');;
+  threeDaysButton = document.getElementById('three-days-button');
+  allDaysButton = document.getElementById('all-days-button');
+  oneWeekButton = document.getElementById('one-weeks-button');
+  twoWeekButton = document.getElementById('two-weeks-button');;
 }
 
-function setDefaultButtonColor(){
-   threeDaysButton.style.background = '#ffffff';
-   allDaysButton.style.background = '#ffffff';
-   oneWeekButton.style.background = '#ffffff';
-   twoWeekButton.style.background = '#ffffff';
+function setDefaultButtonColor() {
+  threeDaysButton.style.background = '#ffffff';
+  allDaysButton.style.background = '#ffffff';
+  oneWeekButton.style.background = '#ffffff';
+  twoWeekButton.style.background = '#ffffff';
 }
