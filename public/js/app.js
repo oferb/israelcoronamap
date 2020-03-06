@@ -177,7 +177,7 @@ function setDaysAgo(daysAgo) {
 }
 
 function getGovData() {
-  fetch('/json/data2.json')
+  fetch('/json/data.json')
     .then((response) => {
       return response.json();
     })
