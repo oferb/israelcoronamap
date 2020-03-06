@@ -508,6 +508,7 @@ width: 100%;
     font-size: 12px;
     margin-top:10px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .time-filter-box-selected{
@@ -518,6 +519,7 @@ width: 100%;
     background-color:  #FFCF4A;
     border-radius: 6px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .filter-bar-row{
@@ -572,7 +574,7 @@ max-width: 300px;
 
 .time-filter-box-selected{
     font-size: 14px;
-                margin-top:0px;
+    margin-top:0px;
 
 }
     

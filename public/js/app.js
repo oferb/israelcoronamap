@@ -2,6 +2,7 @@ var map, infoWindow, govData;
 const windowWidth = window.screen.availWidth;
 let globalGovData = []
 let markersArray = [];
+
 function init() {
   fetch('/json/data.json')
     .then((response) => {
@@ -22,7 +23,7 @@ function init() {
         alert("You have been near a person with Coronavirus: " + JSON.stringify(exposurePosition));
       }
     });
-
+  getButtonElements();
   getGovData();
 }
 
@@ -41,18 +42,18 @@ function initMap() {
     //     lng: position.coords.longitude
     //   };
 
-      // let marker = new google.maps.Marker({
-      //   position: { lat: 31.787545, lng: 35.174675 },
-      //   map: map,
-      //   // icon: {
-      //   //   // url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-      //   // }
-      // });
+    // let marker = new google.maps.Marker({
+    //   position: { lat: 31.787545, lng: 35.174675 },
+    //   map: map,
+    //   // icon: {
+    //   //   // url: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+    //   // }
+    // });
 
-      // infoWindow.setPosition(pos);
-      // infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
-      // infoWindow.open(map, marker);
-  
+    // infoWindow.setPosition(pos);
+    // infoWindow.setContent('<div class="user-location-box">מיקומך הנוכחי</div>');
+    // infoWindow.open(map, marker);
+
 
     // }, function () {
     //   handleLocationError(true, infoWindow, map.getCenter());
@@ -140,7 +141,7 @@ function getParam(name) {
 }
 
 function clearMarkers() {
-  for (var i = 0; i < markersArray.length; i++ ) {
+  for (var i = 0; i < markersArray.length; i++) {
     markersArray[i].setMap(null);
   }
   markersArray.length = 0;
@@ -184,4 +185,48 @@ function getGovData() {
       govData = data;
       updateMap();
     })
+}
+
+function selectFilter(filterType) {
+let threeDaysButton, allDaysButton, oneWeekButton,twoWeekButton;
+  threeDaysButton = document.getElementById('three-days-button');
+  allDaysButton = document.getElementById('all-days-button');
+  oneWeekButton = document.getElementById('one-weeks-button');
+  twoWeekButton = document.getElementById('two-weeks-button');
+  threeDaysButton.style.background = '#ffffff';
+  allDaysButton.style.background = '#ffffff';
+  oneWeekButton.style.background = '#ffffff';
+  twoWeekButton.style.background = '#ffffff';
+  switch (filterType) {
+    case 'twoWeeks':
+      setDaysAgo(14);
+      twoWeekButton.style.background = '#FFCF4A';
+      break;
+    case 'week':
+      setDaysAgo(7);
+      oneWeekButton.style.background = '#FFCF4A';
+      break;
+    case '3Days':
+      setDaysAgo(3);
+      threeDaysButton.style.background = '#FFCF4A';
+      break;
+    case 'all':
+      setDaysAgo(10000);
+      allDaysButton.style.background = '#FFCF4A';
+      break;
+  }
+}
+
+function getButtonElements() {
+   threeDaysButton = document.getElementById('three-days-button');
+   allDaysButton = document.getElementById('all-days-button');
+   oneWeekButton = document.getElementById('one-weeks-button');
+   twoWeekButton = document.getElementById('two-weeks-button');;
+}
+
+function setDefaultButtonColor(){
+   threeDaysButton.style.background = '#ffffff';
+   allDaysButton.style.background = '#ffffff';
+   oneWeekButton.style.background = '#ffffff';
+   twoWeekButton.style.background = '#ffffff';
 }
