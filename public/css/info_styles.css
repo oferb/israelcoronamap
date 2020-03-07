@@ -69,7 +69,7 @@ border-radius: 30px;
 
 .help{
     background: #ffffff;
-    padding: 50px 20px  400px 20px;
+    padding: 50px 20px  420px 20px;
 }
 
 .how{
@@ -686,9 +686,7 @@ textarea {
 
 .pop-up-text{
     font-size:20px;
-    width: 100%;
-    margin: auto;
-    color: #ffffff;
+    color: #26262C;
 }
 
 .work-pop-up-area{
@@ -711,7 +709,7 @@ textarea {
     overflow-y:scroll;
     overflow-x:hidden;
     z-index: 9999;
-    background-color: #323232;
+    background-color: white;
     width: 100%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
 }
@@ -1022,13 +1020,21 @@ max-width: 250px;
 width: 100%;
 }
 
+
+    .box-size{
+    }
+
 @media(min-width:768px) {
     
+    .box-size{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    
     .main-image{
-    
-width: 70%;
-}
-    
+        width: 70%;
+    }
+
     .filter-bar-row{
   
     padding-top: 20px;
@@ -1166,14 +1172,11 @@ max-width: 300px;
 }
 
 .help{
-    padding: 80px 0px  410px 0px;
+    padding: 80px 0px  450px 0px;
     
 }
 
-.blog{
-    padding: 80px 0px  280px 0px;
-  
-}
+
 
 
 /*========== sections end ==========*/
@@ -1291,8 +1294,6 @@ max-width: 300px;
     
     .pop-up-text{
         font-size:22px;
-        width: 65%;
-        margin: auto;
     }
     
     .pop-up{
@@ -1359,6 +1360,7 @@ max-width: 300px;
 
 
 }
+
 
 
 
