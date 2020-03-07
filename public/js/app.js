@@ -1,25 +1,40 @@
 var map, infoWindow, govData;
 const windowWidth = window.screen.availWidth;
+let globalGovData = []
 let markersArray = [];
 
 function init() {
+  fetch('/data/merged_data_all.json')
+    .then((response) => {
+      return response.json();
+    })
+    .then((govData) => {
+      const mockData = [
+        {
+          lat: 32.072810,
+          lon: 34.828020,
+          timestamp: Date.now()
+        }
+      ]
+      globalGovData = govData;
+
+    });
   getButtonElements();
   getGovData();
 }
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 32.071795, lng: 34.868469 },
-    
+    center: { lat: 32.072958, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 12 : 9,
     gestureHandling: "greedy"
   });
   infoWindow = new google.maps.InfoWindow;
-  map.addListener('mousedown', function() {
+  map.addListener('mousedown', function () {
     if (infoWindow) {
       infoWindow.close();
     }
-  });  
+  });
   init();
 }
 
@@ -35,6 +50,7 @@ function navigate(lat, lng) {
   var center = new google.maps.LatLng(lat, lng);
   map.panTo(center);
 }
+
 
 function getDistance(p1, p2) {
   return Math.sqrt(Math.pow(p2.lat - p1.lat, 2) + Math.pow(p2.lon - p1.lon, 2));
@@ -62,6 +78,7 @@ function updateMap() {
   const daysAgo = parseInt(getParam('daysAgo'));
   var daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
+  contantCelArr = []
   for (let j = 0; j < govData.length; j++) {
     if (getTimestamp(govData[j].t_end) < daysAgoDate) {
       continue;
@@ -78,11 +95,15 @@ function updateMap() {
         scaledSize: new google.maps.Size(20, 20)
       }
     });
+    var contentStringCal = `<div class="infowindow"> 
+                              <div class="info-label">${govData[j].label}</div>
+                              <div class="info-description">${govData[j].description}</div>
+                            </div>`;
+    contantCelArr[j] = contentStringCal;
 
-    google.maps.event.addListener(marker, 'click', (function(marker, i) {
-      return function() {
-        var contentString = '<div class="infowindow">' + govData[j].description + '</div>';
-        infoWindow.setContent(contentString);
+    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+      return function () {
+        infoWindow.setContent(contantCelArr[i]);
         infoWindow.open(map, marker);
       }
     })(marker, j));
@@ -109,7 +130,7 @@ function setDaysAgo(daysAgo) {
 }
 
 function getGovData() {
-  fetch('/json/data.json')
+  fetch('/data/merged_data_all.json')
     .then((response) => {
       return response.json();
     })

@@ -685,9 +685,19 @@ max-width: 300px;
         margin: auto;
     }
 
-
 }
 
+    .info-label {
+        text-decoration: underline;
+        font-size: 17px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+.info-description {
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 
