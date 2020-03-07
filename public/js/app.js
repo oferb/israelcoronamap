@@ -1,24 +1,8 @@
 var map, infoWindow, govData;
 const windowWidth = window.screen.availWidth;
-let globalGovData = []
 let markersArray = [];
 
 function init() {
-  fetch('/data/merged_data_all.json')
-    .then((response) => {
-      return response.json();
-    })
-    .then((govData) => {
-      const mockData = [
-        {
-          lat: 32.072810,
-          lon: 34.828020,
-          timestamp: Date.now()
-        }
-      ]
-      globalGovData = govData;
-
-    });
   getButtonElements();
   getGovData();
 }
