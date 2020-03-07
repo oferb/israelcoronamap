@@ -1790,14 +1790,14 @@
             32.1440607
         ],
         "label": "קפה לורן ברחוב סוקולוב 53 רמה\"ש",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-28T09:00:00+02:00",
         "t_end": "2020-02-28T10:00:00+02:00",
         "date_end": "2020-02-28",
         "t_start_ts": 1582873200.0,
         "t_end_ts": 1582876800.0,
         "radius": 15,
-        "link": "https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/"
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
         "position": [
@@ -1805,14 +1805,14 @@
             31.9922422
         ],
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 15:00-17:00<br><br><a target=\"_blank\" href=\"https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 15:00-17:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-28T15:00:00+02:00",
         "t_end": "2020-02-28T17:00:00+02:00",
         "date_end": "2020-02-28",
         "t_start_ts": 1582894800.0,
         "t_end_ts": 1582902000.0,
         "radius": 15,
-        "link": "https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/"
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
         "position": [
@@ -1820,14 +1820,14 @@
             31.9922422
         ],
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>29/02 בין השעות 13:00-15:00<br><br><a target=\"_blank\" href=\"https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>29/02 בין השעות 13:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T13:00:00+02:00",
         "t_end": "2020-02-29T15:00:00+02:00",
         "date_end": "2020-02-29",
         "t_start_ts": 1582974000.0,
         "t_end_ts": 1582981200.0,
         "radius": 15,
-        "link": "https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/"
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
         "position": [
@@ -1835,14 +1835,14 @@
             32.1440607
         ],
         "label": "קפה לורן  רחוב סוקולוב 53 רמה\"ש",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-02T09:00:00+02:00",
         "t_end": "2020-03-02T10:00:00+02:00",
         "date_end": "2020-03-02",
         "t_start_ts": 1583132400.0,
         "t_end_ts": 1583136000.0,
         "radius": 15,
-        "link": "https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/"
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
         "position": [
@@ -1850,13 +1850,163 @@
             32.1385405
         ],
         "label": "מוקד רפואה דחופה מכבי ברחוב הנצח 3 רמה\"ש",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 14:30-15:30<br><br><a target=\"_blank\" href=\"https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 14:30-15:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-02T14:30:00+02:00",
         "t_end": "2020-03-02T15:30:00+02:00",
         "date_end": "2020-03-02",
         "t_start_ts": 1583152200.0,
         "t_end_ts": 1583155800.0,
         "radius": 15,
-        "link": "https://govextra.gov.il/ministry-of-health/corona/corona-virus/spokesman-messages-corona/"
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
+    },
+    {
+        "position": [
+            34.9947362,
+            32.3910275
+        ],
+        "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 10:30-11:00<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T10:30:00+02:00",
+        "t_end": "2020-02-29T11:00:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582965000.0,
+        "t_end_ts": 1582966800.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            35.2927348,
+            32.9004598
+        ],
+        "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 11:30-12:30<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T11:30:00+02:00",
+        "t_end": "2020-02-29T12:30:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582968600.0,
+        "t_end_ts": 1582972200.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            35.175988,
+            32.9463904
+        ],
+        "label": "כפר ירכא סופרמרקט מרקזה.",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 12:30-13:30<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T12:30:00+02:00",
+        "t_end": "2020-02-29T13:30:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582972200.0,
+        "t_end_ts": 1582975800.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            35.1829777,
+            32.955728
+        ],
+        "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG.",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 13:30-14:30<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T13:30:00+02:00",
+        "t_end": "2020-02-29T14:30:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582975800.0,
+        "t_end_ts": 1582979400.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.8651936,
+            32.0818804
+        ],
+        "label": "קלפי מספר 97 ברחוב קפלן 42 פתח תקווה.",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 19:30-19:35<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T19:30:00+02:00",
+        "t_end": "2020-02-29T19:35:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582997400.0,
+        "t_end_ts": 1582997700.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.8683473,
+            32.0854778
+        ],
+        "label": "צ'יפ-מרקט ארלוזרוב 38 פתח תקווה.",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-29T20:00:00+02:00",
+        "t_end": "2020-02-29T20:10:00+02:00",
+        "date_end": "2020-02-29",
+        "t_start_ts": 1582999200.0,
+        "t_end_ts": 1582999800.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.8906156,
+            32.071679
+        ],
+        "label": "בית רבקה מחלקה ג' חדר 4235.",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 18:00-19:00<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-03T18:00:00+02:00",
+        "t_end": "2020-03-03T19:00:00+02:00",
+        "date_end": "2020-03-03",
+        "t_start_ts": 1583251200.0,
+        "t_end_ts": 1583254800.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.9410456,
+            32.0020526
+        ],
+        "label": "קלפי בבית ספר אבן חן בשוהם",
+        "description": "<br><br><b>זמן ביקור: </b>02/03 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-02T20:00:00+02:00",
+        "t_end": "2020-03-02T20:10:00+02:00",
+        "date_end": "2020-03-02",
+        "t_start_ts": 1583172000.0,
+        "t_end_ts": 1583172600.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.9453264,
+            31.9997234
+        ],
+        "label": "מרפאת קופת חולים מאוחדת בשוהם",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 09:45-10:00<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-03T09:45:00+02:00",
+        "t_end": "2020-03-03T10:00:00+02:00",
+        "date_end": "2020-03-03",
+        "t_start_ts": 1583221500.0,
+        "t_end_ts": 1583222400.0,
+        "radius": 15,
+        "link": ""
+    },
+    {
+        "position": [
+            34.7800661,
+            31.9748648
+        ],
+        "label": "סופר חצות וחצי רחוב טרכטנברג 18 ראשל\"צ.",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 17:40-18:15<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-03T17:40:00+02:00",
+        "t_end": "2020-03-03T18:15:00+02:00",
+        "date_end": "2020-03-03",
+        "t_start_ts": 1583250000.0,
+        "t_end_ts": 1583252100.0,
+        "radius": 15,
+        "link": ""
     }
 ]
