@@ -59,7 +59,10 @@ function clearMarkers() {
 
 function updateMap() {
   clearMarkers();
-  const daysAgo = parseInt(getParam('daysAgo'));
+  let daysAgo = parseInt(getParam('daysAgo'));
+  if (isNaN(daysAgo)) {
+    daysAgo = 14;
+  }
   var daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
   contantCelArr = []
