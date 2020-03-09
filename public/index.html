@@ -18,31 +18,14 @@
 
 	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 	<link href="css/style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/app.js">
 
-    <!-- Load externals HTMLs   -->
-    <script>
-        $(function(){
-            $("#embedMapModal").load("embed-modal/index.html");
-        });
-    </script>
-    <script>
-        $(function(){
-            $("#coronaMap").load("views/map.html");
-        });
-    </script>
-    <script>
-        $(function(){
-            $("#coronaNavbar").load("views/navbar.html");
-        });
-    </script>
-    <script>
-        $(function(){
-            $("#coronaFooter").load("views/footer.html");
-        });
-    </script>
-    <!-- End Load externals HTMLs   -->
-    <!--========== web tags ==========-->
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async
+	 defer>
+
+	</script>
+	<!--========== web tags ==========-->
 	<meta name="description" content="מפת הקורונה של ישראל" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
@@ -57,7 +40,7 @@
 	<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256"
 	/>
 
-	<!--========== google fonts ==========-->
+	<!--========== goolge fonts ==========-->
 	<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
 
 	<!--========== css files ==========-->
@@ -65,16 +48,82 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css" />
 	<link rel="stylesheet" href="css/style.css" />
+
 </head>
 
-    <body dir="rtl">
+<body dir="rtl">
+	<!--========== navbar ==========-->
+	<nav class="wonder-nav">
+		<ul class="wonder-nav-ul">
 
-        <div id="coronaNavbar"></div>
-        <div id="embedMapModal"></div>
-        <div id="coronaMap"></div>
-        <div id="coronaFooter"></div>
+			<li class="nav-logo">
+				<a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="/">
+					Israel corona map
+				</a>
+			</li>
+			<li class="wonder-nav-li">
+				<a class="nav-link" href="/info">
+					<img src="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/info.svg?alt=media&token=e6976f4a-1867-4d6f-8238-6d1159959d71" style="max-width: 18px;margin-right: -10px;" alt="">
+                        &nbsp;
+                        אודות המיזם
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <!--========== navbar end ==========-->
+        <div id="map-wrapper" dir="rtl">
+          <div id="map"></div>
+        </div>
+        <!--========== footer ==========-->
+      <div class="footer-container">
+
+            <div class="container-fluid" style="padding:0;">
+                <div class="row text-center filter-bar-row" style="position:absolute;bottom: 0;">
+                    <div class="col-lg-2">
+                         <a style="color: #26262C;text-decoration: none;">
+                            <div class="time-filter-box" style="box-shadow: none;font-weight: 700;margin-top: 0;">
+                                                          סננו מפה לפי:
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank" onclick="selectFilter(&quot;3Days&quot;)">
+                            <div class="time-filter-box" id="three-days-button">
+                                                      3 ימים אחרונים
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank"  onclick="selectFilter(&quot;week&quot;)">
+                            <div class="time-filter-box" style="" id="one-weeks-button">
+                                                           שבוע אחרון
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank"  onclick="selectFilter(&quot;twoWeeks&quot;)">
+                            <div class="time-filter-box-selected" style="" id="two-weeks-button">
+                                                            שבועיים אחרונים
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <a style="color: #26262C;text-decoration: none;" target="_blank"  onclick="selectFilter(&quot;all&quot;)">
+                            <div class="time-filter-box" style="" id="all-days-button">
+                                      כל הזמן
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--========== header end ==========-->
+
+
 
         <!---========== scripts ==========-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
