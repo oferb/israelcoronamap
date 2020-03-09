@@ -699,5 +699,7 @@ max-width: 300px;
     font-weight: 500;
 }
 
-
+.pub_date {
+    font-size: 14px;
+}
 

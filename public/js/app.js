@@ -137,7 +137,7 @@ function processData() {
       firstPoint.text += `<br><br><b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
 
-    firstPoint.text += `<b>תאריך פרסום: </b>${firstPoint.pub_date}<br>`;
+    firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
 
     if (firstPoint.link) {
       firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
