@@ -1,10 +1,11 @@
-var map, infoWindow, govData;
+var map, infoWindow, govData, data, processedData;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 
 function init() {
   getButtonElements();
-  getGovData();
+  //getGovData();
+  getData();
 }
 
 function initMap() {
@@ -56,14 +57,14 @@ function updateMap() {
       continue;
     }
     let pos = {
-      lat: govData[j].position[1],
-      lng: govData[j].position[0]
+      lat: govData[j].lat,
+      lng: govData[j].lon
     };
     let icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue%20circle%20pin.svg?alt=media&token=a6d80cd5-acf4-4748-b581-871ab4763413";
-    if (govData[j].p_ts > lastWeek) {
+    if (govData[j].pub_ts > lastWeek) {
       icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue.svg?alt=media&token=9fccfd2b-bdbc-4a57-aa7d-8ca2b699b5f0";
     }
-    if (govData[j].p_ts > lastDay) {
+    if (govData[j].pub_ts > lastDay) {
       icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/light%20blue.svg?alt=media&token=1da58d0c-df3b-4350-b50a-d29a8c878899";
     }
     let marker = new google.maps.Marker({
@@ -76,7 +77,7 @@ function updateMap() {
     });
     var contentStringCal = `<div class="infowindow"> 
                               <div class="info-label">${govData[j].label}</div>
-                              <div class="info-description">${govData[j].description}</div>
+                              <div class="info-description">${govData[j].text}</div>
                             </div>`;
     contantCelArr[j] = contentStringCal;
 
@@ -95,13 +96,80 @@ function setDaysAgo(daysAgo) {
   updateMap();
 }
 
+function fixTime(time) {
+  return ("0" + time).slice(-2);
+}
+
+function _textulize_visit_datetime(point) {
+  let d_start = new Date(point.t_start);
+  let d_end = new Date(point.t_end);
+  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth()+1) + " בין השעות " +
+      fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
+      fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
+  return datestring;
+}
+
+
+function processData() {
+  let pointsDict = new Object();
+  for (var i = 0; i < data.length; i++) {
+    const point = data[i];
+    let key = String([point.lat, point.lon]);
+    if (!(key in pointsDict)) {
+      pointsDict[key] = [point]
+    } else {
+      pointsDict[key].push(point)
+    }
+  }
+
+  let result = []
+
+  for (let points of Object.values(pointsDict)) {
+    let firstPoint = points[0];
+    if (points.length > 1) {
+      firstPoint.text = '';
+      firstPoint.text += '<br><br><b>זמני ביקור: </b><br>';
+      for (i = 0; i < points.length; i++) { 
+        firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
+      }
+      firstPoint.text += '<br><br>';
+    } else {
+      firstPoint.text += `<br><br><b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+    }
+
+    firstPoint.text += `<b>תאריך פרסום: </b>${firstPoint.pub_date}<br>`;
+
+    if (firstPoint.link) {
+      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
+    }
+
+    result.push(firstPoint);
+    console.log(firstPoint);
+  }
+
+  return result
+}
+
+
+function getData() {
+  fetch('/data/data.json')
+    .then((response) => {
+      return response.json();
+    })
+    .then((result) => {
+      data = result;
+      govData = processData(data);
+      updateMap();
+    })
+}
+
 function getGovData() {
   fetch('/data/merged_data_all.json')
     .then((response) => {
       return response.json();
     })
-    .then((data) => {
-      govData = data;
+    .then((result) => {
+      govData = result;
       updateMap();
     })
 }
@@ -149,4 +217,3 @@ function setDefaultButtonColor() {
   oneWeekButton.style.background = '#ffffff';
   twoWeekButton.style.background = '#ffffff';
 }
-
