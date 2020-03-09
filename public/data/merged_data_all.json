@@ -5,27 +5,9 @@
             32.33194
         ],
         "label": "מלון מגדל דוד",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>08/02 בין השעות 20:20-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>08/02 בין השעות 20:20-23:59<li>09/02 בין השעות 00:00-09:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-08T20:20:00+02:00",
         "t_end": "2020-02-08T23:59:00+02:00",
-        "date_end": "2020-02-08",
-        "t_start_ts": 1581186000.0,
-        "t_end_ts": 1581199140.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            34.851522,
-            32.33194
-        ],
-        "label": "מלון מגדל דוד",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 00:00-09:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-09T00:00:00+02:00",
-        "t_end": "2020-02-09T09:00:00+02:00",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581199200.0,
-        "t_end_ts": 1581231600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -38,9 +20,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 07:00-09:11<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-09T07:00:00+02:00",
         "t_end": "2020-02-09T09:11:00+02:00",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581224400.0,
-        "t_end_ts": 1581232260.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -53,9 +32,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 11:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-09T11:00:00+02:00",
         "t_end": "2020-02-09T15:00:00+02:00",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581238800.0,
-        "t_end_ts": 1581253200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -68,9 +44,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 12:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-09T12:00:00+02:00",
         "t_end": "2020-02-09T20:00:00+02:00",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581242400.0,
-        "t_end_ts": 1581271200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -82,10 +55,7 @@
         "label": "כניסת המשפחה הקדושה",
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 12:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-09T12:00:00+02:00",
-        "t_end": "2020-02-09T20:00:00+02:01",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581242400.0,
-        "t_end_ts": 1581271140.0,
+        "t_end": "2020-02-09T20:00:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -95,27 +65,9 @@
             32.771856
         ],
         "label": "עין גב כפר הנופש",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>09/02 בין השעות 18:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-09T18:00:00+02:01",
-        "t_end": "2020-02-09T23:59:59+02:00",
-        "date_end": "2020-02-09",
-        "t_start_ts": 1581263940.0,
-        "t_end_ts": 1581285599.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            35.638675,
-            32.771856
-        ],
-        "label": "עין גב כפר הנופש",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 00:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-10T00:00:00+02:00",
-        "t_end": "2020-02-10T10:00:00+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581285600.0,
-        "t_end_ts": 1581321600.0,
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>09/02 בין השעות 18:00-23:59<li>10/02 בין השעות 00:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-09T18:00:00+02:00",
+        "t_end": "2020-02-09T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -128,9 +80,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 07:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-10T07:00:00+02:00",
         "t_end": "2020-02-10T15:00:00+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581310800.0,
-        "t_end_ts": 1581339600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -143,9 +92,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 12:00-16:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-10T12:00:00+02:00",
         "t_end": "2020-02-10T16:00:00+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581328800.0,
-        "t_end_ts": 1581343200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -158,9 +104,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-10T13:00:00+02:00",
         "t_end": "2020-02-10T20:00:00+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581332400.0,
-        "t_end_ts": 1581357600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -173,9 +116,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-10T13:00:00+02:00",
         "t_end": "2020-02-10T20:00:00+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581332400.0,
-        "t_end_ts": 1581357600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -185,27 +125,9 @@
             32.767652
         ],
         "label": "עין גב כפר הנופש",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>10/02 בין השעות 20:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>10/02 בין השעות 20:00-23:59<li>11/02 בין השעות 00:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-10T20:00:00+02:00",
-        "t_end": "2020-02-10T23:59:59+02:00",
-        "date_end": "2020-02-10",
-        "t_start_ts": 1581357600.0,
-        "t_end_ts": 1581371999.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            35.63934,
-            32.767652
-        ],
-        "label": "עין גב כפר הנופש",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>11/02 בין השעות 00:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-11T00:00:00+02:00",
-        "t_end": "2020-02-11T10:00:00+02:00",
-        "date_end": "2020-02-11",
-        "t_start_ts": 1581372000.0,
-        "t_end_ts": 1581408000.0,
+        "t_end": "2020-02-10T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -218,9 +140,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>11/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-11T10:00:00+02:00",
         "t_end": "2020-02-11T20:00:00+02:00",
-        "date_end": "2020-02-11",
-        "t_start_ts": 1581408000.0,
-        "t_end_ts": 1581444000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -233,9 +152,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>11/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-11T10:00:00+02:00",
         "t_end": "2020-02-11T20:00:00+02:00",
-        "date_end": "2020-02-11",
-        "t_start_ts": 1581408000.0,
-        "t_end_ts": 1581444000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -245,27 +161,9 @@
             31.202813
         ],
         "label": "מלון דוד ים המלח",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>11/02 בין השעות 00:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>11/02 בין השעות 00:00-23:59<li>12/02 בין השעות 00:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-11T00:00:00+02:00",
-        "t_end": "2020-02-11T23:59:59+02:00",
-        "date_end": "2020-02-11",
-        "t_start_ts": 1581372000.0,
-        "t_end_ts": 1581458399.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            35.361363,
-            31.202813
-        ],
-        "label": "מלון דוד ים המלח",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>12/02 בין השעות 00:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-12T00:00:00+02:00",
-        "t_end": "2020-02-12T10:00:00+02:00",
-        "date_end": "2020-02-12",
-        "t_start_ts": 1581458400.0,
-        "t_end_ts": 1581494400.0,
+        "t_end": "2020-02-11T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -278,9 +176,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>12/02 בין השעות 06:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-12T06:00:00+02:00",
         "t_end": "2020-02-12T14:00:00+02:00",
-        "date_end": "2020-02-12",
-        "t_start_ts": 1581480000.0,
-        "t_end_ts": 1581508800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -293,9 +188,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>12/02 בין השעות 08:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-12T08:00:00+02:00",
         "t_end": "2020-02-12T14:00:00+02:00",
-        "date_end": "2020-02-12",
-        "t_start_ts": 1581487200.0,
-        "t_end_ts": 1581508800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -305,27 +197,9 @@
             31.247751
         ],
         "label": "מלון לאונרדו נגב",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>12/02 בין השעות 00:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>12/02 בין השעות 00:00-23:59<li>13/02 בין השעות 00:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-12T00:00:00+02:00",
-        "t_end": "2020-02-12T23:59:59+02:00",
-        "date_end": "2020-02-12",
-        "t_start_ts": 1581458400.0,
-        "t_end_ts": 1581544799.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            34.801126,
-            31.247751
-        ],
-        "label": "מלון לאונרדו נגב",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>13/02 בין השעות 00:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-13T00:00:00+02:00",
-        "t_end": "2020-02-13T10:00:00+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581544800.0,
-        "t_end_ts": 1581580800.0,
+        "t_end": "2020-02-12T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -338,9 +212,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>13/02 בין השעות 08:00-09:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-13T08:00:00+02:00",
         "t_end": "2020-02-13T09:30:00+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581573600.0,
-        "t_end_ts": 1581579000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -353,9 +224,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>13/02 בין השעות 10:30-20:00<li>13/02 בין השעות 10:30-20:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-13T10:30:00+02:00",
         "t_end": "2020-02-13T20:00:00+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581582600.0,
-        "t_end_ts": 1581616800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -368,9 +236,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>13/02 בין השעות 10:30-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-13T10:30:00+02:00",
         "t_end": "2020-02-13T20:00:00+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581582600.0,
-        "t_end_ts": 1581616800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -383,9 +248,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>13/02 בין השעות 10:30-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-13T10:30:00+02:00",
         "t_end": "2020-02-13T20:00:00+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581582600.0,
-        "t_end_ts": 1581616800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -395,27 +257,9 @@
             31.789627
         ],
         "label": "מלון גרנד קורט",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>13/02 בין השעות 20:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>13/02 בין השעות 20:00-23:59<li>14/02 בין השעות 00:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-13T20:00:00+02:00",
-        "t_end": "2020-02-13T23:59:59+02:00",
-        "date_end": "2020-02-13",
-        "t_start_ts": 1581616800.0,
-        "t_end_ts": 1581631199.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            35.227216,
-            31.789627
-        ],
-        "label": "מלון גרנד קורט",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 00:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-14T00:00:00+02:00",
-        "t_end": "2020-02-14T10:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581631200.0,
-        "t_end_ts": 1581667200.0,
+        "t_end": "2020-02-13T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -428,9 +272,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 10:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T10:00:00+02:00",
         "t_end": "2020-02-14T14:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581667200.0,
-        "t_end_ts": 1581681600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -443,9 +284,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 10:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T10:00:00+02:00",
         "t_end": "2020-02-14T14:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581667200.0,
-        "t_end_ts": 1581681600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -458,9 +296,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 10:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T10:00:00+02:00",
         "t_end": "2020-02-14T14:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581667200.0,
-        "t_end_ts": 1581681600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -473,9 +308,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 12:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T12:00:00+02:00",
         "t_end": "2020-02-14T15:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581674400.0,
-        "t_end_ts": 1581685200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -488,9 +320,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -503,9 +332,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -518,9 +344,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -533,9 +356,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -548,9 +368,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -563,9 +380,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 13:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T13:00:00+02:00",
         "t_end": "2020-02-14T20:00:00+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581678000.0,
-        "t_end_ts": 1581703200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -575,27 +389,9 @@
             31.789627
         ],
         "label": "מלון גרנט קורט",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>14/02 בין השעות 18:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>14/02 בין השעות 18:00-23:59<li>15/02 בין השעות 00:00-10:00<li>15/02 בין השעות 10:00-20:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-14T18:00:00+02:00",
-        "t_end": "2020-02-14T23:59:59+02:00",
-        "date_end": "2020-02-14",
-        "t_start_ts": 1581696000.0,
-        "t_end_ts": 1581717599.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
-    },
-    {
-        "position": [
-            35.227205,
-            31.789627
-        ],
-        "label": "מלון גרנט קורט",
-        "description": "9 תיירים מדרום קוריאה<br><br><b>זמני ביקור: </b><br><li>15/02 בין השעות 00:00-10:00<li>15/02 בין השעות 10:00-20:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-15T00:00:00+02:00",
-        "t_end": "2020-02-15T10:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581717600.0,
-        "t_end_ts": 1581753600.0,
+        "t_end": "2020-02-14T23:59:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -608,9 +404,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -623,9 +416,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -638,9 +428,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -653,9 +440,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -668,9 +452,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -683,9 +464,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -698,9 +476,6 @@
         "description": "9 תיירים מדרום קוריאה<br><br><b>זמן ביקור: </b>15/02 בין השעות 10:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-15T10:00:00+02:00",
         "t_end": "2020-02-15T20:00:00+02:00",
-        "date_end": "2020-02-15",
-        "t_start_ts": 1581753600.0,
-        "t_end_ts": 1581789600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
@@ -710,42 +485,9 @@
             32.0228009
         ],
         "label": "הפיראט האדום",
-        "description": "מקום ביקור של הישראלי ששב מאיטליה<br><br><b>זמני ביקור: </b><br><li>23/02 בין השעות 18:00-22:00<li>23/02 בין השעות 16:30-21:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "מקום ביקור של הישראלי ששב מאיטליה<br><br><b>זמני ביקור: </b><br><li>23/02 בין השעות 18:00-22:00<li>24/02 בין השעות 08:30-23:59<li>25/02 בין השעות 08:30-23:59<li>24/02 בין השעות 13:00-22:00<li>25/02 בין השעות 12:30-23:59<li>26/02 בין השעות 00:00-00:30<li>26/02 בין השעות 15:00-21:30<li>23/02 בין השעות 16:30-21:00<li>24/02 בין השעות 16:30-21:00<li>25/02 בין השעות 16:30-21:00<li>26/02 בין השעות 16:30-21:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T18:00:00+02:00",
         "t_end": "2020-02-23T22:00:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582473600.0,
-        "t_end_ts": 1582488000.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
-    },
-    {
-        "position": [
-            34.861666,
-            32.0228009
-        ],
-        "label": "הפיראט האדום",
-        "description": "מקום ביקור של הישראלי ששב מאיטליה<br><br><b>זמני ביקור: </b><br><li>24/02 בין השעות 08:30-23:59<li>24/02 בין השעות 13:00-22:00<li>24/02 בין השעות 16:30-21:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-24T08:30:00+02:00",
-        "t_end": "2020-02-24T23:59:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582525800.0,
-        "t_end_ts": 1582581540.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
-    },
-    {
-        "position": [
-            34.861666,
-            32.0228009
-        ],
-        "label": "הפיראט האדום",
-        "description": "מקום ביקור של הישראלי ששב מאיטליה<br><br><b>זמני ביקור: </b><br><li>25/02 בין השעות 08:30-23:59<li>25/02 בין השעות 12:30-23:59<li>25/02 בין השעות 16:30-21:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-25T08:30:00+02:00",
-        "t_end": "2020-02-25T23:59:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582612200.0,
-        "t_end_ts": 1582667940.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
@@ -758,9 +500,6 @@
         "description": "מקום ביקור של הישראלי ששב מאיטליה<br><br><b>זמן ביקור: </b>24/02 בין השעות 06:00-07:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T06:00:00+02:00",
         "t_end": "2020-02-24T07:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582516800.0,
-        "t_end_ts": 1582520400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
@@ -770,12 +509,9 @@
             32.383731
         ],
         "label": "ארומה בתחנת ״דלק פז״",
-        "description": "חולה מס׳ 6 שחזר מאיטליה<br><br><b>זמן ביקור: </b>22/02 בין השעות 06:30-07:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>22/02 בין השעות 06:30-07:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-22T06:30:00+02:00",
         "t_end": "2020-02-22T07:00:00+02:00",
-        "date_end": "2020-02-22",
-        "t_start_ts": 1582345800.0,
-        "t_end_ts": 1582347600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
@@ -785,12 +521,9 @@
             32.38385
         ],
         "label": "בית הפנקייק",
-        "description": "חולה מס׳ 6 שחזר מאיטליה<br><br><b>זמן ביקור: </b>22/02 בין השעות 06:30-07:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>22/02 בין השעות 06:30-07:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-22T06:30:00+02:00",
         "t_end": "2020-02-22T07:00:00+02:00",
-        "date_end": "2020-02-22",
-        "t_start_ts": 1582345800.0,
-        "t_end_ts": 1582347600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
@@ -800,12 +533,9 @@
             32.962288
         ],
         "label": "סעיד מלחם מוצרי חשמל באבו סנאן",
-        "description": "חולה מס׳ 6 שחזר מאיטליה<br><br><b>זמן ביקור: </b>22/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>22/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-22T11:00:00+02:00",
         "t_end": "2020-02-22T13:00:00+02:00",
-        "date_end": "2020-02-22",
-        "t_start_ts": 1582362000.0,
-        "t_end_ts": 1582369200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
@@ -815,12 +545,9 @@
             32.818203
         ],
         "label": "מחסני זול ספורט בקריית אתא",
-        "description": "חולה מס׳ 6 שחזר מאיטליה<br><br><b>זמן ביקור: </b>22/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>22/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-22T11:00:00+02:00",
         "t_end": "2020-02-22T13:00:00+02:00",
-        "date_end": "2020-02-22",
-        "t_start_ts": 1582362000.0,
-        "t_end_ts": 1582369200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
@@ -830,12 +557,9 @@
             32.990316
         ],
         "label": "חומוס פרלמנט ותחנת דלק פז בנהריה",
-        "description": "חולה מס׳ 6 שחזר מאיטליה<br><br><b>זמן ביקור: </b>23/02 בין השעות 11:30-12:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>23/02 בין השעות 11:30-12:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T11:30:00+02:00",
         "t_end": "2020-02-23T12:00:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582450200.0,
-        "t_end_ts": 1582452000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
@@ -845,12 +569,9 @@
             32.603578
         ],
         "label": "מקלות וניל בעפולה",
-        "description": "חולה מס׳ 7 שחזר מאיטליה<br><br><b>זמן ביקור: </b>25/02 בין השעות 11:22-11:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>25/02 בין השעות 11:22-11:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T11:22:00+02:00",
         "t_end": "2020-02-25T11:59:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582622520.0,
-        "t_end_ts": 1582624740.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
@@ -860,12 +581,9 @@
             32.687929
         ],
         "label": "חדר כושר אתנה במגדל העמק",
-        "description": "חולה מס׳ 7 שחזר מאיטליה<br><br><b>זמן ביקור: </b>25/02 בין השעות 18:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>25/02 בין השעות 18:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T18:00:00+02:00",
         "t_end": "2020-02-25T20:00:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582646400.0,
-        "t_end_ts": 1582653600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
@@ -875,12 +593,9 @@
             32.676933
         ],
         "label": "בנק דיסקונט במגדל העמק",
-        "description": "חולה מס׳ 7 שחזר מאיטליה<br><br><b>זמן ביקור: </b>27/02 בין השעות 08:30-09:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 08:30-09:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T08:30:00+02:00",
         "t_end": "2020-02-27T09:30:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582785000.0,
-        "t_end_ts": 1582788600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
@@ -890,12 +605,9 @@
             32.599948
         ],
         "label": "מסעדת אחוזה בעפולה",
-        "description": "חולה מס׳ 7 שחזר מאיטליה<br><br><b>זמן ביקור: </b>27/02 בין השעות 14:00-15:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 14:00-15:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T14:00:00+02:00",
         "t_end": "2020-02-27T15:30:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582804800.0,
-        "t_end_ts": 1582810200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
@@ -905,12 +617,9 @@
             32.666738
         ],
         "label": "שופרסל אזור תעשייה מגדל העמק",
-        "description": "חולה מס׳ 7 שחזר מאיטליה<br><br><b>זמן ביקור: </b>27/02 בין השעות 17:00-18:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 17:00-18:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T17:00:00+02:00",
         "t_end": "2020-02-27T18:00:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582815600.0,
-        "t_end_ts": 1582819200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx"
     },
@@ -920,27 +629,9 @@
             32.025683
         ],
         "label": "מתפרה בקומה התחתונה של קניון אור יהודה",
-        "description": "חולה מס׳ 10<br><br><b>זמן ביקור: </b>25/02 בין השעות 12:00-12:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>25/02 בין השעות 12:00-12:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T12:00:00+02:00",
         "t_end": "2020-02-25T12:30:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582624800.0,
-        "t_end_ts": 1582626600.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
-    },
-    {
-        "position": [
-            34.861666,
-            32.0228009
-        ],
-        "label": "הפיראט האדום",
-        "description": "חולה מס׳ 10<br><br><b>זמני ביקור: </b><br><li>26/02 בין השעות 00:00-00:30<li>26/02 בין השעות 15:00-21:30<li>26/02 בין השעות 16:30-21:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-26T00:00:00+02:00",
-        "t_end": "2020-02-26T00:30:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582668000.0,
-        "t_end_ts": 1582669800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
@@ -950,12 +641,9 @@
             31.796529
         ],
         "label": "שוק הים באשדוד",
-        "description": "חולה מס׳ 12<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T11:00:00+02:00",
         "t_end": "2020-02-26T13:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582707600.0,
-        "t_end_ts": 1582714800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx"
     },
@@ -965,12 +653,9 @@
             32.0714043
         ],
         "label": "מכון גו-אקטיב מרום נווה ברמת גן",
-        "description": "חולה מס׳ 11 השתתפה בשיעור פלנדקרייז שהחל בשעה 10:20 ובשיעור התעמלות שהתקיים בין 12:00-12:45<br><br><b>זמן ביקור: </b>27/02 בין השעות 10:20-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "השתתפה בשיעור פלנדקרייז שהחל בשעה 10:20 ובשיעור התעמלות שהתקיים בין 12:00-12:45<br><br><b>זמן ביקור: </b>27/02 בין השעות 10:20-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T10:20:00+02:00",
         "t_end": "2020-02-27T13:00:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582791600.0,
-        "t_end_ts": 1582801200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx"
     },
@@ -980,12 +665,9 @@
             32.0714604
         ],
         "label": "פרשמרקט במתחם מרום נווה",
-        "description": "חולה מס׳ 11<br><br><b>זמן ביקור: </b>27/02 בין השעות 13:10-13:45<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 13:10-13:45<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T13:10:00+02:00",
         "t_end": "2020-02-27T13:45:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582801800.0,
-        "t_end_ts": 1582803900.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx"
     },
@@ -995,42 +677,9 @@
             31.869072
         ],
         "label": "ביה״ס איזורי ברנר",
-        "description": "מקום ביקור של חולה מס׳ 13. בהתאם להנחיות משרד הבריאות על כל תלמידי ביה״ס ברנר כולל המורים אנשי הצוות וההסעות להכנס לבידוד.<br><br><b>זמן ביקור: </b>24/02 בין השעות 00:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>24/02 בין השעות 00:00-23:59<li>25/02 בין השעות 00:00-23:59<li>26/02 בין השעות 00:00-23:59<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T00:00:00+02:00",
         "t_end": "2020-02-24T23:59:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582495200.0,
-        "t_end_ts": 1582581540.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
-    },
-    {
-        "position": [
-            34.806136,
-            31.869072
-        ],
-        "label": "ביה״ס איזורי ברנר",
-        "description": "מקום ביקור של חולה מס׳ 13. בהתאם להנחיות משרד הבריאות על כל תלמידי ביה״ס ברנר כולל המורים אנשי הצוות וההסעות להכנס לבידוד.<br><br><b>זמן ביקור: </b>25/02 בין השעות 00:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-25T00:00:00+02:00",
-        "t_end": "2020-02-25T23:59:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582581600.0,
-        "t_end_ts": 1582667940.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
-    },
-    {
-        "position": [
-            34.806136,
-            31.869072
-        ],
-        "label": "ביה״ס איזורי ברנר",
-        "description": "מקום ביקור של חולה מס׳ 13. בהתאם להנחיות משרד הבריאות על כל תלמידי ביה״ס ברנר כולל המורים אנשי הצוות וההסעות להכנס לבידוד.<br><br><b>זמן ביקור: </b>26/02 בין השעות 00:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-26T00:00:00+02:00",
-        "t_end": "2020-02-26T23:59:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582668000.0,
-        "t_end_ts": 1582754340.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
@@ -1040,12 +689,9 @@
             32.051678
         ],
         "label": "אצטדיון בלומפילד - שער 8",
-        "description": "מקום ביקור של חולה מס׳ 13. כל מי ששהה באיצטדיון בלומפילד במשחק הכדורגל וישב בשער 7-8 גוש 425 בין השורות 43-49 כולל ובכל השורות בכיסאות 169-179 כולל - מתבקש להיכנס לבידוד.<br><br><b>זמן ביקור: </b>24/02 בין השעות 20:00-22:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>24/02 בין השעות 20:00-22:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T20:00:00+02:00",
         "t_end": "2020-02-24T22:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582567200.0,
-        "t_end_ts": 1582574400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx"
     },
@@ -1055,12 +701,9 @@
             32.052998
         ],
         "label": "ביה״ס אביגדור ורשה",
-        "description": "מקום ביקור של חולה מס׳ 14<br><br><b>זמן ביקור: </b>26/02 בין השעות 07:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>26/02 בין השעות 07:00-13:00<li>28/02 בין השעות 07:30-12:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T07:00:00+02:00",
         "t_end": "2020-02-26T13:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582693200.0,
-        "t_end_ts": 1582714800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
@@ -1070,12 +713,9 @@
             32.063762
         ],
         "label": "אולם ספורט ליד ספריה עירונית גני תקווה",
-        "description": "מקום ביקור של חולה מס׳ 14<br><br><b>זמן ביקור: </b>26/02 בין השעות 17:15-18:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>26/02 בין השעות 17:15-18:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T17:15:00+02:00",
         "t_end": "2020-02-26T18:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582730100.0,
-        "t_end_ts": 1582732800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
@@ -1085,12 +725,9 @@
             31.804431
         ],
         "label": "חתונה ב\"הרמוניה בגן\" (האולם מימין לכניסה) בצומת כנות",
-        "description": "מקום ביקור של חולה מס׳ 14<br><br><b>זמן ביקור: </b>26/02 בין השעות 19:30-22:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>26/02 בין השעות 19:30-22:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T19:30:00+02:00",
         "t_end": "2020-02-26T22:30:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582738200.0,
-        "t_end_ts": 1582749000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
@@ -1100,27 +737,9 @@
             32.055449
         ],
         "label": "קניון קריית אונו",
-        "description": "מקום ביקור של חולה מס׳ 14: נעלי TOGO; רנואר נשים (קומה עליונה); פוקס נשים (קומת כניסה); פוקס קידס (קומת כניסה) וסופרמרקט מגה בעיר<br><br><b>זמן ביקור: </b>27/02 בין השעות 18:00-20:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 18:00-20:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T18:00:00+02:00",
         "t_end": "2020-02-27T20:30:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582819200.0,
-        "t_end_ts": 1582828200.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
-    },
-    {
-        "position": [
-            34.855811,
-            32.052998
-        ],
-        "label": "ביה״ס אביגדור ורשה",
-        "description": "מקום ביקור של חולה מס׳ 14<br><br><b>זמן ביקור: </b>28/02 בין השעות 07:30-12:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-28T07:30:00+02:00",
-        "t_end": "2020-02-28T12:00:00+02:00",
-        "date_end": "2020-02-28",
-        "t_start_ts": 1582867800.0,
-        "t_end_ts": 1582884000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
@@ -1133,9 +752,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>23/02 בין השעות 21:30-23:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T21:30:00+02:00",
         "t_end": "2020-02-23T23:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582486200.0,
-        "t_end_ts": 1582493400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1148,9 +764,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>23/02 בין השעות 21:30-23:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T21:30:00+02:00",
         "t_end": "2020-02-23T23:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582486200.0,
-        "t_end_ts": 1582493400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1163,9 +776,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>24/02 בין השעות 13:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T13:00:00+02:00",
         "t_end": "2020-02-24T15:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582542000.0,
-        "t_end_ts": 1582549200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1175,12 +785,9 @@
             31.753473
         ],
         "label": "אושר עד בקניון הדר",
-        "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>24/02 בין השעות 17:00-19:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמני ביקור: </b><br><li>24/02 בין השעות 17:00-19:00<li>26/02 בין השעות 11:30-14:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T17:00:00+02:00",
         "t_end": "2020-02-24T19:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582556400.0,
-        "t_end_ts": 1582563600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1193,9 +800,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>25/02 בין השעות 14:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T14:00:00+02:00",
         "t_end": "2020-02-25T15:00:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582632000.0,
-        "t_end_ts": 1582635600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1208,9 +812,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>26/02 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T09:00:00+02:00",
         "t_end": "2020-02-26T10:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582700400.0,
-        "t_end_ts": 1582704000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1223,24 +824,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:30-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T11:30:00+02:00",
         "t_end": "2020-02-26T14:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582709400.0,
-        "t_end_ts": 1582718400.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
-    },
-    {
-        "position": [
-            35.212979,
-            31.753473
-        ],
-        "label": "אושר עד",
-        "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:30-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-26T11:30:00+02:00",
-        "t_end": "2020-02-26T14:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582709400.0,
-        "t_end_ts": 1582718400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1253,9 +836,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:30-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T11:30:00+02:00",
         "t_end": "2020-02-26T14:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582709400.0,
-        "t_end_ts": 1582718400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1268,9 +848,6 @@
         "description": "מקום ביקור של חולה מניו יורק<br><br><b>זמן ביקור: </b>27/02 בין השעות 11:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T11:00:00+02:00",
         "t_end": "2020-02-27T13:00:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582794000.0,
-        "t_end_ts": 1582801200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
@@ -1283,9 +860,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>20/02 בין השעות 09:30-10:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-20T09:30:00+02:00",
         "t_end": "2020-02-20T10:30:00+02:00",
-        "date_end": "2020-02-20",
-        "t_start_ts": 1582183800.0,
-        "t_end_ts": 1582187400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1298,9 +872,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>20/02 בין השעות 11:00-12:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-20T11:00:00+02:00",
         "t_end": "2020-02-20T12:00:00+02:00",
-        "date_end": "2020-02-20",
-        "t_start_ts": 1582189200.0,
-        "t_end_ts": 1582192800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1313,9 +884,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>20/02 בין השעות 12:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-20T12:00:00+02:00",
         "t_end": "2020-02-20T14:00:00+02:00",
-        "date_end": "2020-02-20",
-        "t_start_ts": 1582192800.0,
-        "t_end_ts": 1582200000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1328,9 +896,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>20/02 בין השעות 15:00-15:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-20T15:00:00+02:00",
         "t_end": "2020-02-20T15:30:00+02:00",
-        "date_end": "2020-02-20",
-        "t_start_ts": 1582203600.0,
-        "t_end_ts": 1582205400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1343,9 +908,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>20/02 בין השעות 16:30-17:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-20T16:30:00+02:00",
         "t_end": "2020-02-20T17:30:00+02:00",
-        "date_end": "2020-02-20",
-        "t_start_ts": 1582209000.0,
-        "t_end_ts": 1582212600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1358,9 +920,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>21/02 בין השעות 07:30-08:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-21T07:30:00+02:00",
         "t_end": "2020-02-21T08:00:00+02:00",
-        "date_end": "2020-02-21",
-        "t_start_ts": 1582263000.0,
-        "t_end_ts": 1582264800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1373,9 +932,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>21/02 בין השעות 10:30-11:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-21T10:30:00+02:00",
         "t_end": "2020-02-21T11:00:00+02:00",
-        "date_end": "2020-02-21",
-        "t_start_ts": 1582273800.0,
-        "t_end_ts": 1582275600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1388,9 +944,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>23/02 בין השעות 15:30-17:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T15:30:00+02:00",
         "t_end": "2020-02-23T17:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582464600.0,
-        "t_end_ts": 1582471800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1403,9 +956,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>23/02 בין השעות 18:00-18:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T18:00:00+02:00",
         "t_end": "2020-02-23T18:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582473600.0,
-        "t_end_ts": 1582475400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1417,10 +967,7 @@
         "label": "מנזר מרסבה במדבר יהודה",
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>24/02 בין השעות 08:00-10:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T08:00:00+02:00",
-        "t_end": "2020-02-23T10:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582524000.0,
-        "t_end_ts": 1582446600.0,
+        "t_end": "2020-02-24T10:30:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1432,10 +979,7 @@
         "label": "קבר מרים וכנסיית כל העמים",
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>24/02 בין השעות 13:30-17:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T13:30:00+02:00",
-        "t_end": "2020-02-23T17:00:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582543800.0,
-        "t_end_ts": 1582470000.0,
+        "t_end": "2020-02-24T17:00:00+02:00",
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1448,9 +992,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>25/02 בין השעות 08:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T08:00:00+02:00",
         "t_end": "2020-02-25T10:00:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582610400.0,
-        "t_end_ts": 1582617600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1463,9 +1004,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>25/02 בין השעות 10:30-11:45<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T10:30:00+02:00",
         "t_end": "2020-02-25T11:45:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582619400.0,
-        "t_end_ts": 1582623900.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1478,9 +1016,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>25/02 בין השעות 12:30-14:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-25T12:30:00+02:00",
         "t_end": "2020-02-25T14:30:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582626600.0,
-        "t_end_ts": 1582633800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1493,9 +1028,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>26/02 בין השעות 11:00-12:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T11:00:00+02:00",
         "t_end": "2020-02-26T12:30:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582707600.0,
-        "t_end_ts": 1582713000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1508,9 +1040,6 @@
         "description": "תיירים מיוון<br><br><b>זמני ביקור: </b><br><li>26/02 בין השעות 12:30-13:00<li>26/02 בין השעות 13:10-14:20<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T12:30:00+02:00",
         "t_end": "2020-02-26T13:00:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582713000.0,
-        "t_end_ts": 1582714800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1523,9 +1052,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>26/02 בין השעות 18:40-20:10<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T18:40:00+02:00",
         "t_end": "2020-02-26T20:10:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582735200.0,
-        "t_end_ts": 1582740600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1538,9 +1064,6 @@
         "description": "תיירים מיוון<br><br><b>זמן ביקור: </b>26/02 בין השעות 16:00-16:40<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T16:00:00+02:00",
         "t_end": "2020-02-26T16:40:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582725600.0,
-        "t_end_ts": 1582728000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
@@ -1550,27 +1073,9 @@
             32.7055015
         ],
         "label": "בית מלון Golden Crown Old City בנצרת",
-        "description": "חולה מס' 16<br><br><b>זמן ביקור: </b>26/02 בין השעות 18:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>26/02 בין השעות 18:00-23:59<li>27/02 בין השעות 00:00-08:00<li>27/02 בין השעות 18:00-23:59<li>28/02 בין השעות 00:00-08:00<li>28/02 בין השעות 18:00-23:59<li>29/02 בין השעות 00:00-08:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-26T18:00:00+02:00",
         "t_end": "2020-02-26T23:59:00+02:00",
-        "date_end": "2020-02-26",
-        "t_start_ts": 1582732800.0,
-        "t_end_ts": 1582754340.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
-    },
-    {
-        "position": [
-            35.3014112,
-            32.7055015
-        ],
-        "label": "בית מלון Golden Crown Old City בנצרת",
-        "description": "חולה מס' 16<br><br><b>זמני ביקור: </b><br><li>27/02 בין השעות 00:00-08:00<li>27/02 בין השעות 18:00-23:59<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-27T00:00:00+02:00",
-        "t_end": "2020-02-27T08:00:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582754400.0,
-        "t_end_ts": 1582783200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
@@ -1580,42 +1085,9 @@
             32.8864705
         ],
         "label": "מסעדת דליה במגדל",
-        "description": "חולה מס' 16<br><br><b>זמן ביקור: </b>27/02 בין השעות 12:30-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>27/02 בין השעות 12:30-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-27T12:30:00+02:00",
         "t_end": "2020-02-27T15:00:00+02:00",
-        "date_end": "2020-02-27",
-        "t_start_ts": 1582799400.0,
-        "t_end_ts": 1582808400.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
-    },
-    {
-        "position": [
-            35.3014112,
-            32.7055015
-        ],
-        "label": "בית מלון Golden Crown Old City בנצרת",
-        "description": "חולה מס' 16<br><br><b>זמני ביקור: </b><br><li>28/02 בין השעות 00:00-08:00<li>28/02 בין השעות 18:00-23:59<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-28T00:00:00+02:00",
-        "t_end": "2020-02-28T08:00:00+02:00",
-        "date_end": "2020-02-28",
-        "t_start_ts": 1582840800.0,
-        "t_end_ts": 1582869600.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
-    },
-    {
-        "position": [
-            35.3014112,
-            32.7055015
-        ],
-        "label": "בית מלון Golden Crown Old City בנצרת",
-        "description": "חולה מס' 16<br><br><b>זמן ביקור: </b>29/02 בין השעות 00:00-08:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-29T00:00:00+02:00",
-        "t_end": "2020-02-29T08:00:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582927200.0,
-        "t_end_ts": 1582956000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
@@ -1625,12 +1097,9 @@
             31.7412525
         ],
         "label": "מסעדת קומראן באתר קומראן",
-        "description": "חולה מס' 16<br><br><b>זמן ביקור: </b>29/02 בין השעות 12:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 12:00-13:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T12:00:00+02:00",
         "t_end": "2020-02-29T13:00:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582970400.0,
-        "t_end_ts": 1582974000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
@@ -1640,12 +1109,9 @@
             32.7867555
         ],
         "label": "מלון רסטל בטבריה",
-        "description": "חולה מס' 16<br><br><b>זמן ביקור: </b>04/03 בין השעות 18:30-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>04/03 בין השעות 18:30-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-04T18:30:00+02:00",
         "t_end": "2020-03-04T20:00:00+02:00",
-        "date_end": "2020-03-04",
-        "t_start_ts": 1583339400.0,
-        "t_end_ts": 1583344800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
@@ -1655,12 +1121,9 @@
             32.078774
         ],
         "label": "מסעדת ANIMAR",
-        "description": "תייר מאיטליה<br><br><b>זמן ביקור: </b>23/02 בין השעות 18:30-21:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מאיטליה<br><br><b>זמני ביקור: </b><br><li>23/02 בין השעות 18:30-21:30<li>24/02 בין השעות 22:00-23:59<li>25/02 בין השעות 00:00-02:45<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-23T18:30:00+02:00",
         "t_end": "2020-02-23T21:30:00+02:00",
-        "date_end": "2020-02-23",
-        "t_start_ts": 1582475400.0,
-        "t_end_ts": 1582486200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
@@ -1673,9 +1136,6 @@
         "description": "תייר מאיטליה<br><br><b>זמן ביקור: </b>24/02 בין השעות 07:00-08:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T07:00:00+02:00",
         "t_end": "2020-02-24T08:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582520400.0,
-        "t_end_ts": 1582524000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
@@ -1688,39 +1148,6 @@
         "description": "תייר מאיטליה<br><br><b>זמן ביקור: </b>24/02 בין השעות 08:15-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-24T08:15:00+02:00",
         "t_end": "2020-02-24T14:00:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582524900.0,
-        "t_end_ts": 1582545600.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
-    },
-    {
-        "position": [
-            34.767687,
-            32.078774
-        ],
-        "label": "מסעדת ANIMAR",
-        "description": "תייר מאיטליה<br><br><b>זמן ביקור: </b>24/02 בין השעות 22:00-23:59<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-24T22:00:00+02:00",
-        "t_end": "2020-02-24T23:59:00+02:00",
-        "date_end": "2020-02-24",
-        "t_start_ts": 1582574400.0,
-        "t_end_ts": 1582581540.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
-    },
-    {
-        "position": [
-            34.767687,
-            32.078774
-        ],
-        "label": "מסעדת ANIMAR",
-        "description": "תייר מאיטליה<br><br><b>זמן ביקור: </b>25/02 בין השעות 00:00-02:45<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-25T00:00:00+02:00",
-        "t_end": "2020-02-25T02:45:00+02:00",
-        "date_end": "2020-02-25",
-        "t_start_ts": 1582581600.0,
-        "t_end_ts": 1582591500.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
@@ -1730,14 +1157,11 @@
             31.7683536
         ],
         "label": "רכבת מתחנה מרכזית בירושלים",
-        "description": "תייר מצרפת<br><br><b>זמן ביקור: </b>01/03 בין השעות 13:30-14:00<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מצרפת<br><br><b>זמני ביקור: </b><br><li>01/03 בין השעות 13:30-14:00<li>02/03 בין השעות 12:00-12:30<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-01T13:30:00+02:00",
         "t_end": "2020-03-01T14:00:00+02:00",
-        "date_end": "2020-03-01",
-        "t_start_ts": 1583062200.0,
-        "t_end_ts": 1583064000.0,
         "radius": 15,
-        "link": ""
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
     {
         "position": [
@@ -1748,9 +1172,6 @@
         "description": "תייר מצרפת<br><br><b>זמן ביקור: </b>01/03 בין השעות 23:00-20:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-01T23:00:00+02:00",
         "t_end": "2020-03-01T20:00:00+02:00",
-        "date_end": "2020-03-01",
-        "t_start_ts": 1583096400.0,
-        "t_end_ts": 1583085600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
@@ -1763,24 +1184,6 @@
         "description": "תייר מצרפת<br><br><b>זמן ביקור: </b>02/03 בין השעות 10:30-12:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-02T10:30:00+02:00",
         "t_end": "2020-03-02T12:00:00+02:00",
-        "date_end": "2020-03-02",
-        "t_start_ts": 1583137800.0,
-        "t_end_ts": 1583143200.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
-    },
-    {
-        "position": [
-            35.178117,
-            31.7683536
-        ],
-        "label": "רכבת מתחנה מרכזית בירושלים",
-        "description": "תייר מצרפת<br><br><b>זמן ביקור: </b>02/03 בין השעות 12:00-12:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-03-02T12:00:00+02:00",
-        "t_end": "2020-03-02T12:30:00+02:00",
-        "date_end": "2020-03-02",
-        "t_start_ts": 1583143200.0,
-        "t_end_ts": 1583145000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
@@ -1790,12 +1193,9 @@
             32.1440607
         ],
         "label": "קפה לורן ברחוב סוקולוב 53 רמה\"ש",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמני ביקור: </b><br><li>28/02 בין השעות 09:00-10:00<li>02/03 בין השעות 09:00-10:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-28T09:00:00+02:00",
         "t_end": "2020-02-28T10:00:00+02:00",
-        "date_end": "2020-02-28",
-        "t_start_ts": 1582873200.0,
-        "t_end_ts": 1582876800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
@@ -1805,42 +1205,9 @@
             31.9922422
         ],
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>28/02 בין השעות 15:00-17:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "תייר מספרד<br><br><b>זמני ביקור: </b><br><li>28/02 בין השעות 15:00-17:00<li>29/02 בין השעות 13:00-15:00<li>29/02 בין השעות 13:00-15:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-28T15:00:00+02:00",
         "t_end": "2020-02-28T17:00:00+02:00",
-        "date_end": "2020-02-28",
-        "t_start_ts": 1582894800.0,
-        "t_end_ts": 1582902000.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
-    },
-    {
-        "position": [
-            34.7474626,
-            31.9922422
-        ],
-        "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>29/02 בין השעות 13:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-02-29T13:00:00+02:00",
-        "t_end": "2020-02-29T15:00:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582974000.0,
-        "t_end_ts": 1582981200.0,
-        "radius": 15,
-        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
-    },
-    {
-        "position": [
-            34.8354079,
-            32.1440607
-        ],
-        "label": "קפה לורן  רחוב סוקולוב 53 רמה\"ש",
-        "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 09:00-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-03-02T09:00:00+02:00",
-        "t_end": "2020-03-02T10:00:00+02:00",
-        "date_end": "2020-03-02",
-        "t_start_ts": 1583132400.0,
-        "t_end_ts": 1583136000.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
@@ -1853,9 +1220,6 @@
         "description": "תייר מספרד<br><br><b>זמן ביקור: </b>02/03 בין השעות 14:30-15:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-02T14:30:00+02:00",
         "t_end": "2020-03-02T15:30:00+02:00",
-        "date_end": "2020-03-02",
-        "t_start_ts": 1583152200.0,
-        "t_end_ts": 1583155800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
@@ -1865,12 +1229,9 @@
             32.3910275
         ],
         "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 10:30-11:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>29/02 בין השעות 10:30-11:00<li>02/03 בין השעות 10:30-11:00<li>02/03 בין השעות 10:30-11:00<li>02/03 בין השעות 10:30-11:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T10:30:00+02:00",
         "t_end": "2020-02-29T11:00:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582965000.0,
-        "t_end_ts": 1582966800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1880,12 +1241,9 @@
             32.9004598
         ],
         "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 11:30-12:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>29/02 בין השעות 11:30-12:30<li>02/03 בין השעות 11:30-12:30<li>02/03 בין השעות 11:30-12:30<li>02/03 בין השעות 11:30-12:30<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T11:30:00+02:00",
         "t_end": "2020-02-29T12:30:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582968600.0,
-        "t_end_ts": 1582972200.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1895,12 +1253,9 @@
             32.9463904
         ],
         "label": "כפר ירכא סופרמרקט מרקזה.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 12:30-13:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>29/02 בין השעות 12:30-13:30<li>02/03 בין השעות 12:30-13:30<li>02/03 בין השעות 12:30-13:30<li>02/03 בין השעות 12:30-13:30<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T12:30:00+02:00",
         "t_end": "2020-02-29T13:30:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582972200.0,
-        "t_end_ts": 1582975800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1910,12 +1265,9 @@
             32.955728
         ],
         "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 13:30-14:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>29/02 בין השעות 13:30-14:30<li>02/03 בין השעות 13:30-14:30<li>02/03 בין השעות 13:30-14:30<li>02/03 בין השעות 13:30-14:30<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T13:30:00+02:00",
         "t_end": "2020-02-29T14:30:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582975800.0,
-        "t_end_ts": 1582979400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1925,12 +1277,9 @@
             32.0818804
         ],
         "label": "קלפי מספר 97 ברחוב קפלן 42 פתח תקווה.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 19:30-19:35<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>29/02 בין השעות 19:30-19:35<li>02/03 בין השעות 19:30-19:35<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T19:30:00+02:00",
         "t_end": "2020-02-29T19:35:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582997400.0,
-        "t_end_ts": 1582997700.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1940,12 +1289,9 @@
             32.0854778
         ],
         "label": "צ'יפ-מרקט ארלוזרוב 38 פתח תקווה.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>29/02 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>29/02 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-02-29T20:00:00+02:00",
         "t_end": "2020-02-29T20:10:00+02:00",
-        "date_end": "2020-02-29",
-        "t_start_ts": 1582999200.0,
-        "t_end_ts": 1582999800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1955,12 +1301,9 @@
             32.071679
         ],
         "label": "בית רבקה מחלקה ג' חדר 4235.",
-        "description": "חולה מס' 22<br><br><b>זמן ביקור: </b>03/03 בין השעות 18:00-19:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 18:00-19:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-03T18:00:00+02:00",
         "t_end": "2020-03-03T19:00:00+02:00",
-        "date_end": "2020-03-03",
-        "t_start_ts": 1583251200.0,
-        "t_end_ts": 1583254800.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
@@ -1970,12 +1313,9 @@
             32.0020526
         ],
         "label": "קלפי 21 בבית ספר אבן חן בשוהם",
-        "description": "חולה מס' 24<br><br><b>זמן ביקור: </b>02/03 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>02/03 בין השעות 20:00-20:10<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-02T20:00:00+02:00",
         "t_end": "2020-03-02T20:10:00+02:00",
-        "date_end": "2020-03-02",
-        "t_start_ts": 1583172000.0,
-        "t_end_ts": 1583172600.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx"
     },
@@ -1985,12 +1325,9 @@
             31.9997234
         ],
         "label": "מרפאת קופת חולים מאוחדת בשוהם",
-        "description": "חולה מס' 24<br><br><b>זמן ביקור: </b>03/03 בין השעות 09:45-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 09:45-10:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-03T09:45:00+02:00",
         "t_end": "2020-03-03T10:00:00+02:00",
-        "date_end": "2020-03-03",
-        "t_start_ts": 1583221500.0,
-        "t_end_ts": 1583222400.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx"
     },
@@ -2000,12 +1337,9 @@
             31.9748648
         ],
         "label": "סופר חצות וחצי רחוב טרכטנברג 18 ראשל\"צ.",
-        "description": "חולה מס' 25<br><br><b>זמן ביקור: </b>03/03 בין השעות 17:40-18:15<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>03/03 בין השעות 17:40-18:15<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-03T17:40:00+02:00",
         "t_end": "2020-03-03T18:15:00+02:00",
-        "date_end": "2020-03-03",
-        "t_start_ts": 1583250000.0,
-        "t_end_ts": 1583252100.0,
         "radius": 15,
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx"
     },
@@ -2015,44 +1349,11 @@
             31.788888
         ],
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
-        "description": "חולה מס' 28<br><br><b>זמני ביקור: </b><br><li>03/03 בין השעות 09:30-14:00<li>03/03 בין השעות 17:00-19:30<br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>03/03 בין השעות 09:30-14:00<li>03/03 בין השעות 17:00-19:30<li>04/03 בין השעות 09:30-14:00<li>04/03 בין השעות 17:00-19:30<li>05/03 בין השעות 09:30-14:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-03T09:30:00+02:00",
         "t_end": "2020-03-03T14:00:00+02:00",
-        "date_end": "2020-03-03",
-        "t_start_ts": 1583220600.0,
-        "t_end_ts": 1583236800.0,
         "radius": 15,
-        "link": ""
-    },
-    {
-        "position": [
-            35.216582,
-            31.788888
-        ],
-        "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
-        "description": "חולה מס' 28<br><br><b>זמני ביקור: </b><br><li>04/03 בין השעות 09:30-14:00<li>04/03 בין השעות 17:00-19:30<br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-03-04T09:30:00+02:00",
-        "t_end": "2020-03-04T14:00:00+02:00",
-        "date_end": "2020-03-04",
-        "t_start_ts": 1583307000.0,
-        "t_end_ts": 1583323200.0,
-        "radius": 15,
-        "link": ""
-    },
-    {
-        "position": [
-            35.216582,
-            31.788888
-        ],
-        "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
-        "description": "חולה מס' 28<br><br><b>זמן ביקור: </b>05/03 בין השעות 09:30-14:00<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
-        "t_start": "2020-03-05T09:30:00+02:00",
-        "t_end": "2020-03-05T14:00:00+02:00",
-        "date_end": "2020-03-05",
-        "t_start_ts": 1583393400.0,
-        "t_end_ts": 1583409600.0,
-        "radius": 15,
-        "link": ""
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
         "position": [
@@ -2060,13 +1361,82 @@
             32.1022985
         ],
         "label": "מסעדת BIGA במרכז המסחרי באריאל",
-        "description": "חולה מס' 28<br><br><b>זמן ביקור: </b>05/03 בין השעות 20:00-21:30<br><br><a target=\"_blank\" href=\"\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "description": "<br><br><b>זמן ביקור: </b>05/03 בין השעות 20:00-21:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
         "t_start": "2020-03-05T20:00:00+02:00",
         "t_end": "2020-03-05T21:30:00+02:00",
-        "date_end": "2020-03-05",
-        "t_start_ts": 1583431200.0,
-        "t_end_ts": 1583436600.0,
         "radius": 15,
-        "link": ""
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
+    },
+    {
+        "position": [
+            34.784506,
+            31.9744662
+        ],
+        "label": "קלפי 193 בבית הספר רננים בקריית ראשון",
+        "description": "<br><br><b>זמן ביקור: </b>02/03 בין השעות 14:00-15:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-02T14:00:00+02:00",
+        "t_end": "2020-03-02T15:00:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx"
+    },
+    {
+        "position": [
+            34.7909894,
+            31.2644237
+        ],
+        "label": "חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>27/02 בין השעות 09:00-12:00<li>27/02 בין השעות 15:20-20:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-02-27T09:00:00+02:00",
+        "t_end": "2020-02-27T12:00:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx"
+    },
+    {
+        "position": [
+            34.7910422,
+            32.0719564
+        ],
+        "label": "מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>03/03 בין השעות 14:50-15:30<li>03/03 בין השעות 14:50-15:30<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-03T14:50:00+02:00",
+        "t_end": "2020-03-03T15:30:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
+    },
+    {
+        "position": [
+            34.9128609,
+            31.9879987
+        ],
+        "label": "חברת \"בקהוף ישראל\" רחוב הנגב 1, בית גולן, קריית שדה התעופה.",
+        "description": "<br><br><b>זמן ביקור: </b>04/03 בין השעות 14:00-14:30<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-04T14:00:00+02:00",
+        "t_end": "2020-03-04T14:30:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
+    },
+    {
+        "position": [
+            34.8643227,
+            32.0897602
+        ],
+        "label": "מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.",
+        "description": "<br><br><b>זמני ביקור: </b><br><li>05/03 בין השעות 10:50-11:00<li>05/03 בין השעות 10:50-11:00<br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-05T10:50:00+02:00",
+        "t_end": "2020-03-05T11:00:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
+    },
+    {
+        "position": [
+            34.7750173,
+            32.0137975
+        ],
+        "label": "מסעדת ג'פניקה ברחוב צבי תדמור 12 בחולון",
+        "description": "<br><br><b>זמן ביקור: </b>07/03 בין השעות 13:00-14:00<br><br><a target=\"_blank\" href=\"https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_10.aspx\" class=\"\">לינק לפרסום של משרד הבריאות</a>",
+        "t_start": "2020-03-07T13:00:00+02:00",
+        "t_end": "2020-03-07T14:00:00+02:00",
+        "radius": 15,
+        "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_10.aspx"
     }
 ]
