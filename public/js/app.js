@@ -22,24 +22,6 @@ function initMap() {
   init();
 }
 
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-  infoWindow.setPosition(pos);
-  infoWindow.setContent(browserHasGeolocation ?
-    'Error: The Geolocation service failed.' :
-    'Error: Your browser doesn\'t support geolocation.');
-  infoWindow.open(map);
-}
-
-function navigate(lat, lng) {
-  var center = new google.maps.LatLng(lat, lng);
-  map.panTo(center);
-}
-
-
-function getDistance(p1, p2) {
-  return Math.sqrt(Math.pow(p2.lat - p1.lat, 2) + Math.pow(p2.lon - p1.lon, 2));
-}
-
 function getTimestamp(stringTime) {
   return new Date(stringTime).getTime();
 }
@@ -104,19 +86,6 @@ function updateMap() {
         infoWindow.open(map, marker);
       }
     })(marker, j));
-    // google.maps.event.addListener(marker, 'mouseout', function () {
-    //   infoWindow.close();
-    // });
-
-    // google.maps.event.addListener(marker, 'mousedown', function () {
-    //   infoWindow.setContent(contentStringCal);
-    //   infoWindow.open(map, marker);
-    // });
-
-    // google.maps.event.addListener(marker, 'mouseover', function () {
-    //   infoWindow.setContent(contentStringCal);
-    //   infoWindow.open(map, marker);
-    // });
     markersArray.push(marker);
   }
 }
@@ -180,3 +149,4 @@ function setDefaultButtonColor() {
   oneWeekButton.style.background = '#ffffff';
   twoWeekButton.style.background = '#ffffff';
 }
+
