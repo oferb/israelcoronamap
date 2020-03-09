@@ -61,12 +61,12 @@ function updateMap() {
       lng: govData[j].lon
     };
     let icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue%20circle%20pin.svg?alt=media&token=a6d80cd5-acf4-4748-b581-871ab4763413";
-    if (govData[j].pub_ts > lastWeek) {
-      icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue.svg?alt=media&token=9fccfd2b-bdbc-4a57-aa7d-8ca2b699b5f0";
-    }
-    if (govData[j].pub_ts > lastDay) {
-      icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/light%20blue.svg?alt=media&token=1da58d0c-df3b-4350-b50a-d29a8c878899";
-    }
+    // if (govData[j].pub_ts > lastWeek) {
+    //   icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue.svg?alt=media&token=9fccfd2b-bdbc-4a57-aa7d-8ca2b699b5f0";
+    // }
+    // if (govData[j].pub_ts > lastDay) {
+    //   icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/light%20blue.svg?alt=media&token=1da58d0c-df3b-4350-b50a-d29a8c878899";
+    // }
     let marker = new google.maps.Marker({
       position: pos,
       map: map,
@@ -144,7 +144,6 @@ function processData() {
     }
 
     result.push(firstPoint);
-    console.log(firstPoint);
   }
 
   return result
