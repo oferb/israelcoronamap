@@ -4,6 +4,14 @@ A website that shows you whereabouts of people with verified Coronavirus. Data i
 
 Code is VanillaJS, so no framework required!
 
+## How to run locally
+from the *public* dir, run
+```shell script
+python -m SimpleHTTPServer
+```
+and navigate to http://localhost:8000.
+
+
 For questions, please contact Ofer Bartal:
 * blueofer@gmail.com
 * https://www.linkedin.com/in/ofer-bartal-58a50811/
