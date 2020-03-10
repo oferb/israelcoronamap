@@ -75,7 +75,7 @@ function updateMap() {
         scaledSize: new google.maps.Size(20, 20)
       }
     });
-    var contentStringCal = `<div class="infowindow"> 
+    var contentStringCal = `<div class="infowindow">
                               <div class="info-label">${govData[j].label}</div>
                               <div class="info-description">${govData[j].text}</div>
                             </div>`;
@@ -129,7 +129,7 @@ function processData() {
     if (points.length > 1) {
       firstPoint.text = '';
       firstPoint.text += '<br><br><b>זמני ביקור: </b><br>';
-      for (i = 0; i < points.length; i++) { 
+      for (i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
@@ -216,3 +216,46 @@ function setDefaultButtonColor() {
   oneWeekButton.style.background = '#ffffff';
   twoWeekButton.style.background = '#ffffff';
 }
+
+$(document).ready(function () {
+  // don't hide pop up when click on this items
+  $(".hamburger, .side-bar, .side-bar-row,#terms-of-use-pop-up,#terms-close-x, #embed-close-x").click(function (e) {
+    e.stopPropagation();
+  });
+
+  // on body click anywhere - hide side bar pop-up
+  $("body").click(function () {
+    $('.side-bar').fadeOut('fast');
+    $('#overlay').removeClass('overlay');
+  });
+
+  // side-bar menu open
+  $('.hamburger').click(function () {
+    $('.side-bar').fadeToggle(50);
+    $('#overlay').toggleClass('overlay');
+
+  });
+
+  // terms-close-x icon
+  $('#terms-close-x').click(function () {
+    $('#terms-of-use-pop-up').fadeOut('fast');
+  });
+
+  // embed-close-x icon
+  $('#embed-close-x').click(function () {
+    $('#code-embed-pop-up').fadeOut('fast');
+  });
+
+    // open terms of use pop-up
+  $('.terms-of-use-pop-up-click').click(function () {
+    $('#terms-of-use-pop-up').fadeIn("fast");
+  });
+
+  // open embed pop-up
+  $('.code-embed-pop-up-click').click(function () {
+
+    $('#code-embed-pop-up').fadeIn("fast");
+
+  });
+
+});
