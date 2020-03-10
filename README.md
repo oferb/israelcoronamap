@@ -4,7 +4,13 @@ A website that shows you whereabouts of people with verified Coronavirus. Data i
 
 Code is VanillaJS, so no framework required!
 
-If you want to help with the data, please see this repo: https://github.com/sdeniss/corona-tracker
+## How to run locally
+from the *public* dir, run
+```shell script
+python -m SimpleHTTPServer
+```
+and navigate to http://localhost:8000.
+
 
 For questions, please contact Ofer Bartal:
 * blueofer@gmail.com
