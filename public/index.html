@@ -27,14 +27,10 @@
     <title>מפת הקורונה של ישראל</title>
 
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/app.js">
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap"
-        async defer>
-
-        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async defer></script>
     <!--========== web tags ==========-->
     <meta name="description" content="מפת הקורונה של ישראל" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,6 +53,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/embed.css" />
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
@@ -79,16 +76,45 @@
                     אודות המיזם
                 </a>
             </li>
+<!--            UNCOMMENT THIS SECTION TO SHOW EMBED BUTTON-->
+<!--            <li class="wonder-nav-li">-->
+<!--                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#embedCoronaMap">-->
+<!--                    Embed-->
+<!--                </button>-->
+<!--            </li>-->
         </ul>
-
     </nav>
     <!--========== navbar end ==========-->
+
+    <!--    modal start-->
+    <div class="modal fade" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMapCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="embedCoronaMapLongTitle">הטמיעו קוד באתר</h5>
+                    <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="iframeCodeBlock" dir="ltr">
+                        <samp id="copyToClipboardContent">
+                            &lt;iframe style="width:100%"; width="600" height="450" src="https://https://israelcoronamap.co.il/embed" allowfullscreen&gt;&lt;/iframe&gt;
+                        </samp>
+                    </div>
+                    <button type="button" id="copyToClipboardButton" data-clipboard-target="#copyToClipboardContent" class="btn btn-copy-clipboard" onclick="copyToClipboard()">העתקה</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--    modal end-->
+
     <div id="map-wrapper" dir="rtl">
         <div id="map"></div>
     </div>
     <!--========== footer ==========-->
     <div class="footer-container">
-
         <div class="container-fluid" style="padding:0;">
             <div class="row text-center filter-bar-row" style="position:absolute;bottom: 0;">
                 <div class="col-lg-2">
@@ -132,21 +158,21 @@
                 </div>
             </div>
         </div>
-        </header>
+    </div>
         <!--========== header end ==========-->
 
 
 
         <!---========== scripts ==========-->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/embed.js"></script>
 
 </body>
 
