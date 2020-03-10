@@ -247,3 +247,73 @@ html, body {
   padding-bottom: 20px;
   border-bottom:solid 0.7px #e5e5e5;
 }
+
+
+@media screen and (min-width: 768px) {
+
+    .side-bar-img{
+        max-width: 25px;
+    }
+
+    .side-bar-link{
+        font-size: 18px;
+        color:#26262C!important;
+        transition-duration: 0.3s;
+
+    }
+
+    .side-bar-link:hover{
+         color:#26262C!important;
+         text-decoration: none;
+    }
+
+    .sos-number{
+        color:white!important;
+        border-radius: 3px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .sos-number:hover{
+        color:white!important;
+    }
+
+   .side-bar{
+        position: absolute;
+        height: 100%;
+        width: 22%;
+        margin-right: -20%;
+        right: 0;
+        top:0;
+        background-color: rgba(252, 251, 246,1);
+        z-index: 9996;
+        animation-name: fade;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+
+    }
+
+    @keyframes fade {
+      100% {
+        right: 20%;
+      }
+    }
+
+    .box-size{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+
+    width: 25px;
+    height: 1.5px;
+    background-color: #232b43;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+
+}
