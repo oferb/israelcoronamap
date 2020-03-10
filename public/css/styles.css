@@ -16,18 +16,18 @@
 
 html {
     position: relative;
-    
+
 }
 
 body {
-    
+
     width: 100%;
     margin:0;
     padding:0;
     background: #f4f4f4;
     color: #26262C;
     font-family: 'Assistant', sans-serif;
-    
+
 }
 
 /*========== header ==========*/
@@ -35,7 +35,7 @@ header{
     display: flex;
     align-items: center;
     height:100vh;
-    
+
 }
 
 /*========== header ==========*/
@@ -50,7 +50,7 @@ header{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/map.svg?alt=media&token=5283c510-5d4e-4e31-9b8e-ea38452e96ba');
     background-repeat: no-repeat;
     height: 100vh;
-} 
+}
 
 .footer-container{
     position: absolute;
@@ -79,7 +79,7 @@ border-radius: 30px;
     background: #fafafa;
     padding: 50px 0px 50px 0px;
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .info{
@@ -105,7 +105,7 @@ border-radius: 30px;
 }
 
 
-.press{   
+.press{
     background: #ffffff;
     padding: 50px 0px 50px 0px;
     display: flex;
@@ -131,7 +131,7 @@ footer{
     bottom: 0;
     border-top:solid 0.4px #e5e5e5;
 
-    
+
 }
 
 .footer-love-icon{
@@ -141,14 +141,14 @@ footer{
     margin-top: -4px;
     margin-left: 1px;
     margin-right: 1px;
-    
+
 }
 
 
 .row-social-icon{
     display: flex;
     align-items: center;
-    
+
 }
 
 .footer-social-img{
@@ -218,7 +218,7 @@ footer{
 
 .big-footer-text:hover,.big-footer-text:focus{
     color: #475172!important;
-    
+
 }
 
 
@@ -254,7 +254,7 @@ footer{
 /*========== footer end ==========*/
 
 .learn-more{
-    
+
 }
 
 .learn-more:hover{
@@ -264,12 +264,12 @@ footer{
 
 /*========== keyboard and mouse focus ==========*/
 
-.focus--keyboard, 
-a:focus, 
-button:focus, 
-input:focus, 
-select:focus, 
-textarea:focus, 
+.focus--keyboard,
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
 span:focus,
 .layer:focus,
 .time-filter-box:focus
@@ -279,18 +279,18 @@ span:focus,
 
 }
 
-.focus--mouse, 
-a.focus--mouse:focus, 
-button.focus--mouse:focus, 
-input.focus--mouse:focus, 
-select.focus--mouse:focus, 
-textarea.focus--mouse:focus, 
+.focus--mouse,
+a.focus--mouse:focus,
+button.focus--mouse:focus,
+input.focus--mouse:focus,
+select.focus--mouse:focus,
+textarea.focus--mouse:focus,
 span.focus--mouse:focus,
 .layer.focus--mouse:focus
 
 
 {
-    outline: none; 
+    outline: none;
 }
 /*========== keyboard and mouse focus ==========*/
 
@@ -303,7 +303,7 @@ span.focus--mouse:focus,
     color: #1111E0!important;
     font-size: 18px;
     background-color: transparent!important;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .link:hover {
@@ -320,7 +320,7 @@ span.focus--mouse:focus,
     text-decoration: none!important;
     color:#26262C!important;
     font-size: 16px;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
 .nav-link:hover {
@@ -335,7 +335,7 @@ span.focus--mouse:focus,
 
 
 .main-image{
-    
+
 width: 100%;
 }
 
@@ -348,7 +348,7 @@ width: 100%;
 
 .main-title{
     font-size: 32px;
-    color: #26262C; 
+    color: #26262C;
     font-weight: 700;
 }
 
@@ -410,11 +410,11 @@ width: 100%;
 }
 
 .wonder-nav-li{
-    padding: 0px 0px 0px 25px; 
+    padding: 0px 0px 0px 25px;
     font-weight: 300;
     font-size: 18px;
     z-index: 9999;
-    
+
 }
 
 .nav-logo{
@@ -436,7 +436,7 @@ width: 100%;
 
 .top-bar-icon:hover{
     opacity: 1;
-    
+
 
 }
 
@@ -471,8 +471,8 @@ width: 100%;
 }
 
 ::-webkit-scrollbar {
-    width: 0px; 
-    background: transparent; 
+    width: 0px;
+    background: transparent;
 }
 
 .flex-center{
@@ -490,7 +490,7 @@ width: 100%;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-      
+
 }
 
 
@@ -531,7 +531,7 @@ width: 100%;
 }
 
 .vision-image{
-    
+
 max-width: 250px;
 }
 
@@ -540,31 +540,31 @@ max-width: 250px;
 }
 
 .filter-help-text{
-   font-size: 12px;margin-bottom: 0;font-weight: 400;margin-top: 20px; 
+   font-size: 12px;margin-bottom: 0;font-weight: 400;margin-top: 20px;
 }
 
 @media(min-width:768px) {
-    
+
     .filter-bar-row{
-  
+
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-    
+
 .filter-help-text{
     font-size: 14px;margin-bottom: 0;font-weight: 400;margin-top: 20px;
 }
-    
+
     .filter-main-text{
     font-size: 18px;margin-bottom: 0;font-weight: 700;margin-bottom: 20px;
 }
-    
+
     .vision-image{
-    
+
 max-width: 300px;
 }
-    
+
 .time-filter-box{
     font-size: 14px;
     margin-top:0px;
@@ -577,16 +577,16 @@ max-width: 300px;
     margin-top:0px;
 
 }
-    
+
   .info-card-text{
     width: 70%;
     margin: auto;
 }
-    
-  
+
+
 /*========== sections end ==========*/
-    
-    
+
+
 
 .wonder-nav{
     top: 0;
@@ -596,12 +596,12 @@ max-width: 300px;
     z-index: 9997;
     background-color: rgba(252, 251, 246,1);
     box-shadow: none;
-}   
+}
 
     .small-footer-text{
         font-size: 18px;
     }
-    
+
     label{
     text-align: center;
     width: 55%;
@@ -609,7 +609,7 @@ max-width: 300px;
     font-weight: 400;
     color:#232b43;
     }
-  
+
     .work-img{
         width:70%;
     }
@@ -619,66 +619,212 @@ max-width: 300px;
         font-weight: 700;
         font-size: 30px;
     }
-    
+
     .pop-up-text{
         font-size:22px;
         width: 65%;
         margin: auto;
     }
-    
+
     .pop-up{
         top: 0px;
         bottom:0px;
         width: 100%;
     }
-    
+
     .service-pop-up{
         top: 20px;
         bottom:20px;
         width: 70%;
     }
-    
-    
+
+
     .row-social-icon{
         margin:auto;
         width:25%;
     }
 
-    /*========== nav-bar ==========*/
+/*========== nav-bar ==========*/
 
-    .wonder-nav-icon{
-        max-height: 25px;
-        max-width: 25px;
+    .menu-icon{
+        max-width:20px;
+        max-height: 20px;
         cursor: pointer;
+        z-index: 9999!important;
+
     }
+
+    .wonder-nav{
+        top: 0;
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        z-index: 9997;
+        background-color: rgba(252, 251, 246,1);
+        box-shadow: 0px 3px 30px #00000029;
+    }
+
     .wonder-nav-ul{
-        padding-right: 5px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        z-index: 9999;
+        list-style: none;
+        padding-right: 15px;
+
     }
 
     .wonder-nav-li{
-        padding: 0px 0px 0px 15px; 
-        font-size: 18px;
-        text-align:right;
+        padding: 0px 0px 0px 10px;
+        font-weight: 300;
+        font-size: 16px;
+        z-index: 9999;
 
     }
-    /*========== nav-bar ==========*/
-    
+
+    .nav-logo{
+        margin-right: auto;
+        padding-left: 10px;
+        order: 1;
+        margin-top: -5px;
+    }
+
+    .nav-link{
+        text-decoration: none!important;
+        color:#26262C!important;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .nav-link:hover {
+        text-decoration: none!important;
+        color:#26262C!important;
+        transition-duration: 0.3s;
+    }
+    .nav-link:focus{text-decoration: none!important;
+        color:#26262C!important;
+    }
+    .nav-link:active,.nav-link:visited {color:#26262C!important;}
+
+        /*!
+    * Hamburgers
+    * @description Tasty CSS-animated hamburgers
+    * @author Jonathan Suh @jonsuh
+    * @site https://jonsuh.com/hamburgers
+    * @link https://github.com/jonsuh/hamburgers
+    */
+    .hamburger {
+
+        padding-left: 15px;
+        display: inline-block;
+        cursor: pointer;
+        transition-property: opacity, filter;
+        transition-duration: 0.15s;
+        transition-timing-function: linear;
+        font: inherit;
+        color: inherit;
+        text-transform: none;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        overflow: visible; }
+
+    .hamburger:hover {
+        opacity: 0.7;
+    }
+
+    .hamburger-box {
+        width: 40px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+
+    }
+
+    .hamburger-inner {
+        display: block;
+        top: 70%;
+        margin-top: -1.6px;
+        margin-right: -5px;
+    }
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+
+        width: 25px;
+        height: 1.5px;
+        background-color: #26262C;
+        border-radius: 4px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease; }
+
+
+    .hamburger-inner::before, .hamburger-inner::after {
+
+        content: "";
+        display: block; }
+    .hamburger-inner::before {
+        top: -7px; }
+    .hamburger-inner::after {
+        bottom: -7px; }
+
+    /** Minus **/
+    .hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
+    transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear; }
+
+    .hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
+    opacity: 0;
+    transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear; }
+
+    .hamburger--minus.is-active .hamburger-inner::before {
+    top: 0; }
+
+    .hamburger--minus.is-active .hamburger-inner::after {
+    bottom: 0; }
+
+
+    .sos-number{
+        color:white!important;
+    }
+
+    .sos-number:hover{
+        color:white!important;
+
+    }
+
+    .mada{
+     box-shadow: 0px 3px 10px #E5313180;
+        background-color: #DE3B3B;
+    }
+
+
+    .health{
+        background-color: #2FBAD8;
+        box-shadow: 0px 3px 10px #2FBAD880;
+    }
+
+/*========== nav-bar end ==========*/
+
     .input {
-       
+
         font-size: 20px;
     }
-    
+
     .main-title{
         font-size: 50px;
-        
+
     }
-    
+
     .main-description{
         font-size:22px;
         width: 40%;
         margin: auto;
     }
-    
+
     .section-description{
         font-size: 24px;
         width: 65%;
@@ -702,4 +848,3 @@ max-width: 300px;
 .pub_date {
     font-size: 14px;
 }
-
