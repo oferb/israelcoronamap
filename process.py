@@ -20,7 +20,7 @@ with open('public/data/data.csv', newline='') as f:
         description = row['description'].strip()
         link = row['link'].strip()
         publication_time = ''
-        if link:
+        if 'www.health.gov.il' in link:
             publication_time = datetime.strptime(link[63:69], '%d%m%y')
         else:
             publication_time = datetime.strptime(row['pub_date'].strip(), '%d%m%y')
