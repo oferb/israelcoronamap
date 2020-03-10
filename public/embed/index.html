@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="../css/embed.css">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--========== Google fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+    <!--========== css files ==========-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script src="../js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap"></script>
+
+</head>
+
+<body dir="rtl">
+
+<div id="map-wrapper" dir="rtl">
+    <div id="map"></div>
+</div>
+
+<!--========== footer ==========-->
+<div class="footer-container">
+    <div class="container-fluid" style="padding:0;">
+        <div class="row text-center filter-bar-row" style="position:absolute;bottom: 0;">
+            <div class="col-lg-2">
+                <a style="color: #26262C;text-decoration: none;">
+                    <div class="time-filter-box" style="box-shadow: none;font-weight: 700;margin-top: 0;">
+                        סננו מפה לפי:
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-6">
+                <a style="color: #26262C;text-decoration: none;" target="_blank"
+                   onclick="selectFilter(&quot;3Days&quot;)">
+                    <div class="time-filter-box" id="three-days-button">
+                        3 ימים אחרונים
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-6">
+                <a style="color: #26262C;text-decoration: none;" target="_blank"
+                   onclick="selectFilter(&quot;week&quot;)">
+                    <div class="time-filter-box" style="" id="one-weeks-button">
+                        שבוע אחרון
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-6">
+                <a style="color: #26262C;text-decoration: none;" target="_blank"
+                   onclick="selectFilter(&quot;twoWeeks&quot;)">
+                    <div class="time-filter-box-selected" style="" id="two-weeks-button">
+                        שבועיים אחרונים
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-6">
+                <a style="color: #26262C;text-decoration: none;" target="_blank"
+                   onclick="selectFilter(&quot;all&quot;)">
+                    <div class="time-filter-box" style="" id="all-days-button">
+                        כל הזמן
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--========== header end ==========-->
+
+
+
+    <!---========== scripts ==========-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+
+</body>
+
+</html>
+
+<!-- Made With ♥ By Yossi Molcho -->

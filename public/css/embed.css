@@ -1,0 +1,46 @@
+#iframeCodeBlock {
+    color: #475b6f;
+    background: rgba(0,68,102,.06);
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h5:after {
+    content:' ';
+    display:block;
+    width: 40%;
+    margin-top: 5px;
+    border:2px solid #FFCF4A;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 3px 30px #FFCF4A99;
+    -webkit-box-shadow:inset 0 3px 30px #FFCF4A99;
+    -moz-box-shadow:inset 0 3px 30px #FFCF4A99;
+}
+
+#modalCloseButton {
+    position: absolute;
+    left: 0;
+}
+
+.btn-copy-clipboard, .btn-copy-clipboard-success{
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.btn-copy-clipboard {
+    color: #00a4eb;
+}
+
+.btn-copy-clipboard-success {
+    color: #00cf8a;
+}
+
+.btn-copy-clipboard:focus, .btn-copy-clipboard:active,
+.btn-copy-clipboard-success:focus, .btn-copy-clipboard-success:active {
+    outline: none !important;
+    box-shadow: none;
+}
