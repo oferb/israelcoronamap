@@ -9,18 +9,18 @@ function init() {
 }
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 32.072958, lng: 34.969073 },
-    zoom: windowWidth >= 500 ? 12 : 9,
-    gestureHandling: "greedy"
-  });
-  infoWindow = new google.maps.InfoWindow;
-  map.addListener('mousedown', function () {
-    if (infoWindow) {
-      infoWindow.close();
-    }
-  });
-  init();
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: 32.072958, lng: 34.969073 },
+      zoom: windowWidth >= 500 ? 12 : 9,
+      gestureHandling: "greedy"
+    });
+    infoWindow = new google.maps.InfoWindow;
+    map.addListener('mousedown', function () {
+      if (infoWindow) {
+        infoWindow.close();
+      }
+    });
+    init();
 }
 
 function getTimestamp(stringTime) {
@@ -129,7 +129,7 @@ function processData() {
     if (points.length > 1) {
       firstPoint.text = '';
       firstPoint.text += '<br><br><b>זמני ביקור: </b><br>';
-      for (i = 0; i < points.length; i++) { 
+      for (i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
