@@ -100,3 +100,150 @@ html, body {
     box-shadow: 1px 1px 6px -1px #6a6b68;
     text-align: center;
 }
+
+
+    /*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+
+    padding-left: 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible; }
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.hamburger-inner {
+    display: block;
+    top: 70%;
+    margin-top: -1.6px;
+    margin-right: -5px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+
+    width: 25px;
+    height: 1.5px;
+    background-color: #26262C;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+
+
+.hamburger-inner::before, .hamburger-inner::after {
+
+    content: "";
+    display: block; }
+.hamburger-inner::before {
+    top: -7px; }
+.hamburger-inner::after {
+    bottom: -7px; }
+
+/** Minus **/
+.hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
+  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear; }
+
+.hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
+  opacity: 0;
+  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear; }
+
+.hamburger--minus.is-active .hamburger-inner::before {
+  top: 0; }
+
+.hamburger--minus.is-active .hamburger-inner::after {
+  bottom: 0; }
+
+
+    .sos-number{
+        color:white!important;
+    }
+
+    .sos-number:hover{
+        color:white!important;
+
+    }
+
+    .mada{
+     box-shadow: 0px 3px 10px #E5313180;
+        background-color: #DE3B3B;
+    }
+
+
+    .health{
+        background-color: #2FBAD8;
+        box-shadow: 0px 3px 10px #2FBAD880;
+    }
+
+    .side-bar-img{
+       max-width: 20px;
+    }
+
+    .overlay{
+        background-color: black;
+        opacity: 0.5;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .side-bar{
+    position: absolute;
+    height: 100%;
+    width: 70%;margin-right: -100%;
+    right: 0;
+    top:0;
+    background-color: rgba(252, 251, 246,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+    z-index: 9996;
+    animation-name: fade;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+
+  }
+
+  @keyframes fade {
+    100% {
+      right: 100%;
+    }
+  }
+
+.side-bar-row{
+    margin-top: 50px;
+}
+
+.side-bar-box{
+  padding-top:20px;
+  padding-bottom: 20px;
+  border-bottom:solid 0.7px #e5e5e5;
+}
