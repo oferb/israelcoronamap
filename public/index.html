@@ -21,7 +21,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-160037128-1');
     </script>
-
     <meta charset="utf-8">
 
     <title>מפת הקורונה של ישראל</title>
@@ -57,34 +56,39 @@
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
-
 <body dir="rtl">
+    <div id='overlay'></div>
+
     <!--========== navbar ==========-->
     <nav class="wonder-nav">
         <ul class="wonder-nav-ul">
 
             <li class="nav-logo">
-                <a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="/">
+                <a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="israelcoronamap.co.il">
                     Israel corona map
                 </a>
             </li>
-            <li class="wonder-nav-li">
-                <a class="nav-link" href="/info">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/info.svg?alt=media&token=e6976f4a-1867-4d6f-8238-6d1159959d71"
-                        style="max-width: 18px;margin-right: -10px;" alt="">
-                    &nbsp;
-                    אודות המיזם
+            <li class="wonder-nav-li" style="margin-right: 10px;">
+                <button class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span></span>
+                </button>
+            </li>
+            <li style="margin-right: 10px;" class="wonder-nav-li d-none d-md-block">
+                <a style="" class="nav-link sos-number mada" href="tel:101">
+                    מד"א: 101
                 </a>
             </li>
-<!--            UNCOMMENT THIS SECTION TO SHOW EMBED BUTTON-->
-<!--            <li class="wonder-nav-li">-->
-<!--                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#embedCoronaMap">-->
-<!--                    Embed-->
-<!--                </button>-->
-<!--            </li>-->
+            <li class="wonder-nav-li d-none d-md-block">
+                <a style="" class="nav-link sos-number health" href="tel:*5004">
+                    משרד הבריאות: 5004*
+                </a>
+            </li>
         </ul>
+
     </nav>
     <!--========== navbar end ==========-->
+
 
     <!--    modal start-->
     <div class="modal fade" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMapCenterTitle" aria-hidden="true">
@@ -160,7 +164,150 @@
         </div>
     </div>
         <!--========== header end ==========-->
+    <!--========== side-bar ==========-->
+    <div class="side-bar" style="display: none;">
+        <div class="container-fluid" style="padding:0;">
+            <div class="row side-bar-row text-right">
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <h3 class="text-center" style="font-size: 20px;font-weight: 700;">Israel Corona Map</h3>
+                    </div>
+                </div>
+                <!-- <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link" href="#">
+                            <img class="side-bar-img" style="margin-left:10px; "
+                                src="assets/images/side-bar-icons/plane.svg" alt="icon">
+                            חפשו טיסות
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
+                            <img class="side-bar-img" style="margin-left:10px; "
+                                src="assets/images/side-bar-icons/coding.svg" alt="icon">
+                            הטמיעו קוד באתר
+                        </a>
+                    </div>
+                </div> -->
+                <br>
+                <br>
+                <br>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;" class="side-bar-link" href="https://israelcoronamap.co.il/info">
+                            <img class="side-bar-img" style="margin-left:10px;" src="assets/images/side-bar-icons/info.svg"
+                                alt="icon">
+                            אודות המיזם
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;" class="side-bar-link" target="_blank"
+                            href="mailto:blueofer@gmail.com" title="email">
+                            <img class="side-bar-img" style="margin-left:10px;" src="assets/images/side-bar-icons/email.svg"
+                                alt="icon">
+                            צרו קשר
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-12 d-md-none">
+                    <a style="padding-top:20px;padding-bottom: 20px;" class="nav-link sos-number mada" href="tel:101">
+                        <img style="margin-left:10px; max-width: 25px;margin-right: 15px;" src="assets/images/phone.svg"
+                            alt="icon">
+                        מד "א
+                        <a style="padding-top:20px;padding-bottom: 20px;" class="nav-link sos-number health"
+                            href="tel:*5004">
+                            <img class="side-bar-img" style="margin-left:10px; margin-right: 15px;"
+                                src="assets/images/phone.svg" alt="icon">
+                            משרד הבריאות
+                        </a>
+                </div>
+            </div>
+        </div>
+        <a class="terms-link terms-of-use-pop-up-click">
+            תנאי שימוש באתר
+        </a>
+    </div>
+    <!--========== side-bar end ==========-->
 
+    <!--========== terms-of-use-pop-up ==========-->
+    <div id="terms-of-use-pop-up" class="pop-up-area" style="display: none;">
+
+        <div class="pop-up">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col-12 ">
+                        <div class="box-size">
+                            <h1 class="pop-up-title">תנאי שימוש באתר</h1>
+                            <hr class='hr-titels' width="85px" align="right">
+                            <p>תנאי שימוש מעודכנים ל - 7.3.20</p>
+                            <p class="pop-up-text">
+                                1. האתר הכולל מפה שמרכזת את כלל מקרי הקורונה בישראל, נבנתה מתוך רצון טוב, בהתנדבות ובתצורת
+                                קוד פתוח עבור כלל הציבור, יחד עם זאת האחראים על פיתוח האתר אינם אחראים על כל נזק עקב שימוש
+                                במפה או באתר.
+                                <br>
+                                <br>
+                                2. יש לשים לב: יתכנו עיקובים במידע המוצג על המפה, מכיוון שהמידע מתקבל קודם כל ממשרד הבריאות
+                                ורק לאחר מכן מוזן במפה, יש תמיד להתעדכן באתר משרד הבריאות ולעקוב אחר הפרסומים וההצהרות שלו.
+                                <br>
+                                <br>
+                                3. המפה כוללת אפשרות סינון זמנים, סינון הזמנים מתייחס לזמן שממנו אירע המקרה, לדוגמא אם מקרה
+                                אירע ב - 1.3, והתאריך היום הוא ה 15.3, אז זה אומר שתראו את המקרה, בלשונית "שבועיים אחרונים"
+                                ו"כל הזמנים" אבל לא בלשונית "שבוע אחרון" או "3 ימים אחרונים".
+                            </p>
+                            <br>
+                            <p class="pop-up-text">
+                                לכל שאלה, תיקון טעויות ששמתם לב אליהם, עזרה בעדכון הדטא, או עזרה בפיתוח מוזמנים לפנות אלינו
+                                כאן:
+                                <br>
+                                <a target="_blank" href="mailto:blueofer@gmail.com" title="email">blueofer@gmail.com</a>
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img id='terms-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
+
+        </div>
+
+    </div>
+    <!--========== terms-of-use-pop-up end ==========-->
+
+    <!--========== terms-of-use-pop-up ==========-->
+    <div id="code-embed-pop-up" class="pop-up-area" style="display: none;">
+
+        <div class="pop-up">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col-12 ">
+                        <div class="box-size">
+                            <h1 class="pop-up-title">הטמיעו קוד באתר</h1>
+                            <hr class='hr-titels' width="85px" align="right">
+                            <p>פשוט העתיקו והדביקו את הקוד המצורף</p>
+                            <p class="pop-up-text">
+                                כאן יהיה הקוד להטמעה
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img id='embed-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
+
+        </div>
+
+    </div>
+    <!--========== terms-of-use-pop-up end ==========-->
 
 
         <!---========== scripts ==========-->
