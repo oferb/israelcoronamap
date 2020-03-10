@@ -247,5 +247,17 @@ $(document).ready(function () {
   });
 
     // open terms of use pop-up
+  $('.terms-of-use-pop-up-click').click(function () {
+
+    $('#terms-of-use-pop-up').fadeIn("fast");
+
+  });
+
+  // open embed pop-up
+  $('.code-embed-pop-up-click').click(function () {
+
+    $('#code-embed-pop-up').fadeIn("fast");
+
+  });
 
 });

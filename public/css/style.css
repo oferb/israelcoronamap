@@ -248,6 +248,16 @@ html, body {
   border-bottom:solid 0.7px #e5e5e5;
 }
 
+.terms-link{
+    font-size: 16px;
+    text-decoration: underline!important;
+    position: absolute;
+    bottom: 2%;
+    right: 0;left: 0;
+    color:#26262C;
+    cursor: pointer;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
 
