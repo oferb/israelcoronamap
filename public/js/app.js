@@ -248,4 +248,4 @@ $(document).ready(function () {
 
     // open terms of use pop-up
 
-}
+});
