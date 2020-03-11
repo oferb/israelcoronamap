@@ -1030,20 +1030,23 @@ section{
     }
 
 /*========== nav-bar end ==========*/
- 
+
 .map-updated{
     color:#26262C!important;
     font-size:12px!important;
     margin-right: -15px;
 }
 
+.map-updated:hover{
+    color:#26262C!important;
+}
+
 @media(min-width:768px) {
-    
+
 .map-updated{
     color:#26262C!important;
     font-size:13px!important;
     margin-right: -5px;
-
 }
     
     .terms-link{
@@ -1079,7 +1082,7 @@ section{
 
     
 /*========== nav-bar ==========*/
-    
+
 .wonder-nav{
     top: 0;
     height: 50px;
