@@ -69,7 +69,7 @@ border-radius: 30px;
 
 .help{
     background: #ffffff;
-    padding: 50px 20px  420px 20px;
+    padding: 50px 20px  340px 20px;
 }
 
 .how{
@@ -493,7 +493,7 @@ textarea {
     width: 100%; 
     right: 0;
     top:0;
-    background-color: white;
+    background-color: rgba(252, 251, 246,1);
     z-index: 9996;
 
 }
@@ -540,7 +540,7 @@ textarea {
 }
 
 .side-bar-link{
-    font-size: 20px;
+    font-size: 18px;
     color:#26262C!important;
     transition-duration: 0.3s;
 
@@ -560,11 +560,8 @@ textarea {
     width: 100%;
     position: fixed;
     z-index: 9997;
-    background-color: white;
-            -webkit-box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
-        -moz-box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
-        box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
-
+    background-color: rgba(252, 251, 246,1);
+    box-shadow: 0px 3px 30px #00000029;
 }
 
 .wonder-nav-ul{
@@ -1172,7 +1169,7 @@ max-width: 300px;
 }
 
 .help{
-    padding: 80px 0px  450px 0px;
+    padding: 80px 0px  360px 0px;
     
 }
 
@@ -1229,21 +1226,17 @@ max-width: 300px;
 
 }
     
-    .wonder-nav{
+.wonder-nav{
     top: 0;
     height: 50px;
     width: 100%;
     position: fixed;
     z-index: 9997;
-    background-color: rgba(252, 251, 246,1);
-
     box-shadow: none;
 }   
 .wonder-nav-scroll{
-    background-color: white;
-            -webkit-box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
-        -moz-box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
-        box-shadow: 0px 10px 33px -19px rgba(69,69,69,1);
+    background-color: rgba(252, 251, 246,1);
+    box-shadow: 0px 3px 30px #00000029;
     top: 0;
     height: 50px;
     width: 100%;

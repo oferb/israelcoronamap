@@ -1,307 +1,293 @@
-ID,patient_number,Checked,label,label english,label arabic,position,date,start time,end time,description,description english,description arabic,pub_date,link,link_updates,did flight
-1,,V,מלון מגדל דוד,Hotel Tower of David,فندق برج داود,"32.331940, 34.851522",08/02/2020,20:20,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-2,,V,מלון מגדל דוד,Hotel Tower of David,فندق برج داود,"32.331940, 34.851522",09/02/2020,00:00,09:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-3,,V,גן לאומי קיסריה,Caesarea National Park,الحديقة الوطنية قيساريا,"32.501199, 34.892315",09/02/2020,07:00,09:11,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-4,,V,מלון גבריאל,Gabriel Hotel,فندق جابريل,"32.708649, 35.297008",09/02/2020,11:00,15:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-5,,V,כנסיית הבשורה,Church of the Annunciation,كنيسة البشارة,"32.702367, 35.297376",09/02/2020,12:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-6,,V,כניסת המשפחה הקדושה,Entrance of The Holy Family Hospital,كنيسة العائلة المقدسة,"32.705169, 35.310839",09/02/2020,12:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-7,,V,עין גב כפר הנופש,Ein Gev Holiday Resort,منتجع عين جيف,"32.771856, 35.638675",09/02/2020,18:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-8,,V,עין גב כפר הנופש,Ein Gev Holiday Resort,منتجع عين جيف,"32.771856, 35.638675",10/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-9,,V,כנסיית הבכורה של פטרוס,Church of the Primacy of Saint Peter,كنيسة القديس بطرس الأولى التابغة,"32.871999, 35.550409",10/02/2020,07:00,15:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-10,,V,מסעדת תנורין,Tanureen restaurant,مطعم تنورين,"32.843234, 35.509560",10/02/2020,12:00,16:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-11,,V,כפר נחום,Capernaum,كفرناحوم,"32.882419, 35.573693",10/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-12,,V,כנרת - שייט בספינה,Sea of Galilee/Lake Tiberias - Cruise ship,بحر الجليل - سفينة سياحية,"32.867782, 35.525478",10/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-13,,V,עין גב כפר הנופש,Ein Gev Holiday Resort,منتجع عين جيف,"32.767652, 35.639340",10/02/2020,20:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-14,,V,עין גב כפר הנופש,Ein Gev Holiday Resort,منتجع عين جيف,"32.767652, 35.639340",11/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-15,,V,שכם,Nablus,نابلس,"32.226773, 35.262270",11/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-16,,V,יריחו,Jerico,أريحا,"31.865153, 35.462018",11/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-17,,V,מלון דוד ים המלח,David Dead Sea Resort & Spa,منتجع داود البحر الميت,"31.202813, 35.361363",11/02/2020,00:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-18,,V,מלון דוד ים המלח,David Dead Sea Resort & Spa,منتجع داود البحر الميت,"31.202813, 35.361363",12/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-19,,V,מצדה,Masada,مسعدة,"31.312016, 35.363052",12/02/2020,06:00,14:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-20,,V,פארק תמנע,Timna Park,بارك تمناع,"29.788320, 35.003072",12/02/2020,08:00,14:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-21,,V,מלון לאונרדו נגב,Hotel Leonardo Negev Beersheba,فندق ليوناردو نجيف,"31.247751, 34.801126",12/02/2020,00:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-22,,V,מלון לאונרדו נגב,Hotel Leonardo Negev Beersheba,فندق ليوناردو نجيف,"31.247751, 34.801126",13/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-23,,V,הפארק הלאומי בבאר שבע,National Park Beersheba,"منتزه بئر السبع الوطني
-","31.246155, 34.841115",13/02/2020,08:00,09:30,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-24,,V,כנסיית המולד,Church of the Nativity,كنيسة المهد,"31.704532, 35.207497",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-25,,V,כנסיית שדה הרועים,Chapel of the Shepherd's Field,كنيسة حقل الرعاة,"31.707613, 35.230017",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-26,,V,כנסיית סנט קטרינה,Church of Saint Catherine,كنيسة القديسة كتارينا,"31.7046176,35.2077341",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-27,,V,מערת סנט ג'רום (בתוך כנסיית המולד),St. Jerome Cave (inside Church of the Nativity),كهف القديس چيروم (تحت كنيسة المهد),"31.704532, 35.207497",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-28,,V,מלון גרנד קורט,Grand Court Hotel,"فندق الجراند كورت
-","31.789627, 35.227216",13/02/2020,20:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-29,,V,מלון גרנד קורט,Grand Court Hotel,"فندق الجراند كورت
-","31.789627, 35.227216",14/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-30,,V,ביקור בהר הזיתים,Visit to the Mounts of Olives,زيارة اِلى جبل الزيتون,"31.778733, 35.245956",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-31,,V,כנסיית העלייה,Chapel of the Ascension,كنيسة الصعود,"31.779216, 35.245031",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-32,,V,בית פגי (כנסייה),Bethphage (church),كنيسة بيت فاجي,"31.777475, 35.250745",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-33,,V,מסעדת שנגחאי,Shanghai restaurant,مطعم شانجهاي,"31.732126, 35.203915",14/02/2020,12:00,15:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-34,,V,כנסיית פאטר נוסטר (אבינו שבשמיים),Church of the Pater Noster,كنيسة أبانا الذي,"31.778342, 35.245179",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-35,,V,כנסיית גת שמנים,Gethsemane church,كنيسة الجسمانية,"31.779465, 35.239791",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-36,,V,הר ציון,Mount Zion,جبل صهيون,"31.771154, 35.228458",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-37,,V,חדר הסעודה האחרונה,"Cenacle (""Upper Room"" in David's Tomb Compound)",غرفة العشاء الأخير,"31.772035, 35.229292",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-38,,V,קבר מרים,Church of the Sepulchre of Saint Mary (Tomb of the Virgin Mary),قبر العذراء مريم,"31.780349, 35.239406",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-39,,V,כנסיית פטרוס אין גליקנטו,Church of Saint Peter in Gallicantu,كنيسة صياح الديك,"31.771525, 35.232122",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-40,,V,מלון גרנט קורט,Grand Court Hotel,"فندق الجراند كورت
-","31.789627, 35.227205",14/02/2020,18:00,23:59,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-41,,V,מלון גרנט קורט,Grand Court Hotel,"فندق الجراند كورت
-","31.789627, 35.227205",15/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-42,,V,עין כרם,Ein Karem,عين كارم,"31.767587, 35.162287",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-43,,V,כנסיית יוחנן המטביל,Church of Saint John the Baptist,"كنيسة القديس يوحنا المعمدان
-","31.777309, 35.229695",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-44,,V,כנסיית הביקור,Church of the Visitation,كنيسة الزيارة,"31.764796, 35.157940",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-45,,V,כנסית אן הקדושה,Entrance to St. Anne,كنيسة القديسة آنا,"31.781189, 35.236084",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-46,,V,מסעדת גולד ליד מלון אמבסדור במזרח ירושלים,Restaurant Gold near Ambassador Hotel in East Jerusalem,مطعم جولد ليد - فندق الأمبسادور القدس,"31.789989, 35.202244",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-47,,V,בריכות הצאן (מוזיאון ארכיאולוגי בירושלים),Pool of Bethesda (archaeological museum in Jerusalem),برك بيت حسدا (المتحف الأركيولوجي في القدس),"31.768593, 35.213742",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-48,,V,כנסיית הקבר הקדוש,Church of the Holy Sepulchre,كنيسة القبر المقدس,"31.778682, 35.229665",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-49,,V,מלון גרנט קורט,Grand Court Hotel,فندق الجراند كورت,"31.789627, 35.227205",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 tourists from South Korea,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,,FALSE
-50,,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",23/02/2020,18:00,22:00,מקום ביקור של הישראלי ששב מאיטליה,Place visited by Israeli who returned from Italy,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,,FALSE
-51,,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,08:30,23:59,מקום ביקור של הישראלי ששב מאיטליה,Place visited by Israeli who returned from Italy,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,,FALSE
-52,,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,08:30,23:59,מקום ביקור של הישראלי ששב מאיטליה,Place visited by Israeli who returned from Italy,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,,FALSE
-53,,V,בית כנסת אירוס,Iris Synagogue,كنيس أيروس,"31.9306892,34.7765856",24/02/2020,06:00,07:00,מקום ביקור של הישראלי ששב מאיטליה,Place visited by Israeli who returned from Italy,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,,FALSE
-54,6,V,ארומה בתחנת ״דלק פז״,"Aroma at gas station ""Paz""",أروما في محطة وقود باز,"32.383731, 34.866688",22/02/2020,06:30,07:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,,FALSE
-55,6,V,בית הפנקייק,Pancake House,بيت البانكيك,"32.383850, 34.866874",22/02/2020,06:30,07:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,,FALSE
-56,6,V,סעיד מלחם מוצרי חשמל באבו סנאן,Said Malham appliances store in Abu Snan,سعيد ملحم لأدوات الكهرباء أبو سنان,"32.962288, 35.176676",22/02/2020,11:00,13:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,,FALSE
-57,6,V,מחסני זול ספורט בקריית אתא,"Sportswear store ""Machnasi Zol Sport"" in Kiryat Ata",محسني زول سبورت في كريات آتا,"32.818203, 35.050937",22/02/2020,11:00,13:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,,FALSE
-58,6,V,חומוס פרלמנט ותחנת דלק פז בנהריה,"Hummus restaurant ""Parliament"" and ""Paz"" gas station in Nahariya",حمص بارليمنت و محطة وقود باز في نهارية,"32.990316, 35.096735",23/02/2020,11:30,12:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,,FALSE
-59,7,V,מקלות וניל בעפולה,"Café-bakery ""Vanilla Sticks - Maklot Vanil"" in Afula",مكلوت فانيل في العفولة,"32.603578, 35.296038
-",25/02/2020,11:22,11:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,,FALSE
-60,7,V,חדר כושר אתנה במגדל העמק,"""Athena"" gym in Migdal Haemek",صالة أثينا الرياضية في مجدال هعيمق,"32.687929, 35.246797",25/02/2020,18:00,20:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,,FALSE
-61,7,V,בנק דיסקונט במגדל העמק,Bank Discount in Migdal Haemek,بنك ديسكاونت في مقدال هعيمك,"32.676933, 35.239217",27/02/2020,08:30,09:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,,FALSE
-62,7,V,מסעדת אחוזה בעפולה,"""Ahuza"" restaurant in Afula",مطعم أحوزا في العفولة,"32.599948, 35.295150",27/02/2020,14:00,15:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,,FALSE
-63,7,V,שופרסל אזור תעשייה מגדל העמק,"""Supersal"" supermarket in Migdal Haemek industrial area",سوفرسال المنطقة الصناعية مجدل هعيمق,"32.666738, 35.239837",27/02/2020,17:00,18:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx,,FALSE
-64,10,V,מתפרה בקומה התחתונה של קניון אור יהודה,Sewing shop on the first floor of Or Yehuda mall,محل خياطة في الطابق السفلي من المجمع التجاري يهودا,"32.025683, 34.858086",25/02/2020,12:00,12:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,,FALSE
-65,10,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,13:00,22:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,,FALSE
-66,10,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,12:30,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,,FALSE
-67,10,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,00:00,00:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,,FALSE
-68,10,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,15:00,21:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,,FALSE
-69,12,V,שוק הים באשדוד,Seafood market in Ashdod,سوق اليوم أشدود,"31.796529, 34.629749",26/02/2020,11:00,13:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx,,FALSE
-70,11,V,מכון גו-אקטיב מרום נווה ברמת גן,"""Go Active"" gym in Marom Mall, Ramat Gan",صالة جو أكتيف الرياضية في مروم نافيه - رمات جان,"32.0714043,34.8281033",27/02/2020,10:20,13:00,השתתפה בשיעור פלנדקרייז שהחל בשעה 10:20 ובשיעור התעמלות שהתקיים בין 12:00-12:45,Attended a Feldenkrais class that started at 10:20 and a gym class that took place from 12: 00-12: 45,حضرت حصة فلندكراز التي اِبندأت من الساعة 10:20و حصة رياضة من الساعة 12:00-12:45,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx,,FALSE
-71,11,V,פרשמרקט במתחם מרום נווה,"""Freshmarket"" supermarket in Marom Mall",سوبر ماركت في مجمع مروم نافيه,"32.0714604,34.8279486",27/02/2020,13:10,13:45,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx,,FALSE
-72,13,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",23/02/2020,16:30,21:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-73,13,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,16:30,21:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-74,13,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,16:30,21:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-75,13,V,הפיראט האדום,The Red Pirate,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,16:30,21:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-76,13,V,ביה״ס איזורי ברנר,Regional School Brenner,مدرسة برينر الإقليمية,"31.869072, 34.806136",24/02/2020,00:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-77,13,V,ביה״ס איזורי ברנר,Regional School Brenner,"مدرسة برينر الإقليمية
-","31.869072, 34.806136",25/02/2020,00:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-78,13,V,ביה״ס איזורי ברנר,Regional School Brenner,"مدرسة برينر الإقليمية
-","31.869072, 34.806136",26/02/2020,00:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,,FALSE
-79,13,V,אצטדיון בלומפילד - שער 8,Bloomfield Stadium - Gate 8,استاد بلومفيلد - بوابة 8,"32.051678, 34.761865",24/02/2020,20:00,22:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx,,FALSE
-80,14,V,ביה״ס אביגדור ורשה,Avigdor Varsha School,مدرسة افيغدور فارسا,"32.052998, 34.855811",26/02/2020,07:00,13:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,,FALSE
-81,14,V,אולם ספורט ליד ספריה עירונית גני תקווה,Sports hall near Ganei Tikva municipal library,القاعة الرياضية بجانب مكتبة البلدية جاني تكفا,"32.063762, 34.872818",26/02/2020,17:15,18:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,,FALSE
-82,14,V,"חתונה ב""הרמוניה בגן"" (האולם מימין לכניסה) בצומת כנות","Wedding at ""Harmonia BeGan"" (event hall to the right of the entrance) at ""Kenut"" Junction","حفل زفاف في ""هرمونا بجان"" (القاعة بيمين المدخل) في تقاطع الصدق","31.804431, 34.761447",26/02/2020,19:30,22:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,,FALSE
-83,14,V,קניון קריית אונו,Kiryat Ono Mall,المجمع التجاري في كريات اونو,"32.055449, 34.863602",27/02/2020,18:00,20:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,,FALSE
-84,14,V,ביה״ס אביגדור ורשה,Avigdor Varsha School,مدرسة افيغدور فارسا,"32.052998, 34.855811",28/02/2020,07:30,12:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,,FALSE
-85,,V,קפה רימון ממילה,Café Rimon - Mamilla,مقهى ريمون ماميلا,"31.777409, 35.224419",23/02/2020,21:30,23:30,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-86,,V,זארה,Zara,زارا,"31.777634, 35.223710",23/02/2020,21:30,23:30,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-87,,V,קפה רימון בן יהודה,Rimon Café on Ben Yehuda Street,مقهى ريمون بن يهودى,"31.782049, 35.218575",24/02/2020,13:00,15:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-88,,V,אושר עד בקניון הדר,"""Osher Ad"" supermarket in Hadar Mall",أوشر عاد في المجمع التجاري هدر,"31.753473, 35.212979",24/02/2020,17:00,19:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-89,,V,Kitchen Station מתחם התחנה,"""Kitchen Station"" in Old Train Station",كتشن ستيشون المحطة القديمة,"31.768215, 35.224438",25/02/2020,14:00,15:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-90,,V,בנק מזרחי טפחות הלני המלכה 9,Bank Mizrahi-Tefahot on #9 Heleni ha-Malka Street,بنك مزراحي تفاحوت 9 شارع الملكة هليني,"31.782627, 35.222703",26/02/2020,09:00,10:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-91,,V,FOX HOME,FOX HOME,فوكس هوم,"31.753794, 35.213153",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-92,,V,אושר עד,"Supermarket ""Osher Ad""",عوشر عاد,"31.753473, 35.212979",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-93,,V,צומת ספרים,"Bookstore ""Tzomet Sfarim""",تسومت سفريم,"31.753468, 35.213720",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-94,,V,בית קפה קפית,"""Caffit"" café",مقهى كبيت,"31.763622, 35.219289",27/02/2020,11:00,13:00,מקום ביקור של חולה מניו יורק,Place visited by New York patient,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,,FALSE
-95,,V,הר תבור מנזר ההשתנות,"Mount Tabor, Church of The Transfiguration (monastery)",دير جبل طابور التجلي,"32.686474, 35.392521",20/02/2020,09:30,10:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-96,,V,כנסיית הבשורה בנצרת,"Basilica of the Annunciation, Nazareth",كنيسة البشارة الناصرة,"32.702412, 35.297397",20/02/2020,11:00,12:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-97,,V,כנסיה יוונית האורתודוקסית בכפר כנא,Greek Orthodox church in Kafr Kanna (Cana),الكنيسة اليونانية الأورثوذكسية قي كفر كنا,"32.747189, 35.337806",20/02/2020,12:00,14:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-98,,V,עין שבע (טבח'ה),Ein Sheva (Tabgha),التابغة,"32.874022, 35.549828",20/02/2020,15:00,15:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-99,,V,ירדנית,Yardenit (Baptismal Site),المغطس,"32.717531, 35.569652",20/02/2020,16:30,17:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-100,,V,עין בוקק – ים המלח,Ein Bokek - Dead Sea,عين بوكيك - البحر الميت,"31.201990, 35.362779",21/02/2020,07:30,08:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-101,,V,מסעדת יוטבתה,Restaurant Yotvata,مطعم يوتبطا,"29.894359, 35.064305",21/02/2020,10:30,11:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-102,,V,המצפה התת ימי אילת,"Underwater Observatory Park, Eilat",مرصد إيلات,"29.504141, 34.919178",23/02/2020,15:30,17:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-103,,V,מסעדת יוטבתה,Restaurant Yotvata,مطعم يوتبطا,"29.893532, 35.063005",23/02/2020,18:00,18:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-104,,V,מנזר מרסבה במדבר יהודה,Mar Saba monastery in Judean desert,دير مار سابا,"31.704859, 35.3311",24/02/2020,08:00,10:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-105,,V,קבר מרים וכנסיית כל העמים,Tomb of the Virgin Mary and Church of All Nations,قبر العذراء مريم وكنيسة جميع الأمم,"31.780098, 35.23935",24/02/2020,13:30,17:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-106,,V,מנזר סנט ג'ורג' (דיר מאר ג'ריס),Monastery of Saints John and George of Choziba,دير القديس جورج (دير مار جريس),"31.777244, 35.228114",25/02/2020,08:00,10:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-107,,V,כנסיית אורתודוקסית של מרתא ומרים באלעיזריה,"Orthodox Church of Mary and Martha, Al-Eizariya",كنيسة مرتا الأورثوذكسية ,"31.780241, 35.232787",25/02/2020,10:30,11:45,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-108,,V,מנזר מרסבא,Mar Saba monastery,دير مار سابا,"31.716049, 35.330446",25/02/2020,12:30,14:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-109,,V,דיר אל קרנטל (מנזר קרנטל),"Monastery of the Temptation, Deir al-Quruntal",دير القرنطل,"31.87439, 35.429958",26/02/2020,11:00,12:30,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-110,,V,כנסיית זקא,Zakah Church,كنيسة زكا,"31.820261, 35.501139",26/02/2020,12:30,13:00,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-111,,V,דיר חג'אלה ליד גשר אלנבי,"Deir Hajla, near Allenby Bridge",دير حجلة - بجانب جسر النبي,"31.820261, 35.501139",26/02/2020,13:10,14:20,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-112,,V,תפילה בכנסיית הקבר ירושלים,Prayer in the Church of the Holy Sepulchre Jerusalem,"صلاة في كنيسة القيامة القدس
-","31.778434, 35.229492",26/02/2020,18:40,20:10,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-113,,V,כנסיית סנט ג'ורג' בלוד,"Church of Saint George, Lod",كنيسة القديس جورج اللد,"31.953169, 34.899326",26/02/2020,16:00,16:40,תיירים מיוון,Tourists from Greece,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,,FALSE
-114,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,"فندق جولدن كراون البلدة القديمة في الناصرة
-","32.7055015,35.3014112",26/02/2020,18:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-115,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,"فندق جولدن كراون البلدة القديمة في الناصرة
-","32.7055015,35.3014112",27/02/2020,00:00,08:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-116,16,V,מסעדת דליה במגדל,"Dalia Taverna restaurant, Migdal",مطعم دالية بمجدال,"32.836825, 35.509919",27/02/2020,12:30,15:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-117,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,فندق جولدن كراون البلدة القديمة في الناصرة,"32.7055015,35.3014112",27/02/2020,18:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-118,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,"فندق جولدن كراون البلدة القديمة في الناصرة
-","32.7055015,35.3014112",28/02/2020,00:00,08:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-119,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,"فندق جولدن كراون البلدة القديمة في الناصرة
-","32.7055015,35.3014112",28/02/2020,18:00,23:59,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-120,16,V,בית מלון Golden Crown Old City בנצרת,Golden Crown Old City hotel in Nazareth,"فندق جولدن كراون البلدة القديمة في الناصرة
-","32.7055015,35.3014112",29/02/2020,00:00,08:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-121,16,V,מסעדת קומראן באתר קומראן,Qumran Restaurant at Qumran site,مطعم كمران بأتار كمران,"31.7412525,35.4569593",29/02/2020,12:00,13:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-122,16,V,מלון רסטל בטבריה,"Hotel Restal, Tiberias",فندق رستال في طباريا,"32.7867555,35.5331003",04/03/2020,18:30,20:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,,FALSE
-123,,V,מסעדת ANIMAR,Restaurant ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",23/02/2020,18:30,21:30,תייר מאיטליה,Tourist from Italy,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,,FALSE
-124,,V,ארוחת בוקר במלון דן,Breakfast at Dan Hotel,وجبة الفطور في فندق دان,"32.07956, 34.767947",24/02/2020,07:00,08:00,תייר מאיטליה,Tourist from Italy,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,,FALSE
-125,,V,הארבעה 21 קומה 16,"#12 HaArba'a Street, 16th floor",هاربعا 21 طابق 16,"32.070427, 34.786908",24/02/2020,08:15,14:00,תייר מאיטליה,Tourist from Italy,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,,FALSE
-126,,V,מסעדת ANIMAR,Restaurant ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",24/02/2020,22:00,23:59,תייר מאיטליה,Tourist from Italy,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,,FALSE
-127,,V,מסעדת ANIMAR,Restaurant ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",25/02/2020,00:00,02:45,תייר מאיטליה,Tourist from Italy,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,,FALSE
-128,,,רכבת מתחנה מרכזית בירושלים,Train from Jerusalem Central Station,القطار من المحطة المركزية بالقدس,"31.7683536,35.178117",01/03/2020,13:30,14:00,תייר מצרפת,Tourist from France,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,,FALSE
-129,,,בית כנסת רמב״ן ברח׳ אמציה בירושלים,Ramban Synagogue on Amatsya Street in Jerusalem,كنيس رمبان في شارع امتسيا - القدس,"31.7621122,35.2132363",01/03/2020,23:00,20:00,תייר מצרפת,Tourist from France,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,,FALSE
-130,,,בית קפה ״הלל״ ברמת בית הכרם,"Café ""Hillel"" in Ramat Beit HaKarem","مقهى ""هيلل"" في رمات بيت هكيرم","31.7659831,35.1824382",02/03/2020,10:30,12:00,תייר מצרפת,Tourist from France,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,,FALSE
-131,,,רכבת מתחנה מרכזית בירושלים,Train from Jerusalem Central Station,القطار من المحطة المركزية بالقدس,"31.7683536,35.178117",02/03/2020,12:00,12:30,תייר מצרפת,Tourist from France,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,,FALSE
-132,18,,"קפה לורן ברחוב סוקולוב 53 רמה""ש","Café ""Loren"", #53 Sokolov Street, Ramat HaSharon",مقهى لورن في  53 شارع سوكولوف رمات هشرون,"32.1440607,34.8354079",28/02/2020,09:00,10:00,תייר מספרד,Tourist from Spain,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,,FALSE
-133,18,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ","Restaurant ""Fish"", #7 Prof. Beni Khabot Street, Rishon LeTsiyon",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",28/02/2020,15:00,17:00,תייר מספרד,Tourist from Spain,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,,FALSE
-134,18,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ","Restaurant ""Fish"", #7 Prof. Beni Khabot Street, Rishon LeTsiyon",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",29/02/2020,13:00,15:00,תייר מספרד,Tourist from Spain,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,,FALSE
-135,18,,"קפה לורן  רחוב סוקולוב 53 רמה""ש","Café ""Loren"", #53 Sokolov Street, Ramat HaSharon",مقهى لورن في  53 شارع سوكولوف رمات هشرون,"32.1440607,34.8354079",02/03/2020,09:00,10:00,תייר מספרד,Tourist from Spain,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,,FALSE
-136,18,,"מוקד רפואה דחופה מכבי ברחוב הנצח 3 רמה""ש","Maccabi Urgent Medical Center, #3 HaNetsakh Street, Ramat HaSharon",مركز الطبي الطارئ مكابي 3 شارع نتسح رمات هشرون,"32.1385405,34.8417452",02/03/2020,14:30,15:30,תייר מספרד,Tourist from Spain,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,,FALSE
-137,22,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"Supermarket ""Super Alonit"", gas station Dor Alon on Road 6, heading north near the Becca Exchange",محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا,"32.3910275,34.9947362",29/02/2020,10:30,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-138,22,,כרמיאל – ניחום אבלים רחוב אנקור 82.,"Carmiel - condolence visit (shiva), #82 Ankor Street",كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",29/02/2020,11:30,12:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-139,22,,כפר ירכא סופרמרקט מרקזה.,"Yirka (Yarka), supermarket ""Merkaza""",قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",29/02/2020,12:30,13:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-140,22,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG.,"Yirka (Yarka), restaurant Burger and Steak in BIG center",قرية يركا سوبر ماركت يركا مركازا,"32.955728,35.1829777",29/02/2020,13:30,14:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-141,22,,קלפי מספר 97 ברחוב קפלן 42 פתח תקווה.,"Voting booth #97, #42 Kaplan Street, Petah Tikva"," صندوق اِقتراع رقم 97, 42 شارع كابلان بتاح تكفا.","32.0818804,34.8651936",29/02/2020,19:30,19:35,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-142,22,,צ'יפ-מרקט ארלוזרוב 38 פתח תקווה.,"""Chip Market"", #38 Ham Arlozorov Street, Petah Tikva",تشيب-ماركت 38 ارلوزوروف بتاح تكفا.,"32.0854778,34.8683473",29/02/2020,20:00,20:10,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-143,22,,בית רבקה מחלקה ג' חדר 4235.,"Geriatric Medical Center Rebecca House, Department G, Room 4235",بيت رفكا الصف C غرفة رقم 4235,"32.071679,34.8906156",03/03/2020,18:00,19:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,,TRUE
-144,24,,קלפי 21 בבית ספר אבן חן בשוהם,Voting booth #21 in Even Hen school,صندوق اِقتراع 21 في مدرسة ابن حن في شوهام,"32.0020526,34.9410456",02/03/2020,20:00,20:10,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx,,FALSE
-145,24,,מרפאת קופת חולים מאוחדת בשוהם,Meuhedet clinic in Shoham,عيادة كوبات حوليم مئوحيدت في شوهام,"31.9997234,34.9453264",03/03/2020,09:45,10:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx,,FALSE
-146,25,,"סופר חצות וחצי רחוב טרכטנברג 18 ראשל""צ.","Supermarket ""Khatzot vekhetzi"", #18 Trachtenberg Street, Rishon LeTsiyon",سوبر ماركت حتسوت فحتسي 18 شارع تراختنبرغ رشون لتسيون,"31.971546, 34.802067",03/03/2020,17:40,18:15,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx,,FALSE
-147,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים","Optometrist ""Optika Yona Koren Ltd."", #16 Malkei Israel Street, Jerusalem",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",03/03/2020,09:30,14:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-148,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים","Optometrist ""Optika Yona Koren Ltd."", #16 Malkei Israel Street, Jerusalem",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",03/03/2020,17:00,19:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-149,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים","Optometrist ""Optika Yona Koren Ltd."", #16 Malkei Israel Street, Jerusalem",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",04/03/2020,09:30,14:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-150,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים","Optometrist ""Optika Yona Koren Ltd."", #16 Malkei Israel Street, Jerusalem",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",04/03/2020,17:00,19:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-151,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים","Optometrist ""Optika Yona Koren Ltd."", #16 Malkei Israel Street, Jerusalem",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",05/03/2020,09:30,14:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-152,28,,מסעדת BIGA במרכז המסחרי באריאל,Restaurant BIGA in shopping center in Ariel,مطعم BIGA في المركز التجاري في ارييل,"32.1022985,35.2070832",05/03/2020,20:00,21:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,,FALSE
-153,30,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ","Restaurant ""Fish"", #7 Prof. Beni Khabot Street, Rishon LeTsiyon",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",29/02/2020,13:00,15:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx,,FALSE
-154,30,,קלפי 193 בבית הספר רננים בקריית ראשון,"Voting booth #193, Renanim school in Kiryat Rishon",صندوق اِقتراع 193 مدرسة رنانيم كريات رشون,"31.9744662,34.784506",02/03/2020,14:00,15:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx,,FALSE
-155,31,,"חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע","Shop ""Fortuna"" in Gilat Center shopping moll, neighborhood D, Beersheba",متجر فورتونا في وسط جيلات ، الحي د ، بئر السبع,"31.2644237,34.7909894",27/02/2020,09:00,12:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx,,TRUE
-156,31,,"חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע","Shop ""Fortuna"" in Gilat Center shopping moll, neighborhood D, Beersheba","متجر فورتونا في وسط جيلات ، الحي د ، بئر السبع
-","31.2644237,34.7909894",27/02/2020,15:20,20:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx,,TRUE
-157,32,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"Supermarket ""Super Alonit"", gas station Dor Alon on Road 6, heading north near the Becca Exchange",محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا,"32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,,TRUE
-158,32,,כרמיאל – ניחום אבלים רחוב אנקור 82.,"Carmiel - condolence visit (shiva), #82 Ankor Street",كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,,TRUE
-159,32,,כפר ירכא סופרמרקט מרקזה,"Yirka (Yarka), supermarket ""Merkaza""",قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,,TRUE
-160,32,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,"Yirka (Yarka), restaurant Burger and Steak in BIG center",قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,,TRUE
-161,32,,קלפי מספר 97 ברחוב קפלן 42 פתח תקווה,"Voting booth #97, #42 Kaplan Street, Petah Tikva"," صندوق اِقتراع رقم 97, 42 شارع كابلان بتاح تكفا.
-","32.0818804,34.8651936",02/03/2020,19:30,19:35,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,,TRUE
-162,33,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"Supermarket ""Super Alonit"", gas station Dor Alon on Road 6, heading north near the Becca Exchange","محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا
-","32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-163,33,,כרמיאל – ניחום אבלים רחוב אנקור 82.,"Carmiel - condolence visit (shiva), #82 Ankor Street",كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-164,33,,כפר ירכא סופרמרקט מרקזה,"Yirka (Yarka), supermarket ""Merkaza""",قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-165,33,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,"Yirka (Yarka), restaurant Burger and Steak in BIG center",قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-166,33,,"מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב","Opel licensed garage, #9 Shefa Tal Street, Tel Aviv",مرآب أوبال المرخص ، 9 شارع شفا تل أبيب,"32.0719564,34.7910422,19",03/03/2020,14:50,15:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-167,33,,"חברת ""בקהוף ישראל"" רחוב הנגב 1, בית גולן, קריית שדה התעופה.","Beckhoff Israel company, #1 Negev Street, Golan House, Airport City","شركة ""بكهوف اِسرائيل "" 1 شارع هنجف بيت جولان , كريات شده هتعوفاه","31.9879987,34.9128609",04/03/2020,14:00,14:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-168,33,,מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.,Heart surgery clinic in outpatient clinics of Beilinson Hospital,"عيادة لجراحة القلب في العيادات الخارجية لمستشفى بيلينسون
-","32.0897602,34.8643227",05/03/2020,10:50,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,,FALSE
-169,34,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"Supermarket ""Super Alonit"", gas station Dor Alon on Road 6, heading north near the Becca Exchange","محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا
-","32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-170,34,,כרמיאל – ניחום אבלים רחוב אנקור 82.,"Carmiel - condolence visit (shiva), #82 Ankor Street",كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-171,34,,כפר ירכא סופרמרקט מרקזה,"Yirka (Yarka), supermarket ""Merkaza""",قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-172,34,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,"Yirka (Yarka), restaurant Burger and Steak in BIG center",قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-173,34,,"מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב","Opel licensed garage, #9 Shefa Tal Street, Tel Aviv",مرآب أوبال المرخص ، 9 شارع شفا تل أبيب,"32.0719564,34.7910422,19",03/03/2020,14:50,15:30,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-174,34,,מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.,Heart surgery clinic in outpatient clinics of Beilinson Hospital,عيادة لجراحة القلب في العيادات الخارجية لمستشفى بيلينسون,"32.0897602,34.8643227",05/03/2020,10:50,11:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,,FALSE
-175,36,, מסעדת ג'פניקה ברחוב צבי תדמור 12 בחולון,"Restaurant Japanika, #12 Tzvi Tadmor, Holon",مطعم جابانيكا 12 شارع تسفي تدمور حلون,"32.0137975,34.7750173",07/03/2020,13:00,14:00,,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_10.aspx,,TRUE
-176,,,בית לחם,Bethlehem,بيت لحم,"31.707352, 35.202314",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","Ministry of Health instructs anyone who has been in Bethlehem, Beit Jala and Beit Sahour in the past 14 days to self-quarantine (isolation)","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
-",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,,FALSE
-177,,,בית ג'אלה,Beit Jala,بيت جالا,"31.717896, 35.187406",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","Ministry of Health instructs anyone who has been in Bethlehem, Beit Jala and Beit Sahour in the past 14 days to self-quarantine (isolation)","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
-",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,,FALSE
-178,,,בית סחור,Beit Sahour,بيت سحور,"31.699806, 35.228015",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","Ministry of Health instructs anyone who has been in Bethlehem, Beit Jala and Beit Sahour in the past 14 days to self-quarantine (isolation)","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
-",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,,FALSE
-179,29,,"בית כנסת חב""ד בישוב ענב.",Chabad Synagogue in Einav settlement,كنيس حباد في مسطوطنة آناف,"32.2841992,35.1242567",28/02/2020,17:00,18:30,,,,090320,,,FALSE
-180,29,,"בית כנסת חב""ד בישוב ענב.",Chabad Synagogue in Einav settlement,كنيس حباد في مسطوطنة آناف,"32.2841992,35.1242567",29/02/2020,10:30,12:30,,,,090320,,,FALSE
-181,29,,סופר אושר עד בפתח תקווה.,"Supermarket ""Osher Ad"" in Petah Tikva",سوبر ماركت أوشر عاد بيتح تكفا,"32.0960948,34.8760841",01/03/2020,17:00,18:30,,,,090320,,,FALSE
-182,29,,הקניון הגדול בפתח תקווה,Ofer Grand Mall Petah Tikva,المجمع التجاري الكبير بيتح تكفا,"32.0933026,34.8631594",01/03/2020,19:30,21:00,,,,090320,,,FALSE
-183,29,,קלפי במועדון בישוב ענב,Voting booth in Einav settlement,صندوق اِقتراع النادي في مستوطنة آناف,"32.2841992,35.1242567",02/03/2020,17:00,17:30,,,,090320,,,FALSE
-184,29,,"בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש","Neve Ora Nursing Home, Argaman Street, Jerusalem (department of the mentally frail)",بيت عجزة نفيى أورة شارع أرجمان القدس قسم الصحة النفسية,"31.7929547,35.2049517",03/03/2020,11:00,12:30,,,,090320,,,FALSE
-185,29,,קניון רב שפע ברחוב שמגר בירושלים,"Rav Shefa Mall, Shamgar Street, Jerusalem",مجمع تجاري رف شفع شارع شمجار في القدس,"31.7947395,35.2063201",03/03/2020,12:30,13:30,,,,090320,,,FALSE
-186,29,,עזרת גברים בית הכנסת חסידים בטלז סטון,"Ezrat Gvarim, Chassidim Synagogue, Telz-Stone",قسم الرجال-  كنيس حسيدي في تليز ستون,"31.8026338,35.097737",07/03/2020,09:30,10:00,,,,090320,,,FALSE
-187,29,,מוקד רפואי באלעד ברחוב רבי עקיבא.,"Elad Medical Center, Rabbi Akiva Street",مركز العاد الطبي في شارع الحاخام عكيفا,"32.0479885,34.9554965",07/03/2020,19:30,20:00,,,,090320,,,FALSE
-188,30,,מכון MRI באסף הרופא,"MRI institute, Yitzhak Shamir Medical Center (Assaf Harofeh Medical Center)",معهد عساف هروفيه للMRI ,"31.9660531,34.837229",01/03/2020,20:00,21:45,,,,090320,,,FALSE
-189,30,,"מספרה יורם בן עמי שער ראשל""צ.","Hairdresser Yoram Ben-Ami shoping mall ""Shaar"" Rishon LeTsiyon",مصففة بن عمي يورم رشون لتسيون,"31.967552,34.783082",03/03/2020,09:30,13:00,,,,090320,,,FALSE
-190,42,,"אולמי ""מפלים"" בראשון לציון","Event venue ""Maplim - Waterfalls"", Rishon LeTsiyon","قاعات ""مفليم"" في رشون لتسون","31.9924642,34.7718725",03/03/2020,21:00,23:00,,,,090320,,,TRUE
-191,42,,מלון דיויד אינטרקונטיננטל,Hotel David InterContinental,"فندق ديفيد إنتركونتيننتال
-","32.0654141,34.7616304",04/03/2020,06:00,16:00,,,,090320,,,TRUE
-192,42,,"סופרמרקט ""שימורי איכות"" המכתש 6 חולון","Supermarket ""Shimur Eichut"", HaMakthesh Street, Holon","سوبر ماكت ""شيمور اِخوت""  6 شارع همختاش حلون","32.0262588,34.7798957",04/03/2020,16:30,17:30,,,,090320,,,TRUE
-193,50,,תיאטרון הצפון בקרית חיים,"North Theatre, Kiryat Haim",,"32.822905, 35.073901",04/03/2020,17:30,18:00,,,,090320,,,TRUE
-194,45,,קלפי בבית הספר מקור חיים שברחוב פייר קניג,,,"31.7553902,35.2129616",02/03/2020,08:00,08:10,,,,100320,,,FALSE
-195,45,,אושר עד בקניון הדר רחוב פייר קניג 26 ירושלים,,,"31.7539123,35.2127524",02/03/2020,10:00,11:00,,,,100320,,,FALSE
-196,45,,מסעדת עזרא גריל בשרים יד החורצים 14 ירושלים,,,"31.7528328,35.2152969",02/03/2020,18:30,19:45,,,,100320,,,FALSE
-197,45,,רמי לוי קניון רב חן בתלפיות ירושלים,,,"31.7517516,35.2098816",04/03/2020,15:00,16:00,,,,100320,,,FALSE
-198,45,,"בית כנסת ""אוהבי ציון"" רחוב מקור חיים בירושלים",,,"31.756894,35.2133994",07/03/2020,10:00,10:45,,,,100320,,,FALSE
-199,42,,עמדת קפה בבית הספר האמריקאי ברח' השומרון 65 באבן יהודה,,,"32.2645605,34.8765136",03/03/2020,11:00,17:30,,,,100320,,,TRUE
-200,50,,תיאטרון הצפון בקרית חיים,,,"32.8218955,35.0740516",04/03/2020,17:30,18:00,,,,100320,,,TRUE
-201,47,,"קניון רננים, רעננה. ביקרה בכל החנויות ואכלה בסושייה",,,"32.1974472,34.8780966",02/03/2020,12:00,15:00,,,,100320,,,FALSE
-202,47,,"מקס-סטוק בכפר סבא, רחוב עתיר ידע 2",,,"32.1672842,34.9263582",02/03/2020,16:00,17:00,,,,100320,,,FALSE
-203,47,,"בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש.",,,"31.7929547,35.2049517",03/03/2020,11:00,12:30,,,,100320,,,FALSE
-204,47,,"קניון רב שפע ברחוב שמגר בירושלים, בקומה האחרונה, בשתי חנויות: אביזרים לפורים וחנות לבייגלה",,,"31.7947395,35.2063201",03/03/2020,12:20,13:30,,,,100320,,,FALSE
-205,47,,"בר מצווה אולם אירועים ""אפ טאון"" הרכבת 4, פתח תקווה.",,,"32.1089879,34.8878513",05/03/2020,20:30,21:00,,,,100320,,,FALSE
-206,47,,"מועדון למבוגרים בישוב ענב, מסיבת פורים.",,,"32.2841992,35.1242567",05/03/2020,22:00,22:15,,,,100320,,,FALSE
-207,47,,סופרמרקט חינם פלוס צומת תנובות.,,,"32.3125987,34.9596066",08/03/2020,14:30,15:30,,,,100320,,,FALSE
-208,47,,"בית חולים בילינסון, מעבר דרך מיון לחדר בידוד לביקור חולה מספר 29",,,"32.0897602,34.8643227",08/03/2020,19:00,20:00,,,,100320,,,FALSE
-209,48,,"בית כנסת חב""ד בישוב ענב",,,"32.2841992,35.1242567",28/02/2020,17:00,18:30,,,,100320,,,FALSE
-210,48,,"בית כנסת חב""ד בישוב ענב",,,"32.2841992,35.1242567",29/02/2020,12:00,12:30,,,,100320,,,FALSE
-211,48,,קלפי במועדון בישוב ענב,,,"32.2841992,35.1242567",02/03/2020,17:00,17:30,,,,100320,,,FALSE
-212,48,,"לימודים מכללת ""מבחר"" בני ברק, כיתה 101 ",,,"32.0930115,34.8210871",03/03/2020,17:30,21:30,,,,100320,,,FALSE
-213,48,,"מכון כושר מיי פרופיט, בקניון קריית אונו קומה 1.",,,"32.0555787,34.8619976",05/03/2020,15:15,16:30,,,,100320,,,FALSE
-214,48,,"לימודים מכללת ""מבחר"" בני ברק, כיתה 101.",,,"32.0930115,34.8210871",05/03/2020,17:30,21:30,,,,100320,,,FALSE
-215,48,,בית כנסת חסידים בטלזסטון.,,,"31.783092,35.1249245",06/03/2020,18:00,18:30,,,,100320,,,FALSE
-216,48,,בית כנסת בית ההחלמה בטלזסטון.,,,"31.7767177,35.2169989",07/03/2020,10:00,11:30,,,,100320,,,FALSE
-217,קבוצה מגרמניה,,הרודיון,,,"31.665718,35.2395283",03/03/2020,11:00,13:30,,,,100320,,,FALSE
-218,קבוצה מגרמניה,,"כנסיית המולד, בית לחם",,,"31.7043034,35.2053401",03/03/2020,15:00,16:30,,,,100320,,,FALSE
-219,קבוצה מגרמניה,,"מנהרות הכותל, עיר דוד",,,"31.7767189,35.2323198",04/03/2020,09:45,11:45,,,,100320,,,FALSE
-220,קבוצה מגרמניה,,"מסעדה גן מוריסטן, עיר העתיקה, ירושלים",,,"31.7774769,35.2281299",04/03/2020,12:30,13:15,,,,100320,,,FALSE
-221,קבוצה מגרמניה,,כנסיית דורמיציון וחדר הסעודה האחרונה,,,"31.7717797,35.2271781",04/03/2020,17:00,17:30,,,,100320,,,FALSE
-222,קבוצה מגרמניה,,אתר תפילה בקאסר אל יהוד,,,"31.8304502,35.4549941",05/03/2020,11:30,13:30,,,,100320,,,FALSE
-223,קבוצה מגרמניה,,"מצדה, כולל רכבל",,,"31.3138062,35.3655923",06/03/2020,09:00,13:00,,,,100320,,,FALSE
-224,קבוצה מגרמניה,,"סופרמרקט הורדוס, ים המלח",,,"31.1712698,35.3656505",06/03/2020,17:30,18:00,,,,100320,,,FALSE
-225,40,,"קלפי שהוצבה בבית הספר ""בית הילד"" ברחוב אהבת ציון, תל אביב",,,"32.0720017,34.7675983",02/03/2020,14:00,15:00,,,,100320,,,TRUE
-226,40,,"מסעדת ""גוטה"" ברחוב הנחושת 3 ברמת החייל בתל אביב",,,"32.1094996,34.8373739",03/03/2020,14:00,15:00,,,,100320,,,TRUE
-227,40,,"בית קפה ""לנדבר"" ברחוב הנחושת 3 ברמת החייל בתל אביב",,,"32.1099275,34.837181",04/03/2020,14:30,16:00,,,,100320,,,TRUE
-228,40,,"בית קפה ""בוקה"" ברחוב יהודה המכבי 40 בתל אביב",,,"32.0938351,34.7911753",05/03/2020,10:00,11:00,,,,100320,,,TRUE
-229,51,,אלונית כביש 6 דרום,,,"32.1316734,34.8084998",27/02/2020,12:30,13:00,,,,100320,,,TRUE
-230,51,,חנות איקאה באר שבע,,,"31.2244302,34.8202529",29/02/2020,18:00,21:00,,,,100320,,,TRUE
-231,51,,"סניף בריאותא, מרכז ביג- באר שבע ",,,"31.2426376,34.8086633",05/03/2020,22:00,23:30,,,,100320,,,TRUE
-232,52,V,"קו 176 מרחוב בר אילן פינת רחוב ירמיהו ירושלים עד לתחנת דרך צמח השדה – השקמה, מעלה אדומים",,,"31.793745, 35.215224",05/03/2020,19:30,20:30,,,,100320,https://t.me/MOHreport/2886?embed=1,,FALSE
-233,52,V,"בית הכנסת ""שיח השדה"" ברחוב הצפצפה מעלה אדומים",,,"31.768272, 35.300901",06/03/2020,06:15,07:00,,,,100320,https://t.me/MOHreport/2886?embed=1,,FALSE
-234,52,V,סופר יינות ביתן רחוב צמח השדה 29 מעלה אדומים,,,"31.767439, 35.301492",06/03/2020,07:15,08:00,,,,100320,https://t.me/MOHreport/2886?embed=1,,FALSE
-235,52,V,"בית הכנסת ""שיח השדה"" ברחוב הצפצפה מעלה אדומים",,,"31.768272, 35.300901",07/03/2020,08:00,10:00,,,,100320,https://t.me/MOHreport/2886?embed=1,,FALSE
-236,52,V,"בית כנסת ""אהבת ישראל"" רחוב דקל 1 מעלה אדומים",,,"31.777074, 35.304477",07/03/2020,16:30,17:00,,,,100320,https://t.me/MOHreport/2886?embed=1,,FALSE
-237,57,V,"בית כנסת חב""ד בישוב ענב",,,"32.2841992,35.1242567",29/02/2020,00:00,23:59,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-238,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,,"31.893331, 34.821537",01/03/2020,18:00,18:20,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-239,57,V,"סופרמרקט ""ברכול"" זכריה מדר פינת כובשי חרמון, רחובות",,,"31.888133, 34.819082",01/03/2020,18:20,19:10,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-240,57,V,חנות Ksp מתחם בילו אין,,,"31.864974, 34.814176",02/03/2020,11:55,12:15,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-241,57,V,"קלפי נגישה, בית ספר בן צבי, רחובות",,,"31.889146, 34.808668",02/03/2020,19:25,19:40,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-242,57,V,"מעון חניכי הישיבות רחוב מנוחה ונחלה, רחובות",,,"31.893816, 34.816782",04/03/2020,08:00,08:35,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-243,57,V,"קופת חולים לאומית, טוכמן יעקב 17, קריית משה, רחובות",,,"31.888889, 34.786687",04/03/2020,09:00,09:20,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-244,57,V,"קופת חולים לאומית רחוב בילו 2, קניון רחובות",,,"31.893931, 34.807127",04/03/2020,09:40,10:50,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-245,57,V,"דף רם-עזרה 10, רחובות",,,"31.891251, 34.813638",04/03/2020,15:55,16:10,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-246,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,,"31.893331, 34.821537",06/03/2020,10:00,10:15,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-247,57,V,"סופרמרקט ""סופר טוב ומיטב"" רחוב יוסף ויינר 2, רחובות",,,"31.892086, 34.820554",06/03/2020,14:00,14:05,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-248,57,V,"סופרמרקט ""סופר טוב ומיטב"" רחוב יוסף ויינר 2, רחובות",,,"31.892086, 34.820554",06/03/2020,15:45,16:00,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-249,57,V,"בית כנסת בית מנחם צעירים, רחוב זכריה מאדר 28, רחובות",,,"31.888989, 34.820181",07/03/2020,10:00,12:00,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-250,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,,"31.893331, 34.821537",08/03/2020,08:45,08:55,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-251,57,V,"קופת חולים לאומית, רחוב בילו 2, קניון רחובות",,,"31.893931, 34.807127",09/03/2020,09:05,09:40,,,,100320,https://t.me/MOHreport/2891?embed=1,,FALSE
-252,61,V,"סופר ""רמי לוי שיווק השקמה"" בשער בנימין",,,"31.865605, 35.260579",04/03/2020,17:40,18:50,,,,100320,https://t.me/MOHreport/2903?embed=1,,TRUE
-253,61,V,"""רום אופטיק"" פסגת זאב, רח' משה דיין",,,"31.821120, 35.239810",06/03/2020,12:00,12:10,,,,100320,https://t.me/MOHreport/2903?embed=1,,TRUE
-254,61,V,"מכלת ""מעיין 2000"" פסגת זאב, רח' משה דיין",,,"31.821355, 35.239619",06/03/2020,12:10,12:15,,,,100320,https://t.me/MOHreport/2903?embed=1,,TRUE
-255,61,V,"חנות דליקטס ""קשטן"" פסגת זאב, רח' הששה עשר פינת משה דיין",,,"31.827516, 35.240695",06/03/2020,12:20,12:30,,,,100320,https://t.me/MOHreport/2903?embed=1,,TRUE
-256,62,V,"סופר מרקט קינג סטור, כרמיאל",,,"32.925567, 35.312709",02/03/2020,10:00,12:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-257,62,V,קלפי בישוב יובלים,,,"32.878783, 35.269431",02/03/2020,12:00,12:30,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-258,62,V,מסעדה איטלקית ויוינו בכרמיאל,,,"32.921531, 35.307366",02/03/2020,13:45,16:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-259,62,V,"במתקן מועדון כפרי משגב, חדר טיפולים ליד חדר כושר",,,"32.860184, 35.259771",03/03/2020,11:30,12:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-260,62,V,פיצריית הפיצה המטיילת בישוב רקפת,,,"32.858579, 35.262537",03/03/2020,14:30,14:45,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-261,62,V,"פאב דיוק, שד' מוריה בחיפה",,,"32.789626, 34.986865",03/03/2020,20:00,22:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-262,62,V,"חדר כושר, סאונה וג'אקוזי במתקן מועדון כפרי משגב",,,"32.860184, 35.259771",04/03/2020,11:00,13:30,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-263,62,V,מסעדת תבל במתקן מועדון כפרי משגב,,,"32.860450, 35.259553",04/03/2020,13:30,14:20,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-264,62,V,הבריכה של מועדון כפרי משגב (המתנה בלבד ),,,"32.860184, 35.259771",04/03/2020,14:45,15:15,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-265,62,V,מקדונלדס במדרחוב כרמיאל,,,"32.908691, 35.293440",04/03/2020,15:30,16:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-266,62,V,שגרירות אמריקאית ברח' הירקון בתל אביב,,,"32.076817, 34.766701",05/03/2020,10:30,12:30,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-267,62,V,"חנות ירקות ""פרי וירק"" כביש ראשי תמרה",,,"32.852572,35.2008133",05/03/2020,13:30,14:00,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-268,62,V,פיצריית הפיצה המטיילת בישוב רקפת,,,"32.858579, 35.262537",05/03/2020,14:30,14:45,,,,100320,https://t.me/MOHreport/2904?embed=1,,TRUE
-269,71,,מלון קראון פלאזה אילת,,,"29.554469, 34.960961",24/02/2020,00:00,23:59,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-270,71,,מלון קראון פלאזה אילת,,,"29.554469, 34.960961",25/02/2020,00:00,23:59,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-271,71,,מלון קראון פלאזה אילת,,,"29.554469, 34.960961",26/02/2020,00:00,23:59,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-272,71,,"מלון קלאב הוטל אילת, ארוחת ערב והופעה במסגרת כנס יד לבנים",,,"29.549485, 34.952198",24/02/2020,00:00,23:59,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-273,71,,"מלון קלאב הוטל אילת, ארוחת ערב והופעה במסגרת כנס יד לבנים",,,"29.549485, 34.952198",25/02/2020,00:00,23:59,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-274,71,,מכון סקר רפואי שיבא תל השומר,,,"32.046814, 34.842855",01/03/2020,08:00,11:00,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-275,71,,"הצביע בבית ספר יסודי כוכב יאיר, קלפי מס' 1",,,"32.223770, 34.999597",02/03/2020,12:00,13:00,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-276,71,,"מכון ""משו""ב"" קניון שרונה כפר סבא",,,"32.173544, 34.892409",05/03/2020,08:00,10:00,,,,110320,https://t.me/MOHreport/2915?embed=1,,
-277,74,V,"בר ""בית אריאלה"", ברחוב הרכבת 2 בתל אביב",,,"32.062721, 34.775164",02/03/2020,18:00,21:00,,,,110320,https://t.me/MOHreport/2928?embed=1,,
-278,74,V,"בית קפה בשם ""מיכאלאנג'ו"", ברחוב בן תרדון 2 ביפו",,,"32.052284, 34.758677",03/03/2020,10:30,12:30,,,,110320,https://t.me/MOHreport/2928?embed=1,,
-279,77,V,"קלפי מס' 9 בבית הספר התורני ""רמות"" רחוב הקרן 10, מעלה אדומים",,,"31.779020, 35.295931",02/03/2020,17:00,18:00,,,,110320,https://t.me/MOHreport/2933?embed=1,,
-280,77,V,בית מרקחת סופרפארם בקניון מעלה אדומים,,,"31.771485, 35.298437",03/03/2020,12:00,12:30,,,,110320,https://t.me/MOHreport/2933?embed=1,,
-281,77,V,שופרסל דיל קניון מעלה אדומים,,,"31.771887, 35.298081",04/03/2020,12:00,13:00,,,,110320,https://t.me/MOHreport/2933?embed=1,,
-282,77,V,אייס קנה ובנה בקניון מעלה אדומים (ACE),,,"31.771954, 35.298265",04/03/2020,13:15,13:45,,,,110320,https://t.me/MOHreport/2933?embed=1,,
+ID,patient_number,Checked,label,label arabic,position,date,start time,end time,description,description arabic,pub_date,link,link_updates
+1,,V,מלון מגדל דוד,فندق برج داود,"32.331940, 34.851522",08/02/2020,20:20,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+2,,V,מלון מגדל דוד,فندق برج داود,"32.331940, 34.851522",09/02/2020,00:00,09:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+3,,V,גן לאומי קיסריה,الحديقة الوطنية قيساريا,"32.501199, 34.892315",09/02/2020,07:00,09:11,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+4,,V,מלון גבריאל,فندق جابريل,"32.708649, 35.297008",09/02/2020,11:00,15:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+5,,V,כנסיית הבשורה,كنيسة البشارة,"32.702367, 35.297376",09/02/2020,12:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+6,,V,כניסת המשפחה הקדושה,كنيسة العائلة المقدسة,"32.705169, 35.310839",09/02/2020,12:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+7,,V,עין גב כפר הנופש,منتجع عين جيف,"32.771856, 35.638675",09/02/2020,18:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+8,,V,עין גב כפר הנופש,منتجع عين جيف,"32.771856, 35.638675",10/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+9,,V,כנסיית הבכורה של פטרוס,كنيسة القديس بطرس الأولى التابغة,"32.871999, 35.550409",10/02/2020,07:00,15:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+10,,V,מסעדת תנורין,مطعم تنورين,"32.843234, 35.509560",10/02/2020,12:00,16:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+11,,V,כפר נחום,كفرناحوم,"32.882419, 35.573693",10/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+12,,V,כנרת - שייט בספינה,بحر الجليل - سفينة سياحية,"32.867782, 35.525478",10/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+13,,V,עין גב כפר הנופש,منتجع عين جيف,"32.767652, 35.639340",10/02/2020,20:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+14,,V,עין גב כפר הנופש,منتجع عين جيف,"32.767652, 35.639340",11/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+15,,V,שכם,نابلس,"32.226773, 35.262270",11/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+16,,V,יריחו,أريحا,"31.865153, 35.462018",11/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+17,,V,מלון דוד ים המלח,منتجع داود البحر الميت,"31.202813, 35.361363",11/02/2020,00:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+18,,V,מלון דוד ים המלח,منتجع داود البحر الميت,"31.202813, 35.361363",12/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+19,,V,מצדה,مسعدة,"31.312016, 35.363052",12/02/2020,06:00,14:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+20,,V,פארק תמנע,بارك تمناع,"29.788320, 35.003072",12/02/2020,08:00,14:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+21,,V,מלון לאונרדו נגב,فندق ليوناردو نجيف,"31.247751, 34.801126",12/02/2020,00:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+22,,V,מלון לאונרדו נגב,فندق ليوناردو نجيف,"31.247751, 34.801126",13/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+23,,V,הפארק הלאומי בבאר שבע,"منتزه بئر السبع الوطني
+","31.246155, 34.841115",13/02/2020,08:00,09:30,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+24,,V,כנסיית המולד,كنيسة المهد,"31.704532, 35.207497",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+25,,V,כנסיית שדה הרועים,كنيسة حقل الرعاة,"31.707613, 35.230017",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+26,,V,כנסיית סנט קטרינה,كنيسة القديسة كتارينا,"31.7046176,35.2077341",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+27,,V,מערת סנט ג'רום (בתוך כנסיית המולד),كهف القديس چيروم (تحت كنيسة المهد),"31.704532, 35.207497",13/02/2020,10:30,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+28,,V,מלון גרנד קורט,"فندق الجراند كورت
+","31.789627, 35.227216",13/02/2020,20:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+29,,V,מלון גרנד קורט,"فندق الجراند كورت
+","31.789627, 35.227216",14/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+30,,V,ביקור בהר הזיתים,زيارة اِلى جبل الزيتون,"31.778733, 35.245956",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+31,,V,כנסיית העלייה,كنيسة الصعود,"31.779216, 35.245031",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+32,,V,בית פגי (כנסייה),كنيسة بيت فاجي,"31.777475, 35.250745",14/02/2020,10:00,14:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+33,,V,מסעדת שנגחאי,مطعم شانجهاي,"31.732126, 35.203915",14/02/2020,12:00,15:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+34,,V,כנסיית פאטר נוסטר (אבינו שבשמיים),كنيسة أبانا الذي,"31.778342, 35.245179",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+35,,V,כנסיית גת שמנים,كنيسة الجسمانية,"31.779465, 35.239791",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+36,,V,הר ציון,جبل صهيون,"31.771154, 35.228458",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+37,,V,חדר הסעודה האחרונה,غرفة العشاء الأخير,"31.772035, 35.229292",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+38,,V,קבר מרים,قبر العذراء مريم,"31.780349, 35.239406",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+39,,V,כנסיית פטרוס אין גליקנטו,كنيسة صياح الديك,"31.771525, 35.232122",14/02/2020,13:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+40,,V,מלון גרנט קורט,"فندق الجراند كورت
+","31.789627, 35.227205",14/02/2020,18:00,23:59,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+41,,V,מלון גרנט קורט,"فندق الجراند كورت
+","31.789627, 35.227205",15/02/2020,00:00,10:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+42,,V,עין כרם,عين كارم,"31.767587, 35.162287",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+43,,V,כנסיית יוחנן המטביל,"كنيسة القديس يوحنا المعمدان
+","31.777309, 35.229695",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+44,,V,כנסיית הביקור,كنيسة الزيارة,"31.764796, 35.157940",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+45,,V,כנסית אן הקדושה,كنيسة القديسة آنا,"31.781189, 35.236084",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+46,,V,מסעדת גולד ליד מלון אמבסדור במזרח ירושלים,مطعم جولد ليد - فندق الأمبسادور القدس,"31.789989, 35.202244",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+47,,V,בריכות הצאן (מוזיאון ארכיאולוגי בירושלים),برك بيت حسدا (المتحف الأركيولوجي في القدس),"31.768593, 35.213742",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+48,,V,כנסיית הקבר הקדוש,كنيسة القبر المقدس,"31.778682, 35.229665",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+49,,V,מלון גרנט קורט,فندق الجراند كورت,"31.789627, 35.227205",15/02/2020,10:00,20:00,9 תיירים מדרום קוריאה,9 سائحين من كوريا الجنوبية,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx,
+50,,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",23/02/2020,18:00,22:00,מקום ביקור של הישראלי ששב מאיטליה,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,
+51,,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,08:30,23:59,מקום ביקור של הישראלי ששב מאיטליה,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,
+52,,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,08:30,23:59,מקום ביקור של הישראלי ששב מאיטליה,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,
+53,,V,בית כנסת אירוס,كنيس أيروس,"31.9306892,34.7765856",24/02/2020,06:00,07:00,מקום ביקור של הישראלי ששב מאיטליה,الأماكن التي زارها الاسرائيليون بعد عودتهم من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx,
+54,6,V,ארומה בתחנת ״דלק פז״,أروما في محطة وقود باز,"32.383731, 34.866688",22/02/2020,06:30,07:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,
+55,6,V,בית הפנקייק,بيت البانكيك,"32.383850, 34.866874",22/02/2020,06:30,07:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,
+56,6,V,סעיד מלחם מוצרי חשמל באבו סנאן,سعيد ملحم لأدوات الكهرباء أبو سنان,"32.962288, 35.176676",22/02/2020,11:00,13:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,
+57,6,V,מחסני זול ספורט בקריית אתא,محسني زول سبورت في كريات آتا,"32.818203, 35.050937",22/02/2020,11:00,13:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,
+58,6,V,חומוס פרלמנט ותחנת דלק פז בנהריה,حمص بارليمنت و محطة وقود باز في نهارية,"32.990316, 35.096735",23/02/2020,11:30,12:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx,
+59,7,V,מקלות וניל בעפולה,مكلوت فانيل في العفولة,"32.603578, 35.296038
+",25/02/2020,11:22,11:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,
+60,7,V,חדר כושר אתנה במגדל העמק,صالة أثينا الرياضية في مجدال هعيمق,"32.687929, 35.246797",25/02/2020,18:00,20:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,
+61,7,V,בנק דיסקונט במגדל העמק,بنك ديسكاونت في مقدال هعيمك,"32.676933, 35.239217",27/02/2020,08:30,09:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,
+62,7,V,מסעדת אחוזה בעפולה,مطعم أحوزا في العفولة,"32.599948, 35.295150",27/02/2020,14:00,15:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx,
+63,7,V,שופרסל אזור תעשייה מגדל העמק,سوفرسال المنطقة الصناعية مجدل هعيمق,"32.666738, 35.239837",27/02/2020,17:00,18:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx,
+64,10,V,מתפרה בקומה התחתונה של קניון אור יהודה,محل خياطة في الطابق السفلي من المجمع التجاري يهودا,"32.025683, 34.858086",25/02/2020,12:00,12:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,
+65,10,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,13:00,22:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,
+66,10,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,12:30,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,
+67,10,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,00:00,00:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,
+68,10,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,15:00,21:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx,
+69,12,V,שוק הים באשדוד,سوق اليوم أشدود,"31.796529, 34.629749",26/02/2020,11:00,13:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx,
+70,11,V,מכון גו-אקטיב מרום נווה ברמת גן,صالة جو أكتيف الرياضية في مروم نافيه - رمات جان,"32.0714043,34.8281033",27/02/2020,10:20,13:00,השתתפה בשיעור פלנדקרייז שהחל בשעה 10:20 ובשיעור התעמלות שהתקיים בין 12:00-12:45,حضرت حصة فلندكراز التي اِبندأت من الساعة 10:20و حصة رياضة من الساعة 12:00-12:45,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx,
+71,11,V,פרשמרקט במתחם מרום נווה,سوبر ماركت في مجمع مروم نافيه,"32.0714604,34.8279486",27/02/2020,13:10,13:45,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx,
+72,13,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",23/02/2020,16:30,21:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+73,13,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",24/02/2020,16:30,21:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+74,13,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",25/02/2020,16:30,21:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+75,13,V,הפיראט האדום,محل القرصان الأحمر (بيرات هادوم),"32.0228009, 34.861666",26/02/2020,16:30,21:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+76,13,V,ביה״ס איזורי ברנר,مدرسة برينر الإقليمية,"31.869072, 34.806136",24/02/2020,00:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+77,13,V,ביה״ס איזורי ברנר,"مدرسة برينر الإقليمية
+","31.869072, 34.806136",25/02/2020,00:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+78,13,V,ביה״ס איזורי ברנר,"مدرسة برينر الإقليمية
+","31.869072, 34.806136",26/02/2020,00:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx,
+79,13,V,אצטדיון בלומפילד - שער 8,استاد بلومفيلد - بوابة 8,"32.051678, 34.761865",24/02/2020,20:00,22:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx,
+80,14,V,ביה״ס אביגדור ורשה,مدرسة افيغدور فارسا,"32.052998, 34.855811",26/02/2020,07:00,13:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,
+81,14,V,אולם ספורט ליד ספריה עירונית גני תקווה,القاعة الرياضية بجانب مكتبة البلدية جاني تكفا,"32.063762, 34.872818",26/02/2020,17:15,18:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,
+82,14,V,"חתונה ב""הרמוניה בגן"" (האולם מימין לכניסה) בצומת כנות","حفل زفاف في ""هرمونا بجان"" (القاعة بيمين المدخل) في تقاطع الصدق","31.804431, 34.761447",26/02/2020,19:30,22:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,
+83,14,V,קניון קריית אונו,المجمع التجاري في كريات اونو,"32.055449, 34.863602",27/02/2020,18:00,20:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,
+84,14,V,ביה״ס אביגדור ורשה,مدرسة افيغدور فارسا,"32.052998, 34.855811",28/02/2020,07:30,12:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx,
+85,,V,קפה רימון ממילה,مقهى ريمون ماميلا,"31.777409, 35.224419",23/02/2020,21:30,23:30,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+86,,V,זארה,زارا,"31.777634, 35.223710",23/02/2020,21:30,23:30,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+87,,V,קפה רימון בן יהודה,مقهى ريمون بن يهودى,"31.782049, 35.218575",24/02/2020,13:00,15:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+88,,V,אושר עד בקניון הדר,أوشر عاد في المجمع التجاري هدر,"31.753473, 35.212979",24/02/2020,17:00,19:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+89,,V,Kitchen Station מתחם התחנה,كتشن ستيشون المحطة القديمة,"31.768215, 35.224438",25/02/2020,14:00,15:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+90,,V,בנק מזרחי טפחות הלני המלכה 9,بنك مزراحي تفاحوت 9 شارع الملكة هليني,"31.782627, 35.222703",26/02/2020,09:00,10:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+91,,V,FOX HOME,فوكس هوم,"31.753794, 35.213153",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+92,,V,אושר עד,عوشر عاد,"31.753473, 35.212979",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+93,,V,צומת ספרים,تسومت سفريم,"31.753468, 35.213720",26/02/2020,11:30,14:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+94,,V,בית קפה קפית,مقهى كبيت,"31.763622, 35.219289",27/02/2020,11:00,13:00,מקום ביקור של חולה מניו יורק,مكان زيارة المريض من نيويورك,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx,
+95,,V,הר תבור מנזר ההשתנות,دير جبل طابور التجلي,"32.686474, 35.392521",20/02/2020,09:30,10:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+96,,V,כנסיית הבשורה בנצרת,كنيسة البشارة الناصرة,"32.702412, 35.297397",20/02/2020,11:00,12:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+97,,V,כנסיה יוונית האורתודוקסית בכפר כנא,الكنيسة اليونانية الأورثوذكسية قي كفر كنا,"32.747189, 35.337806",20/02/2020,12:00,14:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+98,,V,עין שבע (טבח'ה),التابغة,"32.874022, 35.549828",20/02/2020,15:00,15:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+99,,V,ירדנית,المغطس,"32.717531, 35.569652",20/02/2020,16:30,17:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+100,,V,עין בוקק – ים המלח,عين بوكيك - البحر الميت,"31.201990, 35.362779",21/02/2020,07:30,08:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+101,,V,מסעדת יוטבתה,مطعم يوتبطا,"29.894359, 35.064305",21/02/2020,10:30,11:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+102,,V,המצפה התת ימי אילת,مرصد إيلات,"29.504141, 34.919178",23/02/2020,15:30,17:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+103,,V,מסעדת יוטבתה,مطعم يوتبطا,"29.893532, 35.063005",23/02/2020,18:00,18:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+104,,V,מנזר מרסבה במדבר יהודה,دير مار سابا,"31.704859, 35.3311",24/02/2020,08:00,10:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+105,,V,קבר מרים וכנסיית כל העמים,قبر العذراء مريم وكنيسة جميع الأمم,"31.780098, 35.23935",24/02/2020,13:30,17:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+106,,V,מנזר סנט ג'ורג' (דיר מאר ג'ריס),دير القديس جورج (دير مار جريس),"31.777244, 35.228114",25/02/2020,08:00,10:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+107,,V,כנסיית אורתודוקסית של מרתא ומרים באלעיזריה,كنيسة مرتا الأورثوذكسية ,"31.780241, 35.232787",25/02/2020,10:30,11:45,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+108,,V,מנזר מרסבא,دير مار سابا,"31.716049, 35.330446",25/02/2020,12:30,14:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+109,,V,דיר אל קרנטל (מנזר קרנטל),دير القرنطل,"31.87439, 35.429958",26/02/2020,11:00,12:30,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+110,,V,כנסיית זקא,كنيسة زكا,"31.820261, 35.501139",26/02/2020,12:30,13:00,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+111,,V,דיר חג'אלה ליד גשר אלנבי,دير حجلة - بجانب جسر النبي,"31.820261, 35.501139",26/02/2020,13:10,14:20,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+112,,V,תפילה בכנסיית הקבר ירושלים,"صلاة في كنيسة القيامة القدس
+","31.778434, 35.229492",26/02/2020,18:40,20:10,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+113,,V,כנסיית סנט ג'ורג' בלוד,كنيسة القديس جورج اللد,"31.953169, 34.899326",26/02/2020,16:00,16:40,תיירים מיוון,سائحون من اليونان,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx,
+114,16,V,בית מלון Golden Crown Old City בנצרת,"فندق جولدن كراون البلدة القديمة في الناصرة
+","32.7055015,35.3014112",26/02/2020,18:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+115,16,V,בית מלון Golden Crown Old City בנצרת,"فندق جولدن كراون البلدة القديمة في الناصرة
+","32.7055015,35.3014112",27/02/2020,00:00,08:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+116,16,V,מסעדת דליה במגדל,مطعم دالية بمجدال,"32.836825, 35.509919",27/02/2020,12:30,15:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+117,16,V,בית מלון Golden Crown Old City בנצרת,فندق جولدن كراون البلدة القديمة في الناصرة,"32.7055015,35.3014112",27/02/2020,18:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+118,16,V,בית מלון Golden Crown Old City בנצרת,"فندق جولدن كراون البلدة القديمة في الناصرة
+","32.7055015,35.3014112",28/02/2020,00:00,08:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+119,16,V,בית מלון Golden Crown Old City בנצרת,"فندق جولدن كراون البلدة القديمة في الناصرة
+","32.7055015,35.3014112",28/02/2020,18:00,23:59,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+120,16,V,בית מלון Golden Crown Old City בנצרת,"فندق جولدن كراون البلدة القديمة في الناصرة
+","32.7055015,35.3014112",29/02/2020,00:00,08:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+121,16,V,מסעדת קומראן באתר קומראן,مطعم كمران بأتار كمران,"31.7412525,35.4569593",29/02/2020,12:00,13:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+122,16,V,מלון רסטל בטבריה,فندق رستال في طباريا,"32.7867555,35.5331003",04/03/2020,18:30,20:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx,
+123,,V,מסעדת ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",23/02/2020,18:30,21:30,תייר מאיטליה,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,
+124,,V,ארוחת בוקר במלון דן,وجبة الفطور في فندق دان,"32.07956, 34.767947",24/02/2020,07:00,08:00,תייר מאיטליה,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,
+125,,V,הארבעה 21 קומה 16,هاربعا 21 طابق 16,"32.070427, 34.786908",24/02/2020,08:15,14:00,תייר מאיטליה,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,
+126,,V,מסעדת ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",24/02/2020,22:00,23:59,תייר מאיטליה,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,
+127,,V,מסעדת ANIMAR,مطعم ANIMAR (أنيمار),"32.078774, 34.767687",25/02/2020,00:00,02:45,תייר מאיטליה,سائحون من اِيطاليا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx,
+128,,,רכבת מתחנה מרכזית בירושלים,القطار من المحطة المركزية بالقدس,"31.7683536,35.178117",01/03/2020,13:30,14:00,תייר מצרפת,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,
+129,,,בית כנסת רמב״ן ברח׳ אמציה בירושלים,كنيس رمبان في شارع امتسيا - القدس,"31.7621122,35.2132363",01/03/2020,23:00,20:00,תייר מצרפת,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,
+130,,,בית קפה ״הלל״ ברמת בית הכרם,"مقهى ""هيلل"" في رمات بيت هكيرم","31.7659831,35.1824382",02/03/2020,10:30,12:00,תייר מצרפת,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,
+131,,,רכבת מתחנה מרכזית בירושלים,القطار من المحطة المركزية بالقدس,"31.7683536,35.178117",02/03/2020,12:00,12:30,תייר מצרפת,سائحون من فرنسا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx,
+132,18,,"קפה לורן ברחוב סוקולוב 53 רמה""ש",مقهى لورن في  53 شارع سوكولوف رمات هشرون,"32.1440607,34.8354079",28/02/2020,09:00,10:00,תייר מספרד,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,
+133,18,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",28/02/2020,15:00,17:00,תייר מספרד,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,
+134,18,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",29/02/2020,13:00,15:00,תייר מספרד,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,
+135,18,,"קפה לורן  רחוב סוקולוב 53 רמה""ש",مقهى لورن في  53 شارع سوكولوف رمات هشرون,"32.1440607,34.8354079",02/03/2020,09:00,10:00,תייר מספרד,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,
+136,18,,"מוקד רפואה דחופה מכבי ברחוב הנצח 3 רמה""ש",مركز الطبي الطارئ مكابي 3 شارع نتسح رمات هشرون,"32.1385405,34.8417452",02/03/2020,14:30,15:30,תייר מספרד,سائحون من اِسبانيا,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx,
+137,22,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا,"32.3910275,34.9947362",29/02/2020,10:30,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+138,22,,כרמיאל – ניחום אבלים רחוב אנקור 82.,كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",29/02/2020,11:30,12:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+139,22,,כפר ירכא סופרמרקט מרקזה.,قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",29/02/2020,12:30,13:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+140,22,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG.,قرية يركا سوبر ماركت يركا مركازا,"32.955728,35.1829777",29/02/2020,13:30,14:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+141,22,,קלפי מספר 97 ברחוב קפלן 42 פתח תקווה.," صندوق اِقتراع رقم 97, 42 شارع كابلان بتاح تكفا.","32.0818804,34.8651936",29/02/2020,19:30,19:35,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+142,22,,צ'יפ-מרקט ארלוזרוב 38 פתח תקווה.,تشيب-ماركت 38 ارلوزوروف بتاح تكفا.,"32.0854778,34.8683473",29/02/2020,20:00,20:10,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+143,22,,בית רבקה מחלקה ג' חדר 4235.,بيت رفكا الصف C غرفة رقم 4235,"32.071679,34.8906156",03/03/2020,18:00,19:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx,
+144,24,,קלפי 21 בבית ספר אבן חן בשוהם,صندوق اِقتراع 21 في مدرسة ابن حن في شوهام,"32.0020526,34.9410456",02/03/2020,20:00,20:10,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx,
+145,24,,מרפאת קופת חולים מאוחדת בשוהם,عيادة كوبات حوليم مئوحيدت في شوهام,"31.9997234,34.9453264",03/03/2020,09:45,10:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx,
+146,25,,"סופר חצות וחצי רחוב טרכטנברג 18 ראשל""צ.",سوبر ماركت حتسوت فحتسي 18 شارع تراختنبرغ رشون لتسيون,"31.971546, 34.802067",03/03/2020,17:40,18:15,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx,
+147,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",03/03/2020,09:30,14:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+148,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",03/03/2020,17:00,19:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+149,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",04/03/2020,09:30,14:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+150,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",04/03/2020,17:00,19:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+151,28,,"אופטיקה יונה קורן בע""מ רחוב מלכי ישראל 16 ירושלים",بصريات يونا كورن 16 شارع الملوك القدس,"31.788888,35.216582",05/03/2020,09:30,14:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+152,28,,מסעדת BIGA במרכז המסחרי באריאל,مطعم BIGA في المركز التجاري في ارييل,"32.1022985,35.2070832",05/03/2020,20:00,21:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx,
+153,30,,"מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל""צ",مطعم فش:7 شارع أ.د.بيني خبوت ريشون لتسيون,"31.9922422,34.7474626",29/02/2020,13:00,15:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx,
+154,30,,קלפי 193 בבית הספר רננים בקריית ראשון,صندوق اِقتراع 193 مدرسة رنانيم كريات رشون,"31.9744662,34.784506",02/03/2020,14:00,15:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx,
+155,31,,"חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע",متجر فورتونا في وسط جيلات ، الحي د ، بئر السبع,"31.2644237,34.7909894",27/02/2020,09:00,12:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx,
+156,31,,"חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע","متجر فورتونا في وسط جيلات ، الحي د ، بئر السبع
+","31.2644237,34.7909894",27/02/2020,15:20,20:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx,
+157,32,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا,"32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,
+158,32,,כרמיאל – ניחום אבלים רחוב אנקור 82.,كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,
+159,32,,כפר ירכא סופרמרקט מרקזה,قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,
+160,32,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,
+161,32,,קלפי מספר 97 ברחוב קפלן 42 פתח תקווה," صندوق اِقتراع رقم 97, 42 شارع كابلان بتاح تكفا.
+","32.0818804,34.8651936",02/03/2020,19:30,19:35,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx,
+162,33,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا
+","32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+163,33,,כרמיאל – ניחום אבלים רחוב אנקור 82.,كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+164,33,,כפר ירכא סופרמרקט מרקזה,قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+165,33,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+166,33,,"מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב",مرآب أوبال المرخص ، 9 شارع شفا تل أبيب,"32.0719564,34.7910422,19",03/03/2020,14:50,15:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+167,33,,"חברת ""בקהוף ישראל"" רחוב הנגב 1, בית גולן, קריית שדה התעופה.","شركة ""بكهوف اِسرائيل "" 1 شارع هنجف بيت جولان , كريات شده هتعوفاه","31.9879987,34.9128609",04/03/2020,14:00,14:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+168,33,,מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.,"عيادة لجراحة القلب في العيادات الخارجية لمستشفى بيلينسون
+","32.0897602,34.8643227",05/03/2020,10:50,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx,
+169,34,,סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה,"محطة سوبر ألونيت للوقود دور ألون على شارع رقم 6 باِتجاه الشمال بالقرب من تقاطع بيكا
+","32.3910275,34.9947362",02/03/2020,10:30,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+170,34,,כרמיאל – ניחום אבלים רחוב אנקור 82.,كارميل بيت عزاء 82 شارع أنكور,"32.9004598,35.2927348",02/03/2020,11:30,12:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+171,34,,כפר ירכא סופרמרקט מרקזה,قرية يركا سوبر ماركت يركا مركازا,"32.9463904,35.175988",02/03/2020,15:00,16:10,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+172,34,,כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG,قرية يركا مطعم برجر وستيك في مركز BIG,"32.955728,35.1829777",02/03/2020,16:15,17:15,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+173,34,,"מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב",مرآب أوبال المرخص ، 9 شارع شفا تل أبيب,"32.0719564,34.7910422,19",03/03/2020,14:50,15:30,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+174,34,,מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.,عيادة لجراحة القلب في العيادات الخارجية لمستشفى بيلينسون,"32.0897602,34.8643227",05/03/2020,10:50,11:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx,
+175,36,, מסעדת ג'פניקה ברחוב צבי תדמור 12 בחולון,مطعم جابانيكا 12 شارع تسفي تدمور حلون,"32.0137975,34.7750173",07/03/2020,13:00,14:00,,,,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_10.aspx,
+176,,,בית לחם,بيت لحم,"31.707352, 35.202314",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
+",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,
+177,,,בית ג'אלה,بيت جالا,"31.717896, 35.187406",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
+",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,
+178,,,בית סחור,بيت سحور,"31.699806, 35.228015",08/03/2020,00:00,23:59,"משרד הבריאות מורה לכל מי שהיה ב-14 ימים האחרונים בערים בית לחם, בית ג'אלה ובית סחור - להכנס לבידוד.","تكلف وزارة الصحة أي شخص قضى آخر 14 يومًا في مدن بيت لحم وبيت جالا وبيت ساحور - بالحجر الصحي.
+",,https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx,
+179,29,,"בית כנסת חב""ד בישוב ענב.",كنيس حباد في مسطوطنة آناف,"32.2841992,35.1242567",28/02/2020,17:00,18:30,,,090320,,
+180,29,,"בית כנסת חב""ד בישוב ענב.",كنيس حباد في مسطوطنة آناف,"32.2841992,35.1242567",29/02/2020,10:30,12:30,,,090320,,
+181,29,,סופר אושר עד בפתח תקווה.,سوبر ماركت أوشر عاد بيتح تكفا,"32.0960948,34.8760841",01/03/2020,17:00,18:30,,,090320,,
+182,29,,הקניון הגדול בפתח תקווה,المجمع التجاري الكبير بيتح تكفا,"32.0933026,34.8631594",01/03/2020,19:30,21:00,,,090320,,
+183,29,,קלפי במועדון בישוב ענב,صندوق اِقتراع النادي في مستوطنة آناف,"32.2841992,35.1242567",02/03/2020,17:00,17:30,,,090320,,
+184,29,,"בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש",بيت عجزة نفيى أورة شارع أرجمان القدس قسم الصحة النفسية,"31.7929547,35.2049517",03/03/2020,11:00,12:30,,,090320,,
+185,29,,קניון רב שפע ברחוב שמגר בירושלים,مجمع تجاري رف شفع شارع شمجار في القدس,"31.7947395,35.2063201",03/03/2020,12:30,13:30,,,090320,,
+186,29,,עזרת גברים בית הכנסת חסידים בטלז סטון,قسم الرجال-  كنيس حسيدي في تليز ستون,"31.8026338,35.097737",07/03/2020,09:30,10:00,,,090320,,
+187,29,,מוקד רפואי באלעד ברחוב רבי עקיבא.,مركز العاد الطبي في شارع الحاخام عكيفا,"32.0479885,34.9554965",07/03/2020,19:30,20:00,,,090320,,
+188,30,,מכון MRI באסף הרופא,معهد عساف هروفيه للMRI ,"31.9660531,34.837229",01/03/2020,20:00,21:45,,,090320,,
+189,30,,"מספרה יורם בן עמי שער ראשל""צ.",مصففة بن عمي يورم رشون لتسيون,"31.967552,34.783082",03/03/2020,09:30,13:00,,,090320,,
+190,42,,"אולמי ""מפלים"" בראשון לציון","قاعات ""مفليم"" في رشون لتسون","31.9924642,34.7718725",03/03/2020,21:00,23:00,,,090320,,
+191,42,,מלון דיויד אינטרקונטיננטל,"فندق ديفيد إنتركونتيننتال
+","32.0654141,34.7616304",04/03/2020,06:00,16:00,,,090320,,
+192,42,,"סופרמרקט ""שימורי איכות"" המכתש 6 חולון","سوبر ماكت ""شيمور اِخوت""  6 شارع همختاش حلون","32.0262588,34.7798957",04/03/2020,16:30,17:30,,,090320,,
+193,50,,תיאטרון הצפון בקרית חיים,,"32.822905, 35.073901",04/03/2020,17:30,18:00,,,090320,,
+194,45,,קלפי בבית הספר מקור חיים שברחוב פייר קניג,,"31.7553902,35.2129616",02/03/2020,08:00,08:10,,,100320,,
+195,45,,אושר עד בקניון הדר רחוב פייר קניג 26 ירושלים,,"31.7539123,35.2127524",02/03/2020,10:00,11:00,,,100320,,
+196,45,,מסעדת עזרא גריל בשרים יד החורצים 14 ירושלים,,"31.7528328,35.2152969",02/03/2020,18:30,19:45,,,100320,,
+197,45,,רמי לוי קניון רב חן בתלפיות ירושלים,,"31.7517516,35.2098816",04/03/2020,15:00,16:00,,,100320,,
+198,45,,"בית כנסת ""אוהבי ציון"" רחוב מקור חיים בירושלים",,"31.756894,35.2133994",07/03/2020,10:00,10:45,,,100320,,
+199,42,,עמדת קפה בבית הספר האמריקאי ברח' השומרון 65 באבן יהודה,,"32.2645605,34.8765136",03/03/2020,11:00,17:30,,,100320,,
+200,50,,תיאטרון הצפון בקרית חיים,,"32.8218955,35.0740516",04/03/2020,17:30,18:00,,,100320,,
+201,47,,"קניון רננים, רעננה. ביקרה בכל החנויות ואכלה בסושייה",,"32.1974472,34.8780966",02/03/2020,12:00,15:00,,,100320,,
+202,47,,"מקס-סטוק בכפר סבא, רחוב עתיר ידע 2",,"32.1672842,34.9263582",02/03/2020,16:00,17:00,,,100320,,
+203,47,,"בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש.",,"31.7929547,35.2049517",03/03/2020,11:00,12:30,,,100320,,
+204,47,,"קניון רב שפע ברחוב שמגר בירושלים, בקומה האחרונה, בשתי חנויות: אביזרים לפורים וחנות לבייגלה",,"31.7947395,35.2063201",03/03/2020,12:20,13:30,,,100320,,
+205,47,,"בר מצווה אולם אירועים ""אפ טאון"" הרכבת 4, פתח תקווה.",,"32.1089879,34.8878513",05/03/2020,20:30,21:00,,,100320,,
+206,47,,"מועדון למבוגרים בישוב ענב, מסיבת פורים.",,"32.2841992,35.1242567",05/03/2020,22:00,22:15,,,100320,,
+207,47,,סופרמרקט חינם פלוס צומת תנובות.,,"32.3125987,34.9596066",08/03/2020,14:30,15:30,,,100320,,
+208,47,,"בית חולים בילינסון, מעבר דרך מיון לחדר בידוד לביקור חולה מספר 29",,"32.0897602,34.8643227",08/03/2020,19:00,20:00,,,100320,,
+209,48,,"בית כנסת חב""ד בישוב ענב",,"32.2841992,35.1242567",28/02/2020,17:00,18:30,,,100320,,
+210,48,,"בית כנסת חב""ד בישוב ענב",,"32.2841992,35.1242567",29/02/2020,12:00,12:30,,,100320,,
+211,48,,קלפי במועדון בישוב ענב,,"32.2841992,35.1242567",02/03/2020,17:00,17:30,,,100320,,
+212,48,,"לימודים מכללת ""מבחר"" בני ברק, כיתה 101 ",,"32.0930115,34.8210871",03/03/2020,17:30,21:30,,,100320,,
+213,48,,"מכון כושר מיי פרופיט, בקניון קריית אונו קומה 1.",,"32.0555787,34.8619976",05/03/2020,15:15,16:30,,,100320,,
+214,48,,"לימודים מכללת ""מבחר"" בני ברק, כיתה 101.",,"32.0930115,34.8210871",05/03/2020,17:30,21:30,,,100320,,
+215,48,,בית כנסת חסידים בטלזסטון.,,"31.783092,35.1249245",06/03/2020,18:00,18:30,,,100320,,
+216,48,,בית כנסת בית ההחלמה בטלזסטון.,,"31.7767177,35.2169989",07/03/2020,10:00,11:30,,,100320,,
+217,קבוצה מגרמניה,,הרודיון,,"31.665718,35.2395283",03/03/2020,11:00,13:30,,,100320,,
+218,קבוצה מגרמניה,,"כנסיית המולד, בית לחם",,"31.7043034,35.2053401",03/03/2020,15:00,16:30,,,100320,,
+219,קבוצה מגרמניה,,"מנהרות הכותל, עיר דוד",,"31.7767189,35.2323198",04/03/2020,09:45,11:45,,,100320,,
+220,קבוצה מגרמניה,,"מסעדה גן מוריסטן, עיר העתיקה, ירושלים",,"31.7774769,35.2281299",04/03/2020,12:30,13:15,,,100320,,
+221,קבוצה מגרמניה,,כנסיית דורמיציון וחדר הסעודה האחרונה,,"31.7717797,35.2271781",04/03/2020,17:00,17:30,,,100320,,
+222,קבוצה מגרמניה,,אתר תפילה בקאסר אל יהוד,,"31.8304502,35.4549941",05/03/2020,11:30,13:30,,,100320,,
+223,קבוצה מגרמניה,,"מצדה, כולל רכבל",,"31.3138062,35.3655923",06/03/2020,09:00,13:00,,,100320,,
+224,קבוצה מגרמניה,,"סופרמרקט הורדוס, ים המלח",,"31.1712698,35.3656505",06/03/2020,17:30,18:00,,,100320,,
+225,40,,"קלפי שהוצבה בבית הספר ""בית הילד"" ברחוב אהבת ציון, תל אביב",,"32.0720017,34.7675983",02/03/2020,14:00,15:00,,,100320,,
+226,40,,"מסעדת ""גוטה"" ברחוב הנחושת 3 ברמת החייל בתל אביב",,"32.1094996,34.8373739",03/03/2020,14:00,15:00,,,100320,,
+227,40,,"בית קפה ""לנדבר"" ברחוב הנחושת 3 ברמת החייל בתל אביב",,"32.1099275,34.837181",04/03/2020,14:30,16:00,,,100320,,
+228,40,,"בית קפה ""בוקה"" ברחוב יהודה המכבי 40 בתל אביב",,"32.0938351,34.7911753",05/03/2020,10:00,11:00,,,100320,,
+229,51,,אלונית כביש 6 דרום,,"32.1316734,34.8084998",27/02/2020,12:30,13:00,,,100320,,
+230,51,,חנות איקאה באר שבע,,"31.2244302,34.8202529",29/02/2020,18:00,21:00,,,100320,,
+231,51,,"סניף בריאותא, מרכז ביג- באר שבע ",,"31.2426376,34.8086633",05/03/2020,22:00,23:30,,,100320,,
+232,52,V,"קו 176 מרחוב בר אילן פינת רחוב ירמיהו ירושלים עד לתחנת דרך צמח השדה – השקמה, מעלה אדומים",,"31.793745, 35.215224",05/03/2020,19:30,20:30,,,100320,https://t.me/MOHreport/2886?embed=1,
+233,52,V,"בית הכנסת ""שיח השדה"" ברחוב הצפצפה מעלה אדומים",,"31.768272, 35.300901",06/03/2020,06:15,07:00,,,100320,https://t.me/MOHreport/2886?embed=1,
+234,52,V,סופר יינות ביתן רחוב צמח השדה 29 מעלה אדומים,,"31.767439, 35.301492",06/03/2020,07:15,08:00,,,100320,https://t.me/MOHreport/2886?embed=1,
+235,52,V,"בית הכנסת ""שיח השדה"" ברחוב הצפצפה מעלה אדומים",,"31.768272, 35.300901",07/03/2020,08:00,10:00,,,100320,https://t.me/MOHreport/2886?embed=1,
+236,52,V,"בית כנסת ""אהבת ישראל"" רחוב דקל 1 מעלה אדומים",,"31.777074, 35.304477",07/03/2020,16:30,17:00,,,100320,https://t.me/MOHreport/2886?embed=1,
+237,57,V,"בית כנסת חב""ד בישוב ענב",,"32.2841992,35.1242567",29/02/2020,00:00,23:59,,,100320,https://t.me/MOHreport/2891?embed=1,
+238,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,"31.893331, 34.821537",01/03/2020,18:00,18:20,,,100320,https://t.me/MOHreport/2891?embed=1,
+239,57,V,"סופרמרקט ""ברכול"" זכריה מדר פינת כובשי חרמון, רחובות",,"31.888133, 34.819082",01/03/2020,18:20,19:10,,,100320,https://t.me/MOHreport/2891?embed=1,
+240,57,V,חנות Ksp מתחם בילו אין,,"31.864974, 34.814176",02/03/2020,11:55,12:15,,,100320,https://t.me/MOHreport/2891?embed=1,
+241,57,V,"קלפי נגישה, בית ספר בן צבי, רחובות",,"31.889146, 34.808668",02/03/2020,19:25,19:40,,,100320,https://t.me/MOHreport/2891?embed=1,
+242,57,V,"מעון חניכי הישיבות רחוב מנוחה ונחלה, רחובות",,"31.893816, 34.816782",04/03/2020,08:00,08:35,,,100320,https://t.me/MOHreport/2891?embed=1,
+243,57,V,"קופת חולים לאומית, טוכמן יעקב 17, קריית משה, רחובות",,"31.888889, 34.786687",04/03/2020,09:00,09:20,,,100320,https://t.me/MOHreport/2891?embed=1,
+244,57,V,"קופת חולים לאומית רחוב בילו 2, קניון רחובות",,"31.893931, 34.807127",04/03/2020,09:40,10:50,,,100320,https://t.me/MOHreport/2891?embed=1,
+245,57,V,"דף רם-עזרה 10, רחובות",,"31.891251, 34.813638",04/03/2020,15:55,16:10,,,100320,https://t.me/MOHreport/2891?embed=1,
+246,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,"31.893331, 34.821537",06/03/2020,10:00,10:15,,,100320,https://t.me/MOHreport/2891?embed=1,
+247,57,V,"סופרמרקט ""סופר טוב ומיטב"" רחוב יוסף ויינר 2, רחובות",,"31.892086, 34.820554",06/03/2020,14:00,14:05,,,100320,https://t.me/MOHreport/2891?embed=1,
+248,57,V,"סופרמרקט ""סופר טוב ומיטב"" רחוב יוסף ויינר 2, רחובות",,"31.892086, 34.820554",06/03/2020,15:45,16:00,,,100320,https://t.me/MOHreport/2891?embed=1,
+249,57,V,"בית כנסת בית מנחם צעירים, רחוב זכריה מאדר 28, רחובות",,"31.888989, 34.820181",07/03/2020,10:00,12:00,,,100320,https://t.me/MOHreport/2891?embed=1,
+250,57,V,"סופרמרקט ""יש בשכונה"" חיים סירני 1, רחובות",,"31.893331, 34.821537",08/03/2020,08:45,08:55,,,100320,https://t.me/MOHreport/2891?embed=1,
+251,57,V,"קופת חולים לאומית, רחוב בילו 2, קניון רחובות",,"31.893931, 34.807127",09/03/2020,09:05,09:40,,,100320,https://t.me/MOHreport/2891?embed=1,
+252,61,V,"סופר ""רמי לוי שיווק השקמה"" בשער בנימין",,"31.865605, 35.260579",04/03/2020,16:30,18:30,,,100320,https://t.me/MOHreport/2903?embed=1,
+253,61,V,"""רום אופטיק"" פסגת זאב, רח' משה דיין",,"31.821120, 35.239810",06/03/2020,12:00,12:10,,,100320,https://t.me/MOHreport/2903?embed=1,
+254,61,V,"מכלת ""מעיין 2000"" פסגת זאב, רח' משה דיין",,"31.821355, 35.239619",06/03/2020,12:10,12:15,,,100320,https://t.me/MOHreport/2903?embed=1,
+255,61,V,"חנות דליקטס ""קשטן"" פסגת זאב, רח' הששה עשר פינת משה דיין",,"31.827516, 35.240695",06/03/2020,12:20,12:30,,,100320,https://t.me/MOHreport/2903?embed=1,
+256,62,V,"סופר מרקט קינג סטור, כרמיאל",,"32.925567, 35.312709",02/03/2020,10:00,12:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+257,62,V,קלפי בישוב יובלים,,"32.878783, 35.269431",02/03/2020,12:00,12:30,,,100320,https://t.me/MOHreport/2904?embed=1,
+258,62,V,מסעדה איטלקית ויוינו בכרמיאל,,"32.921531, 35.307366",02/03/2020,13:45,16:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+259,62,V,"במתקן מועדון כפרי משגב, חדר טיפולים ליד חדר כושר",,"32.860184, 35.259771",03/03/2020,11:30,12:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+260,62,V,פיצריית הפיצה המטיילת בישוב רקפת,,"32.858579, 35.262537",03/03/2020,14:30,14:45,,,100320,https://t.me/MOHreport/2904?embed=1,
+261,62,V,"פאב דיוק, שד' מוריה בחיפה",,"32.789626, 34.986865",03/03/2020,20:00,22:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+262,62,V,"חדר כושר, סאונה וג'אקוזי במתקן מועדון כפרי משגב",,"32.860184, 35.259771",04/03/2020,11:00,13:30,,,100320,https://t.me/MOHreport/2904?embed=1,
+263,62,V,מסעדת תבל במתקן מועדון כפרי משגב,,"32.860450, 35.259553",04/03/2020,13:30,14:20,,,100320,https://t.me/MOHreport/2904?embed=1,
+264,62,V,הבריכה של מועדון כפרי משגב (המתנה בלבד ),,"32.860184, 35.259771",04/03/2020,14:45,15:15,,,100320,https://t.me/MOHreport/2904?embed=1,
+265,62,V,מקדונלדס במדרחוב כרמיאל,,"32.908691, 35.293440",04/03/2020,15:30,16:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+266,62,V,שגרירות אמריקאית ברח' הירקון בתל אביב,,"32.076817, 34.766701",05/03/2020,10:30,12:30,,,100320,https://t.me/MOHreport/2904?embed=1,
+267,62,V,"חנות ירקות ""פרי וירק"" כביש ראשי תמרה",,"32.852572,35.2008133",05/03/2020,13:30,14:00,,,100320,https://t.me/MOHreport/2904?embed=1,
+268,62,V,פיצריית הפיצה המטיילת בישוב רקפת,,"32.858579, 35.262537",05/03/2020,14:30,14:45,,,100320,https://t.me/MOHreport/2904?embed=1,

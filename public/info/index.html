@@ -27,6 +27,7 @@
     <title>מפת הקורונה של ישראל</title>
 
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    
     <!--========== web tags ==========-->
     <meta name="description" content="מפת הקורונה של ישראל" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,11 +35,10 @@
     <!--========== social media tags ==========-->
 
     <meta property="og:title" content="מפת הקורונה של ישראל" />
-    <meta property="og:description" content="לעקוב בקלות אחרי כל מקרי הקורונה בישראל" />
+    <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://israelcoronamap.co.il/" />
-    <meta property="og:image"
-        content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256" />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256" />
 
     <!--========== goolge fonts ==========-->
     <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
@@ -46,7 +46,7 @@
     <!--========== css files ==========-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
      crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/info_styles.css" />
+    <link rel="stylesheet" href="../css/info.css" />
 
 </head>
 
@@ -56,9 +56,9 @@
     <nav class="wonder-nav">
         <ul class="wonder-nav-ul">
 
-            <li class="nav-logo d-none d-md-block">
-                <a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="/">
-                    Israel corona map
+            <li class="nav-logo d-md-block">
+                <a href="https://israelcoronamap.co.il/">
+                    <img src="../assets/images/icm.svg" style="width: 120px;margin-left: 10px;" alt="icon">
                 </a>
             </li>
 
@@ -85,12 +85,6 @@
             </li>
             <!--===== dekstop view end =====-->
 
-            <!--===== mobile view =====-->
-            <li class="nav-logo d-md-none">
-                <a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="#">
-                    Israel corona map
-                </a>
-            </li>
 
             <li class="wonder-nav-li d-md-none">
                 <button class="hamburger hamburger--minus menu-icon" type="button">
@@ -377,10 +371,10 @@
     <!--========== about-pop-up end ==========-->
 
     <!---========== scripts ==========-->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="/js/info.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../js/info.js"></script>
 
 </body>
 

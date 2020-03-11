@@ -6,14 +6,14 @@
     order: 1;
     margin: inherit;
 }
- .search-box-dekstop{
-   display: none;
- }
 
-.search-box-dekstop {
-    width: 300px;
-    margin: 50px auto 0px;
-}
+
+ .search-box-dekstop {
+    width: 400px;
+    text-align: center;
+    margin: 75px auto 5px;
+
+  }
 
 .flight-list {
     margin-top: 50px;
@@ -53,16 +53,17 @@
   font-weight: 600;
 }
 
-@media(min-width:768px) {
-  .search-box-dekstop {
-      width: 400px;
-      margin: 75px auto 5px;
-      display: block;
-
-  }
   .search-input{
       width:400px !important;
       margin: 0px !important;
+  }
+
+@media(min-width:768px) {
+    
+.search-box-dekstop {
+        width: 400px;
+        margin: 75px auto 5px;
+
   }
 
   .flight-list {

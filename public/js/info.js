@@ -26,8 +26,6 @@ $( document ).ready(function() {
         }
     });
     
-  
-
     // page smooth scroll on link click
     $('a[href^="#"]').on('click', function(event) {
 
@@ -54,41 +52,13 @@ $( document ).ready(function() {
         $('.hamburger').removeClass( "is-active" );
         $('.side-bar').fadeToggle(50);        
 
-    });
-    
-    $('.eng-click').click ( function() {
-        // remove heb coockie 
-        Cookies.remove('heb-show');
-       
-        // add eng coockie 
-        Cookies.set('eng-show', 'yes', {expires: 3650 });
-
-    });      
-     
-    $('.heb-click').click ( function() {
-        
-        // add heb coockie 
-        Cookies.set('heb-show', 'yes', {expires: 3650 });
-
-        // remove eng coockie 
-        Cookies.remove('eng-show');
-
-    });    
-    
-    
+    });   
     
     // open service pop-ups on click //
 
     $('.terms-of-use-pop-up-click').click ( function() {
 
         $('#terms-of-use-pop-up').fadeIn("fast");
-
-    });
-
-
-    $('.about-pop-up-click-f').click ( function() {
-
-        $('#about-pop-up-f').fadeIn("fast");
 
     });
 

@@ -26,10 +26,14 @@
     <title>מפת הקורונה של ישראל</title>
 
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!--========== script ==========-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async defer></script>
+    <!--========== script end ==========-->
+
+    
     <!--========== web tags ==========-->
     <meta name="description" content="מפת הקורונה של ישראל" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,24 +42,23 @@
     <!--========== social media tags ==========-->
 
     <meta property="og:title" content="מפת הקורונה של ישראל" />
-    <meta property="og:description"
-        content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
+    <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://israelcoronamap.co.il/" />
-    <meta property="og:image"
-        content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256" />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256" />
 
     <!--========== goolge fonts ==========-->
     <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
 
     <!--========== css files ==========-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/embed.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/flights.css" />
 
 </head>
+
 <body dir="rtl">
     <div id='overlay'></div>
 
@@ -64,8 +67,8 @@
         <ul class="wonder-nav-ul">
 
             <li class="nav-logo">
-                <a class="icm-log" href="https://israelcoronamap.co.il/">
-                    <img src="assets/images/icm.svg" width="150" height="18" alt="israel-corona-map-logo">
+                <a href="/">
+                    <img src="assets/images/icm.svg" style="width: 120px;margin-left: 10px;" alt="icon">
                 </a>
             </li>
             <li class="wonder-nav-li" style="margin-right: 10px;">
@@ -88,10 +91,13 @@
 
     </nav>
     <!--========== navbar end ==========-->
-
+    
+    <!--========== map ==========-->    
     <div id="map-wrapper" dir="rtl">
         <div id="map"></div>
     </div>
+    <!--========== map end ==========-->    
+
     <!--========== footer ==========-->
     <div class="footer-container">
         <div class="container-fluid" style="padding:0;">
@@ -138,25 +144,28 @@
             </div>
         </div>
     </div>
-        <!--========== header end ==========-->
+    <!--========== header end ==========-->
+    
     <!--========== side-bar ==========-->
     <div class="side-bar" style="display: none;">
         <div class="container-fluid" style="padding:0;">
             <div class="row side-bar-row text-right">
                 <div class="col-12">
                     <div class="side-bar-box">
-                        <h3 class="text-center" style="font-size: 20px;font-weight: 700;">Israel Corona Map</h3>
+                        <img class="side-bar-logo mx-auto d-block" style="margin-left:10px; max-width: 140px;"
+                                src="assets/images/icm.svg" alt="icon">
                     </div>
                 </div>
-                <!-- <div class="col-12">
+                <div class="col-12">
                     <div class="side-bar-box">
-                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link" href="#">
+                        <a style="margin-right: 30px;" class="side-bar-link" href="/flights">
                             <img class="side-bar-img" style="margin-left:10px; "
                                 src="assets/images/side-bar-icons/plane.svg" alt="icon">
                             חפשו טיסות
                         </a>
                     </div>
-                </div> -->
+                </div>
+                
                 <div class="col-12">
                     <div class="side-bar-box">
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
@@ -165,16 +174,28 @@
                             הטמיעו קוד באתר
                         </a>
                     </div>
-                </div>
+                </div> 
                 <br>
                 <br>
                 <br>
                 <div class="col-12">
                     <div class="side-bar-box">
-                        <a style="margin-right: 30px;" class="side-bar-link" href="https://israelcoronamap.co.il/info">
+                        <a style="margin-right: 30px;" class="side-bar-link" href="/info">
                             <img class="side-bar-img" style="margin-left:10px;" src="assets/images/side-bar-icons/info.svg"
                                 alt="icon">
                             אודות המיזם
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                 <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link map-reader-pop-up-click">
+                            <img class="side-bar-img" style="margin-left:10px;" src="assets/images/side-bar-icons/pin.svg"
+                                alt="icon">
+                           מקרא מפה
                         </a>
                     </div>
                 </div>
@@ -187,7 +208,7 @@
                             href="mailto:blueofer@gmail.com" title="email">
                             <img class="side-bar-img" style="margin-left:10px;" src="assets/images/side-bar-icons/email.svg"
                                 alt="icon">
-                            צרו קשר
+                           צרו קשר
                         </a>
                     </div>
                 </div>
@@ -207,12 +228,16 @@
                 </div>
             </div>
         </div>
-        <a class="terms-link terms-of-use-pop-up-click">
+        <p class="map-updated">
+            <span style="font-weight: 600;">המפה עודכנה לאחרונה:</span>
+            
+            11.3.2020, 16:00</p>
+        <a class="terms-link terms-of-use-pop-up-click ">
             תנאי שימוש באתר
         </a>
     </div>
     <!--========== side-bar end ==========-->
-
+    
     <!--========== terms-of-use-pop-up ==========-->
     <div id="terms-of-use-pop-up" class="pop-up-area" style="display: none;">
 
@@ -257,8 +282,8 @@
     </div>
     <!--========== terms-of-use-pop-up end ==========-->
 
-    <!--    embed modal start-->
-    <div class="modal fade" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMap" aria-hidden="true">
+    <!--========== embed-pop-up ==========-->
+    <div style="z-index: 99999;" class="modal fadeIn" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMap" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -277,19 +302,42 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!--    embed modal end-->
 
-        <!---========== scripts ==========-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/embed.js"></script>
+    </div>
+    <!--========== embed-pop-up end ==========-->
+    
+    <!--========== map-reader-pop-up ==========-->
+    <div id="map-reader-pop-up" class="pop-up-area" style="display: none;">
+
+        <div class="pop-up">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col-12 ">
+                        <div class="box-size">
+                            <h1 class="pop-up-title">מקרא מפה</h1>
+                            <hr class='hr-titels' width="85px" align="right">
+                            <p class="pop-up-text">
+                           מקרא מפה
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img id='map-reader-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
+
+        </div>
+
+    </div>
+    <!--========== map-reader-pop-up end ==========-->
+
+    <!---========== scripts ==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/embed.js"></script>
 
 </body>
 

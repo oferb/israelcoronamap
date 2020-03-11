@@ -126,15 +126,15 @@ function processData() {
 
   for (let points of Object.values(pointsDict)) {
     let firstPoint = points[0];
-    firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
     if (points.length > 1) {
-      firstPoint.text += '<b>זמני ביקור: </b><br>';
+      firstPoint.text = '';
+      firstPoint.text += '<br><br><b>זמני ביקור: </b><br>';
       for (i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<br><br><b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
 
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
@@ -217,45 +217,3 @@ function setDefaultButtonColor() {
   twoWeekButton.style.background = '#ffffff';
 }
 
-$(document).ready(function () {
-  // don't hide pop up when click on this items
-  $(".hamburger, .side-bar, .side-bar-row,#terms-of-use-pop-up,#terms-close-x, #embed-close-x").click(function (e) {
-    e.stopPropagation();
-  });
-
-  // on body click anywhere - hide side bar pop-up
-  $("body").click(function () {
-    $('.side-bar').fadeOut('fast');
-    $('#overlay').removeClass('overlay');
-  });
-
-  // side-bar menu open
-  $('.hamburger').click(function () {
-    $('.side-bar').fadeToggle(50);
-    $('#overlay').toggleClass('overlay');
-
-  });
-
-  // terms-close-x icon
-  $('#terms-close-x').click(function () {
-    $('#terms-of-use-pop-up').fadeOut('fast');
-  });
-
-  // embed-close-x icon
-  $('#embed-close-x').click(function () {
-    $('#code-embed-pop-up').fadeOut('fast');
-  });
-
-    // open terms of use pop-up
-  $('.terms-of-use-pop-up-click').click(function () {
-    $('#terms-of-use-pop-up').fadeIn("fast");
-  });
-
-  // open embed pop-up
-  $('.code-embed-pop-up-click').click(function () {
-
-    $('#embedCoronaMap').modal('show');
-
-  });
-
-});
