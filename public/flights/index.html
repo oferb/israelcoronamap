@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>מפת הקורונה של ישראל</title>
+
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<!--========== web tags ==========-->
+	<meta name="description" content="מפת הקורונה של ישראל" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--========== social media tags ==========-->
+
+	<meta property="og:title" content="מפת הקורונה של ישראל" />
+	<meta property="og:description" content="לעקוב בקלות אחרי כל מקרי הקורונה בישראל" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://israelcoronamap.co.il/" />
+	<meta property="og:image"
+		content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/info%2Fsocial-image.png?alt=media&token=7608dafb-1c1e-44ec-a851-21c0d4b803e6" />
+
+	<!--========== goolge fonts ==========-->
+	<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+	<!--========== css files ==========-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+		integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/info_styles.css" />
+	<link rel="stylesheet" href="/css/flights_styles.css" />
+
+</head>
+
+<body dir="rtl">
+
+	<!--========== navbar ==========-->
+	<nav class="wonder-nav">
+		<ul class="wonder-nav-ul">
+
+			<li class="nav-logo d-none d-md-block">
+				<a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="/">
+					Israel corona map
+				</a>
+			</li>
+
+			<!--===== dekstop view =====-->
+
+			<li class="wonder-nav-li d-none d-md-block">
+				<a class="nav-link" href="/">
+					מפת הקורונה
+				</a>
+			</li>
+			<li class="wonder-nav-li d-none d-md-block">
+				<a class="nav-link" href="#how-anchor">
+					איך זה עובד
+				</a>
+			</li>
+			<li class="wonder-nav-li d-none d-md-block">
+				<a class="nav-link" href="#vision-anchor">
+					החזון שלנו
+				</a>
+			</li>
+			<li class="wonder-nav-li d-none d-md-block">
+				<a class="nav-link" href="#help-anchor">
+					הצטרפו אלינו
+				</a>
+			</li>
+
+			<!--===== dekstop view end =====-->
+
+			<!--===== mobile view =====-->
+			<li class="search-box d-md-none">
+				<form class="form-inline my-2 my-lg-0">
+					<input
+            class="form-control mr-sm-2"
+            id="search-input"
+            type="search"
+            placeholder="חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס' חולה"
+            aria-label="Search"
+            onkeyup="heandleSearchMobile()">
+				</form>
+			</li>
+
+			<li class="wonder-nav-li d-md-none">
+				<button class="hamburger hamburger--minus menu-icon" type="button">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span></span>
+                    </button>
+			</li>
+			<!--===== mobile view end =====-->
+
+		</ul>
+
+	</nav>
+	<!--========== navbar end ==========-->
+	<li class="search-box-dekstop">
+		<form class="form-inline my-2 my-lg-0">
+			<input
+            class="form-control mr-sm-2 search-input"
+            id="search-input-dekstop"
+            type="search"
+            placeholder="חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס' חולה"
+            aria-label="Search"
+            onkeyup="heandleSearchDekstop()">
+				</form>
+	</li>
+	<!--========== flight-list ==========-->
+	<div class="flight-list">
+		<!-- innerHTML render here -->
+	</div>
+	<!--========== header end ==========-->
+
+	<!--========== side-bar ==========-->
+	<div class="side-bar" style="display: none;">
+		<div class="container">
+			<div class="row side-bar-row text-center">
+				<div class="col-12">
+					<a class="side-bar-link" href="/">
+						מפת הקורונה
+					</a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="col-12">
+					<a class="side-bar-link" href="#how-anchor">
+						איך זה עובד
+					</a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="col-12">
+					<a class="side-bar-link" href="#vision-anchor">
+						החזון שלנו
+					</a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="col-12">
+					<a class="side-bar-link" href="#help-anchor">
+						הצטרפו אלינו
+					</a>
+				</div>
+				<br>
+				<br>
+				<br>
+                </div>
+			</div>
+		</div>
+		<!--========== side-bar end ==========-->
+
+		<!---========== scripts ==========-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+		</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
+		<script src="/js/scripts.js"></script>
+		<script src="/js/flights.js"></script>
+		<script src="/js/info.js"></script>
+</body>
+
+</html>
+
+<!-- Made With ♥ By Yossi Molcho -->
