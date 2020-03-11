@@ -59,14 +59,17 @@
   }
 
 .flip-icon {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 @media(min-width:768px) {
     
 .search-box-dekstop {
-        width: 400px;
         margin: 75px auto 5px;
 
   }
