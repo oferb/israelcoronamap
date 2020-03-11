@@ -126,15 +126,15 @@ function processData() {
 
   for (let points of Object.values(pointsDict)) {
     let firstPoint = points[0];
+    firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
     if (points.length > 1) {
-      firstPoint.text = '';
-      firstPoint.text += '<br><br><b>זמני ביקור: </b><br>';
+      firstPoint.text += '<b>זמני ביקור: </b><br>';
       for (i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<br><br><b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
 
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
