@@ -58,6 +58,11 @@
       margin: 0px !important;
   }
 
+.flip-icon {
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
 @media(min-width:768px) {
     
 .search-box-dekstop {

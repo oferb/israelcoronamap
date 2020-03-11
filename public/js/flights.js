@@ -14,7 +14,7 @@ function init() {
 
 function creatList(flightsList) {
   let strHtml = '<div>';
-  flightsList.forEach(flight => {
+  flightsList.reverse().forEach(flight => {
     let card = `<div class="card" style="width: 18rem;">
                     <div class="card-body">
                     <div class="card-title-box">
@@ -23,21 +23,18 @@ function creatList(flightsList) {
                     </div>
                       <div class="card-contant-box">
                         <div class="card-text">
-                          <i class="material-icons">flight_takeoff</i>
-                           <div class="flight-detailes"> המראה מ: ${flight["departure from"]}</div>
+                          <i class="material-icons flip-icon">flight_takeoff</i>
+                           <div class="flight-detailes">המראה: ${flight["departure from"]}</div>
                         </div>
-                        <div class="time-text">תאריך: ${flight["departure day"]}</div>
+                        <div class="time-text">${flight["departure day"]}</div>
                       </div>
                         <div class="card-contant-box">
                         <div class="card-text">
-                          <i class="material-icons">flight_land</i>
-                           <div class="flight-detailes">  יעד: ${flight.destination}</div>
+                          <i class="material-icons flip-icon">flight_land</i>
+                           <div class="flight-detailes">נחיתה:${flight.destination}</div>
                         </div>
-                        <div class="time-text">תאריך: ${flight["arrival day"]}</div>
+                        <div class="time-text">${flight["arrival day"]}</div>
                       </div>
-                      <p class="card-text flight-description">תאור: ${flight.description}</p>
-
-                      
                       `;
     if (flight.health_gov_link) {
       card += `<a href="${flight.health_gov_link}" class="card-link"> מידע נוסף מאתר משרד הבריאות</a>`;
