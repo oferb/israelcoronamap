@@ -254,7 +254,7 @@ $(document).ready(function () {
   // open embed pop-up
   $('.code-embed-pop-up-click').click(function () {
 
-    $('#code-embed-pop-up').fadeIn("fast");
+    $('#embedCoronaMap').modal('show');
 
   });
 

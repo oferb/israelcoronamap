@@ -64,8 +64,8 @@
         <ul class="wonder-nav-ul">
 
             <li class="nav-logo">
-                <a class="nav-link" style="font-weight: 700;margin-left: -10px;" href="israelcoronamap.co.il">
-                    Israel corona map
+                <a class="icm-log" href="https://israelcoronamap.co.il/">
+                    <img src="assets/images/icm.svg" width="150" height="18" alt="israel-corona-map-logo">
                 </a>
             </li>
             <li class="wonder-nav-li" style="margin-right: 10px;">
@@ -88,31 +88,6 @@
 
     </nav>
     <!--========== navbar end ==========-->
-
-
-    <!--    modal start-->
-    <div class="modal fade" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMapCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="embedCoronaMapLongTitle">הטמיעו קוד באתר</h5>
-                    <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div id="iframeCodeBlock" dir="ltr">
-                        <samp id="copyToClipboardContent">
-                            &lt;iframe style="width:100%"; width="600" height="450" src="https://https://israelcoronamap.co.il/embed" allowfullscreen&gt;&lt;/iframe&gt;
-                        </samp>
-                    </div>
-                    <button type="button" id="copyToClipboardButton" data-clipboard-target="#copyToClipboardContent" class="btn btn-copy-clipboard" onclick="copyToClipboard()">העתקה</button>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!--    modal end-->
 
     <div id="map-wrapper" dir="rtl">
         <div id="map"></div>
@@ -181,7 +156,7 @@
                             חפשו טיסות
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12">
                     <div class="side-bar-box">
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
@@ -190,7 +165,7 @@
                             הטמיעו קוד באתר
                         </a>
                     </div>
-                </div> -->
+                </div>
                 <br>
                 <br>
                 <br>
@@ -282,41 +257,36 @@
     </div>
     <!--========== terms-of-use-pop-up end ==========-->
 
-    <!--========== terms-of-use-pop-up ==========-->
-    <div id="code-embed-pop-up" class="pop-up-area" style="display: none;">
-
-        <div class="pop-up">
-            <div class="container">
-                <div class="row text-right">
-                    <div class="col-12 ">
-                        <div class="box-size">
-                            <h1 class="pop-up-title">הטמיעו קוד באתר</h1>
-                            <hr class='hr-titels' width="85px" align="right">
-                            <p>פשוט העתיקו והדביקו את הקוד המצורף</p>
-                            <p class="pop-up-text">
-                                כאן יהיה הקוד להטמעה
-                            </p>
-                            <br>
-                            <br>
-                        </div>
+    <!--    embed modal start-->
+    <div class="modal fade" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMap" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="embedCoronaMapLongTitle">הטמיעו קוד באתר</h5>
+                    <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="iframeCodeBlock" dir="ltr">
+                        <samp id="copyToClipboardContent">
+                            &lt;iframe style="width:100%"; width="600" height="450" src="https://israelcoronamap.co.il/embed" allowfullscreen&gt;&lt;/iframe&gt;
+                        </samp>
                     </div>
+                    <button type="button" id="copyToClipboardButton" data-clipboard-target="#copyToClipboardContent" class="btn btn-copy-clipboard" onclick="copyToClipboard()">העתקה</button>
                 </div>
             </div>
-            <img id='embed-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
-
         </div>
-
     </div>
-    <!--========== terms-of-use-pop-up end ==========-->
-
+    <!--    embed modal end-->
 
         <!---========== scripts ==========-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/embed.js"></script>
