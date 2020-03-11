@@ -492,9 +492,8 @@ textarea {
 }
 
 .side-bar-link{
-    font-size: 14px;
+    font-size: 13px;
     color:#26262C!important;
-    transition-duration: 0.3s;
 
 }
 
@@ -503,10 +502,6 @@ textarea {
      text-decoration: none;
 }
 /*========== side-bar end ==========*/
-
-
-
-
 
 
 /*========== protfolio items ==========*/
@@ -627,14 +622,8 @@ textarea {
 
 /*========== pop-up end ==========*/
 
-
-
 .terms-link{
-/*    padding-top: 20px;
-    padding-bottom: 20px;
-    border-top:solid 0.7px #e5e5e5;  */
-
-    font-size: 16px; 
+    font-size: 13px; 
     text-decoration: underline!important;
     position: absolute;
     bottom: 2%;
@@ -833,7 +822,7 @@ section{
 
 
     .side-bar-img{
-       max-width: 20px; 
+       max-width: 18px; 
     }
     
     .overlay{
@@ -850,7 +839,7 @@ section{
     }
     
     .side-bar{
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 70%;margin-right: -100%;
     right: 0;
@@ -875,8 +864,8 @@ section{
 }
 
 .side-bar-box{
-  padding-top:20px;
-  padding-bottom: 20px; 
+ padding-top:15px;
+ padding-bottom: 15px;
   border-bottom:solid 0.7px #e5e5e5;  
 }
 
@@ -918,13 +907,11 @@ section{
     font-weight: 300;
     font-size: 16px;
     z-index: 9999;
-    
 }
 
 .nav-logo{
     margin-right: auto;
     order: 1;
-    max-width: 200px;
 }
 
 .nav-link{
@@ -1045,16 +1032,24 @@ section{
 /*========== nav-bar end ==========*/
  
 .map-updated{
-    font-size: 13px; 
-    position: absolute;
-    bottom: 5%;
-    right: 0;left: 0; 
-    color:#26262C;
-    cursor: pointer;
-    text-align: center;
+    color:#26262C!important;
+    font-size:12px!important;
+    margin-right: -15px;
 }
 
 @media(min-width:768px) {
+    
+.map-updated{
+    color:#26262C!important;
+    font-size:13px!important;
+    margin-right: -5px;
+
+}
+    
+    .terms-link{
+    font-size: 16px; 
+  
+}
     
     .hamburger-inner {
 
@@ -1121,11 +1116,6 @@ section{
 }
     
 /*========== nav-bar ==========*/
-    
-    
-    
-    
-    
     
     
     .side-bar-img{

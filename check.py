@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import prettierfier
 import os
 
 def getHtmlFiles():
@@ -14,6 +15,7 @@ for filepath in getHtmlFiles():
     htmlContents = f.read()
   soup = BeautifulSoup(htmlContents, 'html.parser')
   with open(filepath, "w") as f:
-    f.write(soup.prettify())
+    pretty_html = prettierfier.prettify_html(htmlContents)
+    f.write(pretty_html)
 
   
