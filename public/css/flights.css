@@ -1,0 +1,78 @@
+
+.search-box{
+    margin-right: inherit;
+    padding-left: 10px;
+    width: 86%;
+    order: 1;
+    margin: inherit;
+}
+
+
+ .search-box-dekstop {
+    width: 400px;
+    text-align: center;
+    margin: 75px auto 5px;
+
+  }
+
+.flight-list {
+    margin-top: 50px;
+}
+.card {
+    width: 100% !important;
+}
+.card-contant-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.card-text{
+  display: flex;
+}
+.flight-detailes{
+  margin-right: 10px;
+}
+
+.patient-number{
+    width: 100px;
+}
+
+.time-text {
+    width: 100px;
+}
+.card-title-box {
+    display: flex;
+    justify-content: space-between;
+}
+.card-title{
+  font-weight: bold;
+}
+
+.flight-description{
+  font-weight: 600;
+}
+
+  .search-input{
+      width:400px !important;
+      margin: 0px !important;
+  }
+
+@media(min-width:768px) {
+    
+.search-box-dekstop {
+        width: 400px;
+        margin: 75px auto 5px;
+
+  }
+
+  .flight-list {
+     margin: auto;
+    width: fit-content;
+    height: 81vh;
+    overflow-y: auto;
+  }
+  .card {
+    width: 25rem !important;
+  }
+}
