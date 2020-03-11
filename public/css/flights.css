@@ -9,7 +9,6 @@
 
 
  .search-box-dekstop {
-    width: 400px;
     text-align: center;
     margin: 75px auto 5px;
 
@@ -70,9 +69,10 @@
 @media(min-width:768px) {
     
 .search-box-dekstop {
-        margin: 75px auto 5px;
+  width: 400px;  
+  margin: 75px auto 5px;
 
-  }
+}
 
   .flight-list {
      margin: auto;
