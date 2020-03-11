@@ -1,7 +1,7 @@
 let flights = [];
 
 function init() {
-  fetch('/json/flightsData.json')
+  fetch('/data/flightsData.json')
     .then((response) => {
       return response.json();
     })
