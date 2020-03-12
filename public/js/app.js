@@ -9,6 +9,7 @@ const init = () => {
   getData();
 };
 
+// This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
