@@ -49,9 +49,7 @@ function updateMap() {
   var daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
   contantCelArr = []
-  const now = Math.round((new Date()).getTime() / 1000);
-  const lastDay = now - 24*60*60;
-  const lastWeek = now - 7*24*60*60;
+
   for (let j = 0; j < govData.length; j++) {
     if (getTimestamp(govData[j].t_end) < daysAgoDate) {
       continue;
@@ -60,13 +58,12 @@ function updateMap() {
       lat: govData[j].lat,
       lng: govData[j].lon
     };
-    let icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue%20circle%20pin.svg?alt=media&token=a6d80cd5-acf4-4748-b581-871ab4763413";
-    // if (govData[j].pub_ts > lastWeek) {
-    //   icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/blue.svg?alt=media&token=9fccfd2b-bdbc-4a57-aa7d-8ca2b699b5f0";
-    // }
-    // if (govData[j].pub_ts > lastDay) {
-    //   icon = "https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/light%20blue.svg?alt=media&token=1da58d0c-df3b-4350-b50a-d29a8c878899";
-    // }
+    let icon = '/assets/images/map-icons/allTime.svg';
+    if (isYesterday(govData[j].pub_ts)) {
+      icon = '/assets/images/map-icons/yesterday.svg';
+    } else if (isToday(govData[j].pub_ts)) {
+      icon = '/assets/images/map-icons/today.svg';
+    }
     let marker = new google.maps.Marker({
       position: pos,
       map: map,
@@ -199,6 +196,22 @@ function processData() {
   }
 
   return result
+}
+
+const isToday = (unixDate) => {
+  const today = new Date()
+  const date = new Date(unixDate * 1000);
+  return date.getDate() == today.getDate() &&
+    date.getMonth() == today.getMonth() &&
+    date.getFullYear() == today.getFullYear()
+}
+
+const isYesterday = (unixDate) => {
+  const today = new Date()
+  const date = new Date(unixDate * 1000);
+  return date.getDate() == today.getDate()-1 &&
+    date.getMonth() == today.getMonth() &&
+    date.getFullYear() == today.getFullYear()
 }
 
 function getData() {
