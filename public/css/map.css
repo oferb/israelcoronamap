@@ -12,7 +12,7 @@ html, body {
 }
 
 #map {
-    height: 100vh;
+    height: 94vh;
     width: 100vw;
 }
 
@@ -137,21 +137,20 @@ html, body {
 .map-reader {
   z-index: 1;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 20px;
+  bottom: 100px;
   box-shadow: 0 3px 30px #00000029;
   margin-left: 5px;
-  margin-bottom: 3px;
 }
 
 @media(max-width:768px) {
 .map-reader-img{
   width: 300px !important;
-  box-shadow: 0 3px 30px #00000029;
+  box-shadow: 2px 2px 3px 0 #b8ceca;
 }
 .map-reader {
   left: 0;
-  bottom: 0;
+  bottom: 150px;
   width: 300px;
   display: flex;
   justify-content: center;
