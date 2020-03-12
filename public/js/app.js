@@ -132,6 +132,17 @@ function processData() {
         return -1;
       }
     });
+
+    points = points.filter(function (point, index) {
+      if (index > 0 &&
+          points[index - 1].t_start === point.t_start &&
+          points[index - 1].t_end === point.t_end) {
+        return false;
+      }
+
+      return true;
+    });
+
     let firstPoint = points[0];
     if (firstPoint.text.length != 0) {
       firstPoint.text += '<br><br>';
@@ -174,7 +185,7 @@ function processData() {
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(countdownInterval);
-        var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`)
+        var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`);
         if (element) element.innerHTML = "<b>זמן נותר לבידוד:</b><span class=\"green-text\"> תמו 14 ימים מהחשיפה</span>";
       }
     }, 200);
