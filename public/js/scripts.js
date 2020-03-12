@@ -1,7 +1,7 @@
 
 
 $(document).ready(function () {
-    
+
   // don't hide pop up when click on this items
   $(".hamburger").click(function (e) {
     e.stopPropagation();
@@ -38,16 +38,17 @@ $(document).ready(function () {
   $('.code-embed-pop-up-click').click(function () {
 
     $('#embedCoronaMap').modal('show');
+    $('#hamburgerOnMainScreen').modal('hide');
 
   });
-  
+
   // open map reader pop-up
   $('.map-reader-pop-up-click').click(function () {
 
     $('#map-reader-pop-up').fadeIn("fast");
 
   });
-  
+
 // map-reader-close-x icon
   $('#map-reader-close-x').click(function () {
     $('#map-reader-pop-up').fadeOut('fast');
@@ -87,4 +88,4 @@ $(document).ready(function () {
 	bindEvents();
 
 })(document.body);
-  
+

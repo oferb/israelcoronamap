@@ -17,14 +17,14 @@
     <title>מפת הקורונה של ישראל</title>
 
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    
+
     <!--========== script ==========-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap" async defer></script>
     <!--========== script end ==========-->
 
-    
+
     <!--========== web tags ==========-->
     <meta name="description" content="מפת הקורונה של ישראל" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,11 +61,11 @@
                 <a href="/">
                     <img src="assets/images/icm.svg" style="width: 120px;margin-left: 10px;" alt="icon">
                 </a>
-             
+
             </li>
-          
+
             <li class="wonder-nav-li" style="margin-right: 10px;">
-                <button class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
+                <button id="hamburgerOnMainScreen" class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span></span>
                 </button>
@@ -90,12 +90,12 @@
 
     </nav>
     <!--========== navbar end ==========-->
-    
-    <!--========== map ==========-->    
+
+    <!--========== map ==========-->
     <div id="map-wrapper" dir="rtl">
         <div id="map"></div>
     </div>
-    <!--========== map end ==========-->    
+    <!--========== map end ==========-->
 
     <!--========== footer ==========-->
     <div class="footer-container">
@@ -144,7 +144,7 @@
         </div>
     </div>
     <!--========== header end ==========-->
-    
+
     <!--========== side-bar ==========-->
     <div class="side-bar" style="display: none;">
         <div class="container-fluid" style="padding:0;">
@@ -172,7 +172,7 @@
                             הטמיעו קוד באתר
                         </a>
                     </div>
-                </div> 
+                </div>
                 <div class="col-12">
                     <div class="side-bar-box">
                         <a style="margin-right: 30px;" class="side-bar-link" href="/info">
@@ -215,7 +215,7 @@
         </a>
     </div>
     <!--========== side-bar end ==========-->
-    
+
     <!--========== terms-of-use-pop-up ==========-->
     <div id="terms-of-use-pop-up" class="pop-up-area" style="display: none;">
 
@@ -283,7 +283,7 @@
 
     </div>
     <!--========== embed-pop-up end ==========-->
-    
+
     <!--========== map-reader-pop-up ==========-->
     <div id="map-reader-pop-up" class="pop-up-area" style="display: none;">
 
