@@ -126,7 +126,11 @@ function processData() {
 
   for (let points of Object.values(pointsDict)) {
     let firstPoint = points[0];
-    firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
+    if (firstPoint.text.length != 0) {
+      firstPoint.text += '<br><br>';
+    } else {
+      firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
+    }
     if (points.length > 1) {
       firstPoint.text += '<b>זמני ביקור: </b><br>';
       for (i = 0; i < points.length; i++) {
