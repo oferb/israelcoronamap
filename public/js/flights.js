@@ -1,6 +1,6 @@
 let flights = [];
 
-function init() {
+const init = () => {
   fetch('/data/flightsData.json')
     .then((response) => {
       return response.json();
@@ -10,9 +10,9 @@ function init() {
     }).then(() => {
       renderList(flights);
     });
-}
+};
 
-function creatList(flightsList) {
+const createList = (flightsList) => {
   let strHtml = '<div>';
   flightsList.reverse().forEach(flight => {
     let card = `<div class="card" style="width: 18rem;">
@@ -44,29 +44,27 @@ function creatList(flightsList) {
                   </div>`;
     strHtml += card;
   });
-  strHtml += '</div>'
+  strHtml += '</div>';
   return strHtml;
-}
+};
 
-function heandleSearchMobile() {
+// const handleSearchMobile = () => {
+//   const input = document.getElementById('search-input');
+//   const value = input.value.toUpperCase();
+//   let filterdFlights = filterFlights(flights, value);
+//   renderList(filterdFlights);
+// }
+
+// eslint-disable-next-line no-unused-vars
+const handleSearchDesktop = () => {
   // Declare variables
-  var input, filter, flightListEl, card, a, i, txtValue;
-  input = document.getElementById('search-input');
-  value = input.value.toUpperCase();
+  const input = document.getElementById('search-input-dekstop');
+  const value = input.value.toUpperCase();
   let filterdFlights = filterFlights(flights, value);
   renderList(filterdFlights);
-}
+};
 
-function heandleSearchDekstop() {
-  // Declare variables
-  var input, filter, flightListEl, card, a, i, txtValue;
-  input = document.getElementById('search-input-dekstop');
-  value = input.value.toUpperCase();
-  let filterdFlights = filterFlights(flights, value);
-  renderList(filterdFlights);
-}
-
-function filterFlights(flights, value) {
+const filterFlights = (flights, value) => {
   value = value.trim();
   let filterdFlights = flights.filter((flight) => {
     return flight.flight_number.toString().includes(value) ||
@@ -75,14 +73,14 @@ function filterFlights(flights, value) {
       (flight["departure day"] && flight["departure day"].toString().includes(value))||
       (flight["arrival day"] && flight["arrival day"].toString().includes(value))||
        (flight["patient_number"] && flight["patient_number"].toString().includes(value));
-  })
+  });
   return filterdFlights;
-}
+};
 
-function renderList(flights) {
+const renderList = (flights) => {
   let flightListEl = document.querySelector('.flight-list');
-  let list = creatList(flights);
+  let list = createList(flights);
   flightListEl.innerHTML = list;
-}
+};
 
 init();
