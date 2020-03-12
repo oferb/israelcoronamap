@@ -4,7 +4,7 @@ const copyToClipboard = () => {
   let clipboard = new ClipboardJS('#copyToClipboardButton', {
     container: document.getElementsByClassName('modal')
   });
-  clipboard.on('success', function() {
+  clipboard.on('success', () => {
     changeCopyToClipboardButtonText();
   });
 };
@@ -14,7 +14,7 @@ const changeCopyToClipboardButtonText = () => {
   button.innerText="הועתק";
   button.classList.remove("btn-copy-clipboard");
   button.classList.add("btn-copy-clipboard-success");
-  setTimeout(function () {
+  setTimeout(() => {
     button.innerText="העתקה";
     button.classList.add("btn-copy-clipboard");
     button.classList.remove("btn-copy-clipboard-success");

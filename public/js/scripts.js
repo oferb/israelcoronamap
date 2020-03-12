@@ -61,24 +61,24 @@ $(document).ready(function () {
 /*! track-focus v 1.0.0 | Author: Jeremy Fields [jeremy.fields@vget.com], 2015 | License: MIT */
 // inspired by: http://irama.org/pkg/keyboard-focus-0.3/jquery.keyboard-focus.js
 
-(function(body) {
+((body) => {
 
   let usingMouse;
 
-  let preFocus = function(event) {
+  let preFocus = (event) => {
     usingMouse = (event.type === 'mousedown');
   };
 
-  let addFocus = function(event) {
+  let addFocus = (event) => {
     if (usingMouse)
       event.target.classList.add('focus--mouse');
   };
 
-  let removeFocus = function(event) {
+  let removeFocus = (event) => {
     event.target.classList.remove('focus--mouse');
   };
 
-  let bindEvents = function() {
+  let bindEvents = () => {
     body.addEventListener('keydown', preFocus);
     body.addEventListener('mousedown', preFocus);
     body.addEventListener('focusin', addFocus);

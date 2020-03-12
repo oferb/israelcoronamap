@@ -1,8 +1,8 @@
 
-$( document ).ready(function() {
+$( document ).ready(() => {
 
   // windows navbar scroll
-  $(window).scroll(function(){
+  $(window).scroll(() => {
     let scroll = $(window).scrollTop();
     if (scroll > 50) {
       $(".wonder-nav").addClass("wonder-nav-scroll");
@@ -27,7 +27,7 @@ $( document ).ready(function() {
   });
 
   // page smooth scroll on link click
-  $('a[href^="#"]').on('click', function(event) {
+  $('a[href^="#"]').on('click', (event) => {
 
     let target = $(this.getAttribute('href'));
 
@@ -41,13 +41,13 @@ $( document ).ready(function() {
   });
 
   // side-bar menu open
-  $('.hamburger').click( function() {
+  $('.hamburger').click( () => {
     $( this ).toggleClass( "is-active" );
     $('.side-bar').fadeToggle(50);
   });
 
   // side-bar menu close
-  $('.side-bar-link').click ( function() {
+  $('.side-bar-link').click ( () => {
 
     $('.hamburger').removeClass( "is-active" );
     $('.side-bar').fadeToggle(50);
@@ -56,7 +56,7 @@ $( document ).ready(function() {
 
   // open service pop-ups on click //
 
-  $('.terms-of-use-pop-up-click').click ( function() {
+  $('.terms-of-use-pop-up-click').click ( () => {
 
     $('#terms-of-use-pop-up').fadeIn("fast");
 
@@ -65,7 +65,7 @@ $( document ).ready(function() {
 
   // close popups on X click //
 
-  $('.close-pop-up').click ( function() {
+  $('.close-pop-up').click ( () => {
     $('.pop-up-area').fadeOut('fast');
     $('.overlay').removeClass('blur');
   });
@@ -75,24 +75,24 @@ $( document ).ready(function() {
 /*! track-focus v 1.0.0 | Author: Jeremy Fields [jeremy.fields@vget.com], 2015 | License: MIT */
 // inspired by: http://irama.org/pkg/keyboard-focus-0.3/jquery.keyboard-focus.js
 
-(function(body) {
+((body) => {
 
   let usingMouse;
 
-  let preFocus = function(event) {
+  let preFocus = (event) => {
     usingMouse = (event.type === 'mousedown');
   };
 
-  let addFocus = function(event) {
+  let addFocus = (event) => {
     if (usingMouse)
       event.target.classList.add('focus--mouse');
   };
 
-  let removeFocus = function(event) {
+  let removeFocus = (event) => {
     event.target.classList.remove('focus--mouse');
   };
 
-  let bindEvents = function() {
+  let bindEvents = () => {
     body.addEventListener('keydown', preFocus);
     body.addEventListener('mousedown', preFocus);
     body.addEventListener('focusin', addFocus);
