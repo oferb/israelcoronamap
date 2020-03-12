@@ -49,8 +49,14 @@
 <nav class="wonder-nav">
     <ul class="wonder-nav-ul">
         <li class="nav-logo">
-            <a class="icm-log" href="https://israelcoronamap.co.il/">
+            <a class="powered-by-icm-logo" href="https://israelcoronamap.co.il/">
                 <img src="../assets/images/powered-by-icm.svg" width="200" height="18" alt="israel-corona-map-logo">
+            </a>
+        </li>
+        <li class="wonder-nav-li">
+            <a style="" class="nav-link map-updated">
+                <span style="font-weight: 600;">עדכון אחרון: </span>
+                <span id="last-updated-time">12.3.2020, 19:15</span>
             </a>
         </li>
     </ul>
@@ -58,6 +64,9 @@
 
 <div id="map-wrapper" dir="rtl">
     <div id="map"></div>
+    <div class="map-reader">
+        <img alt="map-reader" src="../assets/images/map-icons/mapReader.svg" class="map-reader-img" width="300" />
+    </div>
 </div>
 
 <!--========== footer ==========-->
@@ -115,6 +124,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../js/scripts.js"></script>
+    <script src="../js/strings.js"></script>
 
 </body>
 
