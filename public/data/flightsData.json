@@ -11,8 +11,7 @@
     "departure day": "23/02/2020",
     "description": "נחתה, 23.2, 16:10, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "23/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 2,
@@ -26,8 +25,7 @@
     "departure day": "21/02/2020",
     "description": "המריאה, ישראל, ת\"א, 21.2.20, 06:00, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "21/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 3,
@@ -41,8 +39,7 @@
     "departure day": "27/02/2020",
     "description": "יפן, טוקיו, טורקיה, איסטנבול, טורקיש איירליינס",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "27/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 4,
@@ -56,8 +53,7 @@
     "departure day": "28/02/2020",
     "description": "טורקיה, איסטנבול, ישראל, ת\"א, 08:55, טורקיש איירליינס",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "28/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 5,
@@ -71,8 +67,7 @@
     "departure day": "22/02/2020",
     "description": "איטליה, ישראל, 21.2, 22.2, 03:00, אל איטליה",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "22/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 6,
@@ -86,8 +81,7 @@
     "departure day": "22/02/2020",
     "description": "איטליה, נאפולי, ישראל, ת\"א, 22.2.2020, 18:00, איזיג'ט",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx",
-    "patient_number": "",
-    "departure day__1": "22/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 7,
@@ -101,8 +95,7 @@
     "departure day": "22/02/2020",
     "description": "איטליה, מילאנו, ישראל, ת\"א,22.2, 13:00, איזיג'ט",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "22/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 8,
@@ -116,8 +109,7 @@
     "departure day": "27/02/2020",
     "description": "איטליה, ישראל, 27.2 , 14:30, אל על",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "27/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 9,
@@ -131,8 +123,7 @@
     "departure day": "19/02/2020",
     "description": "ישראל, ת\"א, איטליה, ורונה, 19.2, 16:05, ישראאייר",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx",
-    "patient_number": "",
-    "departure day__1": "19/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 10,
@@ -146,8 +137,7 @@
     "departure day": "25/02/2020",
     "description": "איטליה, ורונה, ישראל, ת\"א, 25.2, 20:00,26.2, ישראאייר",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx",
-    "patient_number": "",
-    "departure day__1": "25/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 11,
@@ -161,8 +151,7 @@
     "departure day": "22/02/2020",
     "description": "ישראל, ת\"א, איטליה, ונציה, 22.2, 13:00, 16:20.  איזיג'ט",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_2.aspx",
-    "patient_number": 15,
-    "departure day__1": "22/02/2020"
+    "patient_number": 15
   },
   {
     "ID": 12,
@@ -176,8 +165,7 @@
     "departure day": "29/02/2020",
     "description": "איטליה, ונציה, ישראל, ת\"א,  29.2, 12:20, 16:30.  איזיג'ט",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_2.aspx",
-    "patient_number": 15,
-    "departure day__1": "29/02/2020"
+    "patient_number": 15
   },
   {
     "ID": 13,
@@ -191,8 +179,7 @@
     "departure day": "22/02/2020",
     "description": "ארה\"ב, ניו יורק, ישראל, תל אביב, 22.2, 23:50, 23.2, 17:10, אל על",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "22/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 14,
@@ -206,8 +193,7 @@
     "departure day": "28/02/2020",
     "description": "ישראל, תל אביב, ארה\"ב, ניו יורק, 28.2, 01:05, 28.2, 06:00, אל על",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "28/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 15,
@@ -221,8 +207,7 @@
     "departure day": "29/02/2020",
     "description": "איטליה, ונציה, ישראל, ת״א, 29.2, 12:20, איזיג׳ט",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_03.aspx",
-    "patient_number": "",
-    "departure day__1": "29/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 16,
@@ -236,8 +221,7 @@
     "departure day": "27/02/2020",
     "description": "יצאה, ישראל, 27.02, Aegean AIRLINES",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx",
-    "patient_number": "",
-    "departure day__1": "27/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 17,
@@ -251,8 +235,7 @@
     "departure day": "27/02/2020",
     "description": "ישראל, ת\"א, שוויץ, ציריך, 27.2, 5:20, 8:40, סוויסאיר בשיתוף אל על",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_06.aspx",
-    "patient_number": "",
-    "departure day__1": "27/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 18,
@@ -266,8 +249,7 @@
     "departure day": "03/03/2020",
     "description": "שוויץ, ציריך, ישראל, ת\"א, 3.3, 22:40, 4.3, 2:00, סוויסאיר בשיתוף אל על(?)",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_06.aspx",
-    "patient_number": "",
-    "departure day__1": "03/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 19,
@@ -281,8 +263,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, תל אביב, אוסטריה, וינה, 25.2, 16:10, אוסטריאן איירליינס.",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "25/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 20,
@@ -296,8 +277,7 @@
     "departure day": "25/02/2020",
     "description": "אוסטריה, וינה, אוסטריה, אינסברוק, 25.2, 20:35, אוסטריאן איירליינס.",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "25/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 21,
@@ -311,8 +291,7 @@
     "departure day": "01/03/2020",
     "description": "אוסטירה, אינסברוק, אוסטריה, וינה, 1.3, 08:05, אוסטריאן איירליינס",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "01/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 22,
@@ -326,8 +305,7 @@
     "departure day": "01/03/2020",
     "description": "אוסטריה, וינה, ישראל, תל אביב, 1.3, 10:25, אוסטריאן איירליינס",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_1.aspx",
-    "patient_number": "",
-    "departure day__1": "01/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 23,
@@ -341,8 +319,7 @@
     "departure day": "28/02/2020",
     "description": "ישראל, ת\"א, ספרד, מדריד 28.2, 08:00, ישראייר",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_2.aspx",
-    "patient_number": "",
-    "departure day__1": "28/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 24,
@@ -356,8 +333,7 @@
     "departure day": "02/03/2020",
     "description": "ספרד, מדריד, בלגיה, בבריסל, 2.3, 21:15 , Brussels Airlines",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_2.aspx",
-    "patient_number": "",
-    "departure day__1": "02/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 25,
@@ -371,8 +347,7 @@
     "departure day": "03/03/2020",
     "description": "בלגיה, בריסל, ישראל, ת\"א, ב 3.3 בשעה 02:35 לפנות בוקר",
     "health_gov_link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/6032020_2.aspx",
-    "patient_number": "",
-    "departure day__1": "03/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 26,
@@ -386,8 +361,7 @@
     "departure day": "01/03/2020",
     "description": "צרפת, ישראל, ת\"א, 1.3.20, 12:30, Transavia",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "01/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 27,
@@ -401,8 +375,7 @@
     "departure day": "02/03/2020",
     "description": "ישראל, ת\"א, צרפת, 2.3, 13:00, Transavia",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "02/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 28,
@@ -416,8 +389,7 @@
     "departure day": "24/02/2020",
     "description": "ישראל, תל אביב, ספרד, מדריד, 24.2, 08:00, 12:00",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "24/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 29,
@@ -431,8 +403,7 @@
     "departure day": "27/02/2020",
     "description": "ספרד, מדריד, ישראל, תל אביב, 27.2, 17:00, 22:15. איביריה",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "27/02/2020"
+    "patient_number": ""
   },
   {
     "ID": 30,
@@ -446,8 +417,7 @@
     "departure day": "27/02/2020",
     "description": "ישראל, תל אביב, ספרד, ברצלונה, 27.2, אל על",
     "health_gov_link": "",
-    "patient_number": 22,
-    "departure day__1": "27/02/2020"
+    "patient_number": 22
   },
   {
     "ID": 31,
@@ -461,8 +431,7 @@
     "departure day": "01/03/2020",
     "description": "ספרד, ברצלונה, ישראל, תל אביב, 1.3, אל על",
     "health_gov_link": "",
-    "patient_number": 22,
-    "departure day__1": "01/03/2020"
+    "patient_number": 22
   },
   {
     "ID": 32,
@@ -476,8 +445,7 @@
     "departure day": "22/02/2020",
     "description": "ישראל, תל אביב, איטליה, מילאנו, 22.2, 13:00, 16:20, איזיג'ט",
     "health_gov_link": "",
-    "patient_number": 23,
-    "departure day__1": "22/02/2020"
+    "patient_number": 23
   },
   {
     "ID": 33,
@@ -491,8 +459,7 @@
     "departure day": "29/02/2020",
     "description": "איטליה, ונציה ,תל אביב, 29.2, 12:20, 16:30 איזיג'ט",
     "health_gov_link": "",
-    "patient_number": 23,
-    "departure day__1": "29/02/2020"
+    "patient_number": 23
   },
   {
     "ID": 34,
@@ -506,8 +473,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, תל אביב, ספרד, מדריד, 25.2.20, 06:00, 10:30, איבריה",
     "health_gov_link": "",
-    "patient_number": 26,
-    "departure day__1": "25/02/2020"
+    "patient_number": 26
   },
   {
     "ID": 35,
@@ -521,8 +487,7 @@
     "departure day": "25/02/2020",
     "description": "ספרד, מדריד, ספרד, טנריף, 25.2.20, 13:45, 15:35, איבריה",
     "health_gov_link": "",
-    "patient_number": 26,
-    "departure day__1": "25/02/2020"
+    "patient_number": 26
   },
   {
     "ID": 36,
@@ -536,8 +501,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף, ספרד, מדריד, 3.3.20, 11:05, 14:55, איבריה",
     "health_gov_link": "",
-    "patient_number": 26,
-    "departure day__1": "03/03/2020"
+    "patient_number": 26
   },
   {
     "ID": 37,
@@ -551,8 +515,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, ממדריד, ישראל, תל אביב, 3.3.20, 17:00, 22:45, איבריה",
     "health_gov_link": "",
-    "patient_number": 26,
-    "departure day__1": "03/03/2020"
+    "patient_number": 26
   },
   {
     "ID": 38,
@@ -566,8 +529,7 @@
     "departure day": "29/02/2020",
     "description": "ישראל, תל אביב ,אוסטריה, וינה, 29.2, 06:15",
     "health_gov_link": "",
-    "patient_number": 27,
-    "departure day__1": "29/02/2020"
+    "patient_number": 27
   },
   {
     "ID": 39,
@@ -581,8 +543,7 @@
     "departure day": "05/03/2020",
     "description": "אוסטריה, וינה, ישראל, תל אביב, 5.3, 13:30, 5.3, 17:15",
     "health_gov_link": "",
-    "patient_number": 27,
-    "departure day__1": "05/03/2020"
+    "patient_number": 27
   },
   {
     "ID": 40,
@@ -596,8 +557,7 @@
     "departure day": "19/02/2020",
     "description": "ישראל, ת\"א, איטליה, ורונה, 19/2, 16:05. ישראאייר",
     "health_gov_link": "",
-    "patient_number": 31,
-    "departure day__1": "19/02/2020"
+    "patient_number": 31
   },
   {
     "ID": 41,
@@ -611,8 +571,7 @@
     "departure day": "25/02/2020",
     "description": "איטליה, ורונה, ישראל, ת\"א, 25/2 (נחתה בחצות הלילה ב26/2). ישראאייר",
     "health_gov_link": "",
-    "patient_number": 31,
-    "departure day__1": "25/02/2020"
+    "patient_number": 31
   },
   {
     "ID": 42,
@@ -626,8 +585,7 @@
     "departure day": "27/02/2020",
     "description": "ישראל, ת\"א, ספרד, ברצלונה, 27.2, אל על",
     "health_gov_link": "",
-    "patient_number": 32,
-    "departure day__1": "27/02/2020"
+    "patient_number": 32
   },
   {
     "ID": 43,
@@ -641,8 +599,7 @@
     "departure day": "01/03/2020",
     "description": "ספרד, ברצלונה, ישראל, ת\"א, 1.3, אל על",
     "health_gov_link": "",
-    "patient_number": 32,
-    "departure day__1": "01/03/2020"
+    "patient_number": 32
   },
   {
     "ID": 44,
@@ -656,8 +613,7 @@
     "departure day": "03/03/2020",
     "description": "ישראל, תל אביב, בלגיה, בריסל, 3.3, 16:05, 20:05. Brussels Airlines",
     "health_gov_link": "",
-    "patient_number": 36,
-    "departure day__1": "03/03/2020"
+    "patient_number": 36
   },
   {
     "ID": 45,
@@ -671,8 +627,7 @@
     "departure day": "05/03/2020",
     "description": "בלגיה, בריסל, ישראל, תל אביב, 5.3, 18:25, 23:50, Brussels Airlines",
     "health_gov_link": "",
-    "patient_number": 36,
-    "departure day__1": "05/03/2020"
+    "patient_number": 36
   },
   {
     "ID": 46,
@@ -686,8 +641,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, תל אביב, שוויץ, ציריך, 25.2, 05:20. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 37,
-    "departure day__1": "25/02/2020"
+    "patient_number": 37
   },
   {
     "ID": 47,
@@ -701,8 +655,7 @@
     "departure day": "25/02/2020",
     "description": "שוויץ, ציריך, ספרד, טנריף, 25.2, 09:35. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 37,
-    "departure day__1": "25/02/2020"
+    "patient_number": 37
   },
   {
     "ID": 48,
@@ -716,8 +669,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף,  שוויץ, ציריך, 3.3, 14:00. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 37,
-    "departure day__1": "03/03/2020"
+    "patient_number": 37
   },
   {
     "ID": 49,
@@ -731,8 +683,7 @@
     "departure day": "03/03/2020",
     "description": "שוויץ, ציריך, ישראל, תל אביב, 3.3, 22:40. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 37,
-    "departure day__1": "03/03/2020"
+    "patient_number": 37
   },
   {
     "ID": 50,
@@ -746,8 +697,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, ת\"א, ספרד, ברצלונה, 25.2, 06:00, אל על.",
     "health_gov_link": "",
-    "patient_number": 38,
-    "departure day__1": "25/02/2020"
+    "patient_number": 38
   },
   {
     "ID": 51,
@@ -761,8 +711,7 @@
     "departure day": "27/02/2020",
     "description": "ספרד, ברצלונה, שוויץ, ציריך, 27.2,6:30. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 38,
-    "departure day__1": "27/02/2020"
+    "patient_number": 38
   },
   {
     "ID": 52,
@@ -776,8 +725,7 @@
     "departure day": "03/03/2020",
     "description": "שוויץ, ציריך, רוסיה, מוסקווה, 3.3, 22:30.",
     "health_gov_link": "",
-    "patient_number": 38,
-    "departure day__1": "03/03/2020"
+    "patient_number": 38
   },
   {
     "ID": 53,
@@ -791,8 +739,7 @@
     "departure day": "05/03/2020",
     "description": "רוסיה, מוסקווה, ישראל, תל אביב, 5.3 ,14:15.",
     "health_gov_link": "",
-    "patient_number": 38,
-    "departure day__1": "05/03/2020"
+    "patient_number": 38
   },
   {
     "ID": 54,
@@ -806,8 +753,7 @@
     "departure day": "27/02/2020",
     "description": "ישראל, תל אביב, שוויץ, ציריך, 27.2, 07:30, 11:00. אל על",
     "health_gov_link": "",
-    "patient_number": 39,
-    "departure day__1": "27/02/2020"
+    "patient_number": 39
   },
   {
     "ID": 55,
@@ -821,8 +767,7 @@
     "departure day": "05/03/2020",
     "description": "שוויץ, ציריך, ישראל, תל אביב, 5.3, 12:40, 17:35. אל על",
     "health_gov_link": "",
-    "patient_number": 39,
-    "departure day__1": "05/03/2020"
+    "patient_number": 39
   },
   {
     "ID": 56,
@@ -836,8 +781,7 @@
     "departure day": "01/03/2020",
     "description": "יוון, אתונה, ישראל, תל אביב, 1.3, 10:40 אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "01/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 57,
@@ -851,8 +795,7 @@
     "departure day": "01/03/2020",
     "description": "ישראל, תל אביב, הודו, מומביי, 1.3, 20:15, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "01/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 58,
@@ -866,8 +809,7 @@
     "departure day": "05/03/2020",
     "description": "הודו, מומביי, ישראל, ת\"א, 5.3, 22:50, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "05/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 59,
@@ -881,8 +823,7 @@
     "departure day": "06/03/2020",
     "description": "ישראל, ת\"א, יוון, אתונה, 6.3, 05:40, AEGEAN",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "06/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 60,
@@ -895,9 +836,8 @@
     "arrival time": "",
     "departure day": "23/02/2020",
     "description": "ישראל, תל אביב, שוויץ, ציריך, 23.2, 07:30, 11:00. נסע ברכב לאוסטריה.",
-    "health_gov_link": "",
-    "patient_number": 40,
-    "departure day__1": "23/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2884",
+    "patient_number": 40
   },
   {
     "ID": 61,
@@ -910,9 +850,8 @@
     "arrival time": "04:00",
     "departure day": "01/03/2020",
     "description": "שוויץ, ציריך, ישראל, תל אביב, 1.3, 21:00, 2.3, 04:00, אל על",
-    "health_gov_link": "",
-    "patient_number": 40,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2884",
+    "patient_number": 40
   },
   {
     "ID": 62,
@@ -926,8 +865,7 @@
     "departure day": "29/02/2020",
     "description": "ישראל, תל אביב, שוויץ, ציריך, 29.2, 05:20. SWISSAIR *משם ברכב לאוסטריה.",
     "health_gov_link": "",
-    "patient_number": 41,
-    "departure day__1": "29/02/2020"
+    "patient_number": 41
   },
   {
     "ID": 63,
@@ -941,8 +879,7 @@
     "departure day": "05/03/2020",
     "description": "שוויץ, ציריך, ישראל, תל אביב, 5.3, 22:00, 6.3, 02:30, SWISSAIR",
     "health_gov_link": "",
-    "patient_number": 41,
-    "departure day__1": "05/03/2020"
+    "patient_number": 41
   },
   {
     "ID": 64,
@@ -956,8 +893,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, ת\"א, טורקיה, איסטנבול, 25.02, 5:30, פגסוס",
     "health_gov_link": "",
-    "patient_number": 42,
-    "departure day__1": "25/02/2020"
+    "patient_number": 42
   },
   {
     "ID": 65,
@@ -971,8 +907,7 @@
     "departure day": "26/02/2020",
     "description": "טורקיה, איסטנבול, ספרד, מדריד, 26.02, 08:45, 13:30, פגסוס",
     "health_gov_link": "",
-    "patient_number": 42,
-    "departure day__1": "26/02/2020"
+    "patient_number": 42
   },
   {
     "ID": 66,
@@ -986,8 +921,7 @@
     "departure day": "02/03/2020",
     "description": "ספרד, מדריד, ישראל, תל אביב, 2.3, 23:15, 3.3, 04:50, אל על",
     "health_gov_link": "",
-    "patient_number": 42,
-    "departure day__1": "02/03/2020"
+    "patient_number": 42
   },
   {
     "ID": 67,
@@ -1001,8 +935,7 @@
     "departure day": "27/02/2020",
     "description": "ישראל, ת\"א, צרפת, פריז, 27.02, 9:00, אל-על",
     "health_gov_link": "",
-    "patient_number": 43,
-    "departure day__1": "27/02/2020"
+    "patient_number": 43
   },
   {
     "ID": 68,
@@ -1016,8 +949,7 @@
     "departure day": "05/03/2020",
     "description": "צרפת, פריז, ישראל, ת\"א, 05.03, 15:45, אל-על",
     "health_gov_link": "",
-    "patient_number": 43,
-    "departure day__1": "05/03/2020"
+    "patient_number": 43
   },
   {
     "ID": 69,
@@ -1031,8 +963,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, תל אביב, שוויץ, ציריך, 25.2, 05:20. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 44,
-    "departure day__1": "25/02/2020"
+    "patient_number": 44
   },
   {
     "ID": 70,
@@ -1046,8 +977,7 @@
     "departure day": "25/02/2020",
     "description": "שוויץ, ציריך, ספרד, טנריף, 25.2, 09:35. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 44,
-    "departure day__1": "25/02/2020"
+    "patient_number": 44
   },
   {
     "ID": 71,
@@ -1061,8 +991,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף, שוויץ, ציריך, 25.2, 09:35. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 44,
-    "departure day__1": "03/03/2020"
+    "patient_number": 44
   },
   {
     "ID": 72,
@@ -1076,8 +1005,7 @@
     "departure day": "03/03/2020",
     "description": "שוויץ, ציריך, ישראל, תל אביב, 3.3, 22:40. סוויסאייר",
     "health_gov_link": "",
-    "patient_number": 44,
-    "departure day__1": "03/03/2020"
+    "patient_number": 44
   },
   {
     "ID": 73,
@@ -1091,8 +1019,7 @@
     "departure day": "23/02/2020",
     "description": "ישראל, ת\"א, פורטוגל, ליסבון, 23.2.20, 05:00, 09:25, אייר פורטוגל",
     "health_gov_link": "",
-    "patient_number": 49,
-    "departure day__1": "23/02/2020"
+    "patient_number": 49
   },
   {
     "ID": 74,
@@ -1106,8 +1033,7 @@
     "departure day": "24/02/2020",
     "description": "פורטוגל, ליסבון , ספרד, טנריף, 24.2.20, 09:25, 11:55.  אייר פורטוגל",
     "health_gov_link": "",
-    "patient_number": 49,
-    "departure day__1": "24/02/2020"
+    "patient_number": 49
   },
   {
     "ID": 75,
@@ -1121,8 +1047,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף, פורטוגל, ליסבון, 3.3.20, 12:40, 14:55. אייר פורטוגל",
     "health_gov_link": "",
-    "patient_number": 49,
-    "departure day__1": "03/03/2020"
+    "patient_number": 49
   },
   {
     "ID": 76,
@@ -1136,8 +1061,7 @@
     "departure day": "04/03/2020",
     "description": "ליסבון, פורטוגל, ישראל, ת\"א,  4.3, 14:20, 21:30 , אייר פורטוגל",
     "health_gov_link": "",
-    "patient_number": 49,
-    "departure day__1": "04/03/2020"
+    "patient_number": 49
   },
   {
     "ID": 77,
@@ -1151,8 +1075,7 @@
     "departure day": "25/02/2020",
     "description": "ישראל, ת\"א, ספרד, מדריד, 25.2.20, 06:00, 10:30, איבריה",
     "health_gov_link": "",
-    "patient_number": 50,
-    "departure day__1": "25/02/2020"
+    "patient_number": 50
   },
   {
     "ID": 78,
@@ -1166,8 +1089,7 @@
     "departure day": "25/02/2020",
     "description": "ספרד, מדריד, ספרד, טנריף 25.2, 13:45, 15:35. איבריה",
     "health_gov_link": "",
-    "patient_number": 50,
-    "departure day__1": "25/02/2020"
+    "patient_number": 50
   },
   {
     "ID": 79,
@@ -1181,8 +1103,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף, ספרד, מדריד, 3.3, 11:05, 14:55, איביריה",
     "health_gov_link": "",
-    "patient_number": 50,
-    "departure day__1": "03/03/2020"
+    "patient_number": 50
   },
   {
     "ID": 80,
@@ -1196,8 +1117,7 @@
     "departure day": "03/03/2020",
     "description": "ספרד, מדריד, ישראל, ת\"א 3.3, 17:00, 22:45, איביריה",
     "health_gov_link": "",
-    "patient_number": 50,
-    "departure day__1": "03/03/2020"
+    "patient_number": 50
   },
   {
     "ID": 81,
@@ -1211,8 +1131,7 @@
     "departure day": "09/03/2020",
     "description": "ישראל, ת\"א, פראנקפורט, גרמניה  09.03.20, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "09/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 82,
@@ -1226,8 +1145,7 @@
     "departure day": "09/03/2020",
     "description": "ישראל, ת\"א, גרמניה, מינכן, 09.03.20, אל על",
     "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "09/03/2020"
+    "patient_number": ""
   },
   {
     "ID": 83,
@@ -1240,9 +1158,8 @@
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "באקו, אזרבייז'ן, ישראל, ת\"א, 27.2, אזרבייז'ן איירליינס",
-    "health_gov_link": "",
-    "patient_number": 51,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2885",
+    "patient_number": 51
   },
   {
     "ID": 84,
@@ -1255,9 +1172,8 @@
     "arrival time": "",
     "departure day": "20/02/2020",
     "description": "ישראל, ת\"א, מינכן, גרמניה, 20.2, 06:00, אל על",
-    "health_gov_link": "",
-    "patient_number": 53,
-    "departure day__1": "20/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2887",
+    "patient_number": 53
   },
   {
     "ID": 85,
@@ -1270,9 +1186,8 @@
     "arrival time": "02:15",
     "departure day": "27/02/2020",
     "description": "מינכן, גרמניה, ישראל, ת\"א, 27.2, 21:30, 28.2, 02:15. אל על",
-    "health_gov_link": "",
-    "patient_number": 53,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2887",
+    "patient_number": 53
   },
   {
     "ID": 86,
@@ -1285,9 +1200,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "ישראל, ת\"א, יוון, אתונה, 1.3, 5:40, AEGEAN",
-    "health_gov_link": "",
-    "patient_number": 54,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 54
   },
   {
     "ID": 87,
@@ -1300,9 +1214,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "יוון, אתונה, מינכן, גרמניה, 1.3, 8:30, AEGEAN",
-    "health_gov_link": "",
-    "patient_number": 54,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 54
   },
   {
     "ID": 88,
@@ -1315,9 +1228,8 @@
     "arrival time": "",
     "departure day": "06/03/2020",
     "description": "מנינגן, גרמניה, ישראל, ת\"א, 6.3, 6:25, ריינאייר",
-    "health_gov_link": "",
-    "patient_number": 54,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 54
   },
   {
     "ID": 89,
@@ -1330,9 +1242,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "ישראל, ת\"א, יוון, אתונה, 1.3, 5:40, AEGEAN",
-    "health_gov_link": "",
-    "patient_number": 55,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 55
   },
   {
     "ID": 90,
@@ -1345,9 +1256,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "יוון, אתונה, מינכן, גרמניה, 1.3, 8:30, AEGEAN",
-    "health_gov_link": "",
-    "patient_number": 55,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 55
   },
   {
     "ID": 91,
@@ -1360,9 +1270,8 @@
     "arrival time": "",
     "departure day": "06/03/2020",
     "description": "מנינגן, גרמניה, ישראל, ת\"א, 6.3, 6:25, ריינאייר",
-    "health_gov_link": "",
-    "patient_number": 55,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2888",
+    "patient_number": 55
   },
   {
     "ID": 92,
@@ -1375,9 +1284,8 @@
     "arrival time": "09:10",
     "departure day": "29/02/2020",
     "description": "ישראל, תל אביב ,אוסטריה, וינה, 29.2, 06:15, 09:10, Austrian",
-    "health_gov_link": "",
-    "patient_number": 58,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2892",
+    "patient_number": 58
   },
   {
     "ID": 93,
@@ -1390,9 +1298,8 @@
     "arrival time": "11:05",
     "departure day": "29/02/2020",
     "description": "אוסטריה, וינה, אינסבורק, אוסטריה, 29.2, 10:05, 11:05. Austrian",
-    "health_gov_link": "",
-    "patient_number": 58,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2892",
+    "patient_number": 58
   },
   {
     "ID": 94,
@@ -1405,9 +1312,8 @@
     "arrival time": "12:20",
     "departure day": "07/03/2020",
     "description": "אינסבורק, אוסטריה, אוסטריה, וינה, 7.3, 11:20, 12:20, Austrian",
-    "health_gov_link": "",
-    "patient_number": 58,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2892",
+    "patient_number": 58
   },
   {
     "ID": 95,
@@ -1420,9 +1326,8 @@
     "arrival time": "17:35",
     "departure day": "07/03/2020",
     "description": "אוסטריה, וינה, ישראל, ת\"א, 7.3, 13:05, 17:35, Austrian",
-    "health_gov_link": "",
-    "patient_number": 58,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2892",
+    "patient_number": 58
   },
   {
     "ID": 96,
@@ -1435,9 +1340,8 @@
     "arrival time": "",
     "departure day": "30/11/2019",
     "description": "טיסה 221J של חברת אזרבייג'אן אייר ליינס מבאקו בתאריך 27/2.",
-    "health_gov_link": "",
-    "patient_number": "",
-    "departure day__1": "30/11/2019"
+    "health_gov_link": "https://t.me/MOHreport/2885",
+    "patient_number": 51
   },
   {
     "ID": 97,
@@ -1450,9 +1354,8 @@
     "arrival time": "04:25",
     "departure day": "09/03/2020",
     "description": "צ'כיה, פראג, ת\"א ישראל, 23:45, 9.3, 04:25 בישראל.ישראייר",
-    "health_gov_link": "",
-    "patient_number": 60,
-    "departure day__1": "09/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2902",
+    "patient_number": 60
   },
   {
     "ID": 98,
@@ -1465,9 +1368,8 @@
     "arrival time": "16:25:00",
     "departure day": "04/03/2020",
     "description": "גרמניה, גרמניה, פרנקפורט, 4.3, 16:25, לופטהאנזה",
-    "health_gov_link": "",
-    "patient_number": 60,
-    "departure day__1": "04/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2902",
+    "patient_number": 60
   },
   {
     "ID": 99,
@@ -1480,9 +1382,8 @@
     "arrival time": "",
     "departure day": "05/03/2020",
     "description": "גרמניה, פרנקפורט, צ'כיה, פראג, 5.3, 19:00.",
-    "health_gov_link": "",
-    "patient_number": 60,
-    "departure day__1": "05/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2902",
+    "patient_number": 60
   },
   {
     "ID": 100,
@@ -1495,9 +1396,8 @@
     "arrival time": "",
     "departure day": "25/02/2020",
     "description": "ישראל, ת\"א, שוויץ, ציריך, 25.2, 5:20, סוויסאיר",
-    "health_gov_link": "",
-    "patient_number": 61,
-    "departure day__1": "25/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2903",
+    "patient_number": 61
   },
   {
     "ID": 101,
@@ -1510,9 +1410,8 @@
     "arrival time": "",
     "departure day": "25/02/2020",
     "description": "שוויץ, ציריך, ספרד, טנריף, 25.2, 9:30, סוויסאייר",
-    "health_gov_link": "",
-    "patient_number": 61,
-    "departure day__1": "25/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2903",
+    "patient_number": 61
   },
   {
     "ID": 102,
@@ -1525,9 +1424,8 @@
     "arrival time": "",
     "departure day": "03/03/2020",
     "description": "ספרד, טנריף, שוויץ, ציריך, 3.3, 14:00, סוויסאייר",
-    "health_gov_link": "",
-    "patient_number": 61,
-    "departure day__1": "03/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2903",
+    "patient_number": 61
   },
   {
     "ID": 103,
@@ -1540,9 +1438,8 @@
     "arrival time": "03:30",
     "departure day": "03/03/2020",
     "description": "שוויץ, ציריך, ישראל, ת\"א, 3.3, 22:40, 4.3, 3:30, סוויסאיר",
-    "health_gov_link": "",
-    "patient_number": 61,
-    "departure day__1": "03/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2903",
+    "patient_number": 61
   },
   {
     "ID": 104,
@@ -1555,9 +1452,8 @@
     "arrival time": "",
     "departure day": "19/02/2020",
     "description": "ישראל, ת\"א, ספרד, מדריד, 19.2, 06:15, אל על",
-    "health_gov_link": "",
-    "patient_number": 62,
-    "departure day__1": "19/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2904",
+    "patient_number": 62
   },
   {
     "ID": 105,
@@ -1570,9 +1466,8 @@
     "arrival time": "",
     "departure day": "22/02/2020",
     "description": "ספרד, מדריד, ספרד, טנריף, 22.2, 20:00, איבריה",
-    "health_gov_link": "",
-    "patient_number": 62,
-    "departure day__1": "22/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2904",
+    "patient_number": 62
   },
   {
     "ID": 106,
@@ -1585,9 +1480,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "ספרד, טנריף, ספרד, מדריד, 29.2, 19:00, איבריה",
-    "health_gov_link": "",
-    "patient_number": 62,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2904",
+    "patient_number": 62
   },
   {
     "ID": 107,
@@ -1600,9 +1494,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "ספרד, מדריד, ישראל, ת\"א, 1.3, 12:30, אל על",
-    "health_gov_link": "",
-    "patient_number": 62,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2904",
+    "patient_number": 62
   },
   {
     "ID": 108,
@@ -1615,9 +1508,8 @@
     "arrival time": "",
     "departure day": "28/02/2020",
     "description": "ישראל, ת\"א, שוויץ, ציריך, 28.2, 16:00, סוויסאייר",
-    "health_gov_link": "",
-    "patient_number": 63,
-    "departure day__1": "28/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2905",
+    "patient_number": 63
   },
   {
     "ID": 109,
@@ -1630,9 +1522,8 @@
     "arrival time": "03:00",
     "departure day": "06/03/2020",
     "description": "שוויץ, ציריך, ישראל, ת\"א, 6.3, 22:40, 6.3, 3:00, סוויסאייר",
-    "health_gov_link": "",
-    "patient_number": 63,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2905",
+    "patient_number": 63
   },
   {
     "ID": 110,
@@ -1645,9 +1536,8 @@
     "arrival time": "",
     "departure day": "02/03/2020",
     "description": "ישראל, ת\"א, ספרד, ברצלונה, 2.3, 12:45, NORWEGIAN AIRLINES",
-    "health_gov_link": "",
-    "patient_number": 64,
-    "departure day__1": "02/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2906",
+    "patient_number": 64
   },
   {
     "ID": 111,
@@ -1660,9 +1550,8 @@
     "arrival time": "",
     "departure day": "09/03/2020",
     "description": "ספרד, ברצלונה, ישראל, ת\"א, 9.3, 06:30, NORWEGIAN AIRLINES",
-    "health_gov_link": "",
-    "patient_number": 64,
-    "departure day__1": "09/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2906",
+    "patient_number": 64
   },
   {
     "ID": 112,
@@ -1675,9 +1564,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "ישראל, ת\"א, טורקיה, איסטנבול, 29.2, 7:20, פגאסוס,",
-    "health_gov_link": "",
-    "patient_number": 65,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2908",
+    "patient_number": 65
   },
   {
     "ID": 113,
@@ -1690,9 +1578,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "טורקיה, איסטנבול, שוויץ, ז'נבה, 29.2, 13:30, פגאסוס",
-    "health_gov_link": "",
-    "patient_number": 65,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2908",
+    "patient_number": 65
   },
   {
     "ID": 114,
@@ -1705,9 +1592,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "שוויץ, ז'נבה, טורקיה, איסטנבול, 7.3, 15:35, פגאסוס",
-    "health_gov_link": "",
-    "patient_number": 65,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2908",
+    "patient_number": 65
   },
   {
     "ID": 115,
@@ -1720,9 +1606,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "טורקיה, איסטנבול, ישראל, ת\"א, 7.3, 23:01, 8.3, 00:10, פגסוס",
-    "health_gov_link": "",
-    "patient_number": 65,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2908",
+    "patient_number": 65
   },
   {
     "ID": 116,
@@ -1735,9 +1620,8 @@
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "ישראל, ת\"א, ספרד, מדריד, 27.2, 16:05, Air Europa",
-    "health_gov_link": "",
-    "patient_number": 66,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2909",
+    "patient_number": 66
   },
   {
     "ID": 117,
@@ -1750,9 +1634,8 @@
     "arrival time": "",
     "departure day": "02/03/2020",
     "description": "ספרד, מדריד, ישראל, ת\"א, 2.3, 09:05, Air Europa",
-    "health_gov_link": "",
-    "patient_number": 66,
-    "departure day__1": "02/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2909",
+    "patient_number": 66
   },
   {
     "ID": 118,
@@ -1765,9 +1648,8 @@
     "arrival time": "10:00",
     "departure day": "02/03/2020",
     "description": "ארה\"ב, ניו יורק, ישראל, ת\"א, 2.3, 17:30, 3.3, 10:00, אל על",
-    "health_gov_link": "",
-    "patient_number": 67,
-    "departure day__1": "02/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2910",
+    "patient_number": 67
   },
   {
     "ID": 119,
@@ -1780,9 +1662,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "ישראל, ת\"א, גרנובל, צרפת, 1.3, 6:30, ארקיע *נסעו בהסעה (שאטל) של נתב״ג לחניון לטווח ארוך.",
-    "health_gov_link": "",
-    "patient_number": 68,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2911",
+    "patient_number": 68
   },
   {
     "ID": 120,
@@ -1795,9 +1676,8 @@
     "arrival time": "15:30",
     "departure day": "08/03/2020",
     "description": "גרנובל, צרפת, ישראל, ת\"א, 8.3, 12:30, 15:30, ארקיע *נסעו בהסעה (שאטל) של נתב״ג לחניון לטווח ארוך.",
-    "health_gov_link": "",
-    "patient_number": 68,
-    "departure day__1": "08/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2911",
+    "patient_number": 68
   },
   {
     "ID": 121,
@@ -1810,9 +1690,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "ישראל, ת\"א, גרנובל, צרפת, 1.3, 6:30, ארקיע *נסעו בהסעה (שאטל) של נתב״ג לחניון לטווח ארוך.",
-    "health_gov_link": "",
-    "patient_number": 69,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2911",
+    "patient_number": 69
   },
   {
     "ID": 122,
@@ -1825,9 +1704,8 @@
     "arrival time": "15:30",
     "departure day": "08/03/2020",
     "description": "גרנובל, צרפת, ישראל, ת\"א, 8.3, 12:30, 15:30, ארקיע *נסעו בהסעה (שאטל) של נתב״ג לחניון לטווח ארוך.",
-    "health_gov_link": "",
-    "patient_number": 69,
-    "departure day__1": "08/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2911",
+    "patient_number": 69
   },
   {
     "ID": 123,
@@ -1840,9 +1718,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "ישראל, ת\"א, מינכן, גרמניה, 29.2, 12:15, ישראייר, *משם ברכב שכור לאתר סקי באוסטריה (סאן אנטוניו).",
-    "health_gov_link": "",
-    "patient_number": 70,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2912",
+    "patient_number": 70
   },
   {
     "ID": 124,
@@ -1855,9 +1732,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "מינכן, גרמניה, ישראל, ת\"א, 7.3, ישראייר *נסע ברכב שכור לשדה התעופה ועלה על טיסה ממינכן לתל אביב",
-    "health_gov_link": "",
-    "patient_number": 70,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2912",
+    "patient_number": 70
   },
   {
     "ID": 125,
@@ -1870,9 +1746,8 @@
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "טיסה הלוך: \n27.2 מספר טיסה LY347 מתל אביב לציריך שעת המראה 07:30",
-    "health_gov_link": "",
-    "patient_number": 72,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2916",
+    "patient_number": 72
   },
   {
     "ID": 126,
@@ -1885,9 +1760,8 @@
     "arrival time": "",
     "departure day": "05/03/2020",
     "description": "טיסה חזור: \n5.3 מספר טיסה LY348 מציריך לתל אביב שעת המראה 12:40",
-    "health_gov_link": "",
-    "patient_number": 72,
-    "departure day__1": "05/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2916",
+    "patient_number": 72
   },
   {
     "ID": 127,
@@ -1900,9 +1774,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "הלוך: \n29.2: 9:30 מתל אביב לזלצבורג בחברת סאן-דור מספר טיסה 5815GH",
-    "health_gov_link": "",
-    "patient_number": 73,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2927",
+    "patient_number": 73
   },
   {
     "ID": 128,
@@ -1915,9 +1788,8 @@
     "arrival time": "18:05",
     "departure day": "07/03/2020",
     "description": "חזור:\n7.3: 13:40מזלצבורג לתל אביב בחברת סאן-דור מספר טיסה 5816GH, נחיתה בנתב\"ג ב18:05.",
-    "health_gov_link": "",
-    "patient_number": 73,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2927",
+    "patient_number": 73
   },
   {
     "ID": 129,
@@ -1930,9 +1802,8 @@
     "arrival time": "",
     "departure day": "26/02/2020",
     "description": "הלוך:\nב- 26.2: מתל אביב למדריד, מספר טיסה UX1302 של חברת אייר אירופה, המראה בשעה 16:00.",
-    "health_gov_link": "",
-    "patient_number": 74,
-    "departure day__1": "26/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2928",
+    "patient_number": 74
   },
   {
     "ID": 130,
@@ -1945,9 +1816,8 @@
     "arrival time": "05:35",
     "departure day": "01/03/2020",
     "description": "חזור:\nב-1.3 ממדריד לתל אביב, מספרה UX1303 של חברת אייר אירופה. המראה ממדריד בשעה 23:45, נחיתה בנתב\"ג 2.3 בשעה 05:35.",
-    "health_gov_link": "",
-    "patient_number": 74,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2928",
+    "patient_number": 74
   },
   {
     "ID": 131,
@@ -1960,9 +1830,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "הלוך:\n*ב-29.2 מתל אביב לוינה, מספרה OS860 של חברת אוסטריאן. המראה מנתב\"ג בשעה 06:15.",
-    "health_gov_link": "",
-    "patient_number": 75,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2929",
+    "patient_number": 75
   },
   {
     "ID": 132,
@@ -1975,9 +1844,8 @@
     "arrival time": "",
     "departure day": "29/02/2020",
     "description": "*טיסת המשך מוינה לאינסברוק שבאוסטריה בחברת אוסטריאן, מספרה OS911. המראה מוינה ב-10:05.",
-    "health_gov_link": "",
-    "patient_number": 75,
-    "departure day__1": "29/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2929",
+    "patient_number": 75
   },
   {
     "ID": 133,
@@ -1990,9 +1858,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "חזור:\n*ב- 7.3 מאינסברוק לוינה בחברת אוסטריאן, מספרה OS904. המראה ב-11:20.",
-    "health_gov_link": "",
-    "patient_number": 75,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2929",
+    "patient_number": 75
   },
   {
     "ID": 134,
@@ -2005,9 +1872,8 @@
     "arrival time": "17:35",
     "departure day": "07/03/2020",
     "description": "*טיסת המשך לישראל ב7.3, באוסטריאן, מספרה OS861. שעת המראה 13:05, נחיתה בנתב\"ג ב-17:35.",
-    "health_gov_link": "",
-    "patient_number": 75,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2929",
+    "patient_number": 75
   },
   {
     "ID": 135,
@@ -2020,9 +1886,8 @@
     "arrival time": "",
     "departure day": "28/02/2020",
     "description": "טיסת הלוך:\n28.2: טיסה VS454 חברת Virgin atlantic מת\"א להיתרו לונדון, המריאה ב 07:00",
-    "health_gov_link": "",
-    "patient_number": 76,
-    "departure day__1": "28/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2932",
+    "patient_number": 76
   },
   {
     "ID": 136,
@@ -2035,9 +1900,8 @@
     "arrival time": "",
     "departure day": "03/03/2020",
     "description": "3.3: טיסה חברת Virgin atlantic מהיתרו לאדינבורו, המריאה בשעה 08:45.\nמספר טיסה?",
-    "health_gov_link": "",
-    "patient_number": 76,
-    "departure day__1": "03/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2932",
+    "patient_number": 76
   },
   {
     "ID": 137,
@@ -2050,9 +1914,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "טיסה חזור:\n7.3: טיסה BA2507 חברת בריטיש איירוייז מאדינבורו לגטוויק לונדון בשעה 07:05.\nמגטוויק נסיעה באוטובוס להיתרו בשעה 09:00.",
-    "health_gov_link": "",
-    "patient_number": 76,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2932",
+    "patient_number": 76
   },
   {
     "ID": 138,
@@ -2065,9 +1928,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "7.3: טיסה VS453 חברת Virgin atlantic מהיתרו לונדון לת\"א בשעה 14:50",
-    "health_gov_link": "",
-    "patient_number": 76,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2932",
+    "patient_number": 76
   },
   {
     "ID": 139,
@@ -2080,9 +1942,8 @@
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "הלוך:\n27.2 : טיסה מתל אביב לפריז צרפת (שדה התעופה שארל דה גול), בטיסה מספר LY319 של חברת אל על בשעה 05:50 .",
-    "health_gov_link": "",
-    "patient_number": 77,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2933",
+    "patient_number": 77
   },
   {
     "ID": 140,
@@ -2095,9 +1956,8 @@
     "arrival time": "03:50",
     "departure day": "01/03/2020",
     "description": "חזור:\n1.3: טיסה מפריז לתל אביב, טיסה מס' LY326 של חברת אל על בשעה 22:30 , נחיתה בנתב\"ג ב- 2.3 בשעה 03:50.",
-    "health_gov_link": "",
-    "patient_number": 77,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2933",
+    "patient_number": 77
   },
   {
     "ID": 141,
@@ -2110,9 +1970,8 @@
     "arrival time": "",
     "departure day": "23/02/2020",
     "description": "הלוך:\n23.2 בשעה 06:50 מת\"א למילאנו טיסת אל על מס' טיסה 381 LY",
-    "health_gov_link": "",
-    "patient_number": 80,
-    "departure day__1": "23/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2946",
+    "patient_number": 80
   },
   {
     "ID": 142,
@@ -2125,9 +1984,8 @@
     "arrival time": "11:30",
     "departure day": "01/03/2020",
     "description": "חזור:\n1.3 בשעה 7:00 ממליאנו לת\"א איזיג'ט 2563 EJU נחת ב- 11:30.",
-    "health_gov_link": "",
-    "patient_number": 80,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2946",
+    "patient_number": 80
   },
   {
     "ID": 143,
@@ -2140,9 +1998,8 @@
     "arrival time": "",
     "departure day": "02/03/2020",
     "description": "הלוך:\nב-2.3 בטיסת LY0397 בשעה 17:15 מתל אביב למדריד.",
-    "health_gov_link": "",
-    "patient_number": 81,
-    "departure day__1": "02/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2947",
+    "patient_number": 81
   },
   {
     "ID": 144,
@@ -2155,9 +2012,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "חזור:\nב-7.3 בשעה 15:05 ממדריד לעמאן, בשעה 22:00 מעמאן לת\"א, בחברת ג'ורדאניין RJ0340.",
-    "health_gov_link": "",
-    "patient_number": 81,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2947",
+    "patient_number": 81
   },
   {
     "ID": 145,
@@ -2170,9 +2026,8 @@
     "arrival time": "",
     "departure day": "07/03/2020",
     "description": "חזור:\nב-7.3  בשעה 22:00 מעמאן לת\"א, בחברת ג'ורדאניין RJ0340.",
-    "health_gov_link": "",
-    "patient_number": 81,
-    "departure day__1": "07/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2947",
+    "patient_number": 81
   },
   {
     "ID": 146,
@@ -2185,9 +2040,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "הלוך:\nב-1.3 בטיסת AEGEAN A30929 בשעה 5:40 מתל אביב לאתונה,",
-    "health_gov_link": "",
-    "patient_number": 84,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 84
   },
   {
     "ID": 147,
@@ -2200,9 +2054,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "טיסת AEGEAN A30803 בשעה 8:30 מאתונה למינכן.",
-    "health_gov_link": "",
-    "patient_number": 84,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 84
   },
   {
     "ID": 148,
@@ -2215,9 +2068,8 @@
     "arrival time": "",
     "departure day": "06/03/2020",
     "description": "חזור:\nב-6.3 בשעה 6:25 ממנינגן גרמניה לתל אביב בטיסת ריינאייר מספר FR3606.",
-    "health_gov_link": "",
-    "patient_number": 84,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 84
   },
   {
     "ID": 149,
@@ -2230,9 +2082,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "הלוך:\nב-1.3 בטיסת AEGEAN A30929 בשעה 5:40 מתל אביב לאתונה,",
-    "health_gov_link": "",
-    "patient_number": 85,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 85
   },
   {
     "ID": 150,
@@ -2245,9 +2096,8 @@
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "טיסת AEGEAN A30803 בשעה 8:30 מאתונה למינכן.",
-    "health_gov_link": "",
-    "patient_number": 85,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 85
   },
   {
     "ID": 151,
@@ -2260,218 +2110,413 @@
     "arrival time": "",
     "departure day": "06/03/2020",
     "description": "חזור:\nב-6.3 בשעה 6:25 ממנינגן גרמניה לתל אביב בטיסת ריינאייר מספר FR3606.",
-    "health_gov_link": "",
-    "patient_number": 85,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 85
   },
   {
     "ID": 152,
-    "flight_number": "",
+    "flight_number": "A30929",
     "airline": "AEGEAN",
     "departure from": "ישראל, ת\"א",
-    "departure time": "",
+    "departure time": "05:40",
     "destination": "יוון, אתונה",
     "arrival day": "",
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "הלוך:\nב-1.3 בטיסת AEGEAN A30929 בשעה 5:40 מתל אביב לאתונה,",
-    "health_gov_link": "",
-    "patient_number": 86,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 86
   },
   {
     "ID": 153,
-    "flight_number": "",
+    "flight_number": "A30803",
     "airline": "AEGEAN",
     "departure from": "יוון, אתונה",
-    "departure time": "",
+    "departure time": "08:30",
     "destination": "גרמניה, מינכן",
     "arrival day": "",
     "arrival time": "",
     "departure day": "01/03/2020",
     "description": "טיסת AEGEAN A30803 בשעה 8:30 מאתונה למינכן.",
-    "health_gov_link": "",
-    "patient_number": 86,
-    "departure day__1": "01/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 86
   },
   {
     "ID": 154,
-    "flight_number": "",
+    "flight_number": "FR3606",
     "airline": "ריינאייר",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "מנינגן, גרמניה",
+    "departure time": "06:25",
     "destination": "ישראל, ת\"א",
     "arrival day": "",
     "arrival time": "",
     "departure day": "06/03/2020",
     "description": "חזור:\nב-6.3 בשעה 6:25 ממנינגן גרמניה לתל אביב בטיסת ריינאייר מספר FR3606.",
-    "health_gov_link": "",
-    "patient_number": 86,
-    "departure day__1": "06/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2953",
+    "patient_number": 86
   },
   {
     "ID": 155,
-    "flight_number": "",
+    "flight_number": "PC786",
     "airline": "פגאסוס",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "05:30",
     "destination": "טורקיה, איסטנבול",
     "arrival day": "",
     "arrival time": "",
     "departure day": "25/02/2020",
     "description": "הלוך:\n25.02 בטיסת פגסוס PC786 מתל אביב לאיסטנבול בשעה 5:30",
-    "health_gov_link": "",
-    "patient_number": 87,
-    "departure day__1": "25/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 87
   },
   {
     "ID": 156,
-    "flight_number": "",
+    "flight_number": "PC1099",
     "airline": "פגאסוס",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "טורקיה, איסטנבול",
+    "departure time": "08:45",
     "destination": "ספרד, מדריד",
     "arrival day": "",
-    "arrival time": "",
+    "arrival time": "13:30",
     "departure day": "26/02/2020",
     "description": "26.02 בטיסת פגסוס PC1099 מאיסטנבול למדריד בשעה 08:45, נחיתה ב13:30",
-    "health_gov_link": "",
-    "patient_number": 87,
-    "departure day__1": "26/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 87
   },
   {
     "ID": 157,
-    "flight_number": "",
+    "flight_number": "LY398",
     "airline": "אל על",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ספרד, מדריד",
+    "departure time": "23:15",
     "destination": "ישראל, ת\"א",
-    "arrival day": "",
-    "arrival time": "",
+    "arrival day": "3/3/20",
+    "arrival time": "04:50",
     "departure day": "02/03/2020",
     "description": "חזור:\n2.3 בטיסת אל על LY398 ממדריד שהמריאה בשעה 23:15, ונחתה בנתב\"ג ב-3.3 בשעה 04:50",
-    "health_gov_link": "",
-    "patient_number": 87,
-    "departure day__1": "02/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 87
+  },
+  {
+    "ID": 155,
+    "flight_number": "PC786",
+    "airline": "פגאסוס",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "05:30",
+    "destination": "טורקיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "25/02/2020",
+    "description": "הלוך:\n25.02 בטיסת פגסוס PC786 מתל אביב לאיסטנבול בשעה 5:30",
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 88
+  },
+  {
+    "ID": 156,
+    "flight_number": "PC1099",
+    "airline": "פגאסוס",
+    "departure from": "טורקיה, איסטנבול",
+    "departure time": "08:45",
+    "destination": "ספרד, מדריד",
+    "arrival day": "",
+    "arrival time": "13:30",
+    "departure day": "26/02/2020",
+    "description": "26.02 בטיסת פגסוס PC1099 מאיסטנבול למדריד בשעה 08:45, נחיתה ב13:30",
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 88
+  },
+  {
+    "ID": 157,
+    "flight_number": "LY398",
+    "airline": "אל על",
+    "departure from": "ספרד, מדריד",
+    "departure time": "23:15",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "3/3/20",
+    "arrival time": "04:50",
+    "departure day": "02/03/2020",
+    "description": "חזור:\n2.3 בטיסת אל על LY398 ממדריד שהמריאה בשעה 23:15, ונחתה בנתב\"ג ב-3.3 בשעה 04:50",
+    "health_gov_link": "https://t.me/MOHreport/2954",
+    "patient_number": 88
   },
   {
     "ID": 158,
-    "flight_number": "",
+    "flight_number": "505 SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "00:40",
     "destination": "רוסיה, מוסקבה",
     "arrival day": "",
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "הלוך:\n27.2 מתל אביב למוסקבה בשעה 00:40 חברת AEROFLOT מס' טיסה 505 SU.",
-    "health_gov_link": "",
-    "patient_number": 89,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 89
   },
   {
     "ID": 159,
-    "flight_number": "",
+    "flight_number": "100SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "09:25",
     "destination": "ארה\"ב, ניו יורק",
     "arrival day": "",
     "arrival time": "",
-    "departure day": "",
-    "description": "ממוסקבה לניו יורק בשעה 09:25 חברת AEROFLOT מס' טיסה 100SU.",
-    "health_gov_link": "",
-    "patient_number": 89,
-    "departure day__1": ""
+    "departure day": "27/02/2020",
+    "description": "ממוסקבה לניו יורק בשעה 09:25 חברת AEROFLOT מס' טיסה 100SU",
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 89
   },
   {
     "ID": 160,
-    "flight_number": "",
+    "flight_number": "101SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ארה\"ב, ניו יורק",
+    "departure time": "14:25",
     "destination": "רוסיה, מוסקבה",
     "arrival day": "",
     "arrival time": "",
     "departure day": "09/03/2020",
     "description": "חזור:\n9.3 מניו יורק למוסקבה בשעה 14:25 חברת AEROFLOT מס' טיסה 101SU .",
-    "health_gov_link": "",
-    "patient_number": 89,
-    "departure day__1": "09/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 89
   },
   {
     "ID": 161,
-    "flight_number": "",
+    "flight_number": "502SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "08:35",
     "destination": "ישראל, ת\"א",
     "arrival day": "",
     "arrival time": "",
     "departure day": "10/03/2020",
     "description": "10.3 ממוסקבה לתל אביב בשעה 8:35 חברת AEROFLOT מס' טיסה 502SU.",
-    "health_gov_link": "",
-    "patient_number": 89,
-    "departure day__1": "10/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 89
   },
   {
     "ID": 162,
-    "flight_number": "",
+    "flight_number": "505 SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "00:40",
     "destination": "רוסיה, מוסקבה",
     "arrival day": "",
     "arrival time": "",
     "departure day": "27/02/2020",
     "description": "הלוך:\n27.2 מתל אביב למוסקבה בשעה 00:40 חברת AEROFLOT מס' טיסה 505 SU.",
-    "health_gov_link": "",
-    "patient_number": 90,
-    "departure day__1": "27/02/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 90
   },
   {
     "ID": 163,
-    "flight_number": "",
+    "flight_number": "100SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "09:25",
     "destination": "ארה\"ב, ניו יורק",
     "arrival day": "",
     "arrival time": "",
     "departure day": "",
     "description": "ממוסקבה לניו יורק בשעה 09:25 חברת AEROFLOT מס' טיסה 100SU.",
-    "health_gov_link": "",
-    "patient_number": 90,
-    "departure day__1": ""
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 90
   },
   {
     "ID": 164,
-    "flight_number": "",
+    "flight_number": "101SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "ארה\"ב, ניו יורק",
+    "departure time": "14:25",
     "destination": "רוסיה, מוסקבה",
     "arrival day": "",
     "arrival time": "",
     "departure day": "09/03/2020",
     "description": "חזור:\n9.3 מניו יורק למוסקבה בשעה 14:25 חברת AEROFLOT מס' טיסה 101SU .",
-    "health_gov_link": "",
-    "patient_number": 90,
-    "departure day__1": "09/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 90
   },
   {
     "ID": 165,
-    "flight_number": "",
+    "flight_number": "502SU",
     "airline": "AEROFLOT",
-    "departure from": "",
-    "departure time": "",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "08:35",
     "destination": "ישראל, ת\"א",
     "arrival day": "",
     "arrival time": "",
     "departure day": "10/03/2020",
     "description": "10.3 ממוסקבה לתל אביב בשעה 8:35 חברת AEROFLOT מס' טיסה 502SU.",
-    "health_gov_link": "",
-    "patient_number": 90,
-    "departure day__1": "10/03/2020"
+    "health_gov_link": "https://t.me/MOHreport/2955",
+    "patient_number": 90
+  },
+  {
+    "ID": 166,
+    "flight_number": "IB3317",
+    "airline": "איבריה",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "06:00",
+    "destination": "ספרד, מדריד",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "28/2/20",
+    "description": "28.2 בשעה 6:00 בבוקר חב' איבריה מס' טיסה IB3317",
+    "health_gov_link": "https://t.me/MOHreport/2901",
+    "patient_number": 59
+  },
+  {
+    "ID": 167,
+    "flight_number": "4XAGK",
+    "airline": "ארקיע",
+    "departure from": "ספרד, מדריד",
+    "departure time": "23:30",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "2/3/20",
+    "description": "2.3 חב' ארקיע, מס' טיסה 4XAGK , נחתה בשעה 23:30",
+    "health_gov_link": "https://t.me/MOHreport/2901",
+    "patient_number": 59
+  },
+  {
+    "ID": 168,
+    "flight_number": "D8 3791",
+    "airline": "NORWEGIAN AIRLINES",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "16:40",
+    "destination": "דנמרק, קופנהגן",
+    "arrival day": "",
+    "arrival time": "21:20",
+    "departure day": "5/3/20",
+    "description": "* 5.3 : טיסת D8 3791 נורבגיאן אירליין, המראה בשעה 16:40 מנתב\"ג לקופנהגן, נחיתה בשעה 21:20",
+    "health_gov_link": "https://t.me/MOHreport/2960",
+    "patient_number": 91
+  },
+  {
+    "ID": 169,
+    "flight_number": "D8 3790",
+    "airline": "NORWEGIAN AIRLINES",
+    "departure from": "דנמרק, קופנהגן",
+    "departure time": "07:55",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "12:15",
+    "departure day": "8/3/20",
+    "description": "* 8.3: בטיסת D8 3790 מדנמרק לתל אביב, המראה בשעה 07:55, נחיתה בנתב\"ג בשעה 12:15",
+    "health_gov_link": "https://t.me/MOHreport/2960",
+    "patient_number": 91
+  },
+  {
+    "ID": 170,
+    "flight_number": "SU 502",
+    "airline": "AEROFLOT",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "08:35",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "11:50",
+    "departure day": "3/3/20",
+    "description": "ממוסקבה לתל אביב , חברת אירופלט, מספרה SU 502, המראה בשעה 08:35, נחיתה בארץ ב- 11:50",
+    "health_gov_link": "https://t.me/MOHreport/2961",
+    "patient_number": 92
+  },
+  {
+    "ID": 171,
+    "flight_number": "SU 502",
+    "airline": "AEROFLOT",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "08:35",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "11:50",
+    "departure day": "3/3/20",
+    "description": "ממוסקבה לתל אביב , חברת אירופלט, מספרה SU 502, המראה בשעה 08:35, נחיתה בארץ ב- 11:50",
+    "health_gov_link": "https://t.me/MOHreport/2961",
+    "patient_number": 98
+  },
+  {
+    "ID": 172,
+    "flight_number": "FR3605",
+    "airline": "Ryanair",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "12:00",
+    "destination": "גרמניה, מנינגן",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "",
+    "description": "ב- 21.2 בשעה 12:00 מתל אביב למנינגן גרמניה, חברת ריינאייר טיסה מס' FR3605",
+    "health_gov_link": "https://t.me/MOHreport/2962",
+    "patient_number": 93
+  },
+  {
+    "ID": 173,
+    "flight_number": "FR3606",
+    "airline": "Ryanair",
+    "departure from": "גרמניה, מנינגן",
+    "departure time": "06:25",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "11:10",
+    "departure day": "",
+    "description": "ב-6.3 בשעה 6:25 ממנינגן גרמניה לתל אביב בשעה 11:10 בחברת ריינאייר טיסה מספר FR3606",
+    "health_gov_link": "https://t.me/MOHreport/2962",
+    "patient_number": 93
+  },
+  {
+    "ID": 174,
+    "flight_number": "UA0073",
+    "airline": "יונייטד איירליינס",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "00:20",
+    "destination": "ארה\"ב, וושינגטון",
+    "arrival day": "",
+    "arrival time": "28/2/20",
+    "departure day": "",
+    "description": "28.2 : בשעה 00:20 מתל אביב לוושינגטון חברת יונייטד איירלינס מס' טיסה UA0073",
+    "health_gov_link": "https://t.me/MOHreport/2963",
+    "patient_number": 94
+  },
+  {
+    "ID": 175,
+    "flight_number": "UA5516",
+    "airline": "יונייטד איירליינס",
+    "departure from": "ארה\"ב, וושינגטון",
+    "departure time": "08:15",
+    "destination": "ארה\"ב, ניו יורק",
+    "arrival day": "",
+    "arrival time": "28/2/20",
+    "departure day": "",
+    "description": "בשעה 08:15 מוושינגטון לניו יורק חברת יונייטד איירלינס מס' טיסה UA5516",
+    "health_gov_link": "https://t.me/MOHreport/2963",
+    "patient_number": 94
+  },
+  {
+    "ID": 176,
+    "flight_number": "5005 UA",
+    "airline": "יונייטד איירליינס",
+    "departure from": "ארה\"ב, ניו יורק",
+    "departure time": "19:25",
+    "destination": "ארה\"ב, וושינגטון",
+    "arrival day": "",
+    "arrival time": "8/3/20",
+    "departure day": "",
+    "description": "8.3 : בשעה 19:25 מניו יורק לוושינגטון מס' טיסה 5005 UA חברת יונייטד איירלינס",
+    "health_gov_link": "https://t.me/MOHreport/2963",
+    "patient_number": 94
+  },
+  {
+    "ID": 177,
+    "flight_number": "0072UA",
+    "airline": "יונייטד איירליינס",
+    "departure from": "ארה\"ב, וושינגטון",
+    "departure time": "23:45",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "9/3/20",
+    "departure day": "",
+    "description": "בשעה 23:45 מוושינגטון לתל אביב מס' טיסה 0072UA חברת יונייטד איירלינס, נחתה בנתב\"ג ב-9.3",
+    "health_gov_link": "https://t.me/MOHreport/2963",
+    "patient_number": 94
   }
 ]
