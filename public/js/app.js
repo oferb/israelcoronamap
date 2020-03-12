@@ -138,6 +138,36 @@ function processData() {
     }
 
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
+    var lastPoint = points[points.length - 1];
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${lastPoint.lat}-${lastPoint.lon}" class="quarantine_counter"><b>זמן לסוף הבידוד:</b></span><br>`;
+    
+    // Update the count down every 200 ms
+    var countdownInterval = setInterval(function () { 
+      var lastPoint = points[points.length - 1];
+      var countdownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countdownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
+
+      var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`)
+      if (element) element.innerHTML = "<b>זמן נותר לבידוד: </b><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
+        + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(countdownInterval);
+        var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`)
+        if (element) element.innerHTML = "<b>זמן נותר לבידוד:</b><span class=\"green-text\"> תמו 14 ימים מהחשיפה</span>";
+      }
+    }, 200);
+
 
     if (firstPoint.link) {
       firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
@@ -148,7 +178,6 @@ function processData() {
 
   return result
 }
-
 
 function getData() {
   fetch('/data/data.json')
