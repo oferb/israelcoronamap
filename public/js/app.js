@@ -10,8 +10,8 @@ function init() {
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 32.072958, lng: 34.969073 },
-    zoom: windowWidth >= 500 ? 12 : 9,
+    center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
+    zoom: windowWidth >= 500 ? 8 : 7,
     gestureHandling: "greedy"
   });
   infoWindow = new google.maps.InfoWindow;
