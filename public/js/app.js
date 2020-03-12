@@ -1,3 +1,4 @@
+
 /* eslint-disable no-undef */
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
 const windowWidth = window.screen.availWidth;
@@ -103,9 +104,8 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth() + 1) + " בין השעות " +
-    fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
-    fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
+  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')} 
+    ${fixTime(d_start.getHours())}:${fixTime(d_start.getMinutes())}-${fixTime(d_end.getHours())}:${fixTime(d_end.getMinutes())}`;
   return datestring;
 };
 
@@ -147,22 +147,22 @@ const processData = () => {
     if (firstPoint.text.length != 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
+      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${firstPoint.pat_num}<br><br>`;
     }
     if (points.length > 1) {
-      firstPoint.text += '<b>זמני ביקור: </b><br>';
+      firstPoint.text += `<b>${i18n('visitingTimes')}: </b><br>`;
       for (let i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<b>${i18n('visitingTime')}: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
 
-    firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
+    firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
     const lastPoint = points[points.length - 1];
     const key = `${lastPoint.lat}-${lastPoint.lon}`;
-    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>זמן נותר לשוהים בבידוד:</b></span><br>`;
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>${i18n('timeLeftForStayingInSolitary')}:</b></span><br>`;
 
     // Update the count down every 1 second
     countdownIntervals[key] = setInterval(() => {
@@ -176,20 +176,20 @@ const processData = () => {
       const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
 
       const element = document.getElementById(`quarantine-${key}`);
-      if (element) element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
-        + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
+      if (element) element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}: </b><br><span class="red-text">${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
+        ${minutesLeft} ${i18n('minutes')} ${secondsLeft} ${i18n('secondes')} </span> `;
 
       // If the count down is finished, write some text
       if (distance < 0) {
         if (element) {
-          element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
+          element.innerHTML = `<b>>${i18n('timeLeftForStayingInSolitary')}:</b><br><span class="green-text"> >${i18n('expire14DaysAfterExposure')}</span>`;
         }
       }
     }, 1000);
 
 
     if (firstPoint.link) {
-      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
+      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}">${i18n('linkToTheMinistryOfHealthPublication')}</a>`;
     }
 
     result.push(firstPoint);
