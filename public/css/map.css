@@ -135,18 +135,21 @@ html, body {
   position: absolute;
   left: 20px;
   bottom: 100px;
+  box-shadow: 0 3px 30px #00000029;
+  margin-left: 5px;
 }
 
 @media(max-width:768px) {
 .map-reader-img{
-width: 300px !important;
-  box-shadow: 2px 2px 3px 0px #b8ceca;
+  width: 300px !important;
+  box-shadow: 2px 2px 3px 0 #b8ceca;
 }
 .map-reader {
   left: 0;
   bottom: 150px;
-  width: 100%;
+  width: 300px;
   display: flex;
   justify-content: center;
+
 }
 }

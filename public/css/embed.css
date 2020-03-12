@@ -44,3 +44,7 @@ h5:after {
     outline: none !important;
     box-shadow: none;
 }
+
+.powered-by-icm-logo {
+    margin-left: 5px;
+}
