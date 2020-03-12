@@ -118,3 +118,14 @@ html, body {
     font-size: 14px;
 }
 
+ .quarantine-time {
+    font-size: 14px;
+ }
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}

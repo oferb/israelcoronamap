@@ -137,22 +137,18 @@ function processData() {
       firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
 
-    console.log('firstPoint', firstPoint);
-
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
-    firstPoint.text += `<span id="quarantine-${firstPoint.lat}" class="quarantine_counter"><b>זמן לסוף הבידוד: </b></span><br>`;
-
-    // var lastPoint = points[points.length - 1];
-
+    var lastPoint = points[points.length - 1];
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${lastPoint.lat}-${lastPoint.lon}" class="quarantine_counter"></span><br>`;
     // Update the count down every 1 second
     var countdownInterval = setInterval(function () {
-      var countDownDate = new Date(new Date(firstPoint.t_end).getTime() + 12096e5).getTime();
+      var lastPoint = points[points.length - 1];
+      var countDownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
       // Get today's date and time
       var now = new Date().getTime();
 
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
-      // console.log("x -> distance", distance)
 
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -160,16 +156,18 @@ function processData() {
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      // Display the result in the element with id="demo"
-      document.getElementById(`quarantine-${firstPoint.lat}`).innerHTML = "<b>זמן לסוף הבידוד: </b>" + days + " ימים " + hours + " שעות "
-        + minutes + " דקות " + seconds + " שניות ";
+      // Display the result in the element with id
+      var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`)
+      if (element) element.innerHTML = "<b>זמן נותר לבידוד: </b><span class=\"red-text\">" + days + " ימים " + hours + " שעות "
+        + minutes + " דקות " + seconds + " שניות </span>";
 
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(countdownInterval);
-        document.getElementById(`quarantine-${firstPoint.lat}`).innerHTML = "זמן לסוף הבידוד: עברו 14 ימים";
+        var element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`)
+        if (element) element.innerHTML = "<b>זמן נותר לבידוד:</b><span class=\"green-text\"> תמו 14 ימים מהחשיפה</span>";
       }
-    }, 1000);
+    }, 200);
 
 
     if (firstPoint.link) {
