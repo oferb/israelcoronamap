@@ -129,3 +129,24 @@ html, body {
 .red-text {
   color: red;
 }
+
+.map-reader {
+  z-index: 1;
+  position: absolute;
+  left: 20px;
+  bottom: 100px;
+}
+
+@media(max-width:768px) {
+.map-reader-img{
+width: 300px !important;
+  box-shadow: 2px 2px 3px 0px #b8ceca;
+}
+.map-reader {
+  left: 0;
+  bottom: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+}
