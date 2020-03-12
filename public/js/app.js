@@ -12,8 +12,8 @@ const init = () => {
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
-    zoom: windowWidth >= 500 ? 8 : 7,
+    center: { lat: 32.072958, lng: 34.969073 },
+    zoom: windowWidth >= 500 ? 12 : 9,
     gestureHandling: "greedy"
   });
   infoWindow = new google.maps.InfoWindow;
@@ -102,9 +102,9 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth()+1) + " בין השעות " +
-      fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
-      fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
+  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth() + 1) + " בין השעות " +
+    fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
+    fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
   return datestring;
 };
 
@@ -134,8 +134,8 @@ const processData = () => {
 
     points = points.filter((point, index) => {
       if (index > 0 &&
-          points[index - 1].t_start === point.t_start &&
-          points[index - 1].t_end === point.t_end) {
+        points[index - 1].t_start === point.t_start &&
+        points[index - 1].t_end === point.t_end) {
         return false;
       }
 
@@ -160,7 +160,7 @@ const processData = () => {
 
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
     const lastPoint = points[points.length - 1];
-    const key = `${lastPoint.lat }-${lastPoint.lon}`;
+    const key = `${lastPoint.lat}-${lastPoint.lon}`;
     firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>זמן נותר לשוהים בבידוד:</b></span><br>`;
 
     // Update the count down every 1 second
@@ -208,7 +208,7 @@ const isToday = (unixDate) => {
 const isYesterday = (unixDate) => {
   const today = new Date();
   const date = new Date(unixDate * 1000);
-  return date.getDate() == today.getDate()-1 &&
+  return date.getDate() == today.getDate() - 1 &&
     date.getMonth() == today.getMonth() &&
     date.getFullYear() == today.getFullYear();
 };
