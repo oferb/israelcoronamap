@@ -122,7 +122,7 @@ const processData = () => {
   }
 
   let result = [];
-
+  const countdownIntervals = {};
   for (let points of Object.values(pointsDict)) {
     points.sort((point1, point2) => {
       if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
@@ -160,40 +160,31 @@ const processData = () => {
 
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
     const lastPoint = points[points.length - 1];
-    firstPoint.text += `<span class="quarantine-time" id="quarantine-${lastPoint.lat}-${lastPoint.lon}" class="quarantine_counter"></span><br>`;
+    const key = `${lastPoint.lat }-${lastPoint.lon}`;
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>זמן נותר לשוהים בבידוד:</b></span><br>`;
 
-    // Update the count down every 200 ms
-    countdownInterval = setInterval(() => {
-      // let lastPoint = points[points.length - 1];
+    // Update the count down every 1 second
+    countdownIntervals[key] = setInterval(() => {
       const countdownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
       const now = new Date().getTime();
       const distance = countdownDate - now;
 
-      // Time calculations for days, hours, minutes and seconds
       const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
 
-      const element = document.getElementById(`quarantine-${lastPoint.lat}-${lastPoint.lon}`);
+      const element = document.getElementById(`quarantine-${key}`);
       if (element) element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
         + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
 
       // If the count down is finished, write some text
       if (distance < 0) {
-        clearInterval(countdownInterval);
-        const key = `quarantine-${lastPoint.lat}-${lastPoint.lon}`;
-        console.log("countdownInterval -> key", key);
-        // const element = document.getElementById(key);
-        // debugger;
         if (element) {
-          console.log('found element for point' + lastPoint);
           element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
-        } else {
-          console.log('no element for point' + lastPoint);
         }
       }
-    }, 200);
+    }, 1000);
 
 
     if (firstPoint.link) {
