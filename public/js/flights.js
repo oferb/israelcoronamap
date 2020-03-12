@@ -31,7 +31,7 @@ function creatList(flightsList) {
                         <div class="card-contant-box">
                         <div class="card-text">
                           <i class="material-icons flip-icon">flight_land</i>
-                           <div class="flight-detailes">נחיתה:${flight.destination}</div>
+                           <div class="flight-detailes">נחיתה:  ${flight.destination}</div>
                         </div>
                         <div class="time-text">${flight["arrival day"]}</div>
                       </div>
