@@ -125,6 +125,13 @@ function processData() {
   let result = []
 
   for (let points of Object.values(pointsDict)) {
+    points.sort(function (point1, point2) {
+      if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
     let firstPoint = points[0];
     if (firstPoint.text.length != 0) {
       firstPoint.text += '<br><br>';
