@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import prettierfier
 import os
 
 def getHtmlFiles():
@@ -10,12 +9,26 @@ def getHtmlFiles():
           result.append(os.path.join(root, f))
   return result
 
-for filepath in getHtmlFiles():
+pages = [
+  'public/index.html',
+  'public/info/index.html',
+  'public/flights/index.html',
+  'public/embed/index.html'
+]
+
+canonicalHead = None
+for filepath in pages:
   with open(filepath, "r") as f:
     htmlContents = f.read()
   soup = BeautifulSoup(htmlContents, 'html.parser')
-  with open(filepath, "w") as f:
-    pretty_html = prettierfier.prettify_html(htmlContents)
-    f.write(pretty_html)
+  if not canonicalHead:
+    canonicalHead = str(soup.head)
+    canonicalHead = canonicalHead[:canonicalHead.index("<!--========== page-specific files ==========-->")]
+  head = str(soup.head)
+  head = head[:head.index("<!--========== page-specific files ==========-->")]
+  assert head == canonicalHead, 'mean head differs with ' + filepath
+
+  #print(soup.head)
+
 
   
