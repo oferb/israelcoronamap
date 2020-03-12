@@ -11,7 +11,7 @@ $(document).ready(function () {
   $("body").click(function () {
     $('.side-bar').fadeOut('fast');
     $('#overlay').removeClass('overlay');
-            $( '.hamburger' ).removeClass( "is-active" );
+    $( '.hamburger' ).removeClass( "is-active" );
 
   });
 
@@ -28,7 +28,7 @@ $(document).ready(function () {
   });
 
 
-    // open terms of use pop-up
+  // open terms of use pop-up
   $('.terms-of-use-pop-up-click').click(function () {
     $('#terms-of-use-pop-up').fadeIn("fast");
   });
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
   });
 
-// map-reader-close-x icon
+  // map-reader-close-x icon
   $('#map-reader-close-x').click(function () {
     $('#map-reader-pop-up').fadeOut('fast');
   });
@@ -63,29 +63,28 @@ $(document).ready(function () {
 
 (function(body) {
 
-	var usingMouse;
+  let usingMouse;
 
-	var preFocus = function(event) {
-            usingMouse = (event.type === 'mousedown');
-	};
+  let preFocus = function(event) {
+    usingMouse = (event.type === 'mousedown');
+  };
 
-	var addFocus = function(event) {
-            if (usingMouse)
-                event.target.classList.add('focus--mouse');
-	};
+  let addFocus = function(event) {
+    if (usingMouse)
+      event.target.classList.add('focus--mouse');
+  };
 
-	var removeFocus = function(event) {
-            event.target.classList.remove('focus--mouse');
-	};
+  let removeFocus = function(event) {
+    event.target.classList.remove('focus--mouse');
+  };
 
-	var bindEvents = function() {
-            body.addEventListener('keydown', preFocus);
-            body.addEventListener('mousedown', preFocus);
-            body.addEventListener('focusin', addFocus);
-            body.addEventListener('focusout', removeFocus);
-	};
+  let bindEvents = function() {
+    body.addEventListener('keydown', preFocus);
+    body.addEventListener('mousedown', preFocus);
+    body.addEventListener('focusin', addFocus);
+    body.addEventListener('focusout', removeFocus);
+  };
 
-	bindEvents();
+  bindEvents();
 
 })(document.body);
-

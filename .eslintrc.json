@@ -1,6 +1,25 @@
 {
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
   "env": {
       "browser": true,
-      "es6": true
+      "es6": true,
+      "jquery": true
+  },
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-var": 2,
+    "indent": [
+      "error",
+      2
+    ],
+    "func-style": ["error", "expression"]
   }
 }
