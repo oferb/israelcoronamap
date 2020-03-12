@@ -2,33 +2,45 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153454345-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-	<meta charset="utf-8">
+        gtag('config', 'UA-153454345-1');
+    </script>
+    <meta charset="utf-8">
 
-	<title>מפת הקורונה של ישראל</title>
+    <title>מפת הקורונה של ישראל</title>
 
-	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
-	<!--========== web tags ==========-->
-	<meta name="description" content="מפת הקורונה של ישראל" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 
-	<!--========== social media tags ==========-->
+    <!--========== web tags ==========-->
+    <meta name="description" content="מפת הקורונה של ישראל" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
 
-	<meta property="og:title" content="מפת הקורונה של ישראל" />
-        <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://israelcoronamap.co.il/" />
-	<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/info%2Fsocial-image.png?alt=media&token=7608dafb-1c1e-44ec-a851-21c0d4b803e6" />
+    <!--========== social media tags ==========-->
+    <meta property="og:title" content="מפת הקורונה של ישראל" />
+    <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://israelcoronamap.co.il/" />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/coronavirus-il.appspot.com/o/social-img.png?alt=media&token=086bc492-2ed7-4a0c-a7a7-35b26a103256" />
 
-	<!--========== goolge fonts ==========-->
-	<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--========== Google fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
 
-	<!--========== css files ==========-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/styles.css" />
-        <link rel="stylesheet" href="../css/flights.css" />
-        <link rel="stylesheet" href="../css/embed.css" />
+    <!--========== css files ==========-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--========== page-specific files ==========-->
+    <link rel="stylesheet" href="../css/info.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/flights.css" />
+    <link rel="stylesheet" href="../css/embed.css" />
 
 </head>
 
@@ -77,7 +89,7 @@
         </form>
     </div>
 
-    <!--========== flight-list ==========-->	
+    <!--========== flight-list ==========-->    
     <div class="flight-list text-right">
     <!-- innerHTML render here -->
     </div>
@@ -247,14 +259,9 @@
     <!--========== map-reader-pop-up end ==========-->
 
     <!---========== scripts ==========-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../js/scripts.js"></script>
     <script src="../js/flights.js"></script>
 </body>
