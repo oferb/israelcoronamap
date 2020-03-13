@@ -2,6 +2,7 @@
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
+let previousCenters = [];
 
 const init = () => {
   getButtonElements();
@@ -22,7 +23,27 @@ function initMap() {
       infoWindow.close();
     }
   });
+  previousCenters[0] = map.getCenter();
+  previousCenters[1] = map.getCenter();
+  previousCenters[2] = map.getCenter();
+  map.addListener('center_changed', function() {
+    const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
+    for (let i = 0; i < previousCenters.length; i++) {
+      const movementDistance = dist(previousCenters[i], map.getCenter());
+      if (movementDistance/screenDistance > 1) {
+        map.setCenter(previousCenters[0]);
+        break;
+      }
+    }
+    previousCenters[2] = previousCenters[1];
+    previousCenters[1] = previousCenters[0];
+    previousCenters[0] = map.getCenter();
+  });
   init();
+}
+
+const dist = (p1, p2) => {
+  return Math.sqrt(Math.pow(p2.lat()-p1.lat(),2)+Math.pow(p2.lng()-p1.lng(),2));
 }
 
 const getTimestamp = (stringTime) => {
