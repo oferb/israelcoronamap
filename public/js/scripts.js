@@ -54,7 +54,7 @@ $(document).ready(function () {
     $('#map-reader-pop-up').fadeOut('fast');
   });
 
-
+  $('.zoom-to-location > img').click(zoomToLocation)
 
 });
 
