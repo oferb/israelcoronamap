@@ -170,6 +170,9 @@ html, body {
   width: 300px;
   display: flex;
   justify-content: center;
+}
 
+.zoom-to-location{
+  left: 310px;
 }
 }
