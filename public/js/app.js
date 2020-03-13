@@ -62,17 +62,21 @@ const updateMap = () => {
       lng: govData[j].lon
     };
     let icon = '/assets/images/map-icons/allTime.svg';
+    let zIndex = 1000;
     if (isYesterday(govData[j].pub_ts)) {
       icon = '/assets/images/map-icons/yesterday.svg';
+      let zIndex = 2000;
     } else if (isToday(govData[j].pub_ts)) {
       icon = '/assets/images/map-icons/today.svg';
+      let zIndex = 3000;
     }
     let marker = new google.maps.Marker({
       position: pos,
       map: map,
       icon: {
         url: icon
-      }
+      },
+      zIndex: zIndex
     });
     let contentStringCal = `<div class="infowindow">
                               <div class="info-label">${govData[j].label}</div>
@@ -108,6 +112,16 @@ const _textulize_visit_datetime = (point) => {
   return datestring;
 };
 
+const sortPoints = (points) => {
+  points.sort((point1, point2) => {
+    if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
+      return 1;
+    } else {
+      return -1;
+    }
+  });
+  return points;
+}
 
 const processData = () => {
   const pointsDict = new Object();
@@ -124,13 +138,7 @@ const processData = () => {
   let result = [];
   const countdownIntervals = {};
   for (let points of Object.values(pointsDict)) {
-    points.sort((point1, point2) => {
-      if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
-        return 1;
-      } else {
-        return -1;
-      }
-    });
+    points = sortPoints(points);
 
     points = points.filter((point, index) => {
       if (index > 0 &&
@@ -193,7 +201,6 @@ const processData = () => {
 
     result.push(firstPoint);
   }
-
   return result;
 };
 
