@@ -3,11 +3,8 @@
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
-<<<<<<< HEAD
 let language = 'En';
-=======
 let previousCenters = [];
->>>>>>> 92a85bf789b0509a761280a9fbd04a77d49b54ee
 
 const init = () => {
   setLanguage('En');
