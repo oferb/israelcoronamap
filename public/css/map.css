@@ -12,7 +12,7 @@ html, body {
 }
 
 #map {
-    height: 94vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -21,6 +21,10 @@ html, body {
   height: 80vh;
   position:absolute;
   text-align: center; */
+}
+
+.footer-container {
+  display:none;
 }
 
 .infowindow {
@@ -134,7 +138,7 @@ html, body {
   z-index: 1;
   position: absolute;
   left: 20px;
-  bottom: 100px;
+  bottom: 10px;
   box-shadow: 0 3px 30px #00000029;
   margin-left: 5px;
 }
@@ -142,11 +146,10 @@ html, body {
 @media(max-width:768px) {
 .map-reader-img{
   width: 300px !important;
-  box-shadow: 2px 2px 3px 0 #b8ceca;
 }
 .map-reader {
   left: 0;
-  bottom: 150px;
+  bottom: px;
   width: 300px;
   display: flex;
   justify-content: center;
