@@ -11,6 +11,12 @@ const En = {
     minutes:'minutes',
     secondes: 'secondes',
     betweenTheHours: 'Between the hours',
-    
+    lastUpdatedIn: 'Last Updated In:',
+    magenDavidAdom: 'Magen David Adom',
+    healthMinistry: 'Health Ministry',
+    searchForFlights: 'Search For Flights',
+    embedCodes: 'Embed The Codes',
+    about: 'About',
+    contactUse: 'Contact Use'
 };
 

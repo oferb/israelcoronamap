@@ -11,6 +11,13 @@ const He = {
     minutes:'דקות',
     secondes: 'שניות',
     betweenTheHours: 'בין השעות',
+    lastUpdatedIn: 'עדכון אחרון:',
+    magenDavidAdom: 'מד"א',
+    healthMinistry: 'משרד הבריאות',
+    searchForFlights: 'חפשו טיסות',
+    embedCodes: 'הטמיעו קוד באתר',
+    about: 'אודות המיזם',
+    contactUse: 'צרו קשר'
     
 };
 

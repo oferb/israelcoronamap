@@ -56,7 +56,7 @@
 
 </head>
 
-<body dir="rtl">
+<body dir="rtl" >
     <div id='overlay'></div>
 
     <!--========== navbar ==========-->
@@ -77,18 +77,18 @@
                 </button>
             </li>
             <li style="margin-right: 10px;" class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number mada" href="tel:101">
+                <a id="magen-david-adom" style="" class="nav-link sos-number mada" href="tel:101">
                     מד"א: 101
                 </a>
             </li>
             <li class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number health" href="tel:*5400">
+                <a id="health-ministry" style="" class="nav-link sos-number health" href="tel:*5400">
                     משרד הבריאות: 5400*
                 </a>
             </li>
             <li class="wonder-nav-li">
                 <a style="" class="nav-link map-updated">
-                   <span style="font-weight: 600;">עדכון אחרון:</span>
+                   <span style="font-weight: 600;" id="last-updated-text">עדכון אחרון:</span>
                    <span id="last-updated-time"></span>
                 </a>
             </li>
@@ -126,7 +126,9 @@
                         <a style="margin-right: 30px;" class="side-bar-link" href="/flights">
                             <img class="side-bar-img" style="margin-left:20px; "
                                 src="assets/images/side-bar-icons/plane.svg" alt="icon">
-                            חפשו טיסות
+                            <span id="search-for-flights">
+                                חפשו טיסות
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -135,7 +137,9 @@
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
                             <img class="side-bar-img" style="margin-left:20px; "
                                 src="assets/images/side-bar-icons/coding.svg" alt="icon">
-                            הטמיעו קוד באתר
+                            <span id="embed-code">
+                                הטמיעו קוד באתר
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -144,7 +148,9 @@
                         <a style="margin-right: 30px;" class="side-bar-link" href="/info">
                             <img class="side-bar-img" style="margin-left:20px;" src="assets/images/side-bar-icons/info.svg"
                                 alt="icon">
-                            אודות המיזם
+                            <span id="about">
+                                אודות המיזם
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -154,7 +160,9 @@
                             href="mailto:blueofer@gmail.com" title="email">
                             <img class="side-bar-img" style="margin-left:20px;" src="assets/images/side-bar-icons/email.svg"
                                 alt="icon">
-                           צרו קשר
+                            <span id="contact-use">
+                                צרו קשר
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -164,20 +172,26 @@
                     <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number mada" href="tel:101">
                         <img style="margin-left:20px; max-width: 25px;margin-right: 15px;" src="assets/images/phone.svg"
                             alt="icon">
-                        מד"א
+                            <span id="magen-david-adom-mobile">
+                                מד"א
+                            </span>
                     </a>
                         <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number health"
                             href="tel:*5400">
                             <img class="side-bar-img" style="margin-left:20px; margin-right: 15px;"
                                 src="assets/images/phone.svg" alt="icon">
-                            משרד הבריאות
+                                <span id="health-ministry-mobile">
+                                    משרד הבריאות
+                                </span>
                         </a>
                 </div>
             </div>
         </div>
 
         <a class="terms-link terms-of-use-pop-up-click ">
-            תנאי שימוש באתר
+            <span id="terms-of-Use">
+                תנאי שימוש באתר
+            </span>
         </a>
     </div>
     <!--========== side-bar end ==========-->

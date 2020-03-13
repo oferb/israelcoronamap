@@ -1,17 +1,17 @@
 let translation = En;
 const setLanguage = selectedLanguage => {
-  language = selectedLanguage;
-  setTranslation();
+  localStorage.setItem('language', selectedLanguage);
+  setTranslation(selectedLanguage);
 };
 
-const setTranslation = () => {
+const setTranslation = language => {
   if (language === 'He') {
     translation = He;
   } else {
     translation = En;
   }
 
-  setDirection();
+  // setDirection();
 };
 
 const i18n = text => {
@@ -23,13 +23,40 @@ const i18n = text => {
 };
 
 const setDirection = () => {
-//   document.body.style.direction = getDirection();
-};
-
-const getDirection = () => {
+  const language = localStorage.getItem('language');
   if (language === 'He' || language === 'Ar') {
     return 'rtl';
   } else {
     return 'ltr';
   }
+};
+
+const getDirection = () => {
+  const language = localStorage.getItem('language');
+  if (language === 'He' || language === 'Ar') {
+    return 'rtl';
+  } else {
+    return 'ltr';
+  }
+};
+
+const setTranslationInHTML = () => {
+  setTranslationByID('last-updated-text', 'lastUpdatedIn');
+  setTranslationByID('magen-david-adom', 'magenDavidAdom');
+  setTranslationByID('health-ministry', 'healthMinistry');
+  setTranslationByID('magen-david-adom-mobile', 'magenDavidAdom');
+  setTranslationByID('health-ministry-mobile', 'healthMinistry');
+  setTranslationByID('search-for-flights', 'searchForFlights');
+  setTranslationByID('embed-code', 'embedCodes');
+  setTranslationByID('about', 'about');
+  setTranslationByID('contact-use', 'contactUse');
+};
+
+const setTranslationByID = (id, text) => {
+  document.getElementById(id).innerText = i18n(text);
+};
+
+const addClassByID = (id, className) => {
+  const el = document.getElementById(id);
+  el.classList.add(className);
 };

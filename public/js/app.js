@@ -3,13 +3,14 @@
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
-let language = 'En';
 let previousCenters = [];
 
 const init = () => {
+  // window.history.pushState("Corona map", "Corona map", "/?language=" + 'He');
   setLanguage('En');
   getButtonElements();
   getData();
+  setTranslationInHTML();
 };
 
 // This should remain with function syntax since it is called in the google maps callback
@@ -112,8 +113,8 @@ const updateMap = () => {
       },
       zIndex
     });
-
-    const contentStringCal = `<div class="infowindow">
+    const direction = getDirection();
+    const contentStringCal = `<div id="infowindow" class="infowindow ${direction === 'ltr? text-left'}">
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
                               </div>`;
@@ -216,7 +217,8 @@ const processData = () => {
     firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>${i18n('timeLeftForStayingInSolitary')}:</b></span><br>`;
 
     // Update the count down every 1 second
-    countdownIntervals[key] = setInterval(() => {
+
+    const updateCountDown = () =>{
       const countdownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -228,7 +230,9 @@ const processData = () => {
 
       const element = document.getElementById(`quarantine-${key}`);
       if (element) element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}: </b><br><span class="red-text">${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
-        ${minutesLeft} ${i18n('minutes')} ${secondsLeft} ${i18n('secondes')} </span> `;
+        ${minutesLeft} ${i18n('minutes')} 
+        ${secondsLeft} ${i18n('secondes')}
+        </span> `;
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -236,7 +240,9 @@ const processData = () => {
           element.innerHTML = `<b>>${i18n('timeLeftForStayingInSolitary')}:</b><br><span class="green-text"> >${i18n('expire14DaysAfterExposure')}</span>`;
         }
       }
-    }, 1000);
+    }
+
+    countdownIntervals[key] = setInterval(() => updateCountDown(), 1000);
 
 
     if (firstPoint.link) {
