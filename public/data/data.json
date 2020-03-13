@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "lat": 32.33194,
         "lon": 34.851522,
         "label": "מלון מגדל דוד",
@@ -12,6 +13,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "2",
         "lat": 32.33194,
         "lon": 34.851522,
         "label": "מלון מגדל דוד",
@@ -24,6 +26,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "3",
         "lat": 32.501199,
         "lon": 34.892315,
         "label": "גן לאומי קיסריה",
@@ -36,6 +39,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "4",
         "lat": 32.708649,
         "lon": 35.297008,
         "label": "מלון גבריאל",
@@ -48,6 +52,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "5",
         "lat": 32.702367,
         "lon": 35.297376,
         "label": "כנסיית הבשורה",
@@ -60,6 +65,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "6",
         "lat": 32.705169,
         "lon": 35.310839,
         "label": "כניסת המשפחה הקדושה",
@@ -72,6 +78,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "7",
         "lat": 32.771856,
         "lon": 35.638675,
         "label": "עין גב כפר הנופש",
@@ -84,6 +91,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "8",
         "lat": 32.771856,
         "lon": 35.638675,
         "label": "עין גב כפר הנופש",
@@ -96,6 +104,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "9",
         "lat": 32.871999,
         "lon": 35.550409,
         "label": "כנסיית הבכורה של פטרוס",
@@ -108,6 +117,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "10",
         "lat": 32.843234,
         "lon": 35.50956,
         "label": "מסעדת תנורין",
@@ -120,6 +130,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "11",
         "lat": 32.882419,
         "lon": 35.573693,
         "label": "כפר נחום",
@@ -132,6 +143,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "12",
         "lat": 32.867782,
         "lon": 35.525478,
         "label": "כנרת - שייט בספינה",
@@ -144,6 +156,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "13",
         "lat": 32.767652,
         "lon": 35.63934,
         "label": "עין גב כפר הנופש",
@@ -156,6 +169,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "14",
         "lat": 32.767652,
         "lon": 35.63934,
         "label": "עין גב כפר הנופש",
@@ -168,6 +182,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "15",
         "lat": 32.226773,
         "lon": 35.26227,
         "label": "שכם",
@@ -180,6 +195,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "16",
         "lat": 31.865153,
         "lon": 35.462018,
         "label": "יריחו",
@@ -192,6 +208,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "17",
         "lat": 31.202813,
         "lon": 35.361363,
         "label": "מלון דוד ים המלח",
@@ -204,6 +221,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "18",
         "lat": 31.202813,
         "lon": 35.361363,
         "label": "מלון דוד ים המלח",
@@ -216,6 +234,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "19",
         "lat": 31.312016,
         "lon": 35.363052,
         "label": "מצדה",
@@ -228,6 +247,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "20",
         "lat": 29.78832,
         "lon": 35.003072,
         "label": "פארק תמנע",
@@ -240,6 +260,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "21",
         "lat": 31.247751,
         "lon": 34.801126,
         "label": "מלון לאונרדו נגב",
@@ -252,6 +273,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "22",
         "lat": 31.247751,
         "lon": 34.801126,
         "label": "מלון לאונרדו נגב",
@@ -264,6 +286,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "23",
         "lat": 31.246155,
         "lon": 34.841115,
         "label": "הפארק הלאומי בבאר שבע",
@@ -276,6 +299,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "24",
         "lat": 31.704532,
         "lon": 35.207497,
         "label": "כנסיית המולד",
@@ -288,6 +312,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "25",
         "lat": 31.707613,
         "lon": 35.230017,
         "label": "כנסיית שדה הרועים",
@@ -300,6 +325,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "26",
         "lat": 31.7046176,
         "lon": 35.2077341,
         "label": "כנסיית סנט קטרינה",
@@ -312,6 +338,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "27",
         "lat": 31.704532,
         "lon": 35.207497,
         "label": "מערת סנט ג'רום (בתוך כנסיית המולד)",
@@ -324,6 +351,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "28",
         "lat": 31.789627,
         "lon": 35.227216,
         "label": "מלון גרנד קורט",
@@ -336,6 +364,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "29",
         "lat": 31.789627,
         "lon": 35.227216,
         "label": "מלון גרנד קורט",
@@ -348,6 +377,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "30",
         "lat": 31.778733,
         "lon": 35.245956,
         "label": "ביקור בהר הזיתים",
@@ -360,6 +390,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "31",
         "lat": 31.779216,
         "lon": 35.245031,
         "label": "כנסיית העלייה",
@@ -372,6 +403,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "32",
         "lat": 31.777475,
         "lon": 35.250745,
         "label": "בית פגי (כנסייה)",
@@ -384,6 +416,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "33",
         "lat": 31.732126,
         "lon": 35.203915,
         "label": "מסעדת שנגחאי",
@@ -396,6 +429,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "34",
         "lat": 31.778342,
         "lon": 35.245179,
         "label": "כנסיית פאטר נוסטר (אבינו שבשמיים)",
@@ -408,6 +442,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "35",
         "lat": 31.779465,
         "lon": 35.239791,
         "label": "כנסיית גת שמנים",
@@ -420,6 +455,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "36",
         "lat": 31.771154,
         "lon": 35.228458,
         "label": "הר ציון",
@@ -432,6 +468,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "37",
         "lat": 31.772035,
         "lon": 35.229292,
         "label": "חדר הסעודה האחרונה",
@@ -444,6 +481,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "38",
         "lat": 31.780349,
         "lon": 35.239406,
         "label": "קבר מרים",
@@ -456,6 +494,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "39",
         "lat": 31.771525,
         "lon": 35.232122,
         "label": "כנסיית פטרוס אין גליקנטו",
@@ -468,6 +507,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "40",
         "lat": 31.789627,
         "lon": 35.227205,
         "label": "מלון גרנט קורט",
@@ -480,6 +520,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "41",
         "lat": 31.789627,
         "lon": 35.227205,
         "label": "מלון גרנט קורט",
@@ -492,6 +533,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "42",
         "lat": 31.767587,
         "lon": 35.162287,
         "label": "עין כרם",
@@ -504,6 +546,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "43",
         "lat": 31.777309,
         "lon": 35.229695,
         "label": "כנסיית יוחנן המטביל",
@@ -516,6 +559,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "44",
         "lat": 31.764796,
         "lon": 35.15794,
         "label": "כנסיית הביקור",
@@ -528,6 +572,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "45",
         "lat": 31.781189,
         "lon": 35.236084,
         "label": "כנסית אן הקדושה",
@@ -540,6 +585,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "46",
         "lat": 31.789989,
         "lon": 35.202244,
         "label": "מסעדת גולד ליד מלון אמבסדור במזרח ירושלים",
@@ -552,6 +598,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "47",
         "lat": 31.768593,
         "lon": 35.213742,
         "label": "בריכות הצאן (מוזיאון ארכיאולוגי בירושלים)",
@@ -564,6 +611,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "48",
         "lat": 31.778682,
         "lon": 35.229665,
         "label": "כנסיית הקבר הקדוש",
@@ -576,6 +624,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "49",
         "lat": 31.789627,
         "lon": 35.227205,
         "label": "מלון גרנט קורט",
@@ -588,6 +637,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/23022020_1.aspx"
     },
     {
+        "id": "50",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -600,6 +650,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
     {
+        "id": "51",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -612,6 +663,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
     {
+        "id": "52",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -624,6 +676,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
     {
+        "id": "53",
         "lat": 31.9306892,
         "lon": 34.7765856,
         "label": "בית כנסת אירוס",
@@ -636,6 +689,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_1.aspx"
     },
     {
+        "id": "54",
         "lat": 32.383731,
         "lon": 34.866688,
         "label": "ארומה בתחנת ״דלק פז״",
@@ -648,6 +702,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
     {
+        "id": "55",
         "lat": 32.38385,
         "lon": 34.866874,
         "label": "בית הפנקייק",
@@ -660,6 +715,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
     {
+        "id": "56",
         "lat": 32.962288,
         "lon": 35.176676,
         "label": "סעיד מלחם מוצרי חשמל באבו סנאן",
@@ -672,6 +728,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
     {
+        "id": "57",
         "lat": 32.818203,
         "lon": 35.050937,
         "label": "מחסני זול ספורט בקריית אתא",
@@ -684,6 +741,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
     {
+        "id": "58",
         "lat": 32.990316,
         "lon": 35.096735,
         "label": "חומוס פרלמנט ותחנת דלק פז בנהריה",
@@ -696,6 +754,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/28022020_6.aspx"
     },
     {
+        "id": "59",
         "lat": 32.603578,
         "lon": 35.296038,
         "label": "מקלות וניל בעפולה",
@@ -708,6 +767,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
     {
+        "id": "60",
         "lat": 32.687929,
         "lon": 35.246797,
         "label": "חדר כושר אתנה במגדל העמק",
@@ -720,6 +780,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
     {
+        "id": "61",
         "lat": 32.676933,
         "lon": 35.239217,
         "label": "בנק דיסקונט במגדל העמק",
@@ -732,6 +793,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
     {
+        "id": "62",
         "lat": 32.599948,
         "lon": 35.29515,
         "label": "מסעדת אחוזה בעפולה",
@@ -744,6 +806,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_1.aspx"
     },
     {
+        "id": "63",
         "lat": 32.666738,
         "lon": 35.239837,
         "label": "שופרסל אזור תעשייה מגדל העמק",
@@ -756,6 +819,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/29022020_2.aspx"
     },
     {
+        "id": "64",
         "lat": 32.025683,
         "lon": 34.858086,
         "label": "מתפרה בקומה התחתונה של קניון אור יהודה",
@@ -768,6 +832,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
     {
+        "id": "65",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -780,6 +845,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
     {
+        "id": "66",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -792,6 +858,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
     {
+        "id": "67",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -804,6 +871,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
     {
+        "id": "68",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -816,6 +884,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_1.aspx"
     },
     {
+        "id": "69",
         "lat": 31.796529,
         "lon": 34.629749,
         "label": "שוק הים באשדוד",
@@ -828,6 +897,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020_3.aspx"
     },
     {
+        "id": "70",
         "lat": 32.0714043,
         "lon": 34.8281033,
         "label": "מכון גו-אקטיב מרום נווה ברמת גן",
@@ -840,6 +910,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx"
     },
     {
+        "id": "71",
         "lat": 32.0714604,
         "lon": 34.8279486,
         "label": "פרשמרקט במתחם מרום נווה",
@@ -852,6 +923,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/02032020-3.aspx"
     },
     {
+        "id": "72",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -864,6 +936,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "73",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -876,6 +949,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "74",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -888,6 +962,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "75",
         "lat": 32.0228009,
         "lon": 34.861666,
         "label": "הפיראט האדום",
@@ -900,6 +975,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "76",
         "lat": 31.869072,
         "lon": 34.806136,
         "label": "ביה״ס איזורי ברנר",
@@ -912,6 +988,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "77",
         "lat": 31.869072,
         "lon": 34.806136,
         "label": "ביה״ס איזורי ברנר",
@@ -924,6 +1001,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "78",
         "lat": 31.869072,
         "lon": 34.806136,
         "label": "ביה״ס איזורי ברנר",
@@ -936,6 +1014,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_3.aspx"
     },
     {
+        "id": "79",
         "lat": 32.051678,
         "lon": 34.761865,
         "label": "אצטדיון בלומפילד - שער 8",
@@ -948,6 +1027,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_4.aspx"
     },
     {
+        "id": "80",
         "lat": 32.052998,
         "lon": 34.855811,
         "label": "ביה״ס אביגדור ורשה",
@@ -960,6 +1040,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
     {
+        "id": "81",
         "lat": 32.063762,
         "lon": 34.872818,
         "label": "אולם ספורט ליד ספריה עירונית גני תקווה",
@@ -972,6 +1053,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
     {
+        "id": "82",
         "lat": 31.804431,
         "lon": 34.761447,
         "label": "חתונה ב\"הרמוניה בגן\" (האולם מימין לכניסה) בצומת כנות",
@@ -984,6 +1066,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
     {
+        "id": "83",
         "lat": 32.055449,
         "lon": 34.863602,
         "label": "קניון קריית אונו",
@@ -996,6 +1079,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
     {
+        "id": "84",
         "lat": 32.052998,
         "lon": 34.855811,
         "label": "ביה״ס אביגדור ורשה",
@@ -1008,6 +1092,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/04032020_5.aspx"
     },
     {
+        "id": "85",
         "lat": 31.777409,
         "lon": 35.224419,
         "label": "קפה רימון ממילה",
@@ -1020,6 +1105,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "86",
         "lat": 31.777634,
         "lon": 35.22371,
         "label": "זארה",
@@ -1032,6 +1118,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "87",
         "lat": 31.782049,
         "lon": 35.218575,
         "label": "קפה רימון בן יהודה",
@@ -1044,6 +1131,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "88",
         "lat": 31.753473,
         "lon": 35.212979,
         "label": "אושר עד בקניון הדר",
@@ -1056,6 +1144,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "89",
         "lat": 31.768215,
         "lon": 35.224438,
         "label": "Kitchen Station מתחם התחנה",
@@ -1068,6 +1157,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "90",
         "lat": 31.782627,
         "lon": 35.222703,
         "label": "בנק מזרחי טפחות הלני המלכה 9",
@@ -1080,6 +1170,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "91",
         "lat": 31.753794,
         "lon": 35.213153,
         "label": "FOX HOME",
@@ -1092,6 +1183,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "92",
         "lat": 31.753473,
         "lon": 35.212979,
         "label": "אושר עד",
@@ -1104,6 +1196,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "93",
         "lat": 31.753468,
         "lon": 35.21372,
         "label": "צומת ספרים",
@@ -1116,6 +1209,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "94",
         "lat": 31.763622,
         "lon": 35.219289,
         "label": "בית קפה קפית",
@@ -1128,6 +1222,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_1.aspx"
     },
     {
+        "id": "95",
         "lat": 32.686474,
         "lon": 35.392521,
         "label": "הר תבור מנזר ההשתנות",
@@ -1140,6 +1235,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "96",
         "lat": 32.702412,
         "lon": 35.297397,
         "label": "כנסיית הבשורה בנצרת",
@@ -1152,6 +1248,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "97",
         "lat": 32.747189,
         "lon": 35.337806,
         "label": "כנסיה יוונית האורתודוקסית בכפר כנא",
@@ -1164,6 +1261,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "98",
         "lat": 32.874022,
         "lon": 35.549828,
         "label": "עין שבע (טבח'ה)",
@@ -1176,6 +1274,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "99",
         "lat": 32.717531,
         "lon": 35.569652,
         "label": "ירדנית",
@@ -1188,6 +1287,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "100",
         "lat": 31.20199,
         "lon": 35.362779,
         "label": "עין בוקק – ים המלח",
@@ -1200,6 +1300,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "101",
         "lat": 29.894359,
         "lon": 35.064305,
         "label": "מסעדת יוטבתה",
@@ -1212,6 +1313,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "102",
         "lat": 29.504141,
         "lon": 34.919178,
         "label": "המצפה התת ימי אילת",
@@ -1224,6 +1326,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "103",
         "lat": 29.893532,
         "lon": 35.063005,
         "label": "מסעדת יוטבתה",
@@ -1236,6 +1339,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "104",
         "lat": 31.704859,
         "lon": 35.3311,
         "label": "מנזר מרסבה במדבר יהודה",
@@ -1248,6 +1352,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "105",
         "lat": 31.780098,
         "lon": 35.23935,
         "label": "קבר מרים וכנסיית כל העמים",
@@ -1260,6 +1365,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "106",
         "lat": 31.777244,
         "lon": 35.228114,
         "label": "מנזר סנט ג'ורג' (דיר מאר ג'ריס)",
@@ -1272,6 +1378,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "107",
         "lat": 31.780241,
         "lon": 35.232787,
         "label": "כנסיית אורתודוקסית של מרתא ומרים באלעיזריה",
@@ -1284,6 +1391,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "108",
         "lat": 31.716049,
         "lon": 35.330446,
         "label": "מנזר מרסבא",
@@ -1296,6 +1404,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "109",
         "lat": 31.87439,
         "lon": 35.429958,
         "label": "דיר אל קרנטל (מנזר קרנטל)",
@@ -1308,6 +1417,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "110",
         "lat": 31.820261,
         "lon": 35.501139,
         "label": "כנסיית זקא",
@@ -1320,6 +1430,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "111",
         "lat": 31.820261,
         "lon": 35.501139,
         "label": "דיר חג'אלה ליד גשר אלנבי",
@@ -1332,6 +1443,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "112",
         "lat": 31.778434,
         "lon": 35.229492,
         "label": "תפילה בכנסיית הקבר ירושלים",
@@ -1344,6 +1456,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "113",
         "lat": 31.953169,
         "lon": 34.899326,
         "label": "כנסיית סנט ג'ורג' בלוד",
@@ -1356,6 +1469,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/05032020_05.aspx"
     },
     {
+        "id": "114",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1368,6 +1482,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "115",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1380,6 +1495,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "116",
         "lat": 32.836825,
         "lon": 35.509919,
         "label": "מסעדת דליה במגדל",
@@ -1392,6 +1508,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "117",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1404,6 +1521,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "118",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1416,6 +1534,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "119",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1428,6 +1547,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "120",
         "lat": 32.7055015,
         "lon": 35.3014112,
         "label": "בית מלון Golden Crown Old City בנצרת",
@@ -1440,6 +1560,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "121",
         "lat": 31.7412525,
         "lon": 35.4569593,
         "label": "מסעדת קומראן באתר קומראן",
@@ -1452,6 +1573,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "122",
         "lat": 32.7867555,
         "lon": 35.5331003,
         "label": "מלון רסטל בטבריה",
@@ -1464,6 +1586,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_1.aspx"
     },
     {
+        "id": "123",
         "lat": 32.078774,
         "lon": 34.767687,
         "label": "מסעדת ANIMAR",
@@ -1476,6 +1599,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
     {
+        "id": "124",
         "lat": 32.07956,
         "lon": 34.767947,
         "label": "ארוחת בוקר במלון דן",
@@ -1488,6 +1612,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
     {
+        "id": "125",
         "lat": 32.070427,
         "lon": 34.786908,
         "label": "הארבעה 21 קומה 16",
@@ -1500,6 +1625,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
     {
+        "id": "126",
         "lat": 32.078774,
         "lon": 34.767687,
         "label": "מסעדת ANIMAR",
@@ -1512,6 +1638,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
     {
+        "id": "127",
         "lat": 32.078774,
         "lon": 34.767687,
         "label": "מסעדת ANIMAR",
@@ -1524,6 +1651,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_3.aspx"
     },
     {
+        "id": "128",
         "lat": 31.78814,
         "lon": 35.20257,
         "label": "רכבת מתחנה מרכזית בירושלים",
@@ -1536,6 +1664,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
     {
+        "id": "129",
         "lat": 31.7621122,
         "lon": 35.2132363,
         "label": "בית כנסת רמב״ן ברח׳ אמציה בירושלים",
@@ -1548,6 +1677,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
     {
+        "id": "130",
         "lat": 31.7659831,
         "lon": 35.1824382,
         "label": "בית קפה ״הלל״ ברמת בית הכרם",
@@ -1560,6 +1690,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
     {
+        "id": "131",
         "lat": 31.78814,
         "lon": 35.20257,
         "label": "רכבת מתחנה מרכזית בירושלים",
@@ -1572,6 +1703,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/06032020_03.aspx"
     },
     {
+        "id": "132",
         "lat": 32.1440607,
         "lon": 34.8354079,
         "label": "קפה לורן ברחוב סוקולוב 53 רמה\"ש",
@@ -1584,6 +1716,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
+        "id": "133",
         "lat": 31.9922422,
         "lon": 34.7474626,
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
@@ -1596,6 +1729,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
+        "id": "134",
         "lat": 31.9922422,
         "lon": 34.7474626,
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
@@ -1608,6 +1742,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
+        "id": "135",
         "lat": 32.1440607,
         "lon": 34.8354079,
         "label": "קפה לורן  רחוב סוקולוב 53 רמה\"ש",
@@ -1620,6 +1755,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
+        "id": "136",
         "lat": 32.1385405,
         "lon": 34.8417452,
         "label": "מוקד רפואה דחופה מכבי ברחוב הנצח 3 רמה\"ש",
@@ -1632,6 +1768,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_1.aspx"
     },
     {
+        "id": "137",
         "lat": 32.38,
         "lon": 35.018,
         "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
@@ -1644,6 +1781,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "138",
         "lat": 32.9004598,
         "lon": 35.2927348,
         "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
@@ -1656,6 +1794,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "139",
         "lat": 32.9463904,
         "lon": 35.175988,
         "label": "כפר ירכא סופרמרקט מרקזה.",
@@ -1668,6 +1807,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "140",
         "lat": 32.955728,
         "lon": 35.1829777,
         "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG.",
@@ -1680,6 +1820,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "141",
         "lat": 32.0818804,
         "lon": 34.8651936,
         "label": "קלפי מספר 97 ברחוב קפלן 42 פתח תקווה.",
@@ -1692,6 +1833,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "142",
         "lat": 32.0854778,
         "lon": 34.8683473,
         "label": "צ'יפ-מרקט ארלוזרוב 38 פתח תקווה.",
@@ -1704,6 +1846,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "143",
         "lat": 32.071679,
         "lon": 34.8906156,
         "label": "בית רבקה מחלקה ג' חדר 4235.",
@@ -1716,6 +1859,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/07032020_8.aspx"
     },
     {
+        "id": "144",
         "lat": 32.0020526,
         "lon": 34.9410456,
         "label": "קלפי 21 בבית ספר אבן חן בשוהם",
@@ -1728,6 +1872,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx"
     },
     {
+        "id": "145",
         "lat": 31.9997234,
         "lon": 34.9453264,
         "label": "מרפאת קופת חולים מאוחדת בשוהם",
@@ -1740,6 +1885,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_9.aspx"
     },
     {
+        "id": "146",
         "lat": 31.971546,
         "lon": 34.802067,
         "label": "סופר חצות וחצי רחוב טרכטנברג 18 ראשל\"צ.",
@@ -1752,6 +1898,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_1.aspx"
     },
     {
+        "id": "147",
         "lat": 31.788888,
         "lon": 35.216582,
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
@@ -1764,6 +1911,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "148",
         "lat": 31.788888,
         "lon": 35.216582,
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
@@ -1776,6 +1924,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "149",
         "lat": 31.788888,
         "lon": 35.216582,
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
@@ -1788,6 +1937,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "150",
         "lat": 31.788888,
         "lon": 35.216582,
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
@@ -1800,6 +1950,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "151",
         "lat": 31.788888,
         "lon": 35.216582,
         "label": "אופטיקה יונה קורן בע\"מ רחוב מלכי ישראל 16 ירושלים",
@@ -1812,6 +1963,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "152",
         "lat": 32.1022985,
         "lon": 35.2070832,
         "label": "מסעדת BIGA במרכז המסחרי באריאל",
@@ -1824,6 +1976,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_5.aspx"
     },
     {
+        "id": "153",
         "lat": 31.9922422,
         "lon": 34.7474626,
         "label": "מסעדת פיש: רחוב פרופ' בני חבוט 7 ראשל\"צ",
@@ -1836,6 +1989,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx"
     },
     {
+        "id": "154",
         "lat": 31.9744662,
         "lon": 34.784506,
         "label": "קלפי 193 בבית הספר רננים בקריית ראשון",
@@ -1848,6 +2002,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_3.aspx"
     },
     {
+        "id": "155",
         "lat": 31.2644237,
         "lon": 34.7909894,
         "label": "חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע",
@@ -1860,6 +2015,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx"
     },
     {
+        "id": "156",
         "lat": 31.2644237,
         "lon": 34.7909894,
         "label": "חנות ״פורטונה״ במרכז גילת, שכונה ד׳, באר שבע",
@@ -1872,6 +2028,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_4.aspx"
     },
     {
+        "id": "157",
         "lat": 32.38,
         "lon": 35.018,
         "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
@@ -1884,6 +2041,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx"
     },
     {
+        "id": "158",
         "lat": 32.9004598,
         "lon": 35.2927348,
         "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
@@ -1896,6 +2054,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx"
     },
     {
+        "id": "159",
         "lat": 32.9463904,
         "lon": 35.175988,
         "label": "כפר ירכא סופרמרקט מרקזה",
@@ -1908,6 +2067,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx"
     },
     {
+        "id": "160",
         "lat": 32.955728,
         "lon": 35.1829777,
         "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG",
@@ -1920,6 +2080,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx"
     },
     {
+        "id": "161",
         "lat": 32.0818804,
         "lon": 34.8651936,
         "label": "קלפי מספר 97 ברחוב קפלן 42 פתח תקווה",
@@ -1932,6 +2093,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_5.aspx"
     },
     {
+        "id": "162",
         "lat": 32.38,
         "lon": 35.018,
         "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
@@ -1944,6 +2106,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "163",
         "lat": 32.9004598,
         "lon": 35.2927348,
         "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
@@ -1956,6 +2119,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "164",
         "lat": 32.9463904,
         "lon": 35.175988,
         "label": "כפר ירכא סופרמרקט מרקזה",
@@ -1968,6 +2132,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "165",
         "lat": 32.955728,
         "lon": 35.1829777,
         "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG",
@@ -1980,6 +2145,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "166",
         "lat": 32.0719564,
         "lon": 34.7910422,
         "label": "מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב",
@@ -1992,6 +2158,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "167",
         "lat": 31.9879987,
         "lon": 34.9128609,
         "label": "חברת \"בקהוף ישראל\" רחוב הנגב 1, בית גולן, קריית שדה התעופה.",
@@ -2004,6 +2171,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "168",
         "lat": 32.0897602,
         "lon": 34.8643227,
         "label": "מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.",
@@ -2016,6 +2184,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_6.aspx"
     },
     {
+        "id": "169",
         "lat": 32.38,
         "lon": 35.018,
         "label": "סופר אלונית תחנת דלק דור אלון בכביש שש לכיוון צפון ליד מחלף בקה",
@@ -2028,6 +2197,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "170",
         "lat": 32.9004598,
         "lon": 35.2927348,
         "label": "כרמיאל – ניחום אבלים רחוב אנקור 82.",
@@ -2040,6 +2210,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "171",
         "lat": 32.9463904,
         "lon": 35.175988,
         "label": "כפר ירכא סופרמרקט מרקזה",
@@ -2052,6 +2223,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "172",
         "lat": 32.955728,
         "lon": 35.1829777,
         "label": "כפר ירכא מסעדת בורגר אנד סטייקס במרכז BIG",
@@ -2064,6 +2236,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "173",
         "lat": 32.0719564,
         "lon": 34.7910422,
         "label": "מוסך מורשה של אופל, רחוב שפע טל 9 תל אביב",
@@ -2076,6 +2249,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "174",
         "lat": 32.0897602,
         "lon": 34.8643227,
         "label": "מרפאה כירורגית חזה לב במרפאות חוץ של בית חולים בילינסון.",
@@ -2088,6 +2262,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_7.aspx"
     },
     {
+        "id": "175",
         "lat": 32.0137975,
         "lon": 34.7750173,
         "label": "מסעדת ג'פניקה ברחוב צבי תדמור 12 בחולון",
@@ -2100,6 +2275,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/09032020_10.aspx"
     },
     {
+        "id": "176",
         "lat": 31.707352,
         "lon": 35.202314,
         "label": "בית לחם",
@@ -2112,6 +2288,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx"
     },
     {
+        "id": "177",
         "lat": 31.717896,
         "lon": 35.187406,
         "label": "בית ג'אלה",
@@ -2124,6 +2301,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx"
     },
     {
+        "id": "178",
         "lat": 31.699806,
         "lon": 35.228015,
         "label": "בית סחור",
@@ -2136,6 +2314,7 @@
         "link": "https://www.health.gov.il/NewsAndEvents/SpokemanMesseges/Pages/08032020_8.aspx"
     },
     {
+        "id": "179",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "בית כנסת חב\"ד בישוב ענב.",
@@ -2148,6 +2327,7 @@
         "link": ""
     },
     {
+        "id": "180",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "בית כנסת חב\"ד בישוב ענב.",
@@ -2160,6 +2340,7 @@
         "link": ""
     },
     {
+        "id": "181",
         "lat": 32.0960948,
         "lon": 34.8760841,
         "label": "סופר אושר עד בפתח תקווה.",
@@ -2172,6 +2353,7 @@
         "link": ""
     },
     {
+        "id": "182",
         "lat": 32.0933026,
         "lon": 34.8631594,
         "label": "הקניון הגדול בפתח תקווה",
@@ -2184,6 +2366,7 @@
         "link": ""
     },
     {
+        "id": "183",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "קלפי במועדון בישוב ענב",
@@ -2196,6 +2379,7 @@
         "link": ""
     },
     {
+        "id": "184",
         "lat": 31.7929547,
         "lon": 35.2049517,
         "label": "בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש",
@@ -2208,6 +2392,7 @@
         "link": ""
     },
     {
+        "id": "185",
         "lat": 31.7947395,
         "lon": 35.2063201,
         "label": "קניון רב שפע ברחוב שמגר בירושלים",
@@ -2220,6 +2405,7 @@
         "link": ""
     },
     {
+        "id": "186",
         "lat": 31.8026338,
         "lon": 35.097737,
         "label": "עזרת גברים בית הכנסת חסידים בטלז סטון",
@@ -2232,6 +2418,7 @@
         "link": ""
     },
     {
+        "id": "187",
         "lat": 32.0479885,
         "lon": 34.9554965,
         "label": "מוקד רפואי באלעד ברחוב רבי עקיבא.",
@@ -2244,6 +2431,7 @@
         "link": ""
     },
     {
+        "id": "188",
         "lat": 31.9660531,
         "lon": 34.837229,
         "label": "מכון MRI באסף הרופא",
@@ -2256,6 +2444,7 @@
         "link": ""
     },
     {
+        "id": "189",
         "lat": 31.967552,
         "lon": 34.783082,
         "label": "מספרה יורם בן עמי שער ראשל\"צ.",
@@ -2268,6 +2457,7 @@
         "link": ""
     },
     {
+        "id": "190",
         "lat": 31.9924642,
         "lon": 34.7718725,
         "label": "אולמי \"מפלים\" בראשון לציון",
@@ -2280,6 +2470,7 @@
         "link": ""
     },
     {
+        "id": "191",
         "lat": 32.0654141,
         "lon": 34.7616304,
         "label": "מלון דיויד אינטרקונטיננטל",
@@ -2292,6 +2483,7 @@
         "link": ""
     },
     {
+        "id": "192",
         "lat": 32.0262588,
         "lon": 34.7798957,
         "label": "סופרמרקט \"שימורי איכות\" המכתש 6 חולון",
@@ -2304,6 +2496,7 @@
         "link": ""
     },
     {
+        "id": "193",
         "lat": 32.82189,
         "lon": 35.07405,
         "label": "תיאטרון הצפון בקרית חיים",
@@ -2316,6 +2509,7 @@
         "link": ""
     },
     {
+        "id": "194",
         "lat": 31.7554096,
         "lon": 35.2140339,
         "label": "קלפי בבית הספר מקור חיים שברחוב פייר קניג",
@@ -2328,6 +2522,7 @@
         "link": ""
     },
     {
+        "id": "195",
         "lat": 31.753473,
         "lon": 35.212979,
         "label": "אושר עד בקניון הדר רחוב פייר קניג 26 ירושלים",
@@ -2340,6 +2535,7 @@
         "link": ""
     },
     {
+        "id": "196",
         "lat": 31.7528328,
         "lon": 35.2152969,
         "label": "מסעדת עזרא גריל בשרים יד החורצים 14 ירושלים",
@@ -2352,6 +2548,7 @@
         "link": ""
     },
     {
+        "id": "197",
         "lat": 31.7517516,
         "lon": 35.2098816,
         "label": "רמי לוי קניון רב חן בתלפיות ירושלים",
@@ -2364,6 +2561,7 @@
         "link": ""
     },
     {
+        "id": "198",
         "lat": 31.756894,
         "lon": 35.2133994,
         "label": "בית כנסת \"אוהבי ציון\" רחוב מקור חיים בירושלים",
@@ -2376,6 +2574,7 @@
         "link": ""
     },
     {
+        "id": "199",
         "lat": 32.2645605,
         "lon": 34.8765136,
         "label": "עמדת קפה בבית הספר האמריקאי ברח' השומרון 65 באבן יהודה",
@@ -2388,6 +2587,7 @@
         "link": ""
     },
     {
+        "id": "200",
         "lat": 32.8218955,
         "lon": 35.0740516,
         "label": "תיאטרון הצפון בקרית חיים",
@@ -2400,6 +2600,7 @@
         "link": ""
     },
     {
+        "id": "201",
         "lat": 32.1974472,
         "lon": 34.8780966,
         "label": "קניון רננים, רעננה. ביקרה בכל החנויות ואכלה בסושייה",
@@ -2412,6 +2613,7 @@
         "link": ""
     },
     {
+        "id": "202",
         "lat": 32.16728,
         "lon": 34.92854,
         "label": "מקס-סטוק בכפר סבא, רחוב עתיר ידע 2",
@@ -2424,6 +2626,7 @@
         "link": ""
     },
     {
+        "id": "203",
         "lat": 31.7929547,
         "lon": 35.2049517,
         "label": "בית אבות נווה אורה, רחוב ארגמן ירושלים מחלקת תשושי נפש.",
@@ -2436,6 +2639,7 @@
         "link": ""
     },
     {
+        "id": "204",
         "lat": 31.7947395,
         "lon": 35.2063201,
         "label": "קניון רב שפע ברחוב שמגר בירושלים, בקומה האחרונה, בשתי חנויות: אביזרים לפורים וחנות לבייגלה",
@@ -2448,6 +2652,7 @@
         "link": ""
     },
     {
+        "id": "205",
         "lat": 32.1089879,
         "lon": 34.8878513,
         "label": "בר מצווה אולם אירועים \"אפ טאון\" הרכבת 4, פתח תקווה.",
@@ -2460,6 +2665,7 @@
         "link": ""
     },
     {
+        "id": "206",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "מועדון למבוגרים בישוב ענב, מסיבת פורים.",
@@ -2472,6 +2678,7 @@
         "link": ""
     },
     {
+        "id": "207",
         "lat": 32.3125987,
         "lon": 34.9596066,
         "label": "סופרמרקט חינם פלוס צומת תנובות.",
@@ -2484,6 +2691,7 @@
         "link": ""
     },
     {
+        "id": "208",
         "lat": 32.0897602,
         "lon": 34.8643227,
         "label": "בית חולים בילינסון, מעבר דרך מיון לחדר בידוד לביקור חולה מספר 29",
@@ -2496,6 +2704,7 @@
         "link": ""
     },
     {
+        "id": "209",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "בית כנסת חב\"ד בישוב ענב",
@@ -2508,6 +2717,7 @@
         "link": ""
     },
     {
+        "id": "210",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "בית כנסת חב\"ד בישוב ענב",
@@ -2520,6 +2730,7 @@
         "link": ""
     },
     {
+        "id": "211",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "קלפי במועדון בישוב ענב",
@@ -2532,6 +2743,7 @@
         "link": ""
     },
     {
+        "id": "212",
         "lat": 32.0930115,
         "lon": 34.8210871,
         "label": "לימודים מכללת \"מבחר\" בני ברק, כיתה 101",
@@ -2544,6 +2756,7 @@
         "link": ""
     },
     {
+        "id": "213",
         "lat": 32.0555787,
         "lon": 34.8619976,
         "label": "מכון כושר מיי פרופיט, בקניון קריית אונו קומה 1.",
@@ -2556,6 +2769,7 @@
         "link": ""
     },
     {
+        "id": "214",
         "lat": 32.0930115,
         "lon": 34.8210871,
         "label": "לימודים מכללת \"מבחר\" בני ברק, כיתה 101.",
@@ -2568,6 +2782,7 @@
         "link": ""
     },
     {
+        "id": "215",
         "lat": 31.783092,
         "lon": 35.1249245,
         "label": "בית כנסת חסידים בטלזסטון.",
@@ -2580,6 +2795,7 @@
         "link": ""
     },
     {
+        "id": "216",
         "lat": 31.7767177,
         "lon": 35.2169989,
         "label": "בית כנסת בית ההחלמה בטלזסטון.",
@@ -2592,6 +2808,7 @@
         "link": ""
     },
     {
+        "id": "217",
         "lat": 31.665718,
         "lon": 35.2395283,
         "label": "הרודיון",
@@ -2604,6 +2821,7 @@
         "link": ""
     },
     {
+        "id": "218",
         "lat": 31.7043034,
         "lon": 35.2053401,
         "label": "כנסיית המולד, בית לחם",
@@ -2616,6 +2834,7 @@
         "link": ""
     },
     {
+        "id": "219",
         "lat": 31.7767189,
         "lon": 35.2323198,
         "label": "מנהרות הכותל, עיר דוד",
@@ -2628,6 +2847,7 @@
         "link": ""
     },
     {
+        "id": "220",
         "lat": 31.7774769,
         "lon": 35.2281299,
         "label": "מסעדה גן מוריסטן, עיר העתיקה, ירושלים",
@@ -2640,6 +2860,7 @@
         "link": ""
     },
     {
+        "id": "221",
         "lat": 31.7717797,
         "lon": 35.2271781,
         "label": "כנסיית דורמיציון וחדר הסעודה האחרונה",
@@ -2652,6 +2873,7 @@
         "link": ""
     },
     {
+        "id": "222",
         "lat": 31.8304502,
         "lon": 35.4549941,
         "label": "אתר תפילה בקאסר אל יהוד",
@@ -2664,6 +2886,7 @@
         "link": ""
     },
     {
+        "id": "223",
         "lat": 31.3138062,
         "lon": 35.3655923,
         "label": "מצדה, כולל רכבל",
@@ -2676,6 +2899,7 @@
         "link": ""
     },
     {
+        "id": "224",
         "lat": 31.1712698,
         "lon": 35.3656505,
         "label": "סופרמרקט הורדוס, ים המלח",
@@ -2688,6 +2912,7 @@
         "link": ""
     },
     {
+        "id": "225",
         "lat": 32.0720017,
         "lon": 34.7675983,
         "label": "קלפי שהוצבה בבית הספר \"בית הילד\" ברחוב אהבת ציון, תל אביב",
@@ -2700,6 +2925,7 @@
         "link": ""
     },
     {
+        "id": "226",
         "lat": 32.1094996,
         "lon": 34.8373739,
         "label": "מסעדת \"גוטה\" ברחוב הנחושת 3 ברמת החייל בתל אביב",
@@ -2712,6 +2938,7 @@
         "link": ""
     },
     {
+        "id": "227",
         "lat": 32.1099275,
         "lon": 34.837181,
         "label": "בית קפה \"לנדבר\" ברחוב הנחושת 3 ברמת החייל בתל אביב",
@@ -2724,6 +2951,7 @@
         "link": ""
     },
     {
+        "id": "228",
         "lat": 32.0938351,
         "lon": 34.7911753,
         "label": "בית קפה \"בוקה\" ברחוב יהודה המכבי 40 בתל אביב",
@@ -2736,6 +2964,7 @@
         "link": ""
     },
     {
+        "id": "229",
         "lat": 31.88222776,
         "lon": 34.87859545,
         "label": "אלונית כביש 6 דרום",
@@ -2748,6 +2977,7 @@
         "link": ""
     },
     {
+        "id": "230",
         "lat": 31.2244302,
         "lon": 34.8202529,
         "label": "חנות איקאה באר שבע",
@@ -2760,6 +2990,7 @@
         "link": ""
     },
     {
+        "id": "231",
         "lat": 31.2426376,
         "lon": 34.8086633,
         "label": "סניף בריאותא, מרכז ביג- באר שבע",
@@ -2772,6 +3003,7 @@
         "link": ""
     },
     {
+        "id": "232",
         "lat": 31.793745,
         "lon": 35.215224,
         "label": "קו 176 מרחוב בר אילן פינת רחוב ירמיהו ירושלים עד לתחנת דרך צמח השדה – השקמה, מעלה אדומים",
@@ -2784,6 +3016,7 @@
         "link": "https://t.me/MOHreport/2886?embed=1"
     },
     {
+        "id": "233",
         "lat": 31.768272,
         "lon": 35.300901,
         "label": "בית הכנסת \"שיח השדה\" ברחוב הצפצפה מעלה אדומים",
@@ -2796,6 +3029,7 @@
         "link": "https://t.me/MOHreport/2886?embed=1"
     },
     {
+        "id": "234",
         "lat": 31.767439,
         "lon": 35.301492,
         "label": "סופר יינות ביתן רחוב צמח השדה 29 מעלה אדומים",
@@ -2808,6 +3042,7 @@
         "link": "https://t.me/MOHreport/2886?embed=1"
     },
     {
+        "id": "235",
         "lat": 31.768272,
         "lon": 35.300901,
         "label": "בית הכנסת \"שיח השדה\" ברחוב הצפצפה מעלה אדומים",
@@ -2820,6 +3055,7 @@
         "link": "https://t.me/MOHreport/2886?embed=1"
     },
     {
+        "id": "236",
         "lat": 31.777074,
         "lon": 35.304477,
         "label": "בית כנסת \"אהבת ישראל\" רחוב דקל 1 מעלה אדומים",
@@ -2832,6 +3068,7 @@
         "link": "https://t.me/MOHreport/2886?embed=1"
     },
     {
+        "id": "237",
         "lat": 32.2841992,
         "lon": 35.1242567,
         "label": "בית כנסת חב\"ד בישוב ענב",
@@ -2844,6 +3081,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "238",
         "lat": 31.893331,
         "lon": 34.821537,
         "label": "סופרמרקט \"יש בשכונה\" חיים סירני 1, רחובות",
@@ -2856,6 +3094,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "239",
         "lat": 31.888133,
         "lon": 34.819082,
         "label": "סופרמרקט \"ברכול\" זכריה מדר פינת כובשי חרמון, רחובות",
@@ -2868,6 +3107,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "240",
         "lat": 31.864974,
         "lon": 34.814176,
         "label": "חנות Ksp מתחם בילו אין",
@@ -2880,6 +3120,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "241",
         "lat": 31.889146,
         "lon": 34.808668,
         "label": "קלפי נגישה, בית ספר בן צבי, רחובות",
@@ -2892,6 +3133,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "242",
         "lat": 31.893816,
         "lon": 34.816782,
         "label": "מעון חניכי הישיבות רחוב מנוחה ונחלה, רחובות",
@@ -2904,6 +3146,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "243",
         "lat": 31.888889,
         "lon": 34.786687,
         "label": "קופת חולים לאומית, טוכמן יעקב 17, קריית משה, רחובות",
@@ -2916,6 +3159,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "244",
         "lat": 31.893931,
         "lon": 34.807127,
         "label": "קופת חולים לאומית רחוב בילו 2, קניון רחובות",
@@ -2928,6 +3172,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "245",
         "lat": 31.891251,
         "lon": 34.813638,
         "label": "דף רם-עזרה 10, רחובות",
@@ -2940,6 +3185,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "246",
         "lat": 31.893331,
         "lon": 34.821537,
         "label": "סופרמרקט \"יש בשכונה\" חיים סירני 1, רחובות",
@@ -2952,6 +3198,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "247",
         "lat": 31.892086,
         "lon": 34.820554,
         "label": "סופרמרקט \"סופר טוב ומיטב\" רחוב יוסף ויינר 2, רחובות",
@@ -2964,6 +3211,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "248",
         "lat": 31.892086,
         "lon": 34.820554,
         "label": "סופרמרקט \"סופר טוב ומיטב\" רחוב יוסף ויינר 2, רחובות",
@@ -2976,6 +3224,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "249",
         "lat": 31.888989,
         "lon": 34.820181,
         "label": "בית כנסת בית מנחם צעירים, רחוב זכריה מאדר 28, רחובות",
@@ -2988,6 +3237,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "250",
         "lat": 31.893331,
         "lon": 34.821537,
         "label": "סופרמרקט \"יש בשכונה\" חיים סירני 1, רחובות",
@@ -3000,6 +3250,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "251",
         "lat": 31.893931,
         "lon": 34.807127,
         "label": "קופת חולים לאומית, רחוב בילו 2, קניון רחובות",
@@ -3012,6 +3263,7 @@
         "link": "https://t.me/MOHreport/2891?embed=1"
     },
     {
+        "id": "252",
         "lat": 31.865605,
         "lon": 35.260579,
         "label": "סופר \"רמי לוי שיווק השקמה\" בשער בנימין",
@@ -3024,6 +3276,7 @@
         "link": "https://t.me/MOHreport/2903?embed=1"
     },
     {
+        "id": "253",
         "lat": 31.82112,
         "lon": 35.23981,
         "label": "\"רום אופטיק\" פסגת זאב, רח' משה דיין",
@@ -3036,6 +3289,7 @@
         "link": "https://t.me/MOHreport/2903?embed=1"
     },
     {
+        "id": "254",
         "lat": 31.821355,
         "lon": 35.239619,
         "label": "מכלת \"מעיין 2000\" פסגת זאב, רח' משה דיין",
@@ -3048,6 +3302,7 @@
         "link": "https://t.me/MOHreport/2903?embed=1"
     },
     {
+        "id": "255",
         "lat": 31.827516,
         "lon": 35.240695,
         "label": "חנות דליקטס \"קשטן\" פסגת זאב, רח' הששה עשר פינת משה דיין",
@@ -3060,6 +3315,7 @@
         "link": "https://t.me/MOHreport/2903?embed=1"
     },
     {
+        "id": "256",
         "lat": 32.925567,
         "lon": 35.312709,
         "label": "סופר מרקט קינג סטור, כרמיאל",
@@ -3072,6 +3328,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "257",
         "lat": 32.878783,
         "lon": 35.269431,
         "label": "קלפי בישוב יובלים",
@@ -3084,6 +3341,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "258",
         "lat": 32.921531,
         "lon": 35.307366,
         "label": "מסעדה איטלקית ויוינו בכרמיאל",
@@ -3096,6 +3354,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "259",
         "lat": 32.860184,
         "lon": 35.259771,
         "label": "במתקן מועדון כפרי משגב, חדר טיפולים ליד חדר כושר",
@@ -3108,6 +3367,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "260",
         "lat": 32.858579,
         "lon": 35.262537,
         "label": "פיצריית הפיצה המטיילת בישוב רקפת",
@@ -3120,6 +3380,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "261",
         "lat": 32.789626,
         "lon": 34.986865,
         "label": "פאב דיוק, שד' מוריה בחיפה",
@@ -3132,6 +3393,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "262",
         "lat": 32.860184,
         "lon": 35.259771,
         "label": "חדר כושר, סאונה וג'אקוזי במתקן מועדון כפרי משגב",
@@ -3144,6 +3406,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "263",
         "lat": 32.86045,
         "lon": 35.259553,
         "label": "מסעדת תבל במתקן מועדון כפרי משגב",
@@ -3156,6 +3419,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "264",
         "lat": 32.860184,
         "lon": 35.259771,
         "label": "הבריכה של מועדון כפרי משגב (המתנה בלבד )",
@@ -3168,6 +3432,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "265",
         "lat": 32.908691,
         "lon": 35.29344,
         "label": "מקדונלדס במדרחוב כרמיאל",
@@ -3180,6 +3445,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "266",
         "lat": 32.076817,
         "lon": 34.766701,
         "label": "שגרירות אמריקאית ברח' הירקון בתל אביב",
@@ -3192,6 +3458,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "267",
         "lat": 32.852572,
         "lon": 35.2008133,
         "label": "חנות ירקות \"פרי וירק\" כביש ראשי תמרה",
@@ -3204,6 +3471,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "268",
         "lat": 32.858579,
         "lon": 35.262537,
         "label": "פיצריית הפיצה המטיילת בישוב רקפת",
@@ -3216,6 +3484,7 @@
         "link": "https://t.me/MOHreport/2904?embed=1"
     },
     {
+        "id": "269",
         "lat": 29.554469,
         "lon": 34.960961,
         "label": "מלון קראון פלאזה אילת",
@@ -3228,6 +3497,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "270",
         "lat": 29.554469,
         "lon": 34.960961,
         "label": "מלון קראון פלאזה אילת",
@@ -3240,6 +3510,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "271",
         "lat": 29.554469,
         "lon": 34.960961,
         "label": "מלון קראון פלאזה אילת",
@@ -3252,6 +3523,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "272",
         "lat": 29.549485,
         "lon": 34.952198,
         "label": "מלון קלאב הוטל אילת, ארוחת ערב והופעה במסגרת כנס יד לבנים",
@@ -3264,6 +3536,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "273",
         "lat": 29.549485,
         "lon": 34.952198,
         "label": "מלון קלאב הוטל אילת, ארוחת ערב והופעה במסגרת כנס יד לבנים",
@@ -3276,6 +3549,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "274",
         "lat": 32.046814,
         "lon": 34.842855,
         "label": "מכון סקר רפואי שיבא תל השומר",
@@ -3288,6 +3562,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "275",
         "lat": 32.22377,
         "lon": 34.999597,
         "label": "הצביע בבית ספר יסודי כוכב יאיר, קלפי מס' 1",
@@ -3300,6 +3575,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "276",
         "lat": 32.173544,
         "lon": 34.892409,
         "label": "מכון \"משו\"ב\" קניון שרונה כפר סבא",
@@ -3312,6 +3588,7 @@
         "link": "https://t.me/MOHreport/2915?embed=1"
     },
     {
+        "id": "277",
         "lat": 32.062721,
         "lon": 34.775164,
         "label": "בר \"בית אריאלה\", ברחוב הרכבת 2 בתל אביב",
@@ -3324,6 +3601,7 @@
         "link": "https://t.me/MOHreport/2928?embed=1"
     },
     {
+        "id": "278",
         "lat": 32.052284,
         "lon": 34.758677,
         "label": "בית קפה בשם \"מיכאלאנג'ו\", ברחוב בן תרדון 2 ביפו",
@@ -3336,6 +3614,7 @@
         "link": "https://t.me/MOHreport/2928?embed=1"
     },
     {
+        "id": "279",
         "lat": 31.77902,
         "lon": 35.295931,
         "label": "קלפי מס' 9 בבית הספר התורני \"רמות\" רחוב הקרן 10, מעלה אדומים",
@@ -3348,6 +3627,7 @@
         "link": "https://t.me/MOHreport/2933?embed=1"
     },
     {
+        "id": "280",
         "lat": 31.771485,
         "lon": 35.298437,
         "label": "בית מרקחת סופרפארם בקניון מעלה אדומים",
@@ -3360,6 +3640,7 @@
         "link": "https://t.me/MOHreport/2933?embed=1"
     },
     {
+        "id": "281",
         "lat": 31.771887,
         "lon": 35.298081,
         "label": "שופרסל דיל קניון מעלה אדומים",
@@ -3372,6 +3653,7 @@
         "link": "https://t.me/MOHreport/2933?embed=1"
     },
     {
+        "id": "282",
         "lat": 31.771954,
         "lon": 35.298265,
         "label": "אייס קנה ובנה בקניון מעלה אדומים (ACE)",
@@ -3384,6 +3666,7 @@
         "link": "https://t.me/MOHreport/2933?embed=1"
     },
     {
+        "id": "283",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים.",
@@ -3396,6 +3679,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "284",
         "lat": 31.7554096,
         "lon": 35.2140339,
         "label": "קלפי אחרונה בסוף הפרוזדור בבית הספר מקור חיים שברחוב פייר קניג ירושלים.",
@@ -3408,6 +3692,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "285",
         "lat": 31.7534878,
         "lon": 35.2130043,
         "label": "אושר-עד בקניון הדר רחוב פייר קניג 26 ירושלים.",
@@ -3420,6 +3705,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "286",
         "lat": 31.7528305,
         "lon": 35.2163912,
         "label": "מסעדת עזרא גריל בשרים יד החרוצים 14 ירושלים.",
@@ -3432,6 +3718,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "287",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים",
@@ -3444,6 +3731,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "288",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים",
@@ -3456,6 +3744,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "289",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים",
@@ -3468,6 +3757,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "290",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים",
@@ -3480,6 +3770,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "291",
         "lat": 31.752794,
         "lon": 35.214701,
         "label": "שופרסל דיל רחוב פייר קניג מול קניון הדר ירושלים.",
@@ -3492,6 +3783,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "292",
         "lat": 31.762839,
         "lon": 35.218299,
         "label": "קונדיטוריה \"לה מולאן דורה\" רחוב עמק רפאים 44 ירושלים",
@@ -3504,6 +3796,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "293",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 1 רחוב אמציה ירושלים",
@@ -3516,6 +3809,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "294",
         "lat": 31.762335,
         "lon": 35.214234,
         "label": "בית הכנסת \"שערי השמים\" קומה 2 רחוב אמציה ירושלים",
@@ -3528,6 +3822,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "295",
         "lat": 31.753846,
         "lon": 35.210889,
         "label": "תפילה בבית הכנסת ברחוב מקור חיים 42 ירושלים.",
@@ -3540,6 +3835,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "296",
         "lat": 31.753846,
         "lon": 35.210889,
         "label": "תפילה בבית הכנסת ברחוב מקור חיים 42 ירושלים.",
@@ -3552,6 +3848,7 @@
         "link": "https://t.me/MOHreport/2890?embed=1"
     },
     {
+        "id": "297",
         "lat": 31.213333,
         "lon": 34.81101,
         "label": "סופרמארקט \"אושר עד\" באר שבע",
@@ -3564,6 +3861,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "298",
         "lat": 31.224431,
         "lon": 34.822442,
         "label": "חנות \"איקאה\" באר שבע, לא כולל מתחם המסעדה",
@@ -3576,6 +3874,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "299",
         "lat": 31.241787,
         "lon": 34.81067,
         "label": "מתחם ביג באר שבע - חנויות H&O ותמנון",
@@ -3588,6 +3887,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "300",
         "lat": 31.321082,
         "lon": 34.623063,
         "label": "סופרמארקט ויקטורי באופקים",
@@ -3600,6 +3900,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "301",
         "lat": 31.3183,
         "lon": 34.620631,
         "label": "קופ\"ח כללית ב' אופקים מבוגרים",
@@ -3612,6 +3913,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "302",
         "lat": 31.525856,
         "lon": 34.608677,
         "label": "חגיגות יום האישה באולם \"שמיים\" בשדרות",
@@ -3624,6 +3926,7 @@
         "link": "https://t.me/MOHreport/2943?embed=1"
     },
     {
+        "id": "303",
         "lat": 31.24264,
         "lon": 34.810853,
         "label": "חנויות בביג באר שבע H&O, מנגו, מקסטוק",
@@ -3636,6 +3939,7 @@
         "link": "https://t.me/MOHreport/2944?embed=1"
     },
     {
+        "id": "304",
         "lat": 31.419514,
         "lon": 34.600642,
         "label": "חנות \"מקסטוק\" נתיבות",
@@ -3648,6 +3952,7 @@
         "link": "https://t.me/MOHreport/2944?embed=1"
     },
     {
+        "id": "305",
         "lat": 31.310957,
         "lon": 34.612617,
         "label": "במרפאה כללית באופקים (מישור הגפן)",
@@ -3660,6 +3965,7 @@
         "link": "https://t.me/MOHreport/2944?embed=1"
     },
     {
+        "id": "306",
         "lat": 32.027689,
         "lon": 34.872989,
         "label": "קלפי מספר 44, בבית ספר \"יהוד מנור\", רחוב ניצן 2, אור יהודה",
@@ -3672,6 +3978,7 @@
         "link": "https://t.me/MOHreport/2959?embed=1"
     },
     {
+        "id": "307",
         "lat": 32.020512,
         "lon": 34.86002,
         "label": "מכון כושר Fit you ברחוב יהדות קנדה 1, טרמינל סנטר, אור יהודה",
@@ -3684,6 +3991,7 @@
         "link": "https://t.me/MOHreport/2959?embed=1"
     },
     {
+        "id": "308",
         "lat": 32.028904,
         "lon": 34.87484,
         "label": "בית הכנסת רבי יוסף חיים בנווה מונוסון, בעזרת הנשים",
@@ -3696,6 +4004,7 @@
         "link": "https://t.me/MOHreport/2959?embed=1"
     },
     {
+        "id": "309",
         "lat": 32.034828,
         "lon": 34.848169,
         "label": "סופרמרקט \"יוחננוף\", רחוב המפעל 2, אור יהודה",
@@ -3708,6 +4017,7 @@
         "link": "https://t.me/MOHreport/2959?embed=1"
     },
     {
+        "id": "310",
         "lat": 32.114014,
         "lon": 34.79927,
         "label": "\"סופר יהודה\", רחוב בארט 6, תל אביב",
@@ -3720,6 +4030,7 @@
         "link": "https://t.me/MOHreport/2960?embed=1"
     },
     {
+        "id": "311",
         "lat": 32.107292,
         "lon": 34.836629,
         "label": "קפה \"עלמה\", רחוב הברזל 21, תל אביב",
@@ -3732,6 +4043,7 @@
         "link": "https://t.me/MOHreport/2960?embed=1"
     },
     {
+        "id": "312",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "*מלון אוריינט, רח' עמק רפאים 3, ירושלים",
@@ -3744,6 +4056,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "313",
         "lat": 31.785235,
         "lon": 35.211159,
         "label": "מסעדת מחניודה, רח' בית יעקוב 10, ירושלים",
@@ -3756,6 +4069,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "314",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "ארוחת בוקר במלון אוריינט, עמק רפאים 3, ירושלים",
@@ -3768,6 +4082,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "315",
         "lat": 31.766778,
         "lon": 35.224385,
         "label": "מסעדת אבו שוקרי, הגיא, ירושלים",
@@ -3780,6 +4095,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "316",
         "lat": 31.766497,
         "lon": 35.225188,
         "label": "מסעדת הסדנא, דרך חברון 28, ירושלים",
@@ -3792,6 +4108,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "317",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "ארוחת בוקר, מלון אוריינט, עמק רפאים 3, ירושלים",
@@ -3804,6 +4121,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "318",
         "lat": 31.774196,
         "lon": 35.1753,
         "label": "מוזיאון יד ושם בירושלים",
@@ -3816,6 +4134,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "319",
         "lat": 31.776641,
         "lon": 34.665486,
         "label": "מסעדת ביגה, רחוב אריאל שרון 1, אשדוד",
@@ -3828,6 +4147,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "320",
         "lat": 32.06686,
         "lon": 34.782091,
         "label": "מסעדת קאב קם, רחוב לינקולן 11, תל אביב",
@@ -3840,6 +4160,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "321",
         "lat": 32.062317,
         "lon": 34.771906,
         "label": "מסעדת אברקסס, רחוב לילנבלום 40, תל אביב",
@@ -3852,6 +4173,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "322",
         "lat": 32.072492,
         "lon": 34.781665,
         "label": "במהלך הלילה: מועדון קווין בי, רחוב אבן גבירול 13, תל אביב",
@@ -3864,6 +4186,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "323",
         "lat": 32.070485,
         "lon": 34.76456,
         "label": "ארוחת בוקר, מלון רויאל ביץ, רחוב הירקון 19, תל אביב",
@@ -3876,6 +4199,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "324",
         "lat": 32.053484,
         "lon": 34.753791,
         "label": "מסעדת בית קנדינוף, רחוב הצורפים 14, תל אביב",
@@ -3888,6 +4212,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "325",
         "lat": 32.063226,
         "lon": 34.772887,
         "label": "במהלך הלילה: מועדון זוזו, שדרות רוטשילד 32, תל אביב",
@@ -3900,6 +4225,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "326",
         "lat": 32.070485,
         "lon": 34.76456,
         "label": "ארוחת בוקר, מלון רויאל ביץ, רחוב הירקון 19, תל אביב",
@@ -3912,6 +4238,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "327",
         "lat": 30.611402,
         "lon": 34.807716,
         "label": "מסעדת מלון בראשית, דרך בראשית 1, מצפה רמון",
@@ -3924,6 +4251,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "328",
         "lat": 30.611402,
         "lon": 34.807716,
         "label": "ארוחת בוקר, מלון בראשית, דרך בראשית 1, מצפה רמון",
@@ -3936,6 +4264,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "329",
         "lat": 31.193014,
         "lon": 35.361098,
         "label": "מסעדת מלון ישרוטל ים המלח, עין בוקק",
@@ -3948,6 +4277,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "330",
         "lat": 31.193014,
         "lon": 35.361098,
         "label": "ארוחת בוקר, ישרוטל ים המלח, עין בוקק",
@@ -3960,6 +4290,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "331",
         "lat": 32.919191,
         "lon": 35.068469,
         "label": "מסעדת דוניאנא (בונירם), עיר עתיקה 11, עכו",
@@ -3972,6 +4303,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "332",
         "lat": 33.130773,
         "lon": 35.779579,
         "label": "מסעדת הבוקרים, קיבוץ מירום גולן, רמת הגולן",
@@ -3984,6 +4316,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "333",
         "lat": 33.132606,
         "lon": 35.777061,
         "label": "ארוחת בוקר, חדר אוכל של קיבוץ מירום גולן, רמת הגולן",
@@ -3996,6 +4329,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "334",
         "lat": 32.064397,
         "lon": 34.774291,
         "label": "מסעדת Social Club, שדרות רוטשילד 45, תל אביב",
@@ -4008,6 +4342,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "335",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "*מלון אוריינט, רח' עמק רפאים 3, ירושלים",
@@ -4020,6 +4355,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "336",
         "lat": 31.785235,
         "lon": 35.211159,
         "label": "מסעדת מחניודה, רח' בית יעקוב 10, ירושלים",
@@ -4032,6 +4368,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "337",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "ארוחת בוקר במלון אוריינט, עמק רפאים 3, ירושלים",
@@ -4044,6 +4381,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "338",
         "lat": 31.766778,
         "lon": 35.224385,
         "label": "מסעדת אבו שוקרי, הגיא, ירושלים",
@@ -4056,6 +4394,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "339",
         "lat": 31.766497,
         "lon": 35.225188,
         "label": "מסעדת הסדנא, דרך חברון 28, ירושלים",
@@ -4068,6 +4407,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "340",
         "lat": 31.766633,
         "lon": 35.22316,
         "label": "ארוחת בוקר, מלון אוריינט, עמק רפאים 3, ירושלים",
@@ -4080,6 +4420,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "341",
         "lat": 31.774196,
         "lon": 35.1753,
         "label": "מוזיאון יד ושם בירושלים",
@@ -4092,6 +4433,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "342",
         "lat": 31.776641,
         "lon": 34.665486,
         "label": "מסעדת ביגה, רחוב אריאל שרון 1, אשדוד",
@@ -4104,6 +4446,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "343",
         "lat": 32.06686,
         "lon": 34.782091,
         "label": "מסעדת קאב קם, רחוב לינקולן 11, תל אביב",
@@ -4116,6 +4459,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "344",
         "lat": 32.062317,
         "lon": 34.771906,
         "label": "מסעדת אברקסס, רחוב לילנבלום 40, תל אביב",
@@ -4128,6 +4472,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "345",
         "lat": 32.072492,
         "lon": 34.781665,
         "label": "במהלך הלילה: מועדון קווין בי, רחוב אבן גבירול 13, תל אביב",
@@ -4140,6 +4485,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "346",
         "lat": 32.070485,
         "lon": 34.76456,
         "label": "ארוחת בוקר, מלון רויאל ביץ, רחוב הירקון 19, תל אביב",
@@ -4152,6 +4498,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "347",
         "lat": 32.053484,
         "lon": 34.753791,
         "label": "מסעדת בית קנדינוף, רחוב הצורפים 14, תל אביב",
@@ -4164,6 +4511,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "348",
         "lat": 32.063226,
         "lon": 34.772887,
         "label": "במהלך הלילה: מועדון זוזו, שדרות רוטשילד 32, תל אביב",
@@ -4176,6 +4524,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "349",
         "lat": 32.070485,
         "lon": 34.76456,
         "label": "ארוחת בוקר, מלון רויאל ביץ, רחוב הירקון 19, תל אביב",
@@ -4188,6 +4537,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "350",
         "lat": 30.611402,
         "lon": 34.807716,
         "label": "מסעדת מלון בראשית, דרך בראשית 1, מצפה רמון",
@@ -4200,6 +4550,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "351",
         "lat": 30.611402,
         "lon": 34.807716,
         "label": "ארוחת בוקר, מלון בראשית, דרך בראשית 1, מצפה רמון",
@@ -4212,6 +4563,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "352",
         "lat": 31.193014,
         "lon": 35.361098,
         "label": "מסעדת מלון ישרוטל ים המלח, עין בוקק",
@@ -4224,6 +4576,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "353",
         "lat": 31.193014,
         "lon": 35.361098,
         "label": "ארוחת בוקר, ישרוטל ים המלח, עין בוקק",
@@ -4236,6 +4589,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "354",
         "lat": 32.919191,
         "lon": 35.068469,
         "label": "מסעדת דוניאנא (בונירם), עיר עתיקה 11, עכו",
@@ -4248,6 +4602,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "355",
         "lat": 33.130773,
         "lon": 35.779579,
         "label": "מסעדת הבוקרים, קיבוץ מירום גולן, רמת הגולן",
@@ -4260,6 +4615,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "356",
         "lat": 33.132606,
         "lon": 35.777061,
         "label": "ארוחת בוקר, חדר אוכל של קיבוץ מירום גולן, רמת הגולן",
@@ -4272,6 +4628,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "357",
         "lat": 32.064397,
         "lon": 34.774291,
         "label": "מסעדת Social Club, שדרות רוטשילד 45, תל אביב",
@@ -4284,6 +4641,7 @@
         "link": "https://t.me/MOHreport/2961?embed=1"
     },
     {
+        "id": "360",
         "lat": 32.046728,
         "lon": 34.842847,
         "label": "מרפאה אנדוקרינולוגית וסכרת בבי\"ח שיבא תל השומר",
@@ -4296,6 +4654,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "362",
         "lat": 32.083894,
         "lon": 34.856413,
         "label": "מסעדת דרימרי ברח' הסיבים 49 גבעת שמואל",
@@ -4308,6 +4667,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "365",
         "lat": 31.891158,
         "lon": 34.821483,
         "label": "קלפי 844 בבי\"ס חב\"ד בנים ברח' שטיינברג 10 ברחובות",
@@ -4320,6 +4680,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "366",
         "lat": 31.893316,
         "lon": 34.806828,
         "label": "פעלטון בקניון רחובות רח' בילו 2",
@@ -4332,6 +4693,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "367",
         "lat": 31.88754,
         "lon": 34.82012,
         "label": "פיצה סמיילי מרכז שרונה רחובות",
@@ -4344,6 +4706,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "368",
         "lat": 31.890122,
         "lon": 34.819019,
         "label": "\"יריד פורים הגדול\" בבי\"ס אוהלי חיה מושקא רח' זכריה מדר 28 חב\"ד בנות",
@@ -4356,6 +4719,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "369",
         "lat": 31.890321,
         "lon": 34.818937,
         "label": "בית כנסת \"בית מנחם צעירים\" ברח' זכריה מדר 28 רחובות בעזרת נשים",
@@ -4368,6 +4732,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "370",
         "lat": 31.887967,
         "lon": 34.817375,
         "label": "גן משחקים - גן הרפתקאות ברחובות",
@@ -4380,6 +4745,7 @@
         "link": "https://t.me/MOHreport/2968?embed=1"
     },
     {
+        "id": "371",
         "lat": 31.883351,
         "lon": 34.822873,
         "label": "בברכול אושיות רחובות",
@@ -4390,5 +4756,499 @@
         "pub_date": "12/03",
         "pub_ts": 1583964000,
         "link": "https://t.me/MOHreport/2968?embed=1"
+    },
+    {
+        "id": "372",
+        "lat": 32.004114,
+        "lon": 34.884815,
+        "label": "נסיעה משדה התעופה במונית למלון דן פנורמה תל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-06T07:00:00+02:00",
+        "t_end": "2020-03-06T08:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "373",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "לובי מלון דן פנורמה תל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-06T13:30:00+02:00",
+        "t_end": "2020-03-06T14:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "374",
+        "lat": 32.06868,
+        "lon": 34.76904,
+        "label": "טיול בשוק הכרמל",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-06T14:00:00+02:00",
+        "t_end": "2020-03-06T15:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "375",
+        "lat": 32.05877,
+        "lon": 34.76199,
+        "label": "מסעדת italkia batahan במתחם התחנה.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-06T18:30:00+02:00",
+        "t_end": "2020-03-06T20:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "376",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "ארוחת בוקר במלון דן פנורמה תל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-07T09:30:00+02:00",
+        "t_end": "2020-03-07T10:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "377",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "לובי של מלון דן פנורמה בת\"א",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-07T13:00:00+02:00",
+        "t_end": "2020-03-07T14:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "378",
+        "lat": 32.06107,
+        "lon": 34.76002,
+        "label": "מסעדת MANTARAY",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-07T19:00:00+02:00",
+        "t_end": "2020-03-07T21:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "379",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "ארוחת בוקר במלון דן פנורמה בתל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-08T09:30:00+02:00",
+        "t_end": "2020-03-08T10:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "380",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "שהייה בלובי המלון",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-08T13:00:00+02:00",
+        "t_end": "2020-03-08T14:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "381",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "ארוחת ערב במלון דן פנורמה בתל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-08T18:30:00+02:00",
+        "t_end": "2020-03-08T20:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "382",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "אולם נגב במלון דן פנורמה בתל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-08T20:00:00+02:00",
+        "t_end": "2020-03-08T21:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "383",
+        "lat": 32.06474,
+        "lon": 34.76318,
+        "label": "ארוחת בוקר במלון דן פנורמה בתל אביב",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T06:30:00+02:00",
+        "t_end": "2020-03-09T07:15:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "384",
+        "lat": 32.054749,
+        "lon": 34.752134,
+        "label": "טיול ביפו ליד מסעדת סנט ג'ורג', יפו העתיקה, סיור בסמטאות, ירידה לכיוון הכנסייה הגדולה סאן פטרוס, הליכה דרך המדרגות לתחנת אוטובוס מול הכניסה לנמל.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T08:30:00+02:00",
+        "t_end": "2020-03-09T10:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "385",
+        "lat": 32.06868,
+        "lon": 34.76904,
+        "label": "הליכה לאורך שוק הכרמל בתל אביב, ללא כניסה לחנויות.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T11:00:00+02:00",
+        "t_end": "2020-03-09T12:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "386",
+        "lat": 32.50108,
+        "lon": 34.89232,
+        "label": "גן לאומי קיסריה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T12:30:00+02:00",
+        "t_end": "2020-03-09T13:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "387",
+        "lat": 32.695082,
+        "lon": 35.051862,
+        "label": "מסעדת מיזייד בדאלית אל כרמל",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T13:50:00+02:00",
+        "t_end": "2020-03-09T14:45:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "388",
+        "lat": 32.92358,
+        "lon": 35.07053,
+        "label": "ביקור באולם האבירים, בעכו",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T15:30:00+02:00",
+        "t_end": "2020-03-09T17:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "389",
+        "lat": 32.80663,
+        "lon": 34.98757,
+        "label": "קבלת חדרים בלובי מלון דן פנורמה,חיפה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T18:00:00+02:00",
+        "t_end": "2020-03-09T19:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "390",
+        "lat": 32.80663,
+        "lon": 34.98757,
+        "label": "ארוחת ערב במלון דן פנורמה, חיפה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-09T19:00:00+02:00",
+        "t_end": "2020-03-09T20:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "391",
+        "lat": 32.80663,
+        "lon": 34.98757,
+        "label": "ארוחת בוקר במלון דן פנורמה, חיפה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T06:30:00+02:00",
+        "t_end": "2020-03-10T07:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "392",
+        "lat": 32.82723,
+        "lon": 34.97012,
+        "label": "כנסיית מינזר סטלה מאריס חיפה.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T08:00:00+02:00",
+        "t_end": "2020-03-10T09:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "393",
+        "lat": 32.81136,
+        "lon": 34.98527,
+        "label": "תצפית ברח' יפה נוף, ליד גני הבהאיים, חיפה.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T09:15:00+02:00",
+        "t_end": "2020-03-10T09:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "394",
+        "lat": 32.70215,
+        "lon": 35.29739,
+        "label": "כנסית הבשורה, נצרת",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T10:30:00+02:00",
+        "t_end": "2020-03-10T12:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "395",
+        "lat": 32.702059,
+        "lon": 35.295353,
+        "label": "א. צהריים מסעדת מערות הבית החדש בנצרת.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T12:00:00+02:00",
+        "t_end": "2020-03-10T13:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "396",
+        "lat": 32.702059,
+        "lon": 35.295353,
+        "label": "ביקור בבית הספר הבפטיסטי כולל אולם הכנסיה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T13:00:00+02:00",
+        "t_end": "2020-03-10T13:40:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "397",
+        "lat": 32.74703,
+        "lon": 35.33844,
+        "label": "כנסיה החתונה קתולית (פרנסיסקנים)בכפר כנא.",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T14:00:00+02:00",
+        "t_end": "2020-03-10T14:40:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "398",
+        "lat": 32.74703,
+        "lon": 35.33844,
+        "label": "ביקור בחנות מזכרות של אנוואר בלאן(באמצע המדרגות לכיוון החניה של האוטובוסים לכנסיה הקתולית בכפר כנא)",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T14:40:00+02:00",
+        "t_end": "2020-03-10T15:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "399",
+        "lat": 32.68627,
+        "lon": 35.39249,
+        "label": "ביקור בכנסיית ההתגלות בהר תבור",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T15:50:00+02:00",
+        "t_end": "2020-03-10T17:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "400",
+        "lat": 32.78781,
+        "lon": 35.54271,
+        "label": "קבלת חדרים בלובי מלון קיסר טבריה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T18:00:00+02:00",
+        "t_end": "2020-03-10T19:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "401",
+        "lat": 32.78781,
+        "lon": 35.54271,
+        "label": "ארוחת ערב במלון קיסר בטבריה",
+        "text": "",
+        "pat_num": "99",
+        "t_start": "2020-03-10T19:00:00+02:00",
+        "t_end": "2020-03-10T20:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2979"
+    },
+    {
+        "id": "402",
+        "lat": 32.10327,
+        "lon": 34.83507,
+        "label": "סופר סל דיל ברחוב הלח\"י 28 בבני ברק",
+        "text": "",
+        "pat_num": "112",
+        "t_start": "2020-03-05T18:30:00+02:00",
+        "t_end": "2020-03-05T19:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2991"
+    },
+    {
+        "id": "403",
+        "lat": 32.10327,
+        "lon": 34.83507,
+        "label": "סופר סל דיל ברחוב הלח\"י 28 בבני ברק",
+        "text": "",
+        "pat_num": "113",
+        "t_start": "2020-03-05T18:30:00+02:00",
+        "t_end": "2020-03-05T19:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/2991"
+    },
+    {
+        "id": "404",
+        "lat": 32.966587,
+        "lon": 35.497688,
+        "label": "סופר ברקול, צפת",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-06T11:30:00+02:00",
+        "t_end": "2020-03-06T13:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
+    },
+    {
+        "id": "405",
+        "lat": 32.965705,
+        "lon": 35.50037,
+        "label": "בית הכנסת שבט אחים, שכ' כנען, צפת",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-07T10:00:00+02:00",
+        "t_end": "2020-03-07T12:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
+    },
+    {
+        "id": "406",
+        "lat": 32.97188,
+        "lon": 35.50477,
+        "label": "סופר פארם בשערי העיר, צפת.",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-07T21:00:00+02:00",
+        "t_end": "2020-03-07T21:30:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
+    },
+    {
+        "id": "407",
+        "lat": 32.9638,
+        "lon": 35.50559,
+        "label": "מעון יום של חבד של נורית קרומבי, צפת",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-08T07:30:00+02:00",
+        "t_end": "2020-03-08T16:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
+    },
+    {
+        "id": "408",
+        "lat": 33.05186,
+        "lon": 35.49963,
+        "label": "ניחום אבלים משפ' הלל, מושב עלמה",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-08T18:00:00+02:00",
+        "t_end": "2020-03-08T18:45:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
+    },
+    {
+        "id": "409",
+        "lat": 32.9638,
+        "lon": 35.50559,
+        "label": "מעון יום של חבד של נורית קרומבי,צפת",
+        "text": "",
+        "pat_num": "123",
+        "t_start": "2020-03-09T07:30:00+02:00",
+        "t_end": "2020-03-09T16:00:00+02:00",
+        "pub_date": "13/03",
+        "pub_ts": 1584050400,
+        "link": "https://t.me/MOHreport/3002"
     }
 ]

@@ -1,6 +1,6 @@
 
 const initUpdatedTime = () => {
-  document.getElementById("last-updated-time").textContent="12.3.2020, 21:15";
+  document.getElementById("last-updated-time").textContent="13.3.2020, 15:40";
 };
 
 initUpdatedTime();

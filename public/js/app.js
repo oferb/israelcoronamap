@@ -3,12 +3,15 @@
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
+<<<<<<< HEAD
 let language = 'En';
+=======
+let previousCenters = [];
+>>>>>>> 92a85bf789b0509a761280a9fbd04a77d49b54ee
 
 const init = () => {
   setLanguage('En');
   getButtonElements();
-  //getGovData();
   getData();
 };
 
@@ -16,24 +19,46 @@ const init = () => {
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 32.072958, lng: 34.969073 },
-    zoom: windowWidth >= 500 ? 12 : 9,
-    gestureHandling: "greedy"
+    center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
+    zoom: windowWidth >= 500 ? 8 : 7,
+    gestureHandling: "greedy",
+    streetViewControl: false
   });
   infoWindow = new google.maps.InfoWindow;
   map.addListener('mousedown', function () {
     if (infoWindow) {
       infoWindow.close();
+      window.history.pushState("Corona map", "Corona map", "/");
     }
+  });
+  previousCenters[0] = map.getCenter();
+  previousCenters[1] = map.getCenter();
+  previousCenters[2] = map.getCenter();
+  map.addListener('center_changed', function() {
+    const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
+    for (let i = 0; i < previousCenters.length; i++) {
+      const movementDistance = dist(previousCenters[i], map.getCenter());
+      if (movementDistance/screenDistance > 1) {
+        map.setCenter(previousCenters[0]);
+        break;
+      }
+    }
+    previousCenters[2] = previousCenters[1];
+    previousCenters[1] = previousCenters[0];
+    previousCenters[0] = map.getCenter();
   });
   init();
 }
+
+const dist = (p1, p2) => {
+  return Math.sqrt(Math.pow(p2.lat()-p1.lat(),2)+Math.pow(p2.lng()-p1.lng(),2));
+};
 
 const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
 
-const getParam = (name) => {
+const getQueryParam = (name) => {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   return urlParams.get(name);
@@ -46,50 +71,71 @@ const clearMarkers = () => {
   markersArray.length = 0;
 };
 
+const centerAndZoomToPoint = (point) => {
+  const center = new google.maps.LatLng(point.lat, point.lon);
+  map.panTo(center);
+  map.setZoom(12);
+};
+
 const updateMap = () => {
   clearMarkers();
-  let daysAgo = parseInt(getParam('daysAgo'));
+
+  let daysAgo = parseInt(getQueryParam('daysAgo'));
   if (isNaN(daysAgo)) {
     daysAgo = 14;
   }
-  let daysAgoDate = new Date();
+  const daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
-  const contantCelArr = [];
+  const contentCelArr = [];
 
+  const reqPointId = getQueryParam('id');
   for (let j = 0; j < govData.length; j++) {
-    if (getTimestamp(govData[j].t_end) < daysAgoDate) {
+    const currPoint = govData[j];
+    if (getTimestamp(currPoint.t_end) < daysAgoDate) {
       continue;
     }
-    let pos = {
-      lat: govData[j].lat,
-      lng: govData[j].lon
+    const position = {
+      lat: currPoint.lat,
+      lng: currPoint.lon
     };
     let icon = '/assets/images/map-icons/allTime.svg';
-    if (isYesterday(govData[j].pub_ts)) {
+    let zIndex = 1000;
+    if (isYesterday(currPoint.pub_ts)) {
       icon = '/assets/images/map-icons/yesterday.svg';
-    } else if (isToday(govData[j].pub_ts)) {
+      zIndex = 2000;
+    } else if (isToday(currPoint.pub_ts)) {
       icon = '/assets/images/map-icons/today.svg';
+      zIndex = 3000;
     }
-    let marker = new google.maps.Marker({
-      position: pos,
-      map: map,
+    const marker = new google.maps.Marker({
+      position,
+      map,
       icon: {
-        url: icon,
-        scaledSize: new google.maps.Size(20, 20)
-      }
+        url: icon
+      },
+      zIndex
     });
-    let contentStringCal = `<div class="infowindow">
-                              <div class="info-label">${govData[j].label}</div>
-                              <div class="info-description">${govData[j].text}</div>
-                            </div>`;
-    contantCelArr[j] = contentStringCal;
 
-    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+    const contentStringCal = `<div class="infowindow">
+                                <div class="info-label">${currPoint.label}</div>
+                                <div class="info-description">${currPoint.text}</div>
+                              </div>`;
+    contentCelArr[j] = contentStringCal;
+    if (currPoint.id === reqPointId) {
+      centerAndZoomToPoint(currPoint);
+      infoWindow.setContent(contentStringCal);
+      infoWindow.open(map, marker);
+    }
+
+    let id = currPoint.id;
+
+    google.maps.event.addListener(marker, 'click', (function (marker, i, id) {
       return function () {
-        infoWindow.setContent(contantCelArr[i]);
+        infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
+        window.history.pushState("Corona map", "Corona map", "/?id=" + id);
       };
-    })(marker, j));
+    })(marker, j, id));
     markersArray.push(marker);
   }
 };
@@ -111,6 +157,27 @@ const _textulize_visit_datetime = (point) => {
   return datestring;
 };
 
+const sortPoints = (points) => {
+  points.sort((point1, point2) => {
+    if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
+      return 1;
+    } else {
+      return -1;
+    }
+  });
+  return points;
+};
+
+const filterPoints = points =>
+  points.filter((point, index) => {
+    if (index > 0 &&
+      points[index - 1].t_start === point.t_start &&
+      points[index - 1].t_end === point.t_end) {
+      return false;
+    }
+
+    return true;
+  });
 
 const processData = () => {
   const pointsDict = new Object();
@@ -127,26 +194,11 @@ const processData = () => {
   let result = [];
   const countdownIntervals = {};
   for (let points of Object.values(pointsDict)) {
-    points.sort((point1, point2) => {
-      if (new Date(point1.t_end).getTime() > new Date(point2.t_end).getTime()) {
-        return 1;
-      } else {
-        return -1;
-      }
-    });
-
-    points = points.filter((point, index) => {
-      if (index > 0 &&
-        points[index - 1].t_start === point.t_start &&
-        points[index - 1].t_end === point.t_end) {
-        return false;
-      }
-
-      return true;
-    });
+    sortPoints(points);
+    points = filterPoints(points);
 
     const firstPoint = points[0];
-    if (firstPoint.text.length != 0) {
+    if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
       firstPoint.text += `<b>${i18n('patientNumber')}: </b>${firstPoint.pat_num}<br><br>`;
@@ -196,7 +248,6 @@ const processData = () => {
 
     result.push(firstPoint);
   }
-
   return result;
 };
 
@@ -227,17 +278,6 @@ const getData = () => {
       updateMap();
     });
 };
-
-// const getGovData = () => {
-//   fetch('/data/merged_data_all.json')
-//     .then((response) => {
-//       return response.json();
-//     })
-//     .then((result) => {
-//       govData = result;
-//       updateMap();
-//     });
-// };
 
 // eslint-disable-next-line no-unused-vars
 const selectFilter = (filterType) => {
@@ -275,10 +315,3 @@ const getButtonElements = () => {
   oneWeekButton = document.getElementById('one-weeks-button');
   twoWeekButton = document.getElementById('two-weeks-button');
 };
-
-// const setDefaultButtonColor = () => {
-//   threeDaysButton.style.background = '#ffffff';
-//   allDaysButton.style.background = '#ffffff';
-//   oneWeekButton.style.background = '#ffffff';
-//   twoWeekButton.style.background = '#ffffff';
-// };

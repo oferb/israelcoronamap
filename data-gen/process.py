@@ -24,7 +24,8 @@ with open('public/data/data.csv', newline='') as f:
             publication_time = datetime.strptime(link[63:69], '%d%m%y')
         else:
             publication_time = datetime.strptime(row['pub_date'].strip(), '%d%m%y')
-        points.append({"lat": lat,
+        points.append({"id": row['ID'],
+                        "lat": lat,
                         "lon": lon,
                         "label": place_name,
                         "text": description,
