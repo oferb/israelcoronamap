@@ -15,7 +15,8 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 8 : 7,
-    gestureHandling: "greedy"
+    gestureHandling: "greedy",
+    streetViewControl: false
   });
   infoWindow = new google.maps.InfoWindow;
   map.addListener('mousedown', function () {
