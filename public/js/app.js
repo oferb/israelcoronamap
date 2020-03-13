@@ -5,7 +5,6 @@ let markersArray = [];
 
 const init = () => {
   getButtonElements();
-  //getGovData();
   getData();
 };
 
@@ -232,17 +231,6 @@ const getData = () => {
     });
 };
 
-// const getGovData = () => {
-//   fetch('/data/merged_data_all.json')
-//     .then((response) => {
-//       return response.json();
-//     })
-//     .then((result) => {
-//       govData = result;
-//       updateMap();
-//     });
-// };
-
 // eslint-disable-next-line no-unused-vars
 const selectFilter = (filterType) => {
   threeDaysButton = document.getElementById('three-days-button');
@@ -279,10 +267,3 @@ const getButtonElements = () => {
   oneWeekButton = document.getElementById('one-weeks-button');
   twoWeekButton = document.getElementById('two-weeks-button');
 };
-
-// const setDefaultButtonColor = () => {
-//   threeDaysButton.style.background = '#ffffff';
-//   allDaysButton.style.background = '#ffffff';
-//   oneWeekButton.style.background = '#ffffff';
-//   twoWeekButton.style.background = '#ffffff';
-// };
