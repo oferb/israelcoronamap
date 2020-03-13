@@ -21,6 +21,7 @@ function initMap() {
   map.addListener('mousedown', function () {
     if (infoWindow) {
       infoWindow.close();
+      window.history.pushState("Corona map", "Corona map", "/");
     }
   });
   previousCenters[0] = map.getCenter();
