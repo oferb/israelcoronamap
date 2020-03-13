@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton;
+let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {};
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
@@ -8,6 +8,28 @@ const init = () => {
   getButtonElements();
   getData();
 };
+
+const updateCurrentLocation = (data) => {
+  if(data && data.coords){
+    currentLocation = data.coords;
+
+    map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
+    
+    setTimeout(() => {
+      map.setZoom(15);
+    }, 500);
+  }
+}
+
+const zoomToLocation = () => {
+  if(navigator){
+    navigator.geolocation.getCurrentPosition(updateCurrentLocation)
+  }
+
+  if(!currentLocation.latitude || !currentLocation.longitude){
+      return;
+  }
+}
 
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
@@ -33,8 +55,10 @@ function initMap() {
     for (let i = 0; i < previousCenters.length; i++) {
       const movementDistance = dist(previousCenters[i], map.getCenter());
       if (movementDistance/screenDistance > 1) {
-        map.setCenter(previousCenters[0]);
-        break;
+        try{
+          map.setCenter(previousCenters[0]);
+          break;
+        }catch(e){}
       }
     }
     previousCenters[2] = previousCenters[1];
