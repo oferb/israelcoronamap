@@ -76,7 +76,7 @@ const updateMap = () => {
 
   let daysAgo = parseInt(getQueryParam('daysAgo'));
   if (isNaN(daysAgo)) {
-    daysAgo = 14;
+    daysAgo = 10000;
   }
   const daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
