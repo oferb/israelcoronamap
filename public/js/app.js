@@ -103,13 +103,15 @@ const updateMap = () => {
                               <div class="info-description">${govData[j].text}</div>
                             </div>`;
     contantCelArr[j] = contentStringCal;
+    let id = govData[j].id;
 
-    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+    google.maps.event.addListener(marker, 'click', (function (marker, i, id) {
       return function () {
         infoWindow.setContent(contantCelArr[i]);
         infoWindow.open(map, marker);
+        window.history.pushState("Corona map", "Corona map", "/?id=" + id);
       };
-    })(marker, j));
+    })(marker, j, id));
     markersArray.push(marker);
   }
 };
