@@ -12,23 +12,23 @@ const init = () => {
 const updateCurrentLocation = (data) => {
   if(data && data.coords){
     currentLocation = data.coords;
+
+    map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
+    
+    setTimeout(() => {
+      map.setZoom(15);
+    }, 500);
   }
 }
 
 const zoomToLocation = () => {
-  if(!currentLocation.latitude || !currentLocation.longitude){
-    alert('Please activate location')
-    return;
+  if(navigator){
+    navigator.geolocation.getCurrentPosition(updateCurrentLocation)
   }
-  map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
-  
-  setTimeout(() => {
-    map.setZoom(15);
-  }, 500);
-}
 
-if(navigator){
-  navigator.geolocation.watchPosition(updateCurrentLocation)
+  if(!currentLocation.latitude || !currentLocation.longitude){
+      return;
+  }
 }
 
 // This should remain with function syntax since it is called in the google maps callback
