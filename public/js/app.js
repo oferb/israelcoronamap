@@ -44,7 +44,7 @@ const zoomToLocation = () => {
       map.setCenter(pos);
       map.setZoom(12);
 
-      const currentPositionMarker = new google.maps.Marker({
+      currentPositionMarker = new google.maps.Marker({
         position: pos,
         animation: google.maps.Animation.DROP,
         map: map,
