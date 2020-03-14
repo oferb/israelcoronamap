@@ -70,8 +70,8 @@ const filterFlights = (flights, value) => {
     return flight.flight_number.toString().includes(value) ||
       (flight.departure_from && flight.departure_from.toString().includes(value)) ||
       (flight.destination && flight.destination.toString().includes(value)) ||
-      (flight["departure day"] && flight["departure day"].toString().includes(value))||
-      (flight["arrival day"] && flight["arrival day"].toString().includes(value))||
+      (flight["departure day"] && flight["departure day"].toString().includes(value)) ||
+      (flight["arrival day"] && flight["arrival day"].toString().includes(value)) ||
        (flight["patient_number"] && flight["patient_number"].toString().includes(value));
   });
   return filterdFlights;
