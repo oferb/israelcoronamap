@@ -11,30 +11,16 @@ const init = () => {
   getData();
 };
 
-const updateCurrentLocation = (data) => {
-  if(data && data.coords){
-    currentLocation = data.coords;
-
-    map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
-
-    setTimeout(() => {
-      map.setZoom(15);
-    }, 500);
-  }
-}
-
 const zoomToLocation = () => {
   // clear previous marker
   if (currentPositionMarker) {
     currentPositionMarker.setMap(null);
   }
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
-  setTimeout(() => {
-    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
-  }, 3000);
 
   if (navigator.geolocation) {
+    showLoader();
     navigator.geolocation.getCurrentPosition(function(position) {
+      toggleGPSIconColorOnClick();
       const pos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
@@ -54,6 +40,7 @@ const zoomToLocation = () => {
       handleLocationError('לא אישרת מיקום');
     });
   } else {
+    showOriginalIcon();
     // Browser doesn't support Geolocation
     handleLocationError('הדפדפן שלך לא תומך במיקום');
   }
@@ -61,7 +48,25 @@ const zoomToLocation = () => {
 
 const handleLocationError = (message) => {
   // TODO: Show a toast
+  showOriginalIcon();
 };
+
+const showLoader = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/loader.svg';
+};
+
+const showOriginalIcon = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+};
+
+const toggleGPSIconColorOnClick = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  setTimeout(() => {
+    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  }, 3000);
+};
+
+
 
 
 // This should remain with function syntax since it is called in the google maps callback
