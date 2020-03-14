@@ -143,7 +143,6 @@ const updateMap = () => {
       updateCountdown(currPoint);
       key = pointKey(currPoint);
       intervalId = setInterval(() => {
-        console.log('im intervalling from open with id');
         updateCountdown(currPoint);
       }, 1000);
       centerAndZoomToPoint(currPoint);
@@ -164,7 +163,6 @@ const updateMap = () => {
         window.history.pushState("Corona map", "Corona map", "/?id=" + id);
         key = pointKey(currPoint);
         intervalId = setInterval(() => {
-          console.log('im intervalling');
           updateCountdown(currPoint);
         }, 1000);
 
