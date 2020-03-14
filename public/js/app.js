@@ -1,7 +1,8 @@
 /* eslint-disable no-undef */
 let map, infoWindow, govData, data,
-    threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {};
+    threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {}, intervalId;
 let currentPositionMarker = null;
+
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
@@ -44,7 +45,7 @@ const zoomToLocation = () => {
     // Browser doesn't support Geolocation
     handleLocationError('הדפדפן שלך לא תומך במיקום');
   }
-}
+};
 
 const handleLocationError = (message) => {
   // TODO: Show a toast
@@ -178,6 +179,11 @@ const updateMap = () => {
                               </div>`;
     contentCelArr[j] = contentStringCal;
     if (currPoint.id === reqPointId) {
+      updateCountdown(currPoint);
+      key = pointKey(currPoint);
+      intervalId = setInterval(() => {
+        updateCountdown(currPoint);
+      }, 1000);
       centerAndZoomToPoint(currPoint);
       infoWindow.setContent(contentStringCal);
       infoWindow.open(map, marker);
@@ -185,15 +191,49 @@ const updateMap = () => {
 
     let id = currPoint.id;
 
-    google.maps.event.addListener(marker, 'click', (function (marker, i, id) {
-      return function () {
+    google.maps.event.addListener(marker, 'click', ((marker, i, id) => {
+      return () => {
+        clearInterval(intervalId);
+
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
+
+        updateCountdown(currPoint);
         window.history.pushState("Corona map", "Corona map", "/?id=" + id);
+        key = pointKey(currPoint);
+        intervalId = setInterval(() => {
+          updateCountdown(currPoint);
+        }, 1000);
+
       };
     })(marker, j, id));
+
     markersArray.push(marker);
   }
+};
+
+const updateCountdown = currPoint => {
+  const countdownDate = new Date(new Date(currPoint.last_end).getTime() + 12096e5).getTime();
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
+
+  const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
+
+  const key = pointKey(currPoint);
+  const element = document.getElementById(`quarantine-${key}`);
+  if (!element) return;
+
+  element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
+    + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
+
+  if (distance < 0) {
+    element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
+    clearInterval(intervalId);
+  }
+
 };
 
 const setDaysAgo = (daysAgo) => {
@@ -249,7 +289,6 @@ const processData = () => {
   }
 
   let result = [];
-  const countdownIntervals = {};
   for (let points of Object.values(pointsDict)) {
     sortPoints(points);
     points = filterPoints(points);
@@ -269,36 +308,12 @@ const processData = () => {
     } else {
       firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-
     firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
+
     const lastPoint = points[points.length - 1];
-    const key = `${lastPoint.lat}-${lastPoint.lon}`;
-    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>זמן נותר לשוהים בבידוד:</b></span><br>`;
-
-    // Update the count down every 1 second
-    countdownIntervals[key] = setInterval(() => {
-      const countdownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
-      const now = new Date().getTime();
-      const distance = countdownDate - now;
-
-      const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
-
-      const element = document.getElementById(`quarantine-${key}`);
-      if (element) element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
-        + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        if (element) {
-          element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
-        }
-      }
-    }, 1000);
-
-
+    firstPoint.last_end = lastPoint.t_end;
+    const key = pointKey(firstPoint);
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"></span><br>`;
     if (firstPoint.link) {
       firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
     }
@@ -307,6 +322,8 @@ const processData = () => {
   }
   return result;
 };
+
+const pointKey = point => `${point.lat}-${point.lon}`;
 
 const isToday = (unixDate) => {
   const today = new Date();
