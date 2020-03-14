@@ -6,8 +6,6 @@ let markersArray = [];
 let previousCenters = [];
 
 const init = () => {
-  // window.history.pushState("Corona map", "Corona map", "/?language=" + 'He');
-  // setLanguage('He');
   initTranslation();
   getButtonElements();
   getData();
@@ -159,7 +157,12 @@ const updateMap = () => {
       return function () {
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
-        window.history.pushState("Corona map", "Corona map", "/?id=" + id);
+        let params = `/?id=${id}`
+        const language =getQueryParam('language');
+        if(language){
+          params += `&language=${language}`;
+        }
+        window.history.pushState("Corona map", "Corona map", params);
       };
     })(marker, j, id));
     markersArray.push(marker);
@@ -350,10 +353,10 @@ const getButtonElements = () => {
 
 const changeLanguage = () => {
   const value = document.getElementById('language-select').value;
-  const id = parseInt(getQueryParam('id'));
   let params = `/?language=${value}`;
+  const id = parseInt(getQueryParam('id'));
   if(id){
-    params += `?id=${id}`;
+    params += `&id=${id}`;
   }
   window.history.pushState("Corona map", "Corona map", params);
   setLanguage(value);

@@ -72,6 +72,12 @@ const initTranslation = () => {
   const LSLanguage = localStorage.getItem('language');
   if(LSLanguage){
     language = LSLanguage;
+    let params = `/?language=${language}`;
+    const id = parseInt(getQueryParam('id'));
+    if(id){
+      params += `&id=${id}`;
+    }
+    window.history.pushState("Corona map", "Corona map", params);
   }else{
     const queryParamlanguage = getQueryParam('language');
     if(queryParamlanguage){
