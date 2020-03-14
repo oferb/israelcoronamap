@@ -7,7 +7,10 @@ const setLanguage = selectedLanguage => {
 const setTranslation = language => {
   if (language === 'He') {
     translation = He;
-  } else {
+  } else if ( language === 'Ar'){
+    translation = Ar;
+  }
+  else {
     translation = En;
   }
 };
