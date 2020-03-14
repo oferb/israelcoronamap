@@ -57,14 +57,29 @@ const getLanguage = () =>{
   return localStorage.getItem('language');
 }
 
+const setSelectedLanguageDefaultValue = (language) =>{
+  var mySelect = document.getElementById('language-select');
+  for(var i, j = 0; i = mySelect.options[j]; j++) {
+    if(i.value == language) {
+        mySelect.selectedIndex = j;
+        break;
+    }
+  }
+}
+
 const initTranslation = () => {
   let language = 'He';
-  try{
-    const LSLanguage = localStorage.getItem('language');
+  const LSLanguage = localStorage.getItem('language');
+  if(LSLanguage){
     language = LSLanguage;
-  }catch{
-    localStorage.setItem('language', language);
+  }else{
+    const queryParamlanguage = getQueryParam('language');
+    if(queryParamlanguage){
+      language = queryParamlanguage;
+    }
   }
+  localStorage.setItem('language', language);
   setTranslation(language);
   setTranslationInHTML();
+  setSelectedLanguageDefaultValue(language);
 };

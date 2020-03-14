@@ -8,7 +8,7 @@ let previousCenters = [];
 const init = () => {
   // window.history.pushState("Corona map", "Corona map", "/?language=" + 'He');
   // setLanguage('He');
-  initTranslation()
+  initTranslation();
   getButtonElements();
   getData();
 };
@@ -276,8 +276,6 @@ const isYesterday = (unixDate) => {
 
 const getData = () => {
   const language = getLanguage();
-  console.log('language:', language);
-  
   fetch(`/data/data${language}.json`)
     .then((response) => {
       return response.json();
@@ -328,6 +326,12 @@ const getButtonElements = () => {
 
 const changeLanguage = () => {
   const value = document.getElementById('language-select').value;
+  const id = parseInt(getQueryParam('id'));
+  let params = `/?language=${value}`;
+  if(id){
+    params += `?id=${id}`;
+  }
+  window.history.pushState("Corona map", "Corona map", params);
   setLanguage(value);
   setTranslation(value);
   setTranslationInHTML();
