@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
   // don't hide pop up when click on this items
@@ -54,7 +52,7 @@ $(document).ready(function () {
     $('#map-reader-pop-up').fadeOut('fast');
   });
 
-  $('#zoom-to-location-button').click(zoomToLocation)
+  $('#zoom-to-location-button').click(zoomToLocation);
 });
 
 /*! track-focus v 1.0.0 | Author: Jeremy Fields [jeremy.fields@vget.com], 2015 | License: MIT */

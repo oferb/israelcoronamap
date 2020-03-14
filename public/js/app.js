@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
-let map, infoWindow, govData, data,
-    threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {}, intervalId;
+let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
 let currentPositionMarker = null;
 
 const windowWidth = window.screen.availWidth;
@@ -276,6 +275,12 @@ const filterPoints = points =>
     return true;
   });
 
+const uniquifyArray = (array) => {
+  const arraySet = new Set(array);
+  const uniqueArray = Array.from(arraySet);
+  return uniqueArray.filter(val => val);
+};
+
 const processData = () => {
   const pointsDict = new Object();
   for (let i = 0; i < data.length; i++) {
@@ -291,13 +296,15 @@ const processData = () => {
   let result = [];
   for (let points of Object.values(pointsDict)) {
     sortPoints(points);
+    const patNums = points.map(point => point.pat_num);
+    const uniquePatNums = uniquifyArray(patNums);
     points = filterPoints(points);
 
     const firstPoint = points[0];
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>מספר חולה: </b>${firstPoint.pat_num}<br><br>`;
+      firstPoint.text += `<b>מספר חולה: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
       firstPoint.text += '<b>זמני ביקור: </b><br>';
