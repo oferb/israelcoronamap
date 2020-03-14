@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars, no-undef */
 let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
 let currentPositionMarker = null;
 
@@ -19,7 +19,7 @@ const zoomToLocation = () => {
 
   if (navigator.geolocation) {
     showLoader();
-    navigator.geolocation.getCurrentPosition(function(position) {
+    navigator.geolocation.getCurrentPosition(position => {
       toggleGPSIconColorOnClick();
       const pos = {
         lat: position.coords.latitude,
@@ -33,7 +33,7 @@ const zoomToLocation = () => {
       currentPositionMarker = new google.maps.Marker({
         position: pos,
         animation: google.maps.Animation.DROP,
-        map: map,
+        map,
       });
       currentPositionMarker.setMap(map);
     }, () => {
@@ -46,7 +46,7 @@ const zoomToLocation = () => {
   }
 };
 
-const handleLocationError = (message) => {
+const handleLocationError = () => {
   // TODO: Show a toast
   showOriginalIcon();
 };
@@ -65,9 +65,6 @@ const toggleGPSIconColorOnClick = () => {
     document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
   }, 3000);
 };
-
-
-
 
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
@@ -92,11 +89,9 @@ function initMap() {
     const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
     for (let i = 0; i < previousCenters.length; i++) {
       const movementDistance = dist(previousCenters[i], map.getCenter());
-      if (movementDistance/screenDistance > 1) {
-        try{
-          map.setCenter(previousCenters[0]);
-          break;
-        }catch(e){}
+      if (movementDistance / screenDistance > 1) {
+        map.setCenter(previousCenters[0]);
+        break;
       }
     }
     previousCenters[2] = previousCenters[1];
@@ -107,7 +102,7 @@ function initMap() {
 }
 
 const dist = (p1, p2) => {
-  return Math.sqrt(Math.pow(p2.lat()-p1.lat(),2)+Math.pow(p2.lng()-p1.lng(),2));
+  return Math.sqrt(Math.pow(p2.lat() - p1.lat(),2) + Math.pow(p2.lng() - p1.lng(),2));
 };
 
 const getTimestamp = (stringTime) => {
