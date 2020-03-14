@@ -17,7 +17,8 @@ const He = {
     searchForFlights: 'חפשו טיסות',
     embedCodes: 'הטמיעו קוד באתר',
     about: 'אודות המיזם',
-    contactUse: 'צרו קשר'
+    contactUse: 'צרו קשר',
+    selectLanguage: 'בחר שפה'
     
 };
 

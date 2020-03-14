@@ -17,6 +17,8 @@ const En = {
     searchForFlights: 'Search For Flights',
     embedCodes: 'Embed The Codes',
     about: 'About',
-    contactUse: 'Contact Use'
+    contactUse: 'Contact Use',
+    selectLanguage: 'Select Language'
+
 };
 

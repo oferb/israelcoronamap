@@ -1,7 +1,7 @@
 let translation = En;
+
 const setLanguage = selectedLanguage => {
   localStorage.setItem('language', selectedLanguage);
-  setTranslation(selectedLanguage);
 };
 
 const setTranslation = language => {
@@ -10,8 +10,6 @@ const setTranslation = language => {
   } else {
     translation = En;
   }
-
-  // setDirection();
 };
 
 const i18n = text => {
@@ -19,15 +17,6 @@ const i18n = text => {
     return translation[text];
   } else {
     return text;
-  }
-};
-
-const setDirection = () => {
-  const language = localStorage.getItem('language');
-  if (language === 'He' || language === 'Ar') {
-    return 'rtl';
-  } else {
-    return 'ltr';
   }
 };
 
@@ -50,6 +39,9 @@ const setTranslationInHTML = () => {
   setTranslationByID('embed-code', 'embedCodes');
   setTranslationByID('about', 'about');
   setTranslationByID('contact-use', 'contactUse');
+  setTranslationByID('select-language', 'selectLanguage');
+
+  
 };
 
 const setTranslationByID = (id, text) => {
@@ -59,4 +51,20 @@ const setTranslationByID = (id, text) => {
 const addClassByID = (id, className) => {
   const el = document.getElementById(id);
   el.classList.add(className);
+};
+
+const getLanguage = () =>{
+  return localStorage.getItem('language');
+}
+
+const initTranslation = () => {
+  let language = 'He';
+  try{
+    const LSLanguage = localStorage.getItem('language');
+    language = LSLanguage;
+  }catch{
+    localStorage.setItem('language', language);
+  }
+  setTranslation(language);
+  setTranslationInHTML();
 };

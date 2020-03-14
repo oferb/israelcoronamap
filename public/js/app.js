@@ -7,10 +7,10 @@ let previousCenters = [];
 
 const init = () => {
   // window.history.pushState("Corona map", "Corona map", "/?language=" + 'He');
-  setLanguage('En');
+  // setLanguage('He');
+  initTranslation()
   getButtonElements();
   getData();
-  setTranslationInHTML();
 };
 
 // This should remain with function syntax since it is called in the google maps callback
@@ -114,7 +114,11 @@ const updateMap = () => {
       zIndex
     });
     const direction = getDirection();
-    const contentStringCal = `<div id="infowindow" class="infowindow ${direction === 'ltr? text-left'}">
+    
+    const contentStringCal = `<div
+                                id="infowindow" 
+                                class="infowindow ${direction === 'ltr'? 'text-left': ''}"
+                              >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
                               </div>`;
@@ -271,7 +275,10 @@ const isYesterday = (unixDate) => {
 };
 
 const getData = () => {
-  fetch('/data/data.json')
+  const language = getLanguage();
+  console.log('language:', language);
+  
+  fetch(`/data/data${language}.json`)
     .then((response) => {
       return response.json();
     })
@@ -317,4 +324,12 @@ const getButtonElements = () => {
   allDaysButton = document.getElementById('all-days-button');
   oneWeekButton = document.getElementById('one-weeks-button');
   twoWeekButton = document.getElementById('two-weeks-button');
+};
+
+const changeLanguage = () => {
+  const value = document.getElementById('language-select').value;
+  setLanguage(value);
+  setTranslation(value);
+  setTranslationInHTML();
+  getData();
 };
