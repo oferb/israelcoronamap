@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars, no-undef */
+let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
+let currentPositionMarker = null;
 
-/* eslint-disable no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {};
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
@@ -11,27 +12,60 @@ const init = () => {
   getData();
 };
 
-const updateCurrentLocation = (data) => {
-  if(data && data.coords){
-    currentLocation = data.coords;
-
-    map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
-    
-    setTimeout(() => {
-      map.setZoom(15);
-    }, 500);
-  }
-}
-
 const zoomToLocation = () => {
-  if(navigator){
-    navigator.geolocation.getCurrentPosition(updateCurrentLocation)
+  // clear previous marker
+  if (currentPositionMarker) {
+    currentPositionMarker.setMap(null);
   }
 
-  if(!currentLocation.latitude || !currentLocation.longitude){
-      return;
+  if (navigator.geolocation) {
+    showLoader();
+    navigator.geolocation.getCurrentPosition(position => {
+      toggleGPSIconColorOnClick();
+      const pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      map.setCenter(pos);
+      map.setZoom(12);
+
+      currentPositionMarker = new google.maps.Marker({
+        position: pos,
+        animation: google.maps.Animation.DROP,
+        map,
+      });
+      currentPositionMarker.setMap(map);
+    }, () => {
+      handleLocationError('לא אישרת מיקום');
+    });
+  } else {
+    showOriginalIcon();
+    // Browser doesn't support Geolocation
+    handleLocationError('הדפדפן שלך לא תומך במיקום');
   }
-}
+};
+
+const handleLocationError = () => {
+  // TODO: Show a toast
+  showOriginalIcon();
+};
+
+const showLoader = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/loader.svg';
+};
+
+const showOriginalIcon = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+};
+
+const toggleGPSIconColorOnClick = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  setTimeout(() => {
+    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  }, 3000);
+};
 
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
@@ -40,7 +74,8 @@ function initMap() {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 8 : 7,
     gestureHandling: "greedy",
-    streetViewControl: false
+    streetViewControl: false,
+    zoomControl: false
   });
   infoWindow = new google.maps.InfoWindow;
   map.addListener('mousedown', function () {
@@ -56,11 +91,9 @@ function initMap() {
     const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
     for (let i = 0; i < previousCenters.length; i++) {
       const movementDistance = dist(previousCenters[i], map.getCenter());
-      if (movementDistance/screenDistance > 1) {
-        try{
-          map.setCenter(previousCenters[0]);
-          break;
-        }catch(e){}
+      if (movementDistance / screenDistance > 1) {
+        map.setCenter(previousCenters[0]);
+        break;
       }
     }
     previousCenters[2] = previousCenters[1];
@@ -71,7 +104,7 @@ function initMap() {
 }
 
 const dist = (p1, p2) => {
-  return Math.sqrt(Math.pow(p2.lat()-p1.lat(),2)+Math.pow(p2.lng()-p1.lng(),2));
+  return Math.sqrt(Math.pow(p2.lat() - p1.lat(),2) + Math.pow(p2.lng() - p1.lng(),2));
 };
 
 const getTimestamp = (stringTime) => {
@@ -146,6 +179,11 @@ const updateMap = () => {
                               </div>`;
     contentCelArr[j] = contentStringCal;
     if (currPoint.id === reqPointId) {
+      updateCountdown(currPoint);
+      key = pointKey(currPoint);
+      intervalId = setInterval(() => {
+        updateCountdown(currPoint);
+      }, 1000);
       centerAndZoomToPoint(currPoint);
       infoWindow.setContent(contentStringCal);
       infoWindow.open(map, marker);
@@ -153,8 +191,10 @@ const updateMap = () => {
 
     let id = currPoint.id;
 
-    google.maps.event.addListener(marker, 'click', (function (marker, i, id) {
-      return function () {
+    google.maps.event.addListener(marker, 'click', ((marker, i, id) => {
+      return () => {
+        clearInterval(intervalId);
+
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
         let params = `/?id=${id}`
@@ -163,10 +203,42 @@ const updateMap = () => {
           params += `&language=${language}`;
         }
         window.history.pushState("Corona map", "Corona map", params);
+
+        updateCountdown(currPoint);
+        key = pointKey(currPoint);
+        intervalId = setInterval(() => {
+          updateCountdown(currPoint);
+        }, 1000);
+
       };
     })(marker, j, id));
+
     markersArray.push(marker);
   }
+};
+
+const updateCountdown = currPoint => {
+  const countdownDate = new Date(new Date(currPoint.last_end).getTime() + 12096e5).getTime();
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
+
+  const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
+
+  const key = pointKey(currPoint);
+  const element = document.getElementById(`quarantine-${key}`);
+  if (!element) return;
+
+  element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
+    + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
+
+  if (distance < 0) {
+    element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
+    clearInterval(intervalId);
+  }
+
 };
 
 const setDaysAgo = (daysAgo) => {
@@ -208,6 +280,12 @@ const filterPoints = points =>
     return true;
   });
 
+const uniquifyArray = (array) => {
+  const arraySet = new Set(array);
+  const uniqueArray = Array.from(arraySet);
+  return uniqueArray.filter(val => val);
+};
+
 const processData = () => {
   const pointsDict = new Object();
   for (let i = 0; i < data.length; i++) {
@@ -221,16 +299,17 @@ const processData = () => {
   }
 
   let result = [];
-  const countdownIntervals = {};
   for (let points of Object.values(pointsDict)) {
     sortPoints(points);
+    const patNums = points.map(point => point.pat_num);
+    const uniquePatNums = uniquifyArray(patNums);
     points = filterPoints(points);
 
     const firstPoint = points[0];
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${firstPoint.pat_num}<br><br>`;
+      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
       firstPoint.text += `<b>${i18n('visitingTimes')}: </b><br>`;
@@ -241,41 +320,12 @@ const processData = () => {
     } else {
       firstPoint.text += `<b>${i18n('visitingTime')}: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-
     firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
+
     const lastPoint = points[points.length - 1];
-    const key = `${lastPoint.lat}-${lastPoint.lon}`;
-    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"><b>${i18n('timeLeftForStayingInSolitary')}:</b></span><br>`;
-
-    // Update the count down every 1 second
-
-    const updateCountDown = () =>{
-      const countdownDate = new Date(new Date(lastPoint.t_end).getTime() + 12096e5).getTime();
-      const now = new Date().getTime();
-      const distance = countdownDate - now;
-
-      const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hoursLeft = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutesLeft = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const secondsLeft = Math.floor((distance % (1000 * 60)) / 1000);
-
-      const element = document.getElementById(`quarantine-${key}`);
-      if (element) element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}: </b><br><span class="red-text">${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
-        ${minutesLeft} ${i18n('minutes')} 
-        ${secondsLeft} ${i18n('secondes')}
-        </span> `;
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        if (element) {
-          element.innerHTML = `<b>>${i18n('timeLeftForStayingInSolitary')}:</b><br><span class="green-text"> >${i18n('expire14DaysAfterExposure')}</span>`;
-        }
-      }
-    }
-
-    countdownIntervals[key] = setInterval(() => updateCountDown(), 1000);
-
-
+    firstPoint.last_end = lastPoint.t_end;
+    const key = pointKey(firstPoint);
+    firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"></span><br>`;
     if (firstPoint.link) {
       firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}">${i18n('linkToTheMinistryOfHealthPublication')}</a>`;
     }
@@ -284,6 +334,8 @@ const processData = () => {
   }
   return result;
 };
+
+const pointKey = point => `${point.lat}-${point.lon}`;
 
 const isToday = (unixDate) => {
   const today = new Date();

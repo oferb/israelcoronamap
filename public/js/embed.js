@@ -11,11 +11,11 @@ const copyToClipboard = () => {
 
 const changeCopyToClipboardButtonText = () => {
   let button = document.getElementById("copyToClipboardButton");
-  button.innerText="הועתק";
+  button.innerText = "הועתק";
   button.classList.remove("btn-copy-clipboard");
   button.classList.add("btn-copy-clipboard-success");
   setTimeout(() => {
-    button.innerText="העתקה";
+    button.innerText = "העתקה";
     button.classList.add("btn-copy-clipboard");
     button.classList.remove("btn-copy-clipboard-success");
   }, 3000);
