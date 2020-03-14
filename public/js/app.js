@@ -1,5 +1,8 @@
 /* eslint-disable no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {}, intervalId;
+let map, infoWindow, govData, data,
+    threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {}, intervalId;
+let currentPositionMarker = null;
+
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
@@ -9,27 +12,63 @@ const init = () => {
   getData();
 };
 
-const updateCurrentLocation = (data) => {
-  if(data && data.coords){
-    currentLocation = data.coords;
-
-    map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude));
-
-    setTimeout(() => {
-      map.setZoom(15);
-    }, 500);
-  }
-};
-
 const zoomToLocation = () => {
-  if(navigator){
-    navigator.geolocation.getCurrentPosition(updateCurrentLocation);
+  // clear previous marker
+  if (currentPositionMarker) {
+    currentPositionMarker.setMap(null);
   }
 
-  if(!currentLocation.latitude || !currentLocation.longitude){
-    return;
+  if (navigator.geolocation) {
+    showLoader();
+    navigator.geolocation.getCurrentPosition(function(position) {
+      toggleGPSIconColorOnClick();
+      const pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      map.setCenter(pos);
+      map.setZoom(12);
+
+      currentPositionMarker = new google.maps.Marker({
+        position: pos,
+        animation: google.maps.Animation.DROP,
+        map: map,
+      });
+      currentPositionMarker.setMap(map);
+    }, () => {
+      handleLocationError('לא אישרת מיקום');
+    });
+  } else {
+    showOriginalIcon();
+    // Browser doesn't support Geolocation
+    handleLocationError('הדפדפן שלך לא תומך במיקום');
   }
 };
+
+const handleLocationError = (message) => {
+  // TODO: Show a toast
+  showOriginalIcon();
+};
+
+const showLoader = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/loader.svg';
+};
+
+const showOriginalIcon = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+};
+
+const toggleGPSIconColorOnClick = () => {
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  setTimeout(() => {
+    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  }, 3000);
+};
+
+
+
 
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
