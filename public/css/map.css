@@ -134,21 +134,6 @@ html, body {
   color: red;
 }
 
-.zoom-to-location{
-  position: absolute;
-  bottom: 0;
-  left: 360px;
-  height: 37px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.zoom-to-location > img {
-  width: 24px;
-}
-
 .map-reader {
   z-index: 1;
   position: absolute;
@@ -172,7 +157,25 @@ html, body {
   justify-content: center;
 }
 
-.zoom-to-location{
-  left: 310px;
 }
+
+.zoom-to-location{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 7px;
+    padding: 8px 3px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.3), 0 0 10px 0 rgba(0,0,0,.3);
+    background: #fff;
+    color: #4c4c4c;
+}
+
+#zoom-to-location-button {
+    content: url(../assets/images/map-icons/gps.svg);
+    width: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }

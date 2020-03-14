@@ -1,5 +1,7 @@
 /* eslint-disable no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {};
+let map, infoWindow, govData, data,
+    threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, currentLocation = {};
+let currentPositionMarker = null;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
@@ -14,7 +16,7 @@ const updateCurrentLocation = (data) => {
     currentLocation = data.coords;
 
     map.setCenter(new google.maps.LatLng(currentLocation.latitude, currentLocation.longitude))
-    
+
     setTimeout(() => {
       map.setZoom(15);
     }, 500);
@@ -22,14 +24,45 @@ const updateCurrentLocation = (data) => {
 }
 
 const zoomToLocation = () => {
-  if(navigator){
-    navigator.geolocation.getCurrentPosition(updateCurrentLocation)
+  // clear previous marker
+  if (currentPositionMarker) {
+    currentPositionMarker.setMap(null);
   }
+  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  setTimeout(() => {
+    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  }, 3000);
 
-  if(!currentLocation.latitude || !currentLocation.longitude){
-      return;
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      const pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      map.setCenter(pos);
+      map.setZoom(12);
+
+      const currentPositionMarker = new google.maps.Marker({
+        position: pos,
+        animation: google.maps.Animation.DROP,
+        map: map,
+      });
+      currentPositionMarker.setMap(map);
+    }, () => {
+      handleLocationError('לא אישרת מיקום');
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError('הדפדפן שלך לא תומך במיקום');
   }
 }
+
+const handleLocationError = (message) => {
+  // TODO: Show a toast
+};
+
 
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
