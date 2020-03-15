@@ -7,6 +7,7 @@ let markersArray = [];
 let previousCenters = [];
 
 const init = () => {
+  initTranslation();
   getButtonElements();
   getData();
 };
@@ -162,8 +163,12 @@ const updateMap = () => {
       },
       zIndex
     });
-
-    const contentStringCal = `<div class="infowindow">
+    const direction = getDirection();
+    
+    const contentStringCal = `<div
+                                id="infowindow" 
+                                class="infowindow ${direction === 'ltr'? 'text-left': ''}"
+                              >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
                               </div>`;
@@ -187,9 +192,14 @@ const updateMap = () => {
 
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
+        let params = `/?id=${id}`
+        const language =getQueryParam('language');
+        if(language){
+          params += `&language=${language}`;
+        }
+        window.history.pushState("Corona map", "Corona map", params);
 
         updateCountdown(currPoint);
-        window.history.pushState("Corona map", "Corona map", "/?id=" + id);
         key = pointKey(currPoint);
         intervalId = setInterval(() => {
           updateCountdown(currPoint);
@@ -238,9 +248,8 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth() + 1) + " בין השעות " +
-    fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
-    fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
+  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')} 
+    ${fixTime(d_start.getHours())}:${fixTime(d_start.getMinutes())}-${fixTime(d_end.getHours())}:${fixTime(d_end.getMinutes())}`;
   return datestring;
 };
 
@@ -295,25 +304,25 @@ const processData = () => {
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>מספר חולה: </b>${uniquePatNums.join(', ')}<br><br>`;
+      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
-      firstPoint.text += '<b>זמני ביקור: </b><br>';
+      firstPoint.text += `<b>${i18n('visitingTimes')}: </b><br>`;
       for (let i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<b>${i18n('visitingTime')}: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-    firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
+    firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
 
     const lastPoint = points[points.length - 1];
     firstPoint.last_end = lastPoint.t_end;
     const key = pointKey(firstPoint);
     firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"></span><br>`;
     if (firstPoint.link) {
-      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
+      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}">${i18n('linkToTheMinistryOfHealthPublication')}</a>`;
     }
 
     result.push(firstPoint);
@@ -340,7 +349,8 @@ const isYesterday = (unixDate) => {
 };
 
 const getData = () => {
-  fetch('/data/data.json')
+  const language = getLanguage();
+  fetch(`/data/data${language}.json`)
     .then((response) => {
       return response.json();
     })
@@ -386,4 +396,18 @@ const getButtonElements = () => {
   allDaysButton = document.getElementById('all-days-button');
   oneWeekButton = document.getElementById('one-weeks-button');
   twoWeekButton = document.getElementById('two-weeks-button');
+};
+
+const changeLanguage = () => {
+  const value = document.getElementById('language-select').value;
+  let params = `/?language=${value}`;
+  const id = parseInt(getQueryParam('id'));
+  if(id){
+    params += `&id=${id}`;
+  }
+  window.history.pushState("Corona map", "Corona map", params);
+  setLanguage(value);
+  setTranslation(value);
+  setTranslationInHTML();
+  getData();
 };
