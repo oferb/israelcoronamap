@@ -45,8 +45,12 @@ const setTranslationInHTML = () => {
   setTranslationByID('about', 'about');
   setTranslationByID('contact-use', 'contactUse');
   setTranslationByID('select-language', 'selectLanguage');
-
-
+  setTranslationByID('sick-update-title', 'sickUpdateTitle');
+  setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
+  setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
+  setTranslationByID('number-of-deaths', 'numberOfDeaths');
+  setTranslationByID('number-of-people-in-quarantine', 'numberOfPeopleInQuarantine');
+  setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
 };
 
 const setTranslationByID = (id, text) => {

@@ -41,6 +41,14 @@ $(document).ready(() => {
 
   });
 
+  $('.update-pop-up-click').click(function () {
+
+    $('#update').modal('show');
+
+  });
+
+
+
   // open map reader pop-up
   $('.map-reader-pop-up-click').click(() => {
 
