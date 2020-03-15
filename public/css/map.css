@@ -29,8 +29,7 @@ html, body {
 
 .infowindow {
   text-align: right;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding: 10px;
   font-family: 'Assistant', sans-serif;
 }
 
