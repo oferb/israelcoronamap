@@ -18,7 +18,11 @@ const He = {
     embedCodes: 'הטמיעו קוד באתר',
     about: 'אודות המיזם',
     contactUse: 'צרו קשר',
-    selectLanguage: 'בחר שפה'
-    
+    selectLanguage: 'בחר שפה',
+    sickUpdateTitle: 'מצב החולים בישראל',
+    numberOfSickPeople: 'מספר החולים:',
+    numberOfRecoveredPeople: 'מספר המחלימים:',
+    numberOfDeaths: 'מספר המתים:',
+    numberOfPeopleInQuarantine: 'מספר מבודדי בית:'
 };
 

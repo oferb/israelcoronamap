@@ -29,8 +29,7 @@ html, body {
 
 .infowindow {
   text-align: right;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding: 10px;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -157,26 +156,20 @@ html, body {
   justify-content: center;
 }
 
-}
-
-.zoom-to-location{
+#zoom-to-location-button {
     position: absolute;
     left: 0;
     bottom: 0;
     margin-left: 7px;
     margin-bottom: 100px;
-}
-
-#zoom-to-location-button {
-    content: url(../assets/images/map-icons/gps.svg);
-    width: 50px;
-    background: none;
-    border: none;
     cursor: pointer;
 }
 
 #zoom-to-location-button > img {
+    width: 45px;
     filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
 }
 
 
