@@ -36,5 +36,5 @@ with open('public/data/data.csv', newline='') as f:
                         "pub_ts": int(publication_time.timestamp()),
                         "link": link})
 
-with open('public/data/data.json', 'w', encoding='utf-8') as f:
+with open('public/data/dataHe.json', 'w', encoding='utf-8') as f:
     json.dump(points, f, ensure_ascii=False, indent=4)
