@@ -217,8 +217,8 @@ const addFlightsMapPoint = () => {
         id="infowindow" 
         class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
       >
-        <div class="info-label">טיסות</div>
-        <div class="info-description"><a href="/flights">טיסות שבהם שהו חולי קורונה</a></div>
+        <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
+        <div class="info-description"><a href="/flights">לפירוט הטיסות</a></div>
       </div>`;
 
       infoWindow.setContent(contentStringCal);
