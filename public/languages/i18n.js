@@ -43,7 +43,6 @@ const setTranslationInHTML = () => {
   setTranslationByID('embed-code', 'embedCodes');
   setTranslationByID('about', 'about');
   setTranslationByID('contact-use', 'contactUse');
-  setTranslationByID('select-language', 'selectLanguage');
   setTranslationByID('sick-update-title', 'sickUpdateTitle');
   setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
   setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
@@ -73,15 +72,6 @@ const getLanguage = () => {
   return lang ? lang : 'He';
 };
 
-const setSelectedLanguageDefaultValue = language => {
-  var mySelect = document.getElementById('language-select');
-  for (var i, j = 0; (i = mySelect.options[j]); j++) {
-    if (i.value === language) {
-      mySelect.selectedIndex = j;
-      break;
-    }
-  }
-};
 
 const setMapReader = () => {
   const language = localStorage.getItem('language');
@@ -119,5 +109,4 @@ const initTranslation = () => {
   localStorage.setItem('language', language);
   setTranslation(language);
   setTranslationInHTML();
-  // setSelectedLanguageDefaultValue(language);
 };

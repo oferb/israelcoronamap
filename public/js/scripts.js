@@ -62,7 +62,15 @@ $(document).ready(() => {
   });
 
   $('#zoom-to-location-button').click(zoomToLocation);
+  // open language pop-up
+  $('.language-click').click(function () {
+  
+    $('#language-popup').modal('toggle');
+  
+  });
 });
+
+
 
 /*! track-focus v 1.0.0 | Author: Jeremy Fields [jeremy.fields@vget.com], 2015 | License: MIT */
 // inspired by: http://irama.org/pkg/keyboard-focus-0.3/jquery.keyboard-focus.js
@@ -96,9 +104,3 @@ $(document).ready(() => {
 })(document.body);
 
 
-  // open language pop-up
-  $('.language-click').click(function () {
-
-    $('#language-popup').modal('toggle');
-
-  });
