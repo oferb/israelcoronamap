@@ -68,14 +68,14 @@ const addClassByID = (id, className) => {
 const getLanguage = () =>{
   const lang = localStorage.getItem('language');
   return lang ? lang : 'He';
-}
+};
 
 const setSelectedLanguageDefaultValue = (language) =>{
-  var mySelect = document.getElementById('language-select');
-  for(var i, j = 0; i = mySelect.options[j]; j++) {
-    if(i.value === language) {
-        mySelect.selectedIndex = j;
-        break;
+  let languageSelect = document.getElementById('language-select');
+  for(let option of languageSelect.options) {
+    if(option.value === language) {
+      languageSelect.selectedIndex = option.index;
+      break;
     }
   }
 };

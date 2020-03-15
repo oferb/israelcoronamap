@@ -2,6 +2,7 @@
 	"name": "my-package",
 	"scripts": {
 		"lint": "eslint .",
+		"lint-fix": "eslint . --fix",
 		"precommit": "npm run lint"
 	},
 	"devDependencies": {
