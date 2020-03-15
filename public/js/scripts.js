@@ -47,6 +47,11 @@ $(document).ready(() => {
 
   });
 
+  $('.toggle-color').click(function () {
+
+    $(setColorToggle('patients'));
+
+  });
 
 
   // open map reader pop-up

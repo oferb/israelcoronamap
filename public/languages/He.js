@@ -16,6 +16,7 @@ const He = {
     healthMinistry: 'משרד הבריאות',
     searchForFlights: 'חפשו טיסות',
     embedCodes: 'הטמיעו קוד באתר',
+    colorByPatients: 'החליפו סימון צבע',
     about: 'אודות המיזם',
     contactUse: 'צרו קשר',
     selectLanguage: 'בחר שפה',

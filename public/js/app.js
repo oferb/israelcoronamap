@@ -5,7 +5,15 @@ let currentPositionMarker = null;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
+let colorMarkers = ['yellow','yellow-dot','blue','blue-dot','green','green-dot','lightblue','ltblue-dot','orange',
+                      'orange-dot','pink','pink-dot','purple','purple-dot','red','red-dot'];
+let colorMarkersAddr = 'http://maps.google.com/mapfiles/ms/micons/'
 
+function getColorMarker(id) {
+  id = parseInt(id) % colorMarkers.length;
+  let img = colorMarkersAddr.concat(colorMarkers[id]).concat('.png');
+  return img
+}
 const init = () => {
   initTranslation();
   getButtonElements();
@@ -125,8 +133,12 @@ const updateMap = () => {
   clearMarkers();
 
   let daysAgo = parseInt(getQueryParam('daysAgo'));
+  let colorToggle = getQueryParam('colorToggle');
   if (isNaN(daysAgo)) {
     daysAgo = 10000;
+  }
+  if (isNaN(colorToggle)) {
+    colorToggle = 'patients';
   }
   const daysAgoDate = new Date();
   daysAgoDate.setDate(daysAgoDate.getDate() - daysAgo);
@@ -144,13 +156,19 @@ const updateMap = () => {
     };
     let icon = '/assets/images/map-icons/allTime.svg';
     let zIndex = 1000;
-    if (isYesterday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/yesterday.svg';
-      zIndex = 2000;
-    } else if (isToday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/today.svg';
-      zIndex = 3000;
+    if (colorToggle == 'patients') {
+      icon = getColorMarker(currPoint.pat_num);
     }
+    else {
+        if (isYesterday(currPoint.pub_ts)) {
+          icon = '/assets/images/map-icons/yesterday.svg';
+          zIndex = 2000;
+        } else if (isToday(currPoint.pub_ts)) {
+          icon = '/assets/images/map-icons/today.svg';
+          zIndex = 3000;
+        }
+    }
+    //*/
     const marker = new google.maps.Marker({
       position,
       map,
@@ -266,6 +284,11 @@ const updateCountdown = currPoint => {
 
 const setDaysAgo = (daysAgo) => {
   window.history.pushState("Corona map", "Corona map", "/?daysAgo=" + daysAgo);
+  updateMap();
+};
+
+const setColorToggle = (colorToggle) => {
+  window.history.pushState("Corona map", "Corona map", "/?colorToggle=" + colorToggle);
   updateMap();
 };
 

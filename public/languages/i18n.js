@@ -46,6 +46,7 @@ const setTranslationInHTML = () => {
   setTranslationByID('contact-use', 'contactUse');
   setTranslationByID('select-language', 'selectLanguage');
   setTranslationByID('sick-update-title', 'sickUpdateTitle');
+  setTranslationByID('toggle-color-meaning', 'colorByPatients');
   setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
   setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
   setTranslationByID('number-of-deaths', 'numberOfDeaths');
