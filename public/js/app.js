@@ -66,19 +66,22 @@ const toggleGPSIconColorOnClick = () => {
 function initMap() {
 
   const ISRAEL_BOUNDS = {
-    north: 34.440135095195288,
+    north: 36.440135095195288,
     south: 27.937822999999995,
-    west: 31.65619800118771,
-    east: 37.000322999999995,
+    west: 30.65619800118771,
+    east: 39.000322999999995,
   };
   map = new google.maps.Map(document.getElementById('map'), {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 8 : 7,
+    minZoom: 7,
+    maxZoom: 14,
     gestureHandling: "greedy",
     streetViewControl: false,
     zoomControl: false,
     restriction: {
-      latLngBounds: ISRAEL_BOUNDS
+      latLngBounds: ISRAEL_BOUNDS,
+      strictBounds: false
     },
   });
   infoWindow = new google.maps.InfoWindow;
