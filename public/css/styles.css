@@ -4,11 +4,11 @@
 
 html {
     position: relative;
-    
+
 }
 
 body {
-    
+
     width: 100%;
     margin:0;
     padding:0;
@@ -22,15 +22,19 @@ header{
     display: flex;
     align-items: center;
     height:100vh;
-    
+
 }
 
-.header-img{
-    background-size:cover;
+.header-img {
+    background-size: cover;
     background-image: url('../images/map.svg');
     background-repeat: no-repeat;
     height: 100vh;
-} 
+}
+
+.footer {
+    padding: 3px 0;
+}
 
 
 /*========== header end ==========*/
@@ -54,7 +58,7 @@ border-radius: 30px;
     background: #fafafa;
     padding: 50px 0px 50px 0px;
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .info{
@@ -79,7 +83,7 @@ border-radius: 30px;
 }
 
 
-.press{   
+.press{
     background: #ffffff;
     padding: 50px 0px 50px 0px;
     display: flex;
@@ -105,7 +109,7 @@ footer{
     bottom: 0;
     border-top:solid 0.4px #e5e5e5;
 
-    
+
 }
 
 .footer-love-icon{
@@ -115,14 +119,14 @@ footer{
     margin-top: -4px;
     margin-left: 1px;
     margin-right: 1px;
-    
+
 }
 
 
 .row-social-icon{
     display: flex;
     align-items: center;
-    
+
 }
 
 .footer-social-img{
@@ -192,7 +196,7 @@ footer{
 
 .big-footer-text:hover,.big-footer-text:focus{
     color: #475172!important;
-    
+
 }
 
 
@@ -227,7 +231,7 @@ footer{
 
 /*========== footer end ==========*/
 .learn-more{
-    
+
 }
 
 .learn-more:hover{
@@ -237,12 +241,12 @@ footer{
 
 /*========== keyboard and mouse focus ==========*/
 
-.focus--keyboard, 
-a:focus, 
-button:focus, 
-input:focus, 
-select:focus, 
-textarea:focus, 
+.focus--keyboard,
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
 span:focus,
 .layer:focus
 {
@@ -251,18 +255,18 @@ span:focus,
 
 }
 
-.focus--mouse, 
-a.focus--mouse:focus, 
-button.focus--mouse:focus, 
-input.focus--mouse:focus, 
-select.focus--mouse:focus, 
-textarea.focus--mouse:focus, 
+.focus--mouse,
+a.focus--mouse:focus,
+button.focus--mouse:focus,
+input.focus--mouse:focus,
+select.focus--mouse:focus,
+textarea.focus--mouse:focus,
 span.focus--mouse:focus,
 .layer.focus--mouse:focus
 
 
 {
-    outline: none; 
+    outline: none;
 }
 /*========== keyboard and mouse focus ==========*/
 
@@ -285,7 +289,7 @@ span.focus--mouse:focus,
     color: #1111E0!important;
     font-size: 18px;
     background-color: transparent!important;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .link:hover {
@@ -307,7 +311,7 @@ span.focus--mouse:focus,
 
 
 .project-image{
-    
+
 box-shadow: 10px 7px 152px -33px rgba(38,39,40,1);
 border-radius:5px;
 height: 300px;
@@ -335,7 +339,7 @@ height: 300px;
 }
 
 .input:focus {
-    
+
     outline:none;
     border-bottom: solid 2px #232b43;
     color:  #232b43;
@@ -352,7 +356,7 @@ textarea {
     resize: none;
     outline: 0;
     background: transparent;
-    border-bottom: solid 2px #c9c9c9;    
+    border-bottom: solid 2px #c9c9c9;
     color: #475172!important;
 }
 /*========== inputs end ==========*/
@@ -361,7 +365,7 @@ textarea {
 
 .main-title{
     font-size: 32px;
-    color: #26262C; 
+    color: #26262C;
     font-weight: 700;
 }
 
@@ -444,7 +448,7 @@ textarea {
     font-size: 18px;
     background-color: #ffffff;
     padding:8px 25px;
-    border-radius: 2px;    
+    border-radius: 2px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.15), 0 2px 25px rgba(0,0,0,0.15);
 }
 
@@ -458,7 +462,7 @@ textarea {
 
 .arrow:hover, .arrow:focus, .arrow:active{
     -webkit-transform: translateX(-5px);
-    transform: translateX(-5px); 
+    transform: translateX(-5px);
 }
 
 /*========== service section end ==========*/
@@ -469,7 +473,7 @@ textarea {
     cursor: pointer;
     position: absolute;
     right: 7px;
-    top: 10px;   
+    top: 10px;
     max-width:12px;
     max-height:12px;
     -webkit-transition: -webkit-transform .2s ease-in-out;
@@ -477,7 +481,7 @@ textarea {
 }
 
 .close-side-bar:hover{
-    
+
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
@@ -509,13 +513,13 @@ textarea {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: all .2s ease-in-out;
     border-radius: 3px;
-    background-size: cover; 
+    background-size: cover;
     margin: 5px;
     position: relative;
 }
 
 .box:hover{
-    transform: scale(0.98); 
+    transform: scale(0.98);
     box-shadow: 0 2px 2px rgba(0,0,0,0.15), 0 2px 25px rgba(0,0,0,0.15);
 
 }
@@ -553,7 +557,7 @@ textarea {
 
 .protfolio-card-title{
     color:#ffffff;
-    font-weight: 800; 
+    font-weight: 800;
     font-size: 32px;
 }
 
@@ -592,7 +596,7 @@ textarea {
     cursor: pointer;
     position: absolute;
     right: 15px;
-    top: 15px;   
+    top: 15px;
     max-width:15px;
     max-height:15px;
     -webkit-transition: -webkit-transform .2s ease-in-out;
@@ -600,7 +604,7 @@ textarea {
 }
 
 .close-pop-up:hover{
-    
+
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
@@ -622,14 +626,14 @@ textarea {
 /*========== pop-up end ==========*/
 
 .terms-link{
-    font-size: 13px; 
+    font-size: 13px;
     text-decoration: underline!important;
     position: absolute;
     bottom: 2%;
-    right: 0;left: 0; 
+    right: 0;left: 0;
     color:#26262C;
     cursor: pointer;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -665,7 +669,7 @@ textarea {
 }
 
 .client-img{
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
 
@@ -682,11 +686,11 @@ label{
     font-size: 20px;
     font-weight: 400;
     color:#232b43;
-   
+
 }
 
 .swiper-wrapper-style{
-    display:flex; 
+    display:flex;
     align-items: center;
 }
 
@@ -700,7 +704,7 @@ label{
 
 /* Disable grayscale on hover */
 .img-grayscale:hover {
-    
+
     filter: none;
     -webkit-filter: grayscale(0);
     opacity: 1;
@@ -712,8 +716,8 @@ label{
 }
 
 ::-webkit-scrollbar {
-    width: 0px; 
-    background: transparent; 
+    width: 0px;
+    background: transparent;
 }
 
 .flex-center{
@@ -745,7 +749,7 @@ section{
 }
 
 .media-img{
-    width:70%; 
+    width:70%;
     height: auto;
 }
 
@@ -760,7 +764,7 @@ section{
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-      
+
 }
 
 
@@ -810,33 +814,33 @@ section{
     }
 
     .filter-help-text{
-       font-size: 12px;margin-bottom: 0;font-weight: 400;margin-top: 20px; 
+       font-size: 12px;margin-bottom: 0;font-weight: 400;margin-top: 20px;
     }
 
     .main-image{
 
     width: 100%;
     }
-    
+
 
 
     .side-bar-img{
-       max-width: 18px; 
+       max-width: 18px;
     }
-    
+
     .overlay{
         background-color: black;
         opacity: 0.5;
         z-index: 2;
         position: absolute;
-        width: 100%; 
-        height: 100vh; 
+        width: 100%;
+        height: 100vh;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
     }
-    
+
     .side-bar{
     position: fixed;
     height: 100vh;
@@ -865,7 +869,11 @@ section{
 .side-bar-box{
  padding-top:15px;
  padding-bottom: 15px;
-  border-bottom:solid 0.7px #e5e5e5;  
+  border-bottom:solid 0.7px #e5e5e5;
+}
+
+#language-select-container {
+    display: none;
 }
 
 /*========== nav-bar ==========*/
@@ -902,7 +910,7 @@ section{
 }
 
 .wonder-nav-li{
-    padding: 0px 0px 0px 10px; 
+    padding: 0px 0px 0px 10px;
     font-weight: 300;
     font-size: 16px;
     z-index: 9999;
@@ -917,7 +925,7 @@ section{
     text-decoration: none!important;
     color:white!important;
     font-size: 16px;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
 .nav-link:hover {
@@ -938,7 +946,7 @@ section{
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-    
+
     padding-left: 15px;
     display: inline-block;
     cursor: pointer;
@@ -954,21 +962,21 @@ section{
     overflow: visible; }
 
 .hamburger:hover {
-    opacity: 0.7; 
+    opacity: 0.7;
 }
 
 .hamburger-box {
     width: 40px;
     height: 24px;
     display: inline-block;
-    position: relative; 
+    position: relative;
 
 }
 
 .hamburger-inner {
     display: block;
     top: 70%;
-    margin-top: -1.6px; 
+    margin-top: -1.6px;
     margin-right: -15px;
 }
 
@@ -1007,22 +1015,22 @@ section{
 .hamburger--minus.is-active .hamburger-inner::after {
   bottom: 0; }
 
-    
+
     .sos-number{
-        color:white!important; 
+        color:white!important;
     }
-    
+
     .sos-number:hover{
-        color:white!important; 
+        color:white!important;
 
     }
-    
+
     .mada{
      box-shadow: 0px 3px 10px #E5313180;
-        background-color: #DE3B3B;   
+        background-color: #DE3B3B;
     }
-    
-    
+
+
     .health{
         background-color: #2FBAD8;
         box-shadow: 0px 3px 10px #2FBAD880;
@@ -1047,39 +1055,39 @@ section{
     font-size:13px!important;
     margin-right: -5px;
 }
-    
+
     .terms-link{
-    font-size: 16px; 
-  
+    font-size: 16px;
+
 }
-    
+
     .hamburger-inner {
 
     margin-right: -5px;
 }
-    
+
   /*========== pop-up ==========*/
-  
-    
+
+
     .pop-up-title{
         padding-top: 90px;
         font-weight: 700;
         font-size: 30px;
     }
-    
+
     .pop-up-text{
         font-size:22px;
     }
-    
+
     .pop-up{
         top: 0px;
         bottom:0px;
         width: 100%;
-    }    
+    }
 
   /*========== pop-up end ==========*/
 
-    
+
 /*========== nav-bar ==========*/
 
 .wonder-nav{
@@ -1088,7 +1096,7 @@ section{
     width: 100%;
     position: fixed;
     z-index: 9997;
-}   
+}
 
 .wonder-nav-icon{
     max-height: 25px;
@@ -1100,30 +1108,30 @@ section{
 }
 
 .wonder-nav-li{
-    padding: 0px 0px 0px 10px; 
+    padding: 0px 0px 0px 10px;
     font-size: 16px;
     text-align:right;
-    
+
 }
 
 .sos-number{
-        color:white!important; 
+        color:white!important;
         border-radius: 3px;
         padding-top: 3px;
         padding-bottom: 3px;
     }
-    
+
 .sos-number:hover{
-    color:white!important; 
+    color:white!important;
 }
-    
+
 /*========== nav-bar ==========*/
-    
-    
+
+
     .side-bar-img{
         max-width: 25px;
     }
-    
+
     .side-bar-link{
         font-size: 16px;
         color:#26262C!important;
@@ -1135,11 +1143,11 @@ section{
          color:#26262C!important;
          text-decoration: none;
     }
-    
-    
+
+
    .side-bar{
         position: absolute;
-        height: 100%;
+        height: 100vh;
         width: 22%;
         margin-right: -20%;
         right: 0;
@@ -1162,10 +1170,10 @@ section{
         padding-right: 100px;
         padding-left: 100px;
     }
-    
-    
+
+
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    
+
     width: 25px;
     height: 1.5px;
     background-color: #232b43;
@@ -1174,34 +1182,34 @@ section{
     transition-property: transform;
     transition-duration: 0.15s;
     transition-timing-function: ease; }
-    
-    
-    
-    
+
+
+
+
     .main-image{
         width: 70%;
     }
 
     .filter-bar-row{
-  
+
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-    
+
     .filter-help-text{
     font-size: 14px;margin-bottom: 0;font-weight: 400;margin-top: 20px;
 }
-    
+
     .filter-main-text{
     font-size: 18px;margin-bottom: 0;font-weight: 700;margin-bottom: 20px;
 }
-    
+
     .vision-image{
-    
+
 max-width: 300px;
 }
-    
+
 .time-filter-box{
     font-size: 14px;
     margin-top:0px;
@@ -1214,12 +1222,12 @@ max-width: 300px;
     margin-top:0px;
 
 }
-    
+
   .info-card-text{
     width: 70%;
     margin: auto;
 }
-    
+
     .blog-card{
         box-shadow: 0 2px 2px rgba(0,0,0,0.15), 0 2px 25px rgba(0,0,0,0.15);
         background-color: #ffffff;
@@ -1234,25 +1242,25 @@ max-width: 300px;
         word-wrap: break-word;
         transition: all .2s ease-in-out;
     }
-    
+
     .section-title{
         font-size: 28px;
-        
+
     }
-    
+
     .media-img{
-        width:48%; 
+        width:48%;
         height: auto;
     }
-    
 
-    
+
+
     .section-description-responsive{
         font-weight: 400;
         font-size: 18px;
         text-align: right;
 
-        
+
     }
 
 
@@ -1267,15 +1275,15 @@ max-width: 300px;
         display: flex;
         align-items: center;
     }
-    
+
     .protfolio-card-text{
         margin-top: 10px;
         color:#ffffff;
-        font-weight: 400; 
+        font-weight: 400;
         font-size: 22px;
         padding: 0px 20px 0px 20px;
     }
-    
+
     .wonder-nav-scroll{
         background-color: #323232;
         top: 0;
@@ -1290,13 +1298,13 @@ max-width: 300px;
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-    
-    
+
+
     .c-img-s{
     max-width: 80px;
 }
-  
-    
+
+
     /*========== sections ==========*/
 
 .about{
@@ -1305,27 +1313,27 @@ max-width: 300px;
 
 .info{
     padding: 80px 0px 80px 0px;
-    
+
 }
 
 .help{
-    padding: 80px 0px  450px 0px;
-    
+    padding: 0 0px  450px 0px;
+
 }
 
 
 
 
 /*========== sections end ==========*/
-    
-    
+
+
 
 
 .about-logo{
      max-width: 200px;
      margin-top: 6%;
-}    
-    
+}
+
     .top-bar-icon-desk{
     margin-top:5px;
     max-width:55px;
@@ -1338,7 +1346,7 @@ max-width: 300px;
 
 .top-bar-icon-desk:hover{
     opacity: 1;
-    
+
 
 }
 
@@ -1350,12 +1358,12 @@ max-width: 300px;
 
 
 
-    
-    
+
+
     .small-footer-text{
         font-size: 18px;
     }
-    
+
     label{
     text-align: center;
     width: 55%;
@@ -1363,46 +1371,46 @@ max-width: 300px;
     font-weight: 400;
     color:#232b43;
     }
-  
+
     .work-img{
         width:70%;
     }
 
 
-    
+
     .service-pop-up{
         top: 20px;
         bottom:20px;
         width: 70%;
     }
-    
-    
+
+
     .row-social-icon{
         margin:auto;
         width:25%;
     }
 
-    
-   
 
-  
-    
+
+
+
+
     .input {
-       
+
         font-size: 20px;
     }
-    
+
     .main-title{
         font-size: 50px;
-        
+
     }
-    
+
     .main-description{
         font-size:22px;
         width: 40%;
         margin: auto;
     }
-    
+
     .section-description{
         font-size: 24px;
         width: 65%;

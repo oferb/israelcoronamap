@@ -7,6 +7,7 @@ let markersArray = [];
 let previousCenters = [];
 
 const init = () => {
+  initTranslation();
   getButtonElements();
   getData();
 };
@@ -18,8 +19,7 @@ const zoomToLocation = () => {
   }
 
   if (navigator.geolocation) {
-    showLoader();
-    navigator.geolocation.getCurrentPosition(position => {
+    navigator.geolocation.getCurrentPosition(function (position) {
       toggleGPSIconColorOnClick();
       const pos = {
         lat: position.coords.latitude,
@@ -28,7 +28,7 @@ const zoomToLocation = () => {
 
       infoWindow.setPosition(pos);
       map.setCenter(pos);
-      map.setZoom(12);
+      map.setZoom(13);
 
       currentPositionMarker = new google.maps.Marker({
         position: pos,
@@ -49,10 +49,6 @@ const zoomToLocation = () => {
 const handleLocationError = () => {
   // TODO: Show a toast
   showOriginalIcon();
-};
-
-const showLoader = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/loader.svg';
 };
 
 const showOriginalIcon = () => {
@@ -82,22 +78,6 @@ function initMap() {
       infoWindow.close();
       window.history.pushState("Corona map", "Corona map", "/");
     }
-  });
-  previousCenters[0] = map.getCenter();
-  previousCenters[1] = map.getCenter();
-  previousCenters[2] = map.getCenter();
-  map.addListener('center_changed', function() {
-    const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
-    for (let i = 0; i < previousCenters.length; i++) {
-      const movementDistance = dist(previousCenters[i], map.getCenter());
-      if (movementDistance / screenDistance > 1) {
-        map.setCenter(previousCenters[0]);
-        break;
-      }
-    }
-    previousCenters[2] = previousCenters[1];
-    previousCenters[1] = previousCenters[0];
-    previousCenters[0] = map.getCenter();
   });
   init();
 }
@@ -167,8 +147,12 @@ const updateMap = () => {
       },
       zIndex
     });
+    const direction = getDirection();
 
-    const contentStringCal = `<div class="infowindow">
+    const contentStringCal = `<div
+                                id="infowindow" 
+                                class="infowindow ${direction === 'ltr'? 'text-left': ''}"
+                              >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
                               </div>`;
@@ -192,9 +176,14 @@ const updateMap = () => {
 
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
+        let params = `/?id=${id}`
+        const language =getQueryParam('language');
+        if(language){
+          params += `&language=${language}`;
+        }
+        window.history.pushState("Corona map", "Corona map", params);
 
         updateCountdown(currPoint);
-        window.history.pushState("Corona map", "Corona map", "/?id=" + id);
         key = pointKey(currPoint);
         intervalId = setInterval(() => {
           updateCountdown(currPoint);
@@ -205,6 +194,38 @@ const updateMap = () => {
 
     markersArray.push(marker);
   }
+};
+
+const addFlightsMapPoint = () => {
+  const position = {
+    lat: 32.005528,
+    lng: 34.885392
+  };
+  const icon = '/assets/images/map-icons/plane-map-icon.svg';
+  const marker = new google.maps.Marker({
+    position,
+    map,
+    icon: {
+      url: icon
+    },
+    zIndex: 5000
+  });
+  const direction = getDirection();
+  google.maps.event.addListener(marker, 'click', ((marker) => {
+    return () => {
+      const contentStringCal = `<div
+        id="infowindow" 
+        class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
+      >
+        <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
+        <div class="info-description"><a href="/flights">לפירוט הטיסות</a></div>
+      </div>`;
+
+      infoWindow.setContent(contentStringCal);
+      infoWindow.open(map, marker);
+      window.history.pushState("Corona map", "Corona map", "/");
+    };
+  })(marker));
 };
 
 const updateCountdown = currPoint => {
@@ -243,9 +264,8 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = fixTime(d_start.getDate()) + "/" + fixTime(d_start.getMonth() + 1) + " בין השעות " +
-    fixTime(d_start.getHours()) + ":" + fixTime(d_start.getMinutes()) + "-" +
-    fixTime(d_end.getHours()) + ":" + fixTime(d_end.getMinutes());
+  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')} 
+    ${fixTime(d_start.getHours())}:${fixTime(d_start.getMinutes())}-${fixTime(d_end.getHours())}:${fixTime(d_end.getMinutes())}`;
   return datestring;
 };
 
@@ -300,25 +320,25 @@ const processData = () => {
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>מספר חולה: </b>${uniquePatNums.join(', ')}<br><br>`;
+      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
-      firstPoint.text += '<b>זמני ביקור: </b><br>';
+      firstPoint.text += `<b>${i18n('visitingTimes')}: </b><br>`;
       for (let i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>זמן ביקור: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<b>${i18n('visitingTime')}: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-    firstPoint.text += `<span class="pub_date"><b>תאריך פרסום: </b>${firstPoint.pub_date}</span><br>`;
+    firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
 
     const lastPoint = points[points.length - 1];
     firstPoint.last_end = lastPoint.t_end;
     const key = pointKey(firstPoint);
     firstPoint.text += `<span class="quarantine-time" id="quarantine-${key}" class="quarantine_counter"></span><br>`;
     if (firstPoint.link) {
-      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}" class="">לינק לפרסום של משרד הבריאות</a>`;
+      firstPoint.text += `<br><a target="_blank" href="${firstPoint.link}">${i18n('linkToTheMinistryOfHealthPublication')}</a>`;
     }
 
     result.push(firstPoint);
@@ -331,27 +351,29 @@ const pointKey = point => `${point.lat}-${point.lon}`;
 const isToday = (unixDate) => {
   const today = new Date();
   const date = new Date(unixDate * 1000);
-  return date.getDate() == today.getDate() &&
-    date.getMonth() == today.getMonth() &&
-    date.getFullYear() == today.getFullYear();
+  return date.getDate() === today.getDate() &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear();
 };
 
 const isYesterday = (unixDate) => {
   const today = new Date();
   const date = new Date(unixDate * 1000);
-  return date.getDate() == today.getDate() - 1 &&
-    date.getMonth() == today.getMonth() &&
-    date.getFullYear() == today.getFullYear();
+  return date.getDate() === today.getDate() - 1 &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear();
 };
 
 const getData = () => {
-  fetch('/data/data.json')
+  const language = getLanguage();
+  fetch(`/data/data${language}.json`)
     .then((response) => {
       return response.json();
     })
     .then((result) => {
       data = result;
       govData = processData(data);
+      addFlightsMapPoint();
       updateMap();
     });
 };
@@ -391,4 +413,18 @@ const getButtonElements = () => {
   allDaysButton = document.getElementById('all-days-button');
   oneWeekButton = document.getElementById('one-weeks-button');
   twoWeekButton = document.getElementById('two-weeks-button');
+};
+
+const changeLanguage = () => {
+  const value = document.getElementById('language-select').value;
+  let params = `/?language=${value}`;
+  const id = parseInt(getQueryParam('id'));
+  if(id){
+    params += `&id=${id}`;
+  }
+  window.history.pushState("Corona map", "Corona map", params);
+  setLanguage(value);
+  setTranslation(value);
+  setTranslationInHTML();
+  getData();
 };
