@@ -21,7 +21,7 @@
 
     <!--========== script ==========-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    
+
     <script src="languages/He.js"></script>
     <script src="languages/En.js"></script>
     <script src="languages/Ar.js"></script>
@@ -185,7 +185,7 @@
                         </a>
                 </div>
                     <div class="col-12" >
-                        <div class="side-bar-box">
+                        <div class="side-bar-box" id="language-select-container">
                         <label for="language-select"  class="side-bar-link" id="select-language">בחר שפה</label>
                         <select class="language-select" id="language-select" onclick="event.stopPropagation()" onchange="changeLanguage()">
                             <option value="He">עברית</option>
@@ -302,7 +302,7 @@
     <!--========== map-reader-pop-up end ==========-->
     <footer class="footer">
         <a style="" class="nav-link map-updated">
-            <span style="font-weight: 600;">עדכון אחרון:</span>
+            <span id="last-updated-text" style="font-weight: 600;">עדכון אחרון:</span>
             <span id="last-updated-time"></span>
         </a>
     </footer>

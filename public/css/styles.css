@@ -872,6 +872,10 @@ section{
   border-bottom:solid 0.7px #e5e5e5;
 }
 
+#language-select-container {
+    display: none;
+}
+
 /*========== nav-bar ==========*/
 
 .menu-icon{

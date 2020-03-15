@@ -44,11 +44,14 @@ const setTranslationInHTML = () => {
   setTranslationByID('contact-use', 'contactUse');
   setTranslationByID('select-language', 'selectLanguage');
 
-  
+
 };
 
 const setTranslationByID = (id, text) => {
-  document.getElementById(id).innerText = i18n(text);
+  const el = document.getElementById(id);
+  if (el) {
+    el.innerText = i18n(text);
+  }
 };
 
 const addClassByID = (id, className) => {
