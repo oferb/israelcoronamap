@@ -196,6 +196,38 @@ const updateMap = () => {
   }
 };
 
+const addFlightsMapPoint = () => {
+  const position = {
+    lat: 32.005528,
+    lng: 34.885392
+  };
+  const icon = '/assets/images/map-icons/plane-map-icon.svg';
+  const marker = new google.maps.Marker({
+    position,
+    map,
+    icon: {
+      url: icon
+    },
+    zIndex: 5000
+  });
+  const direction = getDirection();
+  google.maps.event.addListener(marker, 'click', ((marker) => {
+    return () => {
+      const contentStringCal = `<div
+        id="infowindow" 
+        class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
+      >
+        <div class="info-label">טיסות</div>
+        <div class="info-description"><a href="/flights">טיסות שבהם שהו חולי קורונה</a></div>
+      </div>`;
+
+      infoWindow.setContent(contentStringCal);
+      infoWindow.open(map, marker);
+      window.history.pushState("Corona map", "Corona map", "/");
+    };
+  })(marker));
+};
+
 const updateCountdown = currPoint => {
   const countdownDate = new Date(new Date(currPoint.last_end).getTime() + 12096e5).getTime();
   const now = new Date().getTime();
@@ -341,6 +373,7 @@ const getData = () => {
     .then((result) => {
       data = result;
       govData = processData(data);
+      addFlightsMapPoint();
       updateMap();
     });
 };
