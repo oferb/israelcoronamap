@@ -108,8 +108,8 @@
         <a id="zoom-to-location-button">
             <img id="zoom-to-location-icon" src="assets/images/map-icons/gps.svg" alt="zoom-to-location">
         </a>
-        <div class="map-reader">
-            <img alt="map-reader" src="assets/images/map-icons/mapReader.svg" class="map-reader-img" width="350" />
+        <div class="map-reader" id="map-reader">
+            <img alt="map-reader" src="assets/images/map-icons/mapReaderHe.svg" class="map-reader-img" width="350" />
         </div>
     </div>
 
@@ -193,18 +193,13 @@
                                 </span>
                         </a>
                 </div>
-                    <div class="col-12" >
-                        <div class="side-bar-box" id="language-select-container">
-                        <label for="language-select"  class="side-bar-link" id="select-language">בחר שפה</label>
-                        <select class="language-select" id="language-select" onclick="event.stopPropagation()" onchange="changeLanguage()">
-                            <option value="He">עברית</option>
-                            <option value="En">English</option>
-                            <option value="Ar">عربيه</option>
-                            <!-- <option value="Ra">רוסית</option> -->
-                            <!-- <option value="Am">אמהרית</option> -->
-                             <option value="Ru">Русский</option>
-                            </select>
-                        </div>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link language-click">
+                            <img class="side-bar-img" style="margin-left:20px; "
+                                 src="assets/images/side-bar-icons/language.svg" alt="icon">
+                            בחרו שפה
+                        </a>
                     </div>
             </div>
         </div>
@@ -216,6 +211,8 @@
         </a>
     </div>
     <!--========== side-bar end ==========-->
+
+
 
     <!--========== terms-of-use-pop-up ==========-->
     <div id="terms-of-use-pop-up" class="pop-up-area" style="display: none;">
@@ -353,6 +350,26 @@
     </div>
     <!--========== update-pop-up end ==========-->
 
+    <!--========== language-pop-up ==========-->
+    <div style="z-index: 99999;" class="modal fadeIn" id="language-popup" tabindex="-1" role="dialog" aria-labelledby="lang" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">בחרו שפה</h5>
+                    <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-right">
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('he')">עברית</a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('En')">English</a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('Ar')">عربيه</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--========== language-pop-up end ==========-->
     <!--========== map-reader-pop-up end ==========-->
     <footer class="footer">
         <a style="" class="nav-link map-updated">

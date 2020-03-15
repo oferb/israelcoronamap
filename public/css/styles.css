@@ -873,7 +873,7 @@ section{
 }
 
 #language-select-container {
-    display: none;
+    /* display: none; */
 }
 
 /*========== nav-bar ==========*/

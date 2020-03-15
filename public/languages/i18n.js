@@ -7,12 +7,11 @@ const setLanguage = selectedLanguage => {
 const setTranslation = language => {
   if (language === 'He') {
     translation = He;
-  } else if ( language === 'Ar'){
+  } else if (language === 'Ar') {
     translation = Ar;
   } else if (language === 'Ru') {
     translation = Ru;
-  }
-  else {
+  } else {
     translation = En;
   }
 };
@@ -49,8 +48,12 @@ const setTranslationInHTML = () => {
   setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
   setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
   setTranslationByID('number-of-deaths', 'numberOfDeaths');
-  setTranslationByID('number-of-people-in-quarantine', 'numberOfPeopleInQuarantine');
+  setTranslationByID(
+    'number-of-people-in-quarantine',
+    'numberOfPeopleInQuarantine'
+  );
   setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
+  setMapReader();
 };
 
 const setTranslationByID = (id, text) => {
@@ -65,19 +68,27 @@ const addClassByID = (id, className) => {
   el.classList.add(className);
 };
 
-const getLanguage = () =>{
+const getLanguage = () => {
   const lang = localStorage.getItem('language');
   return lang ? lang : 'He';
-}
+};
 
-const setSelectedLanguageDefaultValue = (language) =>{
+const setSelectedLanguageDefaultValue = language => {
   var mySelect = document.getElementById('language-select');
-  for(var i, j = 0; i = mySelect.options[j]; j++) {
-    if(i.value === language) {
-        mySelect.selectedIndex = j;
-        break;
+  for (var i, j = 0; (i = mySelect.options[j]); j++) {
+    if (i.value === language) {
+      mySelect.selectedIndex = j;
+      break;
     }
   }
+};
+
+const setMapReader = () => {
+  const language = localStorage.getItem('language');
+  var mapReaderContainer = document.getElementById('map-reader');
+  mapReaderContainer.innerHTML = `
+  <img alt="map-reader" src="assets/images/map-icons/mapReader${language}.svg" class="map-reader-img" width="350" />
+  `;
 };
 
 const initTranslation = () => {
@@ -87,23 +98,26 @@ const initTranslation = () => {
     setTranslationInHTML();
     return;
   }
-  const LSLanguage = localStorage.getItem('language');
-  if(LSLanguage){
-    language = LSLanguage;
-    let params = `/?language=${language}`;
-    const id = parseInt(getQueryParam('id'));
-    if(id){
-      params += `&id=${id}`;
-    }
-    window.history.pushState("Corona map", "Corona map", params);
-  }else{
-    const queryParamlanguage = getQueryParam('language');
-    if(queryParamlanguage){
-      language = queryParamlanguage;
+
+  const queryParamLanguage = getQueryParam('language');
+  if (queryParamLanguage) {
+    language = queryParamLanguage;
+  } else {
+    const LSLanguage = localStorage.getItem('language');
+    if (LSLanguage) {
+      language = LSLanguage;
+      let params = `/?language=${language}`;
+      const id = parseInt(getQueryParam('id'));
+      if (id) {
+        params += `&id=${id}`;
+      }
+      window.history.pushState('Corona map', 'Corona map', params);
     }
   }
+  console.log('language', language);
+  
   localStorage.setItem('language', language);
   setTranslation(language);
   setTranslationInHTML();
-  setSelectedLanguageDefaultValue(language);
+  // setSelectedLanguageDefaultValue(language);
 };

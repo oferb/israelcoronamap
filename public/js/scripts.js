@@ -94,3 +94,11 @@ $(document).ready(() => {
   bindEvents();
 
 })(document.body);
+
+
+  // open language pop-up
+  $('.language-click').click(function () {
+
+    $('#language-popup').modal('toggle');
+
+  });

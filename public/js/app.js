@@ -134,6 +134,7 @@ const updateMap = () => {
 
   const reqPointId = getQueryParam('id');
   for (let j = 0; j < govData.length; j++) {
+    
     const currPoint = govData[j];
     if (getTimestamp(currPoint.t_end) < daysAgoDate) {
       continue;
@@ -385,6 +386,7 @@ const getData = () => {
     .then((result) => {
       data = result;
       govData = processData(data);
+      
       addFlightsMapPoint();
       updateMap();
     });
@@ -427,16 +429,16 @@ const getButtonElements = () => {
   twoWeekButton = document.getElementById('two-weeks-button');
 };
 
-const changeLanguage = () => {
-  const value = document.getElementById('language-select').value;
-  let params = `/?language=${value}`;
+
+const changeLanguage = (language) => {
+  let params = `/?language=${language}`;
   const id = parseInt(getQueryParam('id'));
   if(id){
     params += `&id=${id}`;
   }
   window.history.pushState("Corona map", "Corona map", params);
-  setLanguage(value);
-  setTranslation(value);
+  setLanguage(language);
+  setTranslation(language);
   setTranslationInHTML();
   getData();
 };
