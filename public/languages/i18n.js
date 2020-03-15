@@ -1,4 +1,4 @@
-let translation = En;
+let translation = He;
 
 const setLanguage = selectedLanguage => {
   localStorage.setItem('language', selectedLanguage);
@@ -9,6 +9,8 @@ const setTranslation = language => {
     translation = He;
   } else if ( language === 'Ar'){
     translation = Ar;
+  } else if (language === 'Ru') {
+    translation = Ru;
   }
   else {
     translation = En;
@@ -43,8 +45,12 @@ const setTranslationInHTML = () => {
   setTranslationByID('about', 'about');
   setTranslationByID('contact-use', 'contactUse');
   setTranslationByID('select-language', 'selectLanguage');
-
-
+  setTranslationByID('sick-update-title', 'sickUpdateTitle');
+  setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
+  setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
+  setTranslationByID('number-of-deaths', 'numberOfDeaths');
+  setTranslationByID('number-of-people-in-quarantine', 'numberOfPeopleInQuarantine');
+  setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
 };
 
 const setTranslationByID = (id, text) => {
@@ -60,21 +66,27 @@ const addClassByID = (id, className) => {
 };
 
 const getLanguage = () =>{
-  return localStorage.getItem('language');
+  const lang = localStorage.getItem('language');
+  return lang ? lang : 'He';
 }
 
 const setSelectedLanguageDefaultValue = (language) =>{
   var mySelect = document.getElementById('language-select');
   for(var i, j = 0; i = mySelect.options[j]; j++) {
-    if(i.value == language) {
+    if(i.value === language) {
         mySelect.selectedIndex = j;
         break;
     }
   }
-}
+};
 
 const initTranslation = () => {
   let language = 'He';
+  if (window.location.pathname.includes('embed')) {
+    setTranslation(language);
+    setTranslationInHTML();
+    return;
+  }
   const LSLanguage = localStorage.getItem('language');
   if(LSLanguage){
     language = LSLanguage;

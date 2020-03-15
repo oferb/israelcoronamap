@@ -42,7 +42,7 @@
     "patient_number": "נוסע פרינסס דיימונד"
   },
   {
-    "ID": 3,
+    "ID": 4,
     "flight_number": "TK53",
     "airline": "טורקיש איירליינס",
     "departure from": "יפן, טוקיו,",
@@ -56,7 +56,7 @@
     "patient_number": 5
   },
   {
-    "ID": 4,
+    "ID": 5,
     "flight_number": "TK784",
     "airline": "טורקיש איירליינס",
     "departure from": "טורקיה, איסטנבול",
@@ -70,7 +70,7 @@
     "patient_number": "נוסע פרינסס דיימונד"
   },
   {
-    "ID": 5,
+    "ID": 6,
     "flight_number": "AZ810",
     "airline": "אל איטליה",
     "departure from": "איטליה, רומא",
@@ -84,7 +84,7 @@
     "patient_number": 6
   },
   {
-    "ID": 6,
+    "ID": 7,
     "flight_number": "4849 U2",
     "airline": "איזיג'ט",
     "departure from": "איטליה, נאפולי",
@@ -98,7 +98,7 @@
     "patient_number": 7
   },
   {
-    "ID": 7,
+    "ID": 8,
     "flight_number": "LY290",
     "airline": "אל על",
     "departure from": "אוסטריה, וינה",
@@ -112,7 +112,7 @@
     "patient_number": 8
   },
   {
-    "ID": 8,
+    "ID": 9,
     "flight_number": "LY290",
     "airline": "אל על",
     "departure from": "אוסטריה, וינה",
@@ -126,7 +126,7 @@
     "patient_number": 9
   },
   {
-    "ID": 9,
+    "ID": 10,
     "flight_number": "6H355",
     "airline": "ישראאייר",
     "departure from": "ישראל, ת\"א",
@@ -138,51 +138,51 @@
     "description": "ישראל, ת\"א, איטליה, ורונה, 19.2, 16:05, ישראאייר",
     "health_gov_link": "https://t.me/MOHreport/2754",
     "patient_number": 11
-  },
-  {
-    "ID": 9,
-    "flight_number": "6H355",
-    "airline": "ישראאייר",
-    "departure from": "ישראל, ת\"א",
-    "departure time": "16:05",
-    "destination": "איטליה, ורונה",
-    "arrival day": "",
-    "arrival time": "",
-    "departure day": "19/02/2020",
-    "description": "ישראל, ת\"א, איטליה, ורונה, 19.2, 16:05, ישראאייר",
-    "health_gov_link": "https://t.me/MOHreport/2754",
-    "patient_number": 12
-  },
-  {
-    "ID": 10,
-    "flight_number": "6H356",
-    "airline": "ישראאייר",
-    "departure from": "איטליה, ורונה",
-    "departure time": "",
-    "destination": "ישראל, ת\"א",
-    "arrival day": 26.2,
-    "arrival time": "20:00",
-    "departure day": "25/02/2020",
-    "description": "איטליה, ורונה, ישראל, ת\"א, 25.2, 20:00,26.2, ישראאייר",
-    "health_gov_link": "https://t.me/MOHreport/2753",
-    "patient_number": 11
-  },
-  {
-    "ID": 10,
-    "flight_number": "6H356",
-    "airline": "ישראאייר",
-    "departure from": "איטליה, ורונה",
-    "departure time": "",
-    "destination": "ישראל, ת\"א",
-    "arrival day": 26.2,
-    "arrival time": "20:00",
-    "departure day": "25/02/2020",
-    "description": "איטליה, ורונה, ישראל, ת\"א, 25.2, 20:00,26.2, ישראאייר",
-    "health_gov_link": "https://t.me/MOHreport/2753",
-    "patient_number": 12
   },
   {
     "ID": 11,
+    "flight_number": "6H355",
+    "airline": "ישראאייר",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "16:05",
+    "destination": "איטליה, ורונה",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "19/02/2020",
+    "description": "ישראל, ת\"א, איטליה, ורונה, 19.2, 16:05, ישראאייר",
+    "health_gov_link": "https://t.me/MOHreport/2754",
+    "patient_number": 12
+  },
+  {
+    "ID": 12,
+    "flight_number": "6H356",
+    "airline": "ישראאייר",
+    "departure from": "איטליה, ורונה",
+    "departure time": "",
+    "destination": "ישראל, ת\"א",
+    "arrival day": 26.2,
+    "arrival time": "20:00",
+    "departure day": "25/02/2020",
+    "description": "איטליה, ורונה, ישראל, ת\"א, 25.2, 20:00,26.2, ישראאייר",
+    "health_gov_link": "https://t.me/MOHreport/2753",
+    "patient_number": 11
+  },
+  {
+    "ID": 13,
+    "flight_number": "6H356",
+    "airline": "ישראאייר",
+    "departure from": "איטליה, ורונה",
+    "departure time": "",
+    "destination": "ישראל, ת\"א",
+    "arrival day": 26.2,
+    "arrival time": "20:00",
+    "departure day": "25/02/2020",
+    "description": "איטליה, ורונה, ישראל, ת\"א, 25.2, 20:00,26.2, ישראאייר",
+    "health_gov_link": "https://t.me/MOHreport/2753",
+    "patient_number": 12
+  },
+  {
+    "ID": 14,
     "flight_number": "EJ2564",
     "airline": "איזיג'ט",
     "departure from": "ישראל, ת\"א",
@@ -196,7 +196,7 @@
     "patient_number": 15
   },
   {
-    "ID": 12,
+    "ID": 15,
     "flight_number": "EJU3342",
     "airline": "איזיג'ט",
     "departure from": "איטליה, ונציה",
@@ -210,7 +210,7 @@
     "patient_number": 15
   },
   {
-    "ID": 13,
+    "ID": 16,
     "flight_number": "LY8",
     "airline": "אל על",
     "departure from": "ארה\"ב, ניו יורק",
@@ -224,7 +224,7 @@
     "patient_number": "אשה מניו יורק"
   },
   {
-    "ID": 14,
+    "ID": 17,
     "flight_number": "LY27",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -238,7 +238,7 @@
     "patient_number": "אשה מניו יורק"
   },
   {
-    "ID": 15,
+    "ID": 18,
     "flight_number": "EJ3342",
     "airline": "איזיג'ט",
     "departure from": "איטליה, ונציה",
@@ -252,7 +252,7 @@
     "patient_number": 17
   },
   {
-    "ID": 16,
+    "ID": 19,
     "flight_number": "A3925",
     "airline": "Aegean AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -266,7 +266,7 @@
     "patient_number": "קבוצת תיירים מיוון"
   },
   {
-    "ID": 16,
+    "ID": 20,
     "flight_number": "A3925",
     "airline": "Aegean AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -280,7 +280,7 @@
     "patient_number": 24
   },
   {
-    "ID": 17,
+    "ID": 21,
     "flight_number": "LX257",
     "airline": "סוויסאיר",
     "departure from": "ישראל, ת\"א",
@@ -294,7 +294,7 @@
     "patient_number": 19
   },
   {
-    "ID": 18,
+    "ID": 22,
     "flight_number": "LX256",
     "airline": "סוויסאיר בשיתוף אל על",
     "departure from": "שוויץ, ציריך",
@@ -308,7 +308,7 @@
     "patient_number": 19
   },
   {
-    "ID": 19,
+    "ID": 23,
     "flight_number": "OS858.2",
     "airline": "אוסטריאן איירליינס",
     "departure from": "ישראל, ת\"א",
@@ -322,7 +322,7 @@
     "patient_number": 21
   },
   {
-    "ID": 20,
+    "ID": 24,
     "flight_number": "OS913.3",
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, וינה",
@@ -336,7 +336,7 @@
     "patient_number": 21
   },
   {
-    "ID": 21,
+    "ID": 25,
     "flight_number": "OS916",
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטירה, אינסברוק",
@@ -350,7 +350,7 @@
     "patient_number": 21
   },
   {
-    "ID": 22,
+    "ID": 26,
     "flight_number": "OS857",
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, וינה",
@@ -364,7 +364,7 @@
     "patient_number": 21
   },
   {
-    "ID": 23,
+    "ID": 27,
     "flight_number": "IZ231",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -378,7 +378,7 @@
     "patient_number": 18
   },
   {
-    "ID": 23,
+    "ID": 28,
     "flight_number": "IZ231",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -392,7 +392,7 @@
     "patient_number": 20
   },
   {
-    "ID": 23,
+    "ID": 29,
     "flight_number": "IZ231",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -406,7 +406,7 @@
     "patient_number": 25
   },
   {
-    "ID": 24,
+    "ID": 30,
     "flight_number": "SN3728",
     "airline": "Brussels Airlines",
     "departure from": "ספרד, מדריד",
@@ -420,7 +420,7 @@
     "patient_number": 20
   },
   {
-    "ID": 24,
+    "ID": 31,
     "flight_number": "SN3728",
     "airline": "Brussels Airlines",
     "departure from": "ספרד, מדריד",
@@ -434,7 +434,7 @@
     "patient_number": 25
   },
   {
-    "ID": 25,
+    "ID": 32,
     "flight_number": "SN3293",
     "airline": "Brussels Airlines",
     "departure from": "בלגיה, בריסל,",
@@ -448,7 +448,7 @@
     "patient_number": 20
   },
   {
-    "ID": "",
+    "ID": 33,
     "flight_number": "SN3293",
     "airline": "Brussels Airlines",
     "departure from": "בלגיה, בריסל,",
@@ -462,7 +462,7 @@
     "patient_number": 25
   },
   {
-    "ID": 26,
+    "ID": 34,
     "flight_number": "TO3930",
     "airline": "Transavia",
     "departure from": "צרפת, פאריס",
@@ -476,7 +476,7 @@
     "patient_number": "תייר מצרפת"
   },
   {
-    "ID": 27,
+    "ID": 35,
     "flight_number": "TO3933",
     "airline": "Transavia",
     "departure from": "ישראל, ת\"א",
@@ -490,7 +490,7 @@
     "patient_number": "תייר מצרפת"
   },
   {
-    "ID": 28,
+    "ID": 36,
     "flight_number": "UX1304",
     "airline": "Air Europa",
     "departure from": "ישראל, ת\"א",
@@ -504,7 +504,7 @@
     "patient_number": 18
   },
   {
-    "ID": 28,
+    "ID": 37,
     "flight_number": "UX1304",
     "airline": "Air Europa",
     "departure from": "ישראל, ת\"א",
@@ -518,7 +518,7 @@
     "patient_number": 35
   },
   {
-    "ID": 29,
+    "ID": 38,
     "flight_number": "IB3316",
     "airline": "איביריה",
     "departure from": "ספרד, מדריד",
@@ -532,7 +532,7 @@
     "patient_number": 18
   },
   {
-    "ID": 30,
+    "ID": 39,
     "flight_number": "LY393",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -546,7 +546,7 @@
     "patient_number": 22
   },
   {
-    "ID": 31,
+    "ID": 40,
     "flight_number": "LY394",
     "airline": "אל על",
     "departure from": "ספרד, ברצלונה",
@@ -560,7 +560,7 @@
     "patient_number": 22
   },
   {
-    "ID": 32,
+    "ID": 41,
     "flight_number": "EJ2564",
     "airline": "איזיג'ט",
     "departure from": "ישראל, ת\"א",
@@ -574,7 +574,7 @@
     "patient_number": 23
   },
   {
-    "ID": 33,
+    "ID": 42,
     "flight_number": "EJU3342",
     "airline": "איזיג'ט",
     "departure from": "איטליה, ונציה",
@@ -588,7 +588,7 @@
     "patient_number": 23
   },
   {
-    "ID": 34,
+    "ID": 43,
     "flight_number": "ib3317",
     "airline": "איביריה",
     "departure from": "ישראל, ת\"א",
@@ -602,7 +602,7 @@
     "patient_number": 26
   },
   {
-    "ID": 35,
+    "ID": 44,
     "flight_number": "ib3940",
     "airline": "איביריה",
     "departure from": "ספרד, מדריד",
@@ -616,7 +616,7 @@
     "patient_number": 26
   },
   {
-    "ID": 36,
+    "ID": 45,
     "flight_number": "ib3943",
     "airline": "איביריה",
     "departure from": "ספרד, טנריף",
@@ -630,7 +630,7 @@
     "patient_number": 26
   },
   {
-    "ID": 37,
+    "ID": 46,
     "flight_number": "ib3316",
     "airline": "איביריה",
     "departure from": "ספרד, מדריד",
@@ -644,7 +644,7 @@
     "patient_number": 26
   },
   {
-    "ID": 38,
+    "ID": 47,
     "flight_number": "os860",
     "airline": "אוסטריאן איירליינס",
     "departure from": "ישראל, ת\"א",
@@ -658,7 +658,7 @@
     "patient_number": 27
   },
   {
-    "ID": 39,
+    "ID": 48,
     "flight_number": "OS861",
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, וינה",
@@ -672,7 +672,7 @@
     "patient_number": 27
   },
   {
-    "ID": 40,
+    "ID": 49,
     "flight_number": "6H355",
     "airline": "ישראאייר",
     "departure from": "ישראל, ת\"א",
@@ -686,7 +686,7 @@
     "patient_number": 31
   },
   {
-    "ID": 41,
+    "ID": 50,
     "flight_number": "6H356",
     "airline": "ישראאייר",
     "departure from": "איטליה, ורונה",
@@ -700,7 +700,7 @@
     "patient_number": 31
   },
   {
-    "ID": 42,
+    "ID": 51,
     "flight_number": "LY393",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -714,7 +714,7 @@
     "patient_number": 32
   },
   {
-    "ID": 43,
+    "ID": 52,
     "flight_number": "LY394",
     "airline": "אל על",
     "departure from": "ספרד, ברצלונה",
@@ -728,7 +728,7 @@
     "patient_number": 32
   },
   {
-    "ID": 44,
+    "ID": 53,
     "flight_number": "SN3290",
     "airline": "Brussels Airlines",
     "departure from": "ישראל, ת\"א",
@@ -742,7 +742,7 @@
     "patient_number": 36
   },
   {
-    "ID": 45,
+    "ID": 54,
     "flight_number": "SN3291",
     "airline": "Brussels Airlines",
     "departure from": "בלגיה, בריסל",
@@ -756,7 +756,7 @@
     "patient_number": 36
   },
   {
-    "ID": 46,
+    "ID": 55,
     "flight_number": "257LX",
     "airline": "סוויסאייר",
     "departure from": "ישראל, ת\"א",
@@ -770,7 +770,7 @@
     "patient_number": 37
   },
   {
-    "ID": 47,
+    "ID": 56,
     "flight_number": "8214LX",
     "airline": "סוויסאייר",
     "departure from": "שוויץ, ציריך",
@@ -784,7 +784,7 @@
     "patient_number": 37
   },
   {
-    "ID": 48,
+    "ID": 57,
     "flight_number": "8215LX",
     "airline": "סוויסאייר",
     "departure from": "ספרד, טנריף",
@@ -798,7 +798,7 @@
     "patient_number": 37
   },
   {
-    "ID": 49,
+    "ID": 58,
     "flight_number": "256LX",
     "airline": "סוויסאייר",
     "departure from": "שוויץ, ציריך",
@@ -812,7 +812,7 @@
     "patient_number": 37
   },
   {
-    "ID": 50,
+    "ID": 59,
     "flight_number": "LY393",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -826,7 +826,7 @@
     "patient_number": 38
   },
   {
-    "ID": 51,
+    "ID": 60,
     "flight_number": "LX1951",
     "airline": "סוויסאייר",
     "departure from": "ספרד, ברצלונה",
@@ -840,7 +840,7 @@
     "patient_number": 38
   },
   {
-    "ID": 52,
+    "ID": 61,
     "flight_number": "SU2393",
     "airline": "Aeroflot",
     "departure from": "שוויץ, ציריך",
@@ -854,7 +854,7 @@
     "patient_number": 38
   },
   {
-    "ID": 53,
+    "ID": 62,
     "flight_number": "SU0508",
     "airline": "Aeroflot",
     "departure from": "רוסיה, מוסקווה",
@@ -868,7 +868,7 @@
     "patient_number": 38
   },
   {
-    "ID": 54,
+    "ID": 63,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -882,7 +882,7 @@
     "patient_number": 39
   },
   {
-    "ID": 55,
+    "ID": 64,
     "flight_number": "LY348",
     "airline": "אל על",
     "departure from": "שוויץ, ציריך",
@@ -896,7 +896,7 @@
     "patient_number": 39
   },
   {
-    "ID": 56,
+    "ID": 65,
     "flight_number": "אל על 542",
     "airline": "אל על",
     "departure from": "יוון, אתונה",
@@ -910,7 +910,7 @@
     "patient_number": "חולה ישראלי השוהה באתונה"
   },
   {
-    "ID": 57,
+    "ID": 66,
     "flight_number": "LY71",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א,",
@@ -924,7 +924,7 @@
     "patient_number": "חולה ישראלי השוהה באתונה"
   },
   {
-    "ID": 58,
+    "ID": 67,
     "flight_number": "LY72",
     "airline": "אל על",
     "departure from": "הודו, מומביי",
@@ -938,7 +938,7 @@
     "patient_number": "חולה ישראלי השוהה באתונה"
   },
   {
-    "ID": 59,
+    "ID": 68,
     "flight_number": "AEGE922AN",
     "airline": "AEGEAN",
     "departure from": "ישראל, ת\"א",
@@ -952,7 +952,7 @@
     "patient_number": "חולה ישראלי השוהה באתונה"
   },
   {
-    "ID": 60,
+    "ID": 69,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -966,7 +966,7 @@
     "patient_number": 40
   },
   {
-    "ID": 61,
+    "ID": 70,
     "flight_number": "LY344",
     "airline": "אל על",
     "departure from": "שוויץ, ציריך",
@@ -980,7 +980,7 @@
     "patient_number": 40
   },
   {
-    "ID": 62,
+    "ID": 71,
     "flight_number": "LX257",
     "airline": "SWISSAIR",
     "departure from": "ישראל, ת\"א",
@@ -994,7 +994,7 @@
     "patient_number": 41
   },
   {
-    "ID": 63,
+    "ID": 72,
     "flight_number": "LX256",
     "airline": "SWISSAIR",
     "departure from": "שוויץ, ציריך",
@@ -1008,7 +1008,7 @@
     "patient_number": 41
   },
   {
-    "ID": 64,
+    "ID": 73,
     "flight_number": "PC786",
     "airline": "פגסוס",
     "departure from": "ישראל, ת\"א",
@@ -1022,7 +1022,7 @@
     "patient_number": 42
   },
   {
-    "ID": 65,
+    "ID": 74,
     "flight_number": "PC1099",
     "airline": "פגסוס",
     "departure from": "טורקיה, איסטנבול",
@@ -1036,7 +1036,7 @@
     "patient_number": 42
   },
   {
-    "ID": 66,
+    "ID": 75,
     "flight_number": "LY398",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -1050,7 +1050,7 @@
     "patient_number": 42
   },
   {
-    "ID": 67,
+    "ID": 76,
     "flight_number": "LY323",
     "airline": "אל-על",
     "departure from": "ישראל, ת\"א",
@@ -1064,7 +1064,7 @@
     "patient_number": 43
   },
   {
-    "ID": 68,
+    "ID": 77,
     "flight_number": "LY324",
     "airline": "אל-על",
     "departure from": "פריז, צרפת",
@@ -1078,7 +1078,7 @@
     "patient_number": 43
   },
   {
-    "ID": 69,
+    "ID": 78,
     "flight_number": "257LX",
     "airline": "סוויסאייר",
     "departure from": "ישראל, ת\"א",
@@ -1092,7 +1092,7 @@
     "patient_number": 44
   },
   {
-    "ID": 70,
+    "ID": 79,
     "flight_number": "8214LX",
     "airline": "סוויסאייר",
     "departure from": "שוויץ, ציריך",
@@ -1106,7 +1106,7 @@
     "patient_number": 44
   },
   {
-    "ID": 71,
+    "ID": 80,
     "flight_number": "8215LX",
     "airline": "סוויסאייר",
     "departure from": "ספרד, טנריף",
@@ -1120,7 +1120,7 @@
     "patient_number": 44
   },
   {
-    "ID": 72,
+    "ID": 81,
     "flight_number": "256LX",
     "airline": "סוויסאייר",
     "departure from": "שוויץ, ציריך",
@@ -1134,7 +1134,7 @@
     "patient_number": 44
   },
   {
-    "ID": 73,
+    "ID": 82,
     "flight_number": "TP1604",
     "airline": "אייר פורטוגל",
     "departure from": "ישראל, ת\"א,",
@@ -1148,7 +1148,7 @@
     "patient_number": 49
   },
   {
-    "ID": 74,
+    "ID": 83,
     "flight_number": 1128,
     "airline": "אייר פורטוגל",
     "departure from": "פורטוגל, ליסבון",
@@ -1162,7 +1162,7 @@
     "patient_number": 49
   },
   {
-    "ID": 75,
+    "ID": 84,
     "flight_number": 1127,
     "airline": "אייר פורטוגל",
     "departure from": "ספרד, טנריף",
@@ -1176,7 +1176,7 @@
     "patient_number": 49
   },
   {
-    "ID": 76,
+    "ID": 85,
     "flight_number": "TP1603",
     "airline": "אייר פורטוגל",
     "departure from": "ליסבון, פורטוגל",
@@ -1190,7 +1190,7 @@
     "patient_number": 49
   },
   {
-    "ID": 77,
+    "ID": 86,
     "flight_number": "ib3317.",
     "airline": "איבריה",
     "departure from": "ישראל, ת\"א,",
@@ -1204,7 +1204,7 @@
     "patient_number": 50
   },
   {
-    "ID": 78,
+    "ID": 87,
     "flight_number": "ib3940.",
     "airline": "איבריה",
     "departure from": "ספרד, מדריד",
@@ -1218,7 +1218,7 @@
     "patient_number": 50
   },
   {
-    "ID": 79,
+    "ID": 88,
     "flight_number": "ib3943",
     "airline": "איבריה",
     "departure from": "ספרד, טנריף",
@@ -1232,7 +1232,7 @@
     "patient_number": 50
   },
   {
-    "ID": 80,
+    "ID": 89,
     "flight_number": "ib3316.",
     "airline": "איבריה",
     "departure from": "ספרד, מדריד",
@@ -1246,7 +1246,7 @@
     "patient_number": 50
   },
   {
-    "ID": 81,
+    "ID": 90,
     "flight_number": "LY 357",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א,",
@@ -1260,7 +1260,7 @@
     "patient_number": "קבוצת תיירים מגרמניה"
   },
   {
-    "ID": 82,
+    "ID": 91,
     "flight_number": "LY 353",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א,",
@@ -1274,7 +1274,7 @@
     "patient_number": "קבוצת תיירים מגרמניה"
   },
   {
-    "ID": 83,
+    "ID": 92,
     "flight_number": "J221",
     "airline": "אזרבייז'ן איירליינס",
     "departure from": "באקו, אזרבייז'ן",
@@ -1288,7 +1288,7 @@
     "patient_number": 51
   },
   {
-    "ID": 84,
+    "ID": 93,
     "flight_number": "LY353",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א,",
@@ -1302,7 +1302,7 @@
     "patient_number": 53
   },
   {
-    "ID": 85,
+    "ID": 94,
     "flight_number": "LY353",
     "airline": "אל על",
     "departure from": "מינכן, גרמניה",
@@ -1316,7 +1316,7 @@
     "patient_number": 53
   },
   {
-    "ID": 86,
+    "ID": 95,
     "flight_number": "A3929",
     "airline": "AEGEA",
     "departure from": "ישראל, ת\"א,",
@@ -1330,7 +1330,7 @@
     "patient_number": 54
   },
   {
-    "ID": 87,
+    "ID": 96,
     "flight_number": "A31807",
     "airline": "AEGEA",
     "departure from": "יוון, אתונה",
@@ -1344,7 +1344,7 @@
     "patient_number": 54
   },
   {
-    "ID": 88,
+    "ID": 97,
     "flight_number": "FR3606.",
     "airline": "ריינאייר",
     "departure from": "מנינגן, גרמניה",
@@ -1358,7 +1358,7 @@
     "patient_number": 54
   },
   {
-    "ID": 89,
+    "ID": 98,
     "flight_number": "A3929",
     "airline": "AEGEA",
     "departure from": "ישראל, ת\"א,",
@@ -1372,7 +1372,7 @@
     "patient_number": 55
   },
   {
-    "ID": 90,
+    "ID": 99,
     "flight_number": "A31807",
     "airline": "AEGEA",
     "departure from": "יוון, אתונה",
@@ -1386,7 +1386,7 @@
     "patient_number": 55
   },
   {
-    "ID": 91,
+    "ID": 100,
     "flight_number": "FR3606",
     "airline": "Ryanair",
     "departure from": "מנינגן, גרמניה",
@@ -1400,7 +1400,7 @@
     "patient_number": 55
   },
   {
-    "ID": 92,
+    "ID": 101,
     "flight_number": "OS860",
     "airline": "Austrian",
     "departure from": "ישראל, ת\"א,",
@@ -1414,7 +1414,7 @@
     "patient_number": 58
   },
   {
-    "ID": 93,
+    "ID": 102,
     "flight_number": "OS911",
     "airline": "Austrian",
     "departure from": "אוסטריה, וינה,",
@@ -1428,7 +1428,7 @@
     "patient_number": 58
   },
   {
-    "ID": 94,
+    "ID": 103,
     "flight_number": "OS904",
     "airline": "Austrian",
     "departure from": "אינסבורק, אוסטריה",
@@ -1442,7 +1442,7 @@
     "patient_number": 58
   },
   {
-    "ID": 95,
+    "ID": 104,
     "flight_number": "OS861",
     "airline": "Austrian",
     "departure from": "אוסטריה, וינה,",
@@ -1456,7 +1456,7 @@
     "patient_number": 58
   },
   {
-    "ID": 96,
+    "ID": 105,
     "flight_number": "221J",
     "airline": "אזרבייג'אן אייר ליינס",
     "departure from": "אזרבייז'אן, באקו",
@@ -1470,7 +1470,7 @@
     "patient_number": 51
   },
   {
-    "ID": 97,
+    "ID": 106,
     "flight_number": "7762H6",
     "airline": "ישראייר",
     "departure from": "צ'כיה,פראג",
@@ -1484,7 +1484,7 @@
     "patient_number": 60
   },
   {
-    "ID": 98,
+    "ID": 107,
     "flight_number": "LH687",
     "airline": "לופטהאנזה",
     "departure from": "ישראל, ת\"א",
@@ -1498,7 +1498,7 @@
     "patient_number": 60
   },
   {
-    "ID": 99,
+    "ID": 108,
     "flight_number": "OK537",
     "airline": "Czech Airlines",
     "departure from": "גרמניה, פרנקפורט",
@@ -1512,7 +1512,7 @@
     "patient_number": 60
   },
   {
-    "ID": 100,
+    "ID": 109,
     "flight_number": "LX257",
     "airline": "סוויסאיר",
     "departure from": "ישראל, ת\"א",
@@ -1526,7 +1526,7 @@
     "patient_number": 61
   },
   {
-    "ID": 101,
+    "ID": 110,
     "flight_number": "LX2814",
     "airline": "סוויסאיר",
     "departure from": "שוויץ, ציריך",
@@ -1540,7 +1540,7 @@
     "patient_number": 61
   },
   {
-    "ID": 102,
+    "ID": 111,
     "flight_number": "8215LX",
     "airline": "סוויסאיר",
     "departure from": "ספרד, טנריף",
@@ -1554,7 +1554,7 @@
     "patient_number": 61
   },
   {
-    "ID": 103,
+    "ID": 112,
     "flight_number": "256LX",
     "airline": "סוויסאיר",
     "departure from": "שוויץ, ציריך",
@@ -1568,7 +1568,7 @@
     "patient_number": 61
   },
   {
-    "ID": 104,
+    "ID": 113,
     "flight_number": "LY395",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -1582,7 +1582,7 @@
     "patient_number": 62
   },
   {
-    "ID": 105,
+    "ID": 114,
     "flight_number": "3926i",
     "airline": "איבריה",
     "departure from": "ספרד, מדריד",
@@ -1596,7 +1596,7 @@
     "patient_number": 62
   },
   {
-    "ID": 106,
+    "ID": 115,
     "flight_number": "i3939",
     "airline": "איבריה",
     "departure from": "ספרד, טנריף",
@@ -1610,7 +1610,7 @@
     "patient_number": 62
   },
   {
-    "ID": 107,
+    "ID": 116,
     "flight_number": "LY396",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -1624,7 +1624,7 @@
     "patient_number": 62
   },
   {
-    "ID": 108,
+    "ID": 117,
     "flight_number": "253LX",
     "airline": "סוויסאייר",
     "departure from": "ישראל, ת\"א",
@@ -1638,7 +1638,7 @@
     "patient_number": 63
   },
   {
-    "ID": 109,
+    "ID": 118,
     "flight_number": "256LX",
     "airline": "סוויסאייר",
     "departure from": "שוויץ, ציריך",
@@ -1652,7 +1652,7 @@
     "patient_number": 63
   },
   {
-    "ID": 110,
+    "ID": 119,
     "flight_number": "D85671",
     "airline": "NORWEGIAN AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -1666,7 +1666,7 @@
     "patient_number": 64
   },
   {
-    "ID": 111,
+    "ID": 120,
     "flight_number": "D85670",
     "airline": "NORWEGIAN AIRLINES",
     "departure from": "ספרד, מדריד",
@@ -1680,7 +1680,7 @@
     "patient_number": 64
   },
   {
-    "ID": 112,
+    "ID": 121,
     "flight_number": "780PC",
     "airline": "פגאסוס",
     "departure from": "ישראל, ת\"א",
@@ -1694,7 +1694,7 @@
     "patient_number": 65
   },
   {
-    "ID": 113,
+    "ID": 122,
     "flight_number": "953PC",
     "airline": "פגאסוס",
     "departure from": "טורקיה, איסטנבול",
@@ -1708,7 +1708,7 @@
     "patient_number": 65
   },
   {
-    "ID": 114,
+    "ID": 123,
     "flight_number": "954PC",
     "airline": "פגאסוס",
     "departure from": "שוויץ, ז'נבה",
@@ -1722,7 +1722,7 @@
     "patient_number": 65
   },
   {
-    "ID": 115,
+    "ID": 124,
     "flight_number": "779PC",
     "airline": "פגאסוס",
     "departure from": "טורקיה, איסטנבול",
@@ -1736,7 +1736,7 @@
     "patient_number": 65
   },
   {
-    "ID": 116,
+    "ID": 125,
     "flight_number": "UX1302",
     "airline": "Air Europa",
     "departure from": "ישראל, ת\"א",
@@ -1750,7 +1750,7 @@
     "patient_number": 66
   },
   {
-    "ID": 117,
+    "ID": 126,
     "flight_number": "UX1301",
     "airline": "Air Europa",
     "departure from": "ספרד, מדריד",
@@ -1764,7 +1764,7 @@
     "patient_number": 66
   },
   {
-    "ID": 118,
+    "ID": 127,
     "flight_number": "LY2",
     "airline": "אל על",
     "departure from": "ארה\"ב, ניו יורק",
@@ -1778,7 +1778,7 @@
     "patient_number": 67
   },
   {
-    "ID": 119,
+    "ID": 128,
     "flight_number": "IZ771",
     "airline": "ארקיע",
     "departure from": "ישראל, ת\"א",
@@ -1792,7 +1792,7 @@
     "patient_number": 68
   },
   {
-    "ID": 120,
+    "ID": 129,
     "flight_number": "IZ772",
     "airline": "ארקיע",
     "departure from": "צרפת, גרנובל",
@@ -1806,7 +1806,7 @@
     "patient_number": 68
   },
   {
-    "ID": 121,
+    "ID": 130,
     "flight_number": "IZ771",
     "airline": "ארקיע",
     "departure from": "ישראל, ת\"א",
@@ -1820,7 +1820,7 @@
     "patient_number": 69
   },
   {
-    "ID": 122,
+    "ID": 131,
     "flight_number": "IZ772",
     "airline": "ארקיע",
     "departure from": "צרפת, גרנובל",
@@ -1834,7 +1834,7 @@
     "patient_number": 69
   },
   {
-    "ID": 123,
+    "ID": 132,
     "flight_number": "6H261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -1848,7 +1848,7 @@
     "patient_number": 70
   },
   {
-    "ID": 124,
+    "ID": 133,
     "flight_number": "6H262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -1862,7 +1862,7 @@
     "patient_number": 70
   },
   {
-    "ID": 125,
+    "ID": 134,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -1876,7 +1876,7 @@
     "patient_number": 72
   },
   {
-    "ID": 126,
+    "ID": 135,
     "flight_number": "LY348",
     "airline": "אל על",
     "departure from": "שוויץ, ציריך",
@@ -1890,7 +1890,7 @@
     "patient_number": 72
   },
   {
-    "ID": 127,
+    "ID": 136,
     "flight_number": "5815GH",
     "airline": "סאן-דור",
     "departure from": "ישראל, ת\"א",
@@ -1904,7 +1904,7 @@
     "patient_number": 73
   },
   {
-    "ID": 128,
+    "ID": 137,
     "flight_number": "5816GH",
     "airline": "סאן-דור",
     "departure from": "אוסטריה, זלצבורג",
@@ -1918,7 +1918,7 @@
     "patient_number": 73
   },
   {
-    "ID": 129,
+    "ID": 138,
     "flight_number": "UX1302",
     "airline": "אייר אירופה",
     "departure from": "ישראל, ת\"א",
@@ -1932,7 +1932,7 @@
     "patient_number": 74
   },
   {
-    "ID": 130,
+    "ID": 139,
     "flight_number": "UX1303",
     "airline": "אייר אירופה",
     "departure from": "ספרד, מדריד",
@@ -1946,7 +1946,7 @@
     "patient_number": 35
   },
   {
-    "ID": 130,
+    "ID": 140,
     "flight_number": "UX1303",
     "airline": "אייר אירופה",
     "departure from": "ספרד, מדריד",
@@ -1960,7 +1960,7 @@
     "patient_number": 74
   },
   {
-    "ID": 131,
+    "ID": 141,
     "flight_number": "OS860",
     "airline": "אוסטריאן",
     "departure from": "ישראל, ת\"א",
@@ -1974,7 +1974,7 @@
     "patient_number": 75
   },
   {
-    "ID": 132,
+    "ID": 142,
     "flight_number": "OS911",
     "airline": "אוסטריאן",
     "departure from": "אוסטריה, וינה",
@@ -1988,7 +1988,7 @@
     "patient_number": 75
   },
   {
-    "ID": 133,
+    "ID": 143,
     "flight_number": "OS904",
     "airline": "אוסטריאן",
     "departure from": "אינסבורק, אוסטריה",
@@ -2002,7 +2002,7 @@
     "patient_number": 75
   },
   {
-    "ID": 134,
+    "ID": 144,
     "flight_number": "OS861",
     "airline": "אוסטריאן",
     "departure from": "אוסטריה, וינה",
@@ -2016,7 +2016,7 @@
     "patient_number": 75
   },
   {
-    "ID": 135,
+    "ID": 145,
     "flight_number": "VS454",
     "airline": "Virgin atlantic",
     "departure from": "ישראל, ת\"א",
@@ -2030,7 +2030,7 @@
     "patient_number": 76
   },
   {
-    "ID": 136,
+    "ID": 146,
     "flight_number": "",
     "airline": "Virgin atlantic",
     "departure from": "לונדון, היתרו",
@@ -2044,7 +2044,7 @@
     "patient_number": 76
   },
   {
-    "ID": 137,
+    "ID": 147,
     "flight_number": "BA2507",
     "airline": "בריטיש איירוייז",
     "departure from": "סקוטלנד, אדינבורו",
@@ -2058,7 +2058,7 @@
     "patient_number": 76
   },
   {
-    "ID": 138,
+    "ID": 148,
     "flight_number": "VS453",
     "airline": "Virgin atlantic",
     "departure from": "לונדון, היתרו",
@@ -2072,7 +2072,7 @@
     "patient_number": 76
   },
   {
-    "ID": 139,
+    "ID": 149,
     "flight_number": "LY319",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -2086,7 +2086,7 @@
     "patient_number": 77
   },
   {
-    "ID": 140,
+    "ID": 150,
     "flight_number": "LY326",
     "airline": "אל על",
     "departure from": "פריז, צרפת",
@@ -2100,7 +2100,7 @@
     "patient_number": 77
   },
   {
-    "ID": 141,
+    "ID": 151,
     "flight_number": "381 LY",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -2114,7 +2114,7 @@
     "patient_number": 80
   },
   {
-    "ID": 142,
+    "ID": 152,
     "flight_number": "2563 EJU",
     "airline": "איזיג'ט",
     "departure from": "איטליה,מילאנו",
@@ -2128,7 +2128,7 @@
     "patient_number": 80
   },
   {
-    "ID": 143,
+    "ID": 153,
     "flight_number": "LY0397",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -2142,7 +2142,7 @@
     "patient_number": 81
   },
   {
-    "ID": 144,
+    "ID": 154,
     "flight_number": "RJ0340",
     "airline": "ג'ורדאניין",
     "departure from": "ספרד, מדריד",
@@ -2156,21 +2156,7 @@
     "patient_number": 81
   },
   {
-    "ID": 145,
-    "flight_number": "RJ0340",
-    "airline": "ג'ורדאניין",
-    "departure from": "ירדן, עמאן",
-    "departure time": "22:00",
-    "destination": "ישראל, ת\"א",
-    "arrival day": "",
-    "arrival time": "",
-    "departure day": "07/03/2020",
-    "description": "חזור:\nב-7.3  בשעה 22:00 מעמאן לת\"א, בחברת ג'ורדאניין RJ0340.",
-    "health_gov_link": "https://t.me/MOHreport/2947",
-    "patient_number": 81
-  },
-  {
-    "ID": 146,
+    "ID": 155,
     "flight_number": "A30929",
     "airline": "AEGEAN",
     "departure from": "ישראל, ת\"א",
@@ -2184,7 +2170,7 @@
     "patient_number": 84
   },
   {
-    "ID": 147,
+    "ID": 156,
     "flight_number": "A30803",
     "airline": "AEGEAN",
     "departure from": "יוון, אתונה",
@@ -2198,7 +2184,7 @@
     "patient_number": 84
   },
   {
-    "ID": 148,
+    "ID": 157,
     "flight_number": "FR3606",
     "airline": "ריינאייר",
     "departure from": "גרמניה, מנינגן",
@@ -2212,7 +2198,7 @@
     "patient_number": 84
   },
   {
-    "ID": 149,
+    "ID": 158,
     "flight_number": "A30929",
     "airline": "AEGEAN",
     "departure from": "ישראל, ת\"א",
@@ -2226,7 +2212,7 @@
     "patient_number": 85
   },
   {
-    "ID": 150,
+    "ID": 159,
     "flight_number": "A30803",
     "airline": "AEGEAN",
     "departure from": "יוון, אתונה",
@@ -2240,7 +2226,7 @@
     "patient_number": 85
   },
   {
-    "ID": 151,
+    "ID": 160,
     "flight_number": "FR3606",
     "airline": "ריינאייר",
     "departure from": "גרמניה, מנינגן",
@@ -2254,7 +2240,7 @@
     "patient_number": 85
   },
   {
-    "ID": 152,
+    "ID": 161,
     "flight_number": "A30929",
     "airline": "AEGEAN",
     "departure from": "ישראל, ת\"א",
@@ -2268,7 +2254,7 @@
     "patient_number": 86
   },
   {
-    "ID": 153,
+    "ID": 162,
     "flight_number": "A30803",
     "airline": "AEGEAN",
     "departure from": "יוון, אתונה",
@@ -2282,7 +2268,7 @@
     "patient_number": 86
   },
   {
-    "ID": 154,
+    "ID": 163,
     "flight_number": "FR3606",
     "airline": "ריינאייר",
     "departure from": "מנינגן, גרמניה",
@@ -2296,7 +2282,7 @@
     "patient_number": 86
   },
   {
-    "ID": 155,
+    "ID": 164,
     "flight_number": "PC786",
     "airline": "פגאסוס",
     "departure from": "ישראל, ת\"א",
@@ -2310,7 +2296,7 @@
     "patient_number": 87
   },
   {
-    "ID": 156,
+    "ID": 165,
     "flight_number": "PC1099",
     "airline": "פגאסוס",
     "departure from": "טורקיה, איסטנבול",
@@ -2324,7 +2310,7 @@
     "patient_number": 87
   },
   {
-    "ID": 157,
+    "ID": 166,
     "flight_number": "LY398",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -2338,7 +2324,7 @@
     "patient_number": 87
   },
   {
-    "ID": 155,
+    "ID": 167,
     "flight_number": "PC786",
     "airline": "פגאסוס",
     "departure from": "ישראל, ת\"א",
@@ -2352,7 +2338,7 @@
     "patient_number": 88
   },
   {
-    "ID": 156,
+    "ID": 168,
     "flight_number": "PC1099",
     "airline": "פגאסוס",
     "departure from": "טורקיה, איסטנבול",
@@ -2366,7 +2352,7 @@
     "patient_number": 88
   },
   {
-    "ID": 157,
+    "ID": 169,
     "flight_number": "LY398",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -2380,7 +2366,7 @@
     "patient_number": 88
   },
   {
-    "ID": 158,
+    "ID": 170,
     "flight_number": "505 SU",
     "airline": "AEROFLOT",
     "departure from": "ישראל, ת\"א",
@@ -2394,7 +2380,7 @@
     "patient_number": 89
   },
   {
-    "ID": 159,
+    "ID": 171,
     "flight_number": "100SU",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2408,7 +2394,7 @@
     "patient_number": 89
   },
   {
-    "ID": 160,
+    "ID": 172,
     "flight_number": "101SU",
     "airline": "AEROFLOT",
     "departure from": "ארה\"ב, ניו יורק",
@@ -2422,7 +2408,7 @@
     "patient_number": 89
   },
   {
-    "ID": 161,
+    "ID": 173,
     "flight_number": "502SU",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2436,7 +2422,7 @@
     "patient_number": 89
   },
   {
-    "ID": 162,
+    "ID": 174,
     "flight_number": "505 SU",
     "airline": "AEROFLOT",
     "departure from": "ישראל, ת\"א",
@@ -2450,7 +2436,7 @@
     "patient_number": 90
   },
   {
-    "ID": 163,
+    "ID": 175,
     "flight_number": "100SU",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2464,7 +2450,7 @@
     "patient_number": 90
   },
   {
-    "ID": 164,
+    "ID": 176,
     "flight_number": "101SU",
     "airline": "AEROFLOT",
     "departure from": "ארה\"ב, ניו יורק",
@@ -2478,7 +2464,7 @@
     "patient_number": 90
   },
   {
-    "ID": 165,
+    "ID": 177,
     "flight_number": "502SU",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2492,7 +2478,7 @@
     "patient_number": 90
   },
   {
-    "ID": 166,
+    "ID": 178,
     "flight_number": "IB3317",
     "airline": "איבריה",
     "departure from": "ישראל, ת\"א",
@@ -2506,7 +2492,7 @@
     "patient_number": 59
   },
   {
-    "ID": 167,
+    "ID": 179,
     "flight_number": "4XAGK",
     "airline": "ארקיע",
     "departure from": "ספרד, מדריד",
@@ -2520,7 +2506,7 @@
     "patient_number": 59
   },
   {
-    "ID": 168,
+    "ID": 180,
     "flight_number": "D8 3791",
     "airline": "NORWEGIAN AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -2534,7 +2520,7 @@
     "patient_number": 91
   },
   {
-    "ID": 169,
+    "ID": 181,
     "flight_number": "D8 3790",
     "airline": "NORWEGIAN AIRLINES",
     "departure from": "דנמרק, קופנהגן",
@@ -2548,7 +2534,7 @@
     "patient_number": 91
   },
   {
-    "ID": 170,
+    "ID": 182,
     "flight_number": "SU 502",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2562,7 +2548,7 @@
     "patient_number": 92
   },
   {
-    "ID": 171,
+    "ID": 183,
     "flight_number": "SU 502",
     "airline": "AEROFLOT",
     "departure from": "רוסיה, מוסקווה",
@@ -2576,7 +2562,7 @@
     "patient_number": 98
   },
   {
-    "ID": 172,
+    "ID": 184,
     "flight_number": "FR3605",
     "airline": "Ryanair",
     "departure from": "ישראל, ת\"א",
@@ -2590,7 +2576,7 @@
     "patient_number": 93
   },
   {
-    "ID": 173,
+    "ID": 185,
     "flight_number": "FR3606",
     "airline": "Ryanair",
     "departure from": "גרמניה, מנינגן",
@@ -2604,7 +2590,7 @@
     "patient_number": 93
   },
   {
-    "ID": 174,
+    "ID": 186,
     "flight_number": "UA0073",
     "airline": "יונייטד איירליינס",
     "departure from": "ישראל, ת\"א",
@@ -2618,7 +2604,7 @@
     "patient_number": 94
   },
   {
-    "ID": 175,
+    "ID": 187,
     "flight_number": "UA5516",
     "airline": "יונייטד איירליינס",
     "departure from": "ארה\"ב, וושינגטון",
@@ -2632,7 +2618,7 @@
     "patient_number": 94
   },
   {
-    "ID": 176,
+    "ID": 188,
     "flight_number": "5005 UA",
     "airline": "יונייטד איירליינס",
     "departure from": "ארה\"ב, ניו יורק",
@@ -2646,7 +2632,7 @@
     "patient_number": 94
   },
   {
-    "ID": 177,
+    "ID": 189,
     "flight_number": "0072UA",
     "airline": "יונייטד איירליינס",
     "departure from": "ארה\"ב, וושינגטון",
@@ -2660,7 +2646,7 @@
     "patient_number": 94
   },
   {
-    "ID": 178,
+    "ID": 190,
     "flight_number": "OS860",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -2674,7 +2660,7 @@
     "patient_number": 95
   },
   {
-    "ID": 179,
+    "ID": 191,
     "flight_number": "OS705",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "אוסטריה, וינה",
@@ -2688,7 +2674,7 @@
     "patient_number": 95
   },
   {
-    "ID": 180,
+    "ID": 192,
     "flight_number": "OS704",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "צ'כיה,פראג",
@@ -2702,7 +2688,7 @@
     "patient_number": 95
   },
   {
-    "ID": 181,
+    "ID": 193,
     "flight_number": "OS857",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "אוסטריה, וינה",
@@ -2716,7 +2702,7 @@
     "patient_number": 95
   },
   {
-    "ID": 182,
+    "ID": 194,
     "flight_number": "OS860",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "ישראל, ת\"א",
@@ -2730,7 +2716,7 @@
     "patient_number": 95
   },
   {
-    "ID": 183,
+    "ID": 195,
     "flight_number": "OS705",
     "airline": "AUSTRIAN AIRLINES",
     "departure from": "אוסטריה, וינה",
@@ -2744,7 +2730,7 @@
     "patient_number": 95
   },
   {
-    "ID": 184,
+    "ID": 196,
     "flight_number": "LOT526",
     "airline": "POLISH AIRLINES",
     "departure from": "צ'כיה,פראג",
@@ -2758,7 +2744,7 @@
     "patient_number": 95
   },
   {
-    "ID": 185,
+    "ID": 197,
     "flight_number": "LOT151",
     "airline": "POLISH AIRLINES",
     "departure from": "פולין, ורשה",
@@ -2772,7 +2758,7 @@
     "patient_number": 95
   },
   {
-    "ID": 186,
+    "ID": 198,
     "flight_number": "156 EZY",
     "airline": "איזיג'ט",
     "departure from": "ישראל, ת\"א",
@@ -2786,7 +2772,7 @@
     "patient_number": 97
   },
   {
-    "ID": 187,
+    "ID": 199,
     "flight_number": "1525EZY",
     "airline": "איזיג'ט",
     "departure from": "שוויץ, ז'נבה",
@@ -2800,7 +2786,7 @@
     "patient_number": 97
   },
   {
-    "ID": 188,
+    "ID": 200,
     "flight_number": 5845,
     "airline": "יונייטד איירליינס",
     "departure from": "ארה\"ב, אריזונה",
@@ -2814,7 +2800,7 @@
     "patient_number": 99
   },
   {
-    "ID": 189,
+    "ID": 201,
     "flight_number": 455,
     "airline": "לופטנזה",
     "departure from": "ארה\"ב, סן פרנסיסקו",
@@ -2828,7 +2814,7 @@
     "patient_number": 99
   },
   {
-    "ID": 190,
+    "ID": 202,
     "flight_number": 580,
     "airline": "לופטנזה",
     "departure from": "גרמניה, פראנקפורט",
@@ -2842,7 +2828,7 @@
     "patient_number": 99
   },
   {
-    "ID": 191,
+    "ID": 203,
     "flight_number": "",
     "airline": "איג'פט ארליין",
     "departure from": "מצרים, קהיר",
@@ -2856,7 +2842,7 @@
     "patient_number": 99
   },
   {
-    "ID": 192,
+    "ID": 204,
     "flight_number": 396,
     "airline": "איג'פט ארליין",
     "departure from": "מצרים, אסואן",
@@ -2870,7 +2856,7 @@
     "patient_number": 99
   },
   {
-    "ID": 193,
+    "ID": 205,
     "flight_number": 707,
     "airline": "איג'פט ארליין",
     "departure from": "מצרים, קהיר",
@@ -2884,7 +2870,7 @@
     "patient_number": 99
   },
   {
-    "ID": 194,
+    "ID": 206,
     "flight_number": 342,
     "airline": "Royaljurden",
     "departure from": "ירדן, עמאן",
@@ -2898,7 +2884,7 @@
     "patient_number": 99
   },
   {
-    "ID": 195,
+    "ID": 207,
     "flight_number": "LY353",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -2912,7 +2898,7 @@
     "patient_number": 100
   },
   {
-    "ID": 196,
+    "ID": 208,
     "flight_number": "354 LY",
     "airline": "אל על",
     "departure from": "גרמניה, מינכן",
@@ -2926,7 +2912,7 @@
     "patient_number": 100
   },
   {
-    "ID": 197,
+    "ID": 209,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -2940,7 +2926,7 @@
     "patient_number": 103
   },
   {
-    "ID": 198,
+    "ID": 210,
     "flight_number": "LY348",
     "airline": "אל על",
     "departure from": "שוויץ, ציריך",
@@ -2954,7 +2940,7 @@
     "patient_number": 103
   },
   {
-    "ID": 199,
+    "ID": 211,
     "flight_number": "W6-3690",
     "airline": "WIZZ-AIR",
     "departure from": "ישראל, ת\"א",
@@ -2968,7 +2954,7 @@
     "patient_number": 105
   },
   {
-    "ID": 200,
+    "ID": 212,
     "flight_number": "W6-3689",
     "airline": "WIZZ-AIR",
     "departure from": "רומניה, יאש",
@@ -2982,7 +2968,7 @@
     "patient_number": 105
   },
   {
-    "ID": 202,
+    "ID": 213,
     "flight_number": "KM829",
     "airline": "Air Malta",
     "departure from": "ישראל, ת\"א",
@@ -2996,7 +2982,7 @@
     "patient_number": 105
   },
   {
-    "ID": 203,
+    "ID": 214,
     "flight_number": "KM828",
     "airline": "Air Malta",
     "departure from": "ישראל, ת\"א",
@@ -3010,7 +2996,7 @@
     "patient_number": 105
   },
   {
-    "ID": 204,
+    "ID": 215,
     "flight_number": "Ly395",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -3024,7 +3010,7 @@
     "patient_number": 107
   },
   {
-    "ID": 205,
+    "ID": 216,
     "flight_number": "ib2394",
     "airline": "איביריה",
     "departure from": "ספרד, מדריד",
@@ -3038,7 +3024,7 @@
     "patient_number": 107
   },
   {
-    "ID": 206,
+    "ID": 217,
     "flight_number": "ib3957",
     "airline": "איביריה",
     "departure from": "ספרד, טנריף",
@@ -3052,7 +3038,7 @@
     "patient_number": 107
   },
   {
-    "ID": 207,
+    "ID": 218,
     "flight_number": "Ly396",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -3066,7 +3052,7 @@
     "patient_number": 107
   },
   {
-    "ID": 208,
+    "ID": 219,
     "flight_number": "Ly395",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -3080,7 +3066,7 @@
     "patient_number": 108
   },
   {
-    "ID": 209,
+    "ID": 220,
     "flight_number": "ib2394",
     "airline": "איביריה",
     "departure from": "ספרד, מדריד",
@@ -3094,7 +3080,7 @@
     "patient_number": 108
   },
   {
-    "ID": 210,
+    "ID": 221,
     "flight_number": "ib3957",
     "airline": "איביריה",
     "departure from": "ספרד, טנריף",
@@ -3108,7 +3094,7 @@
     "patient_number": 108
   },
   {
-    "ID": 211,
+    "ID": 222,
     "flight_number": "Ly396",
     "airline": "אל על",
     "departure from": "ספרד, מדריד",
@@ -3122,7 +3108,7 @@
     "patient_number": 108
   },
   {
-    "ID": 212,
+    "ID": 223,
     "flight_number": "UD054",
     "airline": "איזיג'ט",
     "departure from": "ישראל, ת\"א",
@@ -3136,7 +3122,7 @@
     "patient_number": 109
   },
   {
-    "ID": 213,
+    "ID": 224,
     "flight_number": "UD054",
     "airline": "איזיג'ט",
     "departure from": "מצרים, קהיר",
@@ -3150,7 +3136,7 @@
     "patient_number": 109
   },
   {
-    "ID": 236,
+    "ID": 225,
     "flight_number": "AZ806",
     "airline": "אל איטליה",
     "departure from": "איטליה, רומא",
@@ -3164,7 +3150,7 @@
     "patient_number": "תייר איטלקי"
   },
   {
-    "ID": 237,
+    "ID": 226,
     "flight_number": "AZ809",
     "airline": "אל איטליה",
     "departure from": "ישראל, ת\"א",
@@ -3178,7 +3164,7 @@
     "patient_number": "תייר איטלקי"
   },
   {
-    "ID": 238,
+    "ID": 227,
     "flight_number": "A3924",
     "airline": "AEGEAN",
     "departure from": "יון, אתונה",
@@ -3192,7 +3178,7 @@
     "patient_number": 24
   },
   {
-    "ID": 239,
+    "ID": 228,
     "flight_number": "UX9048",
     "airline": "Air Europa",
     "departure from": "ספרד, מדריד",
@@ -3206,7 +3192,7 @@
     "patient_number": 35
   },
   {
-    "ID": 240,
+    "ID": 229,
     "flight_number": "UX9117",
     "airline": "Air Europa",
     "departure from": "ספרד, טנריף",
@@ -3220,7 +3206,7 @@
     "patient_number": 35
   },
   {
-    "ID": 241,
+    "ID": 230,
     "flight_number": "UX1303",
     "airline": "אייר אירופה",
     "departure from": "ספרד, מדריד",
@@ -3234,7 +3220,7 @@
     "patient_number": 35
   },
   {
-    "ID": 214,
+    "ID": 231,
     "flight_number": "4D 054",
     "airline": "אייר סיני",
     "departure from": "מצרים, קהיר",
@@ -3248,7 +3234,7 @@
     "patient_number": 111
   },
   {
-    "ID": 215,
+    "ID": 232,
     "flight_number": "4D 054",
     "airline": "אייר סיני",
     "departure from": "מצרים, קהיר",
@@ -3262,7 +3248,7 @@
     "patient_number": 112
   },
   {
-    "ID": 216,
+    "ID": 233,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -3276,7 +3262,7 @@
     "patient_number": 113
   },
   {
-    "ID": 217,
+    "ID": 234,
     "flight_number": "LY347",
     "airline": "אל על",
     "departure from": "שוויץ, ציריך",
@@ -3290,7 +3276,7 @@
     "patient_number": 113
   },
   {
-    "ID": 218,
+    "ID": 235,
     "flight_number": "EJO256",
     "airline": "איזיג'ט",
     "departure from": "איטליה, מילאנו",
@@ -3304,7 +3290,7 @@
     "patient_number": 115
   },
   {
-    "ID": 219,
+    "ID": 236,
     "flight_number": "UD054",
     "airline": "אייר סיני",
     "departure from": "ישראל, ת\"א",
@@ -3318,7 +3304,7 @@
     "patient_number": 116
   },
   {
-    "ID": 220,
+    "ID": 237,
     "flight_number": "UD054",
     "airline": "אייר סיני",
     "departure from": "מצרים, קהיר",
@@ -3332,7 +3318,7 @@
     "patient_number": 116
   },
   {
-    "ID": 221,
+    "ID": 238,
     "flight_number": "UD054",
     "airline": "אייר סיני",
     "departure from": "ישראל, ת\"א",
@@ -3346,7 +3332,7 @@
     "patient_number": 117
   },
   {
-    "ID": 222,
+    "ID": 239,
     "flight_number": "UD054",
     "airline": "אייר סיני",
     "departure from": "מצרים, קהיר",
@@ -3360,7 +3346,7 @@
     "patient_number": 117
   },
   {
-    "ID": 223,
+    "ID": 240,
     "flight_number": 162,
     "airline": "בריטיש אירוויז",
     "departure from": "ישראל, ת\"א",
@@ -3374,7 +3360,7 @@
     "patient_number": 118
   },
   {
-    "ID": 224,
+    "ID": 241,
     "flight_number": 112,
     "airline": "בריטיש אירוויז",
     "departure from": "ארה\"ב, ניו יורק",
@@ -3388,7 +3374,7 @@
     "patient_number": 118
   },
   {
-    "ID": 225,
+    "ID": 242,
     "flight_number": 165,
     "airline": "בריטיש אירוויז",
     "departure from": "אנגליה, לונדון",
@@ -3402,7 +3388,7 @@
     "patient_number": 118
   },
   {
-    "ID": 226,
+    "ID": 243,
     "flight_number": "PS782",
     "airline": "Ukraine Int. Airlines",
     "departure from": "ישראל, ת\"א",
@@ -3416,7 +3402,7 @@
     "patient_number": 123
   },
   {
-    "ID": 227,
+    "ID": 244,
     "flight_number": "PS231",
     "airline": "Ukraine Int. Airlines",
     "departure from": "אוקראינה, קייב",
@@ -3430,7 +3416,7 @@
     "patient_number": 123
   },
   {
-    "ID": 228,
+    "ID": 245,
     "flight_number": "PS232",
     "airline": "Ukraine Int. Airlines",
     "departure from": "ארה\"ב, ניו יורק",
@@ -3444,7 +3430,7 @@
     "patient_number": 123
   },
   {
-    "ID": 229,
+    "ID": 246,
     "flight_number": "PS777",
     "airline": "Ukraine Int. Airlines",
     "departure from": "אוקראינה, קייב",
@@ -3458,7 +3444,7 @@
     "patient_number": 123
   },
   {
-    "ID": 230,
+    "ID": 247,
     "flight_number": 5860,
     "airline": "אוסטריאן איירליינס",
     "departure from": "ישראל, ת\"א",
@@ -3472,7 +3458,7 @@
     "patient_number": 124
   },
   {
-    "ID": 231,
+    "ID": 248,
     "flight_number": 5903,
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, וינה",
@@ -3486,7 +3472,7 @@
     "patient_number": 124
   },
   {
-    "ID": 232,
+    "ID": 249,
     "flight_number": 5916,
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, איסנבורק",
@@ -3500,7 +3486,7 @@
     "patient_number": 124
   },
   {
-    "ID": 233,
+    "ID": 250,
     "flight_number": 5857,
     "airline": "אוסטריאן איירליינס",
     "departure from": "אוסטריה, וינה",
@@ -3514,7 +3500,7 @@
     "patient_number": 124
   },
   {
-    "ID": 234,
+    "ID": 251,
     "flight_number": "TK664",
     "airline": "טורקיש איירליינס",
     "departure from": "תוניסיה, תוניס",
@@ -3528,7 +3514,7 @@
     "patient_number": 126
   },
   {
-    "ID": 235,
+    "ID": 252,
     "flight_number": "TK0784",
     "airline": "טורקיש איירליינס",
     "departure from": "טורכיה, איסטנבול",
@@ -3542,7 +3528,7 @@
     "patient_number": 126
   },
   {
-    "ID": 236,
+    "ID": 253,
     "flight_number": "6H261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3556,7 +3542,7 @@
     "patient_number": 133
   },
   {
-    "ID": 237,
+    "ID": 254,
     "flight_number": "6H262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3570,7 +3556,7 @@
     "patient_number": 133
   },
   {
-    "ID": 238,
+    "ID": 255,
     "flight_number": "6H261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3584,7 +3570,7 @@
     "patient_number": 137
   },
   {
-    "ID": 239,
+    "ID": 256,
     "flight_number": "6H262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3598,7 +3584,7 @@
     "patient_number": 137
   },
   {
-    "ID": 240,
+    "ID": 257,
     "flight_number": "6H261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3612,7 +3598,7 @@
     "patient_number": 138
   },
   {
-    "ID": 241,
+    "ID": 258,
     "flight_number": "6H262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3626,7 +3612,7 @@
     "patient_number": 138
   },
   {
-    "ID": 242,
+    "ID": 259,
     "flight_number": "6H261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3640,7 +3626,7 @@
     "patient_number": 142
   },
   {
-    "ID": 243,
+    "ID": 260,
     "flight_number": "6H262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3654,7 +3640,7 @@
     "patient_number": 142
   },
   {
-    "ID": 244,
+    "ID": 261,
     "flight_number": "4D054",
     "airline": "אייר סיני",
     "departure from": "מצרים, קהיר",
@@ -3668,7 +3654,7 @@
     "patient_number": 135
   },
   {
-    "ID": 245,
+    "ID": 262,
     "flight_number": "LY22",
     "airline": "אל על",
     "departure from": "ארה\"ב, סן פרנסיסקו",
@@ -3682,7 +3668,7 @@
     "patient_number": 140
   },
   {
-    "ID": 246,
+    "ID": 263,
     "flight_number": "LY22",
     "airline": "אל על",
     "departure from": "ארה\"ב, סן פרנסיסקו",
@@ -3696,7 +3682,7 @@
     "patient_number": 143
   },
   {
-    "ID": 247,
+    "ID": 264,
     "flight_number": "LY316",
     "airline": "אל על",
     "departure from": "אנגליה, לונדון",
@@ -3710,7 +3696,7 @@
     "patient_number": 141
   },
   {
-    "ID": 248,
+    "ID": 265,
     "flight_number": "W94451",
     "airline": "Wizz air",
     "departure from": "אנגליה, לונדון",
@@ -3724,7 +3710,7 @@
     "patient_number": 146
   },
   {
-    "ID": 249,
+    "ID": 266,
     "flight_number": "162BA",
     "airline": "בריטיש-איירווייז",
     "departure from": "ישראל, ת\"א",
@@ -3738,7 +3724,7 @@
     "patient_number": 147
   },
   {
-    "ID": 250,
+    "ID": 267,
     "flight_number": "163BA",
     "airline": "בריטיש-איירווייז",
     "departure from": "אנגליה, לונדון",
@@ -3752,7 +3738,7 @@
     "patient_number": 147
   },
   {
-    "ID": 251,
+    "ID": 268,
     "flight_number": "LY011",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -3766,7 +3752,7 @@
     "patient_number": 150
   },
   {
-    "ID": 252,
+    "ID": 269,
     "flight_number": "LY008",
     "airline": "אל על",
     "departure from": "ארה\"ב, ניו יורק",
@@ -3780,7 +3766,7 @@
     "patient_number": 150
   },
   {
-    "ID": 253,
+    "ID": 270,
     "flight_number": "",
     "airline": "",
     "departure from": "ישראל, ת\"א",
@@ -3794,7 +3780,7 @@
     "patient_number": 153
   },
   {
-    "ID": 254,
+    "ID": 271,
     "flight_number": "GQ421",
     "airline": "סקיי-אקספרס",
     "departure from": "יון, זקינטוס",
@@ -3808,7 +3794,7 @@
     "patient_number": 153
   },
   {
-    "ID": 255,
+    "ID": 272,
     "flight_number": "3928A",
     "airline": "AEGEAN",
     "departure from": "יון, אתונה",
@@ -3822,7 +3808,7 @@
     "patient_number": 153
   },
   {
-    "ID": 256,
+    "ID": 273,
     "flight_number": 454,
     "airline": "VIRGIN",
     "departure from": "ישראל, ת\"א",
@@ -3836,7 +3822,7 @@
     "patient_number": 153
   },
   {
-    "ID": 257,
+    "ID": 274,
     "flight_number": "94451W",
     "airline": "WIZ",
     "departure from": "אנגליה, לונדון",
@@ -3850,7 +3836,7 @@
     "patient_number": 153
   },
   {
-    "ID": 258,
+    "ID": 275,
     "flight_number": "ib3317",
     "airline": "איבריה",
     "departure from": "ישראל, ת\"א",
@@ -3864,7 +3850,7 @@
     "patient_number": 175
   },
   {
-    "ID": 259,
+    "ID": 276,
     "flight_number": "ib3940",
     "airline": "איבריה",
     "departure from": "ספרד, מדריד",
@@ -3878,7 +3864,7 @@
     "patient_number": 175
   },
   {
-    "ID": 260,
+    "ID": 277,
     "flight_number": "ib3943",
     "airline": "איבריה",
     "departure from": "ספרד, טנריף",
@@ -3892,7 +3878,7 @@
     "patient_number": 175
   },
   {
-    "ID": 261,
+    "ID": 278,
     "flight_number": "ib3316",
     "airline": "איבריה",
     "departure from": "ספרד, מדריד",
@@ -3906,7 +3892,7 @@
     "patient_number": 175
   },
   {
-    "ID": 262,
+    "ID": 279,
     "flight_number": "6H 261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3920,7 +3906,7 @@
     "patient_number": 145
   },
   {
-    "ID": 263,
+    "ID": 280,
     "flight_number": "6H 262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3934,7 +3920,7 @@
     "patient_number": 145
   },
   {
-    "ID": 264,
+    "ID": 281,
     "flight_number": "6H 261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3948,7 +3934,7 @@
     "patient_number": 169
   },
   {
-    "ID": 265,
+    "ID": 282,
     "flight_number": "6H 262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3962,7 +3948,7 @@
     "patient_number": 169
   },
   {
-    "ID": 266,
+    "ID": 283,
     "flight_number": "6H 261",
     "airline": "ישראייר",
     "departure from": "ישראל, ת\"א",
@@ -3976,7 +3962,7 @@
     "patient_number": 186
   },
   {
-    "ID": 267,
+    "ID": 284,
     "flight_number": "6H 262",
     "airline": "ישראייר",
     "departure from": "גרמניה, מינכן",
@@ -3990,7 +3976,7 @@
     "patient_number": 186
   },
   {
-    "ID": 268,
+    "ID": 285,
     "flight_number": "LY321",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -4004,7 +3990,7 @@
     "patient_number": 157
   },
   {
-    "ID": 269,
+    "ID": 286,
     "flight_number": 1525,
     "airline": "איזיג'ט",
     "departure from": "צרפת, מרסיי",
@@ -4018,7 +4004,7 @@
     "patient_number": 157
   },
   {
-    "ID": 270,
+    "ID": 287,
     "flight_number": "LY552",
     "airline": "אל על",
     "departure from": "בולגריה, סופיה",
@@ -4032,7 +4018,7 @@
     "patient_number": 184
   },
   {
-    "ID": 271,
+    "ID": 288,
     "flight_number": "LY315",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -4046,7 +4032,7 @@
     "patient_number": 185
   },
   {
-    "ID": 272,
+    "ID": 289,
     "flight_number": "LY318",
     "airline": "אל על",
     "departure from": "אנגליה, לונדון",
@@ -4060,7 +4046,7 @@
     "patient_number": 185
   },
   {
-    "ID": 273,
+    "ID": 290,
     "flight_number": "IZ293",
     "airline": "ארקיע",
     "departure from": "ישראל, ת\"א",
@@ -4074,7 +4060,7 @@
     "patient_number": 192
   },
   {
-    "ID": 274,
+    "ID": 291,
     "flight_number": "IZ294",
     "airline": "ארקיע",
     "departure from": "בולגריה, פלובדיב",
@@ -4088,7 +4074,7 @@
     "patient_number": 192
   },
   {
-    "ID": 275,
+    "ID": 292,
     "flight_number": "LY319",
     "airline": "אל על",
     "departure from": "ישראל, ת\"א",
@@ -4102,7 +4088,7 @@
     "patient_number": 130
   },
   {
-    "ID": 276,
+    "ID": 293,
     "flight_number": "LY326",
     "airline": "אל על",
     "departure from": "צרפת, פריז",
@@ -4116,7 +4102,7 @@
     "patient_number": 130
   },
   {
-    "ID": 277,
+    "ID": 294,
     "flight_number": "4D54",
     "airline": "Air Sinai",
     "departure from": "מצרים, קהיר",
@@ -4130,7 +4116,7 @@
     "patient_number": 156
   },
   {
-    "ID": 278,
+    "ID": 295,
     "flight_number": "4D54",
     "airline": "Air Sinai",
     "departure from": "מצרים, קהיר",
@@ -4144,7 +4130,7 @@
     "patient_number": 160
   },
   {
-    "ID": 279,
+    "ID": 296,
     "flight_number": "OS860",
     "airline": "Austrian Airlines",
     "departure from": "ישראל, ת\"א",
@@ -4158,7 +4144,7 @@
     "patient_number": 159
   },
   {
-    "ID": 280,
+    "ID": 297,
     "flight_number": "OS911",
     "airline": "Austrian Airlines",
     "departure from": "אוסטריה, וינה",
@@ -4172,7 +4158,7 @@
     "patient_number": 159
   },
   {
-    "ID": 281,
+    "ID": 298,
     "flight_number": "OS904",
     "airline": "Austrian Airlines",
     "departure from": "אוסטריה, אינסבורק",
@@ -4186,7 +4172,7 @@
     "patient_number": 159
   },
   {
-    "ID": 282,
+    "ID": 299,
     "flight_number": "OS861",
     "airline": "Austrian Airlines",
     "departure from": "אוסטריה, וינה",
@@ -4198,5 +4184,481 @@
     "description": "טיסת המשך מוינה לתל אביב, שעת המראה 13:05 שעת נחיתה 17:35 מס' טיסה OS861.",
     "health_gov_link": "https://t.me/MOHreport/3070",
     "patient_number": 159
+  },
+  {
+    "ID": 300,
+    "flight_number": "001LY",
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "00:30",
+    "destination": "ארה\"ב, ניו יורק",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "28/2/20",
+    "description": "28.2 : 00:30 טיסה מתל אביב לניו-יורק עם חברת אלעל 001LY",
+    "health_gov_link": "https://t.me/MOHreport/3047",
+    "patient_number": 163
+  },
+  {
+    "ID": 301,
+    "flight_number": "LY1008",
+    "airline": "אל על",
+    "departure from": "ארה\"ב, ניו יורק",
+    "departure time": "",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "16:00",
+    "departure day": "8/3/20",
+    "description": "8.3: מניו יורק טיסה LY1008 נחיתה בנתב\"ג 16:00",
+    "health_gov_link": "https://t.me/MOHreport/3047",
+    "patient_number": 163
+  },
+  {
+    "ID": 302,
+    "flight_number": "ЕZY 2084",
+    "airline": "איזיג'ט",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "15:00",
+    "destination": "אנגליה, לונדון",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "5/3/20",
+    "description": "5.3: מתל אביב ללונדון בטיסה ЕZY 2084 שהמריאה בשעה 15:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 165
+  },
+  {
+    "ID": 303,
+    "flight_number": "ЕZY 2083",
+    "airline": "איזיג'ט",
+    "departure from": "אנגליה, לונדון",
+    "departure time": "07:00",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "10/3/20",
+    "description": "10.3: מלונדון לתל אביב בטיסה ЕZY 2083 שהמריאה ב7:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 165
+  },
+  {
+    "ID": 304,
+    "flight_number": 323,
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "09:00",
+    "destination": "צרפת, פריז",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "1/3/20",
+    "description": "1.3: טיסה מספר 323 של חברת אל על בשעה 09:00 מתל אביב לפריז.",
+    "health_gov_link": "https://t.me/MOHreport/3051",
+    "patient_number": 172
+  },
+  {
+    "ID": 305,
+    "flight_number": 324,
+    "airline": "אל על",
+    "departure from": "צרפת, פריז",
+    "departure time": "14:45",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "20:00",
+    "departure day": "8/3/20",
+    "description": "8.3: טיסה של חברת אל על מספר 324 מפריז שיצאה בשעה 14:45 ונחתה בתל אביב בשעה 20:00.",
+    "health_gov_link": "https://t.me/MOHreport/3051",
+    "patient_number": 172
+  },
+  {
+    "ID": 306,
+    "flight_number": "LY 2524",
+    "airline": "אל-על",
+    "departure from": "צ'כיה,פראג",
+    "departure time": "22:00",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "2/3/20",
+    "arrival time": "03:00",
+    "departure day": "1/3/20",
+    "description": "1.3 : טיסה מפראג לתל אביב עם חברת אל-על LY 2524, המראה ב-22:00, נחיתה בנתב\"ג בשעה 03:00 (2.3).",
+    "health_gov_link": "https://t.me/MOHreport/3082",
+    "patient_number": 164
+  },
+  {
+    "ID": 307,
+    "flight_number": "4D 054",
+    "airline": "Air Sinai",
+    "departure from": "מצרים, קהיר",
+    "departure time": "",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "11:00",
+    "departure day": "5/3/20",
+    "description": "5.3 : טיסה מספר 4D 054 של חברה Air Sinai נחיתה בנתב\"ג ב-11:00.",
+    "health_gov_link": "https://t.me/MOHreport/3083",
+    "patient_number": 168
+  },
+  {
+    "ID": 308,
+    "flight_number": "LYM83N96",
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "",
+    "destination": "",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "1/3/20",
+    "description": "1.3: טיסת אל על המריאה בשעה 05:50 . LYM83N96",
+    "health_gov_link": "https://t.me/MOHreport/3084",
+    "patient_number": 132
+  },
+  {
+    "ID": 309,
+    "flight_number": "LY326",
+    "airline": "אל על",
+    "departure from": "צרפת, פריז",
+    "departure time": "22:20",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "9/3/20",
+    "arrival time": "04:20",
+    "departure day": "8/3/20",
+    "description": "8.3: טיסת אל על LY326 מנמל התעופה שארל דה גול, המריאה בשעה 22:20, נחתה בת\"א בשעה 04:20 (9.3).",
+    "health_gov_link": "https://t.me/MOHreport/3084",
+    "patient_number": 132
+  },
+  {
+    "ID": 310,
+    "flight_number": "PC 786",
+    "airline": "פגסוס איירליינס",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "05:30",
+    "destination": "תורכיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "07:45",
+    "departure day": "29/2/20",
+    "description": "29.2: טיסה מתל אביב לאיסטנבול בחברת פגסוס איירליינס, מספרה PC 786, המראה ב 5:30, נחיתה ב 7:45.",
+    "health_gov_link": "https://t.me/MOHreport/3086",
+    "patient_number": 136
+  },
+  {
+    "ID": 311,
+    "flight_number": "PC 953",
+    "airline": "פגסוס איירליינס",
+    "departure from": "תורכיה, איסטנבול",
+    "departure time": "12:30",
+    "destination": "שוויץ, ז'נבה",
+    "arrival day": "",
+    "arrival time": "15:50",
+    "departure day": "29/2/20",
+    "description": "29.2 : טיסה מאיסטנבול לז'נבה בחברת פגסוס איירליינס, מספרה PC 953, המראה ב0 12:3, נחיתה ב 15:50.",
+    "health_gov_link": "https://t.me/MOHreport/3086",
+    "patient_number": 136
+  },
+  {
+    "ID": 312,
+    "flight_number": "PC 954",
+    "airline": "פגסוס איירליינס",
+    "departure from": "שוויץ, ז'נבה",
+    "departure time": "16:35",
+    "destination": "תורכיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "19:35",
+    "departure day": "7/3/20",
+    "description": "7.3: טיסה מז'נבה לאיסטנבול בחברת פגסוס איירליינס, מספרה PC 954, המראה ב 16:35, נחיתה ב 19:35.",
+    "health_gov_link": "https://t.me/MOHreport/3086",
+    "patient_number": 136
+  },
+  {
+    "ID": 313,
+    "flight_number": "PC 779",
+    "airline": "פגסוס איירליינס",
+    "departure from": "תורכיה, איסטנבול",
+    "departure time": "22:15",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "8/3/20",
+    "arrival time": "00:15",
+    "departure day": "7/3/20",
+    "description": "7.3: טיסה מאיסטנבול לתל אביב בחברת פגסוס איירליינס, מספרה PC 779, המראה ב 22:15, נתיחה בארץ ב 24:15 (8.3).",
+    "health_gov_link": "https://t.me/MOHreport/3086",
+    "patient_number": 136
+  },
+  {
+    "ID": 314,
+    "flight_number": "TK785",
+    "airline": "טורקיש",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "",
+    "destination": "תורכיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "13:50",
+    "departure day": "6/3/20",
+    "description": "6.3 : טיסת טורקיש TK785 מתל אביב לאיסטנבול שנחתה בשעה 13:50.",
+    "health_gov_link": "https://t.me/MOHreport/3092",
+    "patient_number": 191
+  },
+  {
+    "ID": 315,
+    "flight_number": "TK1925",
+    "airline": "טורקיש",
+    "departure from": "תורכיה, איסטנבול",
+    "departure time": "",
+    "destination": "שוויץ, בזל",
+    "arrival day": "",
+    "arrival time": "16:55",
+    "departure day": "6/3/20",
+    "description": "6.3 : טיסת טורקיש TK1925 מאיסטנבול לבזל שנחתה בשעה 16:55.",
+    "health_gov_link": "https://t.me/MOHreport/3092",
+    "patient_number": 191
+  },
+  {
+    "ID": 316,
+    "flight_number": "PC942",
+    "airline": "פגסוס",
+    "departure from": "שוויץ, בזל",
+    "departure time": "",
+    "destination": "תורכיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "21:30",
+    "departure day": "9/3/20",
+    "description": "9.3 : טיסת פגסוס PC942 מבזל לאיסטבול שנחתה בשעה 21:30.",
+    "health_gov_link": "https://t.me/MOHreport/3092",
+    "patient_number": 191
+  },
+  {
+    "ID": 317,
+    "flight_number": "PC0779",
+    "airline": "פגסוס",
+    "departure from": "תורכיה, איסטנבול",
+    "departure time": "",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "10/3/20",
+    "arrival time": "00:10",
+    "departure day": "9/3/20",
+    "description": "9.3 : טיסת פגסוס PC0779 מאיסטנבול לתל אביב שנחתה בשעה 00:10 ( 10.3).",
+    "health_gov_link": "https://t.me/MOHreport/3092",
+    "patient_number": 191
+  },
+  {
+    "ID": 318,
+    "flight_number": "",
+    "airline": "",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "",
+    "destination": "צרפת, פריז",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "27/2/20",
+    "description": "27.2 טיסה מתל אביב לפריז",
+    "health_gov_link": "https://t.me/MOHreport/3046",
+    "patient_number": 158
+  },
+  {
+    "ID": 319,
+    "flight_number": "1120AF",
+    "airline": "אייר-פראנס",
+    "departure from": "צרפת, פריז",
+    "departure time": "15:55",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "23:25",
+    "departure day": "3/3/20",
+    "description": "3.3 : 15:55: טיסה מפריז לתל אביב עם חברת אייר-פראנס 1120AF , נחיתה בנתב\"ג 23:25.",
+    "health_gov_link": "https://t.me/MOHreport/3046",
+    "patient_number": 158
+  },
+  {
+    "ID": 320,
+    "flight_number": "ЕZY 2084",
+    "airline": "איזיג'ט",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "15:00",
+    "destination": "אנגליה, לונדון",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "5/3/20",
+    "description": "5.3: מתל אביב ללונדון בטיסה ЕZY 2084 שהמריאה בשעה 15:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 166
+  },
+  {
+    "ID": 321,
+    "flight_number": "ЕZY 2083",
+    "airline": "איזיג'ט",
+    "departure from": "אנגליה, לונדון",
+    "departure time": "07:00",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "10/3/20",
+    "description": "10.3: מלונדון לתל אביב בטיסה ЕZY 2083 שהמריאה ב7:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 166
+  },
+  {
+    "ID": 322,
+    "flight_number": "ЕZY 2084",
+    "airline": "איזיג'ט",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "15:00",
+    "destination": "אנגליה, לונדון",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "5/3/20",
+    "description": "5.3: מתל אביב ללונדון בטיסה ЕZY 2084 שהמריאה בשעה 15:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 167
+  },
+  {
+    "ID": 323,
+    "flight_number": "ЕZY 2083",
+    "airline": "איזיג'ט",
+    "departure from": "אנגליה, לונדון",
+    "departure time": "07:00",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "10/3/20",
+    "description": "10.3: מלונדון לתל אביב בטיסה ЕZY 2083 שהמריאה ב7:00.",
+    "health_gov_link": "https://t.me/MOHreport/3048",
+    "patient_number": 167
+  },
+  {
+    "ID": 324,
+    "flight_number": "SU 502",
+    "airline": "אירופלוט",
+    "departure from": "רוסיה, מוסקווה",
+    "departure time": "08:20",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "11/3/20",
+    "arrival time": "11:50",
+    "departure day": "11/3/20",
+    "description": "10-11.3: טיסת אירופלוט SU 502 מבולוניה לת״א עם עצירת ביניים במוסקבה.שעת המראה בבולוניה 23:00 (10.3), נחיתה במוסקבה ב-11.3 בשעה 05:15. המראה ממוסקבה 11.3 בשעה 08:20, שעת נחיתה בתל אביב 11:50.",
+    "health_gov_link": "https://t.me/MOHreport/3093",
+    "patient_number": 193
+  },
+  {
+    "ID": 325,
+    "flight_number": "LY353",
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "06:00",
+    "destination": "גרמניה, מינכן",
+    "arrival day": "",
+    "arrival time": "09:30",
+    "departure day": "1/3/20",
+    "description": "1.3: אל על מתל אביב למינכן, שעת המראה 06:00 ושעת נחיתה 09:30, מספר טיסה LY353.",
+    "health_gov_link": "https://t.me/MOHreport/3098",
+    "patient_number": 194
+  },
+  {
+    "ID": 326,
+    "flight_number": "LY352",
+    "airline": "אל על",
+    "departure from": "גרמניה, מינכן",
+    "departure time": "21:30",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "9/3/20",
+    "arrival time": "02:30",
+    "departure day": "8/3/20",
+    "description": "8.3: אל על ממינכן לתל אביב, שעת המראה 21:30, נחיתה ב- 02:30 (9.3).",
+    "health_gov_link": "https://t.me/MOHreport/3098",
+    "patient_number": 194
+  },
+  {
+    "ID": 327,
+    "flight_number": "LY385",
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "06:10",
+    "destination": "איטליה, רומא",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "21/2/20",
+    "description": "21.2 טיסת אל על LY385 בשעה 06:10 מת\"א לרומא.",
+    "health_gov_link": "https://t.me/MOHreport/3103",
+    "patient_number": 205
+  },
+  {
+    "ID": 328,
+    "flight_number": "TK864",
+    "airline": "טורקיש איירלינס",
+    "departure from": "איטליה, רומא",
+    "departure time": "12:30",
+    "destination": "תורכיה, איסטנבול",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "28/2/20",
+    "description": "28.2 מרומא לאיסטנבול טיסת טורקיש איירלינס TK864 בשעה 12:30.",
+    "health_gov_link": "https://t.me/MOHreport/3103",
+    "patient_number": 205
+  },
+  {
+    "ID": 329,
+    "flight_number": "TK866",
+    "airline": "טורקיש איירלינס",
+    "departure from": "תורכיה, איסטנבול",
+    "departure time": "20:25",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "28/2/20",
+    "description": "טיסת המשך בשעה 20:25 מאיסטנבול לת\"א טיסת טורקיש איירלינס TK866, נחיתה בשעה 21:40.",
+    "health_gov_link": "https://t.me/MOHreport/3103",
+    "patient_number": 205
+  },
+  {
+    "ID": 330,
+    "flight_number": "ЕZY 2084",
+    "airline": "איזיג'ט",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "15:00",
+    "destination": "אנגליה, לונדון",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "5/3/20",
+    "description": "5.3: מתל אביב ללונדון בטיסה ЕZY 2084 שהמריאה בשעה 15:00.",
+    "health_gov_link": "https://t.me/MOHreport/3110",
+    "patient_number": 206
+  },
+  {
+    "ID": 331,
+    "flight_number": "ЕZY 2083",
+    "airline": "איזיג'ט",
+    "departure from": "אנגליה, לונדון",
+    "departure time": "07:00",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "10/3/20",
+    "description": "10.3: מלונדון לתל אביב בטיסה ЕZY 2083 שהמריאה ב7:00.",
+    "health_gov_link": "https://t.me/MOHreport/3110",
+    "patient_number": 206
+  },
+  {
+    "ID": 332,
+    "flight_number": "LY323",
+    "airline": "אל על",
+    "departure from": "ישראל, ת\"א",
+    "departure time": "09:00",
+    "destination": "צרפת, פריז",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "5/3/20",
+    "description": "5.3.20 : ת\"א – פריז בשעה 9:00 טיסת אל על מס' LY323.",
+    "health_gov_link": "https://t.me/MOHreport/3111",
+    "patient_number": 207
+  },
+  {
+    "ID": 333,
+    "flight_number": "LY324",
+    "airline": "אל על",
+    "departure from": "צרפת, פריז",
+    "departure time": "14:45",
+    "destination": "ישראל, ת\"א",
+    "arrival day": "",
+    "arrival time": "",
+    "departure day": "9/3/20",
+    "description": "9.3.20 : פריז – ת\"א בשעה 14:45 טיסת אל על מס' LY324.",
+    "health_gov_link": "https://t.me/MOHreport/3111",
+    "patient_number": 207
   }
 ]

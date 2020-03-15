@@ -85,7 +85,17 @@
                     משרד הבריאות: 5400*
                 </a>
             </li>
+
+            <li class="wonder-nav-li">
+                <a style="" class="nav-link sick-update update-pop-up-click text-right">
+                    <img class="sick-btn" style=""
+                         src="assets/images/alarm.svg" alt="icon">
+                    מצב החולים בישראל
+                </a>
+            </li>
+
         </ul>
+
 
     </nav>
     <!--========== navbar end ==========-->
@@ -93,11 +103,9 @@
     <!--========== map ==========-->
     <div id="map-wrapper" dir="rtl">
         <div id="map"></div>
-        <div class="zoom-to-location">
-            <button id="zoom-to-location-button">
-                <img id="zoom-to-location-icon" src="assets/images/map-icons/gps.svg" alt="zoom-to-location">
-            </button>
-        </div>
+        <a id="zoom-to-location-button">
+            <img id="zoom-to-location-icon" src="assets/images/map-icons/gps.svg" alt="zoom-to-location">
+        </a>
         <div class="map-reader">
             <img alt="map-reader" src="assets/images/map-icons/mapReader.svg" class="map-reader-img" width="350" />
         </div>
@@ -192,6 +200,7 @@
                             <option value="Ar">عربيه</option>
                             <!-- <option value="Ra">רוסית</option> -->
                             <!-- <option value="Am">אמהרית</option> -->
+                             <option value="Ru">Русский</option>
                             </select>
                         </div>
                     </div>
@@ -256,7 +265,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="embedCoronaMapLongTitle">הטמיעו קוד באתר</h5>
-                    <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -296,8 +305,52 @@
             <img id='map-reader-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
 
         </div>
+    </div>
+
+    <!--========== update-pop-up ==========-->
+    <div style="z-index: 99999;" class="modal fadeIn" id="update" tabindex="-1" role="dialog" aria-labelledby="update" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="sick-update-titles">
+                        <h5 id="sick-update-title" class="modal-title text-right">מצב החולים בישראל</h5>
+                        <div class="modal-subtitle">
+                            <span id="last-updated-title-sick" style="font-weight: 600;">עדכון אחרון:</span>
+                            <span id="last-updated-time-sick"></span>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <h1 id="number-of-sick-people" style="font-weight: 600;font-size: 18px;"></h1>
+                                <h3 id="number-of-sick-people-text" style="font-weight: 900;font-size: 34px;"></h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h1 id="number-of-recovered-people" style="font-weight: 600;font-size: 18px;"></h1>
+                                <h3 id="number-of-recovered-people-text" style="font-weight: 900;font-size: 34px;"></h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h1 id="number-of-deaths" style="font-weight: 600;font-size: 18px;"></h1>
+                                <h3 id="number-of-deaths-text" style="font-weight: 900;font-size: 34px;"></h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h1 id="number-of-people-in-quarantine" style="font-weight: 600;font-size: 18px;"></h1>
+                                <h3 id="number-of-people-in-quarantine-text" style="font-weight: 900;font-size: 34px;"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
+    <!--========== update-pop-up end ==========-->
+
     <!--========== map-reader-pop-up end ==========-->
     <footer class="footer">
         <a style="" class="nav-link map-updated">

@@ -19,21 +19,20 @@ const zoomToLocation = () => {
   }
 
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      toggleGPSIconColorOnClick();
+    toggleGPSIconColorOnClick();
+    navigator.geolocation.getCurrentPosition(position => {
       const pos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
 
-      infoWindow.setPosition(pos);
       map.setCenter(pos);
       map.setZoom(13);
 
       currentPositionMarker = new google.maps.Marker({
         position: pos,
-        animation: google.maps.Animation.DROP,
         map,
+        zIndex: 5000
       });
       currentPositionMarker.setMap(map);
     }, () => {
@@ -65,12 +64,25 @@ const toggleGPSIconColorOnClick = () => {
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
+
+  const ISRAEL_BOUNDS = {
+    north: 36.440135095195288,
+    south: 25.937822999999995,
+    west: 30.65619800118771,
+    east: 39.000322999999995,
+  };
   map = new google.maps.Map(document.getElementById('map'), {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 8 : 7,
+    minZoom: 7,
+    maxZoom: 14,
     gestureHandling: "greedy",
     streetViewControl: false,
-    zoomControl: false
+    zoomControl: false,
+    restriction: {
+      latLngBounds: ISRAEL_BOUNDS,
+      strictBounds: false
+    },
   });
   infoWindow = new google.maps.InfoWindow;
   map.addListener('mousedown', function () {

@@ -21,11 +21,6 @@ h5:after {
     -moz-box-shadow:inset 0 3px 30px #FFCF4A99;
 }
 
-#modalCloseButton {
-    position: absolute;
-    left: 0;
-}
-
 .btn-copy-clipboard, .btn-copy-clipboard-success{
     font-weight: 700;
     letter-spacing: 0.05em;

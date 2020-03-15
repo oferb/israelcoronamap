@@ -1,49 +1,52 @@
-
-.search-box{
-    margin-right: inherit;
-    padding-left: 10px;
-    width: 86%;
-    order: 1;
-    margin: inherit;
+.search-box {
+  margin-right: inherit;
+  padding-left: 10px;
+  width: 86%;
+  order: 1;
+  margin: inherit;
 }
 
-
- .search-box-dekstop {
-    text-align: center;
-    margin: 75px auto 5px;
-
-  }
+.search-box-dekstop {
+  text-align: center;
+  margin: 75px auto 5px;
+}
 
 .flight-list {
-    margin-top: 50px;
+  margin-top: 50px;
 }
+
 .card {
-    width: 100% !important;
+  width: 100% !important;
 }
+
 .card-contant-box{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
 }
+
 .card-text{
   display: flex;
 }
+
 .flight-detailes{
   margin-right: 10px;
 }
 
 .patient-number{
-    width: 100px;
+  width: 100px;
 }
 
 .time-text {
-    width: 100px;
+  width: 100px;
 }
+
 .card-title-box {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .card-title{
   font-weight: bold;
 }
@@ -52,10 +55,10 @@
   font-weight: 600;
 }
 
-  .search-input{
-      width:400px !important;
-      margin: 0px !important;
-  }
+.search-input{
+  width:400px !important;
+  margin: 0px !important;
+}
 
 .flip-icon {
   -moz-transform: scaleX(-1);
@@ -67,19 +70,17 @@
 }
 
 @media(min-width:768px) {
-    
 .search-box-dekstop {
-  width: 400px;  
+  width: 400px;
   margin: 75px auto 5px;
-
 }
 
   .flight-list {
-     margin: auto;
+    margin: auto;
     width: fit-content;
     height: 81vh;
-    overflow-y: auto;
   }
+
   .card {
     width: 25rem !important;
   }
