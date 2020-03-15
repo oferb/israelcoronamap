@@ -19,7 +19,7 @@ const zoomToLocation = () => {
   }
 
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(position => {
+    navigator.geolocation.getCurrentPosition(function (position) {
       toggleGPSIconColorOnClick();
       const pos = {
         lat: position.coords.latitude,
@@ -78,22 +78,6 @@ function initMap() {
       infoWindow.close();
       window.history.pushState("Corona map", "Corona map", "/");
     }
-  });
-  previousCenters[0] = map.getCenter();
-  previousCenters[1] = map.getCenter();
-  previousCenters[2] = map.getCenter();
-  map.addListener('center_changed', function() {
-    const screenDistance = dist(map.getBounds().getNorthEast(), map.getBounds().getSouthWest());
-    for (let i = 0; i < previousCenters.length; i++) {
-      const movementDistance = dist(previousCenters[i], map.getCenter());
-      if (movementDistance / screenDistance > 1) {
-        map.setCenter(previousCenters[0]);
-        break;
-      }
-    }
-    previousCenters[2] = previousCenters[1];
-    previousCenters[1] = previousCenters[0];
-    previousCenters[0] = map.getCenter();
   });
   init();
 }
@@ -164,7 +148,7 @@ const updateMap = () => {
       zIndex
     });
     const direction = getDirection();
-    
+
     const contentStringCal = `<div
                                 id="infowindow" 
                                 class="infowindow ${direction === 'ltr'? 'text-left': ''}"
@@ -335,17 +319,17 @@ const pointKey = point => `${point.lat}-${point.lon}`;
 const isToday = (unixDate) => {
   const today = new Date();
   const date = new Date(unixDate * 1000);
-  return date.getDate() == today.getDate() &&
-    date.getMonth() == today.getMonth() &&
-    date.getFullYear() == today.getFullYear();
+  return date.getDate() === today.getDate() &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear();
 };
 
 const isYesterday = (unixDate) => {
   const today = new Date();
   const date = new Date(unixDate * 1000);
-  return date.getDate() == today.getDate() - 1 &&
-    date.getMonth() == today.getMonth() &&
-    date.getFullYear() == today.getFullYear();
+  return date.getDate() === today.getDate() - 1 &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear();
 };
 
 const getData = () => {
