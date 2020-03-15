@@ -20,19 +20,17 @@ const zoomToLocation = () => {
 
   if (navigator.geolocation) {
     toggleGPSIconColorOnClick();
-    navigator.geolocation.getCurrentPosition(function (position) {
+    navigator.geolocation.getCurrentPosition(position => {
       const pos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
 
-      infoWindow.setPosition(pos);
       map.setCenter(pos);
       map.setZoom(13);
 
       currentPositionMarker = new google.maps.Marker({
         position: pos,
-        animation: google.maps.Animation.DROP,
         map,
         zIndex: 5000
       });
@@ -68,10 +66,10 @@ const toggleGPSIconColorOnClick = () => {
 function initMap() {
 
   const ISRAEL_BOUNDS = {
-    north: 35.440135095195288,
+    north: 34.440135095195288,
     south: 27.937822999999995,
-    west: 28.65619800118771,
-    east: 42.000322999999995,
+    west: 31.65619800118771,
+    east: 37.000322999999995,
   };
   map = new google.maps.Map(document.getElementById('map'), {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
