@@ -9,6 +9,8 @@ const setTranslation = language => {
     translation = He;
   } else if ( language === 'Ar'){
     translation = Ar;
+  } else if (language === 'Ru') {
+    translation = Ru;
   }
   else {
     translation = En;
