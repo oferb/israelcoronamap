@@ -140,8 +140,8 @@ html, body {
   left: 0;
   bottom: 0;
   box-shadow: 0 3px 30px #00000029;
-  margin-left: 5px;
-  margin-bottom: 3px;
+  margin-left: 7px;
+  margin-bottom: 50px;
 }
 
 @media(max-width:768px) {
@@ -163,13 +163,8 @@ html, body {
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-bottom: 50px;
     margin-left: 7px;
-    padding: 8px 3px;
-    border-radius: 50%;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,.3), 0 0 10px 0 rgba(0,0,0,.3);
-    background: #fff;
-    color: #4c4c4c;
+    margin-bottom: 100px;
 }
 
 #zoom-to-location-button {
@@ -179,3 +174,9 @@ html, body {
     border: none;
     cursor: pointer;
 }
+
+#zoom-to-location-button > img {
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+
