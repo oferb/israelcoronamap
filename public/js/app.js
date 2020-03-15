@@ -18,7 +18,6 @@ const zoomToLocation = () => {
   }
 
   if (navigator.geolocation) {
-    //showLoader();
     navigator.geolocation.getCurrentPosition(position => {
       toggleGPSIconColorOnClick();
       const pos = {
@@ -49,10 +48,6 @@ const zoomToLocation = () => {
 const handleLocationError = () => {
   // TODO: Show a toast
   showOriginalIcon();
-};
-
-const showLoader = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-loader.svg';
 };
 
 const showOriginalIcon = () => {
