@@ -67,7 +67,7 @@ function initMap() {
 
   const ISRAEL_BOUNDS = {
     north: 36.440135095195288,
-    south: 27.937822999999995,
+    south: 25.937822999999995,
     west: 30.65619800118771,
     east: 39.000322999999995,
   };
