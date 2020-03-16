@@ -10,6 +10,8 @@ def getPoints(language):
         reader = csv.DictReader(f)
         for row in reader:
             place_name = row[labelName].strip()
+            if not place_name:
+                place_name = row['label hebrew'].strip()
             location = row['position'].split(',')
             lat = float(location[0].strip())
             lon = float(location[1].strip())
@@ -20,6 +22,8 @@ def getPoints(language):
                 date + " " + t_start, '%d/%m/%Y %H:%M')
             end_time = datetime.strptime(date + " " + t_end, '%d/%m/%Y %H:%M')
             description = row[descriptionName].strip()
+            if not description:
+                description = row['description hebrew'].strip()            
             link = row['link'].strip()
             publication_time = ''
             if 'www.health.gov.il' in link:

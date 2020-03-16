@@ -5,6 +5,13 @@ let currentPositionMarker = null;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
+const isOnEmbedRoute = window.location.pathname.includes('embed');
+let gpsIconPath = 'assets/images/map-icons/gps.svg';
+let gpsBlueIconPath = 'assets/images/map-icons/gps-blue.svg';
+if (isOnEmbedRoute) {
+  gpsIconPath = `../${gpsIconPath}`;
+  gpsBlueIconPath = `../${gpsBlueIconPath}`;
+}
 
 const init = () => {
   initTranslation();
@@ -51,13 +58,13 @@ const handleLocationError = () => {
 };
 
 const showOriginalIcon = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  document.getElementById('zoom-to-location-icon').src = gpsIconPath;
 };
 
 const toggleGPSIconColorOnClick = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  document.getElementById('zoom-to-location-icon').src = gpsBlueIconPath;
   setTimeout(() => {
-    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+    document.getElementById('zoom-to-location-icon').src = gpsIconPath;
   }, 3000);
 };
 
@@ -164,7 +171,7 @@ const updateMap = () => {
 
     const contentStringCal = `<div
                                 id="infowindow" 
-                                class="infowindow ${direction === 'ltr'? 'text-left': ''}"
+                                class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
                               >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
@@ -189,8 +196,8 @@ const updateMap = () => {
 
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
-        let params = `/?id=${id}`
-        const language =getQueryParam('language');
+        let params = `/?id=${id}`;
+        const language = getQueryParam('language');
         if(language){
           params += `&language=${language}`;
         }
