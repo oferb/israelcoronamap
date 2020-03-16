@@ -2,7 +2,7 @@
 const isOnEmbed = window.location.pathname.includes('embed');
 
 const initUpdatedTime = () => {
-  const updatedTime = "16.3.2020, 22:40";
+  const updatedTime = "17.3.2020, 00:55";
   if (isOnEmbed) {
     document.getElementById("last-updated-time-embed").textContent = updatedTime;
   } else {
@@ -11,8 +11,8 @@ const initUpdatedTime = () => {
 };
 
 const sickDataUpdate = () => {
-  const updatedTime = "16.3.2020, 15:18";
-  const numberOfSickPeople = 250;
+  const updatedTime = "17.3.2020, 00:55";
+  const numberOfSickPeople = 298;
   const numberOfRecovered = 4;
   const numberOfDeaths = 0;
   const numberOfPeopleInQuarantine = '50,337';
