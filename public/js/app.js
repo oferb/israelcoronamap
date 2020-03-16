@@ -5,6 +5,13 @@ let currentPositionMarker = null;
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
 let previousCenters = [];
+const isOnEmbedRoute = window.location.pathname.includes('embed');
+let gpsIconPath = 'assets/images/map-icons/gps.svg';
+let gpsBlueIconPath = 'assets/images/map-icons/gps-blue.svg';
+if (isOnEmbedRoute) {
+  gpsIconPath = `../${gpsIconPath}`;
+  gpsBlueIconPath = `../${gpsBlueIconPath}`;
+}
 
 const init = () => {
   initTranslation();
@@ -51,13 +58,13 @@ const handleLocationError = () => {
 };
 
 const showOriginalIcon = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+  document.getElementById('zoom-to-location-icon').src = gpsIconPath;
 };
 
 const toggleGPSIconColorOnClick = () => {
-  document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps-blue.svg';
+  document.getElementById('zoom-to-location-icon').src = gpsBlueIconPath;
   setTimeout(() => {
-    document.getElementById('zoom-to-location-icon').src = 'assets/images/map-icons/gps.svg';
+    document.getElementById('zoom-to-location-icon').src = gpsIconPath;
   }, 3000);
 };
 
