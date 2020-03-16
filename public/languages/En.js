@@ -2,7 +2,7 @@ const En = {
   patientNumber:  'Patient number',
   visitingTimes: 'Visiting times',
   visitingTime: 'Visiting time',
-  publishedDate: 'Publication Date.',
+  publishedDate: 'Publication Date',
   timeLeftForStayingInSolitary: 'Time left for quarantine',
   expire14DaysAfterExposure: 'Expires 14 Days After exposure',
   linkToTheMinistryOfHealthPublication:'Link to the Ministry Of Health publication',
