@@ -18,7 +18,13 @@ const En = {
   embedCodes: 'Embed The Code',
   about: 'About',
   contactUse: 'Contact Us',
-  selectLanguage: 'Select Language'
+  selectLanguage: 'Select Language',
+  stateOfPatientsInIsrael: 'Patients State In Israel',
+  numberOfSickPeople: 'Sick Patients',
+  numberOfRecoveredPeople: 'Recovered',
+  numberOfDeaths: 'Deaths',
+  numberOfPeopleInQuarantine: 'People In Quarantine',
+  sickUpdateTitle: 'Patients State In Israel',
 
 };
 

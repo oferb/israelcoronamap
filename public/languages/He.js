@@ -23,6 +23,7 @@ const He = {
   numberOfSickPeople: 'מספר החולים:',
   numberOfRecoveredPeople: 'מספר המחלימים:',
   numberOfDeaths: 'מספר המתים:',
-  numberOfPeopleInQuarantine: 'מספר מבודדי בית:'
+  numberOfPeopleInQuarantine: 'מספר מבודדי בית:',
+  stateOfPatientsInIsrael: 'מצב החולים בישראל',
 };
 
