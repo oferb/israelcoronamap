@@ -1464,6 +1464,14 @@ max-width: 300px;
 }
 
 
+@media (max-width: 350px) {
+    .sick-btn{
+        width: 8px;
+    }
 
+    .sick-update{
+        font-size: 10px;
+    }
+}
 
 
