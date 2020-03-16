@@ -444,6 +444,7 @@ const changeLanguage = (language) => {
     params += `&id=${id}`;
   }
   window.history.pushState("Corona map", "Corona map", params);
+  $('#language-popup').modal('toggle');
   setLanguage(language);
   setTranslation(language);
   setTranslationInHTML();
