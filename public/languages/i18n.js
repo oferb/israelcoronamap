@@ -52,9 +52,9 @@ const setTranslationInHTML = () => {
     'numberOfPeopleInQuarantine'
   );
   setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
-  setTranslationByID('select-language', 'selectLanguage')
-  setTranslationByID('select-language-header', 'selectLanguage')
-  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael')
+  setTranslationByID('select-language', 'selectLanguage');
+  setTranslationByID('select-language-header', 'selectLanguage');
+  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
   setMapReader();
 };
 
@@ -78,7 +78,9 @@ const getLanguage = () => {
 
 const setMapReader = () => {
   const language = localStorage.getItem('language');
-  var mapReaderContainer = document.getElementById('map-reader');
+  let mapReaderContainer = document.getElementById('map-reader');
+  if (!mapReaderContainer) return;
+
   mapReaderContainer.innerHTML = `
   <img alt="map-reader" src="assets/images/map-icons/mapReader${language}.svg" class="map-reader-img" width="350" />
   `;
@@ -108,7 +110,7 @@ const initTranslation = () => {
     }
   }
   console.log('language', language);
-  
+
   localStorage.setItem('language', language);
   setTranslation(language);
   setTranslationInHTML();
