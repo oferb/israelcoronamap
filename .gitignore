@@ -109,6 +109,10 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# python
+.pytest_cache/
+__pycache__/
+.pyc
+
 # IntelliJ IDEA
 .idea
-
