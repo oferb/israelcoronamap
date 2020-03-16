@@ -181,7 +181,7 @@ const updateMap = () => {
 
     const contentStringCal = `<div
                                 id="infowindow" 
-                                class="infowindow ${direction === 'ltr'? 'text-left': ''}"
+                                class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
                               >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
@@ -206,8 +206,8 @@ const updateMap = () => {
 
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
-        let params = `/?id=${id}`
-        const language =getQueryParam('language');
+        let params = `/?id=${id}`;
+        const language = getQueryParam('language');
         if(language){
           params += `&language=${language}`;
         }
