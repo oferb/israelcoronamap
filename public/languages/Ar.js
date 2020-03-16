@@ -18,7 +18,12 @@ const Ar = {
   embedCodes: 'التعليمات البرمجية للتضمين',
   about: 'حول',
   contactUse: 'تواصل معنا',
-  selectLanguage: 'اختر اللغة'
-
+  selectLanguage: 'اختر اللغة',
+  stateOfPatientsInIsrael: 'دولة المرضى في إسرائيل',
+  numberOfSickPeople: 'Sick Patients',
+  numberOfRecoveredPeople: 'Recovered',
+  numberOfDeaths: 'Deaths',
+  numberOfPeopleInQuarantine: 'People In Quarantine',
+  sickUpdateTitle: 'Patients State In Israel',
 };
 

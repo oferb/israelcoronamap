@@ -262,11 +262,11 @@ const updateCountdown = currPoint => {
   const element = document.getElementById(`quarantine-${key}`);
   if (!element) return;
 
-  element.innerHTML = "<b>זמן נותר לשוהים בבידוד: </b><br><span class=\"red-text\">" + daysLeft + " ימים " + hoursLeft + " שעות "
-    + minutesLeft + " דקות " + secondsLeft + " שניות </span>";
+  element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}: </b><br><span class="red-text"> ${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
+    ${minutesLeft} ${i18n('minutes')} ${secondsLeft} ${i18n('secondes')}</span>`;
 
   if (distance < 0) {
-    element.innerHTML = "<b>זמן נותר לשוהים בבידוד:</b><br><span class=\"green-text\"> תמו 14 ימים ממועד החשיפה</span>";
+    element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}:</b><br><span class="green-text"> ${i18n('expire14DaysAfterExposure')}</span>`;
     clearInterval(intervalId);
   }
 

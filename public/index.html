@@ -92,7 +92,9 @@
                 <a style="" class="nav-link sick-update update-pop-up-click text-right">
                     <img class="sick-btn" style=""
                          src="assets/images/alarm.svg" alt="icon">
-                    מצב החולים בישראל
+                         <span id="state-of-patients-israel">
+                             מצב החולים בישראל
+                        </span>
                 </a>
             </li>
 
@@ -198,9 +200,12 @@
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link language-click">
                             <img class="side-bar-img" style="margin-left:20px; "
                                  src="assets/images/side-bar-icons/language.svg" alt="icon">
-                            בחרו שפה
+                                 <span id="select-language">
+                                     בחרו שפה
+                                 </span>
                         </a>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -355,13 +360,13 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">בחרו שפה</h5>
+                    <h5 class="modal-title" id="select-language-header">בחרו שפה</h5>
                     <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body text-right">
-                        <a class="dropdown-item" href="#" onclick="changeLanguage('he')">עברית</a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('He')">עברית</a>
                         <a class="dropdown-item" href="#" onclick="changeLanguage('En')">English</a>
                         <a class="dropdown-item" href="#" onclick="changeLanguage('Ar')">عربيه</a>
                 </div>

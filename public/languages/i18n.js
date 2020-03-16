@@ -52,6 +52,9 @@ const setTranslationInHTML = () => {
     'numberOfPeopleInQuarantine'
   );
   setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
+  setTranslationByID('select-language', 'selectLanguage')
+  setTranslationByID('select-language-header', 'selectLanguage')
+  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael')
   setMapReader();
 };
 
