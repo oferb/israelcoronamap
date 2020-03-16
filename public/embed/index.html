@@ -1,139 +1,126 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <!---========== scripts ==========-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153454345-1"></script>
+        <script async>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
 
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153454345-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+            gtag('config', 'UA-153454345-1');
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
 
-        gtag('config', 'UA-153454345-1');
-    </script>
-    <meta charset="utf-8">
+        <title>מפת הקורונה של ישראל</title>
 
-    <title>מפת הקורונה של ישראל</title>
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <!--========== web tags ==========-->
+        <meta name="description" content="מפת הקורונה של ישראל" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
 
-    <!--========== web tags ==========-->
-    <meta name="description" content="מפת הקורונה של ישראל" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
+        <!--========== social media tags ==========-->
+        <meta property="og:title" content="מפת הקורונה של ישראל" />
+        <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://israelcoronamap.co.il/" />
+        <meta property="og:image" content="https://israelcoronamap.co.il/assets/images/social-img.png" />
 
-    <!--========== social media tags ==========-->
-    <meta property="og:title" content="מפת הקורונה של ישראל" />
-    <meta property="og:description" content="בדקו היכן ומתי שהו חולי קורונה מאומתים בישראל, בקלות ובמהירות באמצעות מפת הקורונה של ישראל" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://israelcoronamap.co.il/" />
-    <meta property="og:image" content="https://israelcoronamap.co.il/assets/images/social-img.png" />
+        <!--========== Google fonts ==========-->
+        <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
 
-    <!--========== Google fonts ==========-->
-    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+        <!--========== css files ==========-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!--========== css files ==========-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--========== page-specific files ==========-->
+        <link rel="stylesheet" href="../css/embed.css">
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/map.css" />
+        <script async src="../languages/He.js"></script>
+        <script async src="../languages/En.js"></script>
+        <script async src="../languages/Ar.js"></script>
+        <script async  src="../languages/i18n.js"></script>
+        <script async src="../js/app.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap"></script>
+    </head>
 
-    <!--========== page-specific files ==========-->
-    <link rel="stylesheet" href="../css/embed.css">
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/map.css" />
-    <script src="../languages/He.js"></script>
-    <script src="../languages/En.js"></script>
-    <script src="../languages/Ar.js"></script>
-    <script src="../languages/i18n.js"></script>
-    <script src="../js/app.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap"></script>
+    <body dir="rtl">
 
-</head>
+        <nav class="wonder-nav">
+            <ul class="wonder-nav-ul">
+                <li class="nav-logo">
+                    <a target="_blank" class="powered-by-icm-logo" href="https://israelcoronamap.co.il/">
+                        <img src="../assets/images/powered-by-icm.svg" width="200" height="18" alt="israel-corona-map-logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-<body dir="rtl">
-
-<nav class="wonder-nav">
-    <ul class="wonder-nav-ul">
-        <li class="nav-logo">
-            <a target="_blank" class="powered-by-icm-logo" href="https://israelcoronamap.co.il/">
-                <img src="../assets/images/powered-by-icm.svg" width="200" height="18" alt="israel-corona-map-logo">
+        <div id="map-wrapper" dir="rtl">
+            <div id="map"></div>
+            <a id="zoom-to-location-button">
+                <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
             </a>
-        </li>
-    </ul>
-</nav>
-
-<div id="map-wrapper" dir="rtl">
-    <div id="map"></div>
-    <a id="zoom-to-location-button">
-        <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
-    </a>
-    <div class="map-reader">
-        <img alt="map-reader" src="../assets/images/map-icons/mapReader.svg" class="map-reader-img" width="350" />
-    </div>
-</div>
-
-<!--========== update-pop-up ==========-->
-<div style="z-index: 99999;" class="modal fadeIn" id="update" tabindex="-1" role="dialog" aria-labelledby="update" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="sick-update-titles">
-                    <h5 class="modal-title text-right">מצב החולים בישראל</h5>
-                    <div class="modal-subtitle">
-                        <span id="last-updated-title-sick" style="font-weight: 600;"></span>
-                        <span id="last-updated-time-sick"></span>
-                    </div>
-                </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-md-3">
-                            <h1 id="number-of-sick-people" style="font-weight: 600;font-size: 18px;"></h1>
-                            <h3 id="number-of-sick-people-text" style="font-weight: 900;font-size: 34px;"></h3>
-                        </div>
-                        <div class="col-md-3">
-                            <h1 id="number-of-recovered-people" style="font-weight: 600;font-size: 18px;"></h1>
-                            <h3 id="number-of-recovered-people-text" style="font-weight: 900;font-size: 34px;"></h3>
-                        </div>
-                        <div class="col-md-3">
-                            <h1 id="number-of-deaths" style="font-weight: 600;font-size: 18px;"></h1>
-                            <h3 id="number-of-deaths-text" style="font-weight: 900;font-size: 34px;"></h3>
-                        </div>
-                        <div class="col-md-3">
-                            <h1 id="number-of-people-in-quarantine" style="font-weight: 600;font-size: 18px;"></h1>
-                            <h3 id="number-of-people-in-quarantine-text" style="font-weight: 900;font-size: 34px;"></h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="map-reader">
+                <img alt="map-reader" src="../assets/images/map-icons/mapReader.svg" class="map-reader-img" width="350" />
             </div>
         </div>
-    </div>
 
-</div>
-<!--========== update-pop-up end ==========-->
+        <!--========== update-pop-up ==========-->
+        <div style="z-index: 99999;" class="modal fadeIn" id="update" tabindex="-1" role="dialog" aria-labelledby="update" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <di class="modal-content">
+                        <div class="sick-update-titles">
+                            <h5 class="modal-title text-right">מצב החולים בישראל</h5>
+                            <div class="modal-subtitle">
+                                <span id="last-updated-title-sick" style="font-weight: 600;"></span>
+                                <span id="last-updated-time-sick"></span>
+                            </div>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <h1 id="number-of-sick-people" style="font-weight: 600;font-size: 18px;"></h1>
+                                    <h3 id="number-of-sick-people-text" style="font-weight: 900;font-size: 34px;"></h3>
+                                </div>
+                                <div class="col-md-3">
+                                    <h1 id="number-of-recovered-people" style="font-weight: 600;font-size: 18px;"></h1>
+                                    <h3 id="number-of-recovered-people-text" style="font-weight: 900;font-size: 34px;"></h3>
+                                </div>
+                                <div class="col-md-3">
+                                    <h1 id="number-of-deaths" style="font-weight: 600;font-size: 18px;"></h1>
+                                    <h3 id="number-of-deaths-text" style="font-weight: 900;font-size: 34px;"></h3>
+                                </div>
+                                <div class="col-md-3">
+                                    <h1 id="number-of-people-in-quarantine" style="font-weight: 600;font-size: 18px;"></h1>
+                                    <h3 id="number-of-people-in-quarantine-text" style="font-weight: 900;font-size: 34px;"></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<footer class="footer">
-    <a style="" class="nav-link map-updated">
-        <span id="last-updated-text-embed" style="font-weight: 600;">עדכון אחרון:</span>
-        <span id="last-updated-time-embed"></span>
-    </a>
-</footer>
+        </div>
+        <!--========== update-pop-up end ==========-->
 
-<!--========== header end ==========-->
-
-
-
-    <!---========== scripts ==========-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../js/scripts.js"></script>
-    <script src="../js/strings.js"></script>
-
-</body>
-
+        <footer class="footer">
+            <a class="nav-link map-updated">
+                <span id="last-updated-text-embed" style="font-weight: 600;">עדכון אחרון:</span>
+                <span id="last-updated-time-embed"></span>
+            </a>
+        </footer>
+    </body>
 </html>
 
 <!-- Made With ♥ By Yossi Molcho -->
