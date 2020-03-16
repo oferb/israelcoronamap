@@ -12,7 +12,7 @@ const initUpdatedTime = () => {
 
 const sickDataUpdate = () => {
   const updatedTime = "16.3.2020, 15:18";
-  const numberOfSickPeople = 344;
+  const numberOfSickPeople = 250;
   const numberOfRecovered = 4;
   const numberOfDeaths = 0;
   const numberOfPeopleInQuarantine = '50,337';
