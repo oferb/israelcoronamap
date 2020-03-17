@@ -19,12 +19,12 @@ const En = {
   about: 'About',
   contactUse: 'Contact Us',
   selectLanguage: 'Select Language',
-  stateOfPatientsInIsrael: 'Patients stats',
+  stateOfPatientsInIsrael: 'Patient statistics',
   numberOfSickPeople: 'Sick Patients',
   numberOfRecoveredPeople: 'Recovered',
   numberOfDeaths: 'Deaths',
   numberOfPeopleInQuarantine: 'People In Quarantine',
-  sickUpdateTitle: 'Patients stats',
+  sickUpdateTitle: 'Patient statistics',
 
 };
 
