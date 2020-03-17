@@ -2,7 +2,7 @@ const En = {
   patientNumber:  'Patient number',
   visitingTimes: 'Visiting times',
   visitingTime: 'Visiting time',
-  publishedDate: 'Publication Date.',
+  publishedDate: 'Publication Date',
   timeLeftForStayingInSolitary: 'Time left for quarantine',
   expire14DaysAfterExposure: 'Expires 14 Days After exposure',
   linkToTheMinistryOfHealthPublication:'Link to the Ministry Of Health publication',
@@ -19,12 +19,12 @@ const En = {
   about: 'About',
   contactUse: 'Contact Us',
   selectLanguage: 'Select Language',
-  stateOfPatientsInIsrael: 'Patients State In Israel',
+  stateOfPatientsInIsrael: 'Patients stats',
   numberOfSickPeople: 'Sick Patients',
   numberOfRecoveredPeople: 'Recovered',
   numberOfDeaths: 'Deaths',
   numberOfPeopleInQuarantine: 'People In Quarantine',
-  sickUpdateTitle: 'Patients State In Israel',
+  sickUpdateTitle: 'Patients stats',
 
 };
 

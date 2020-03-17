@@ -262,11 +262,11 @@ const updateCountdown = currPoint => {
   const element = document.getElementById(`quarantine-${key}`);
   if (!element) return;
 
-  element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}: </b><br><span class="red-text"> ${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
+  element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}</b><br><span class="red-text"> ${daysLeft} ${i18n('days')} ${hoursLeft} ${i18n('hours')}
     ${minutesLeft} ${i18n('minutes')} ${secondsLeft} ${i18n('secondes')}</span>`;
 
   if (distance < 0) {
-    element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}:</b><br><span class="green-text"> ${i18n('expire14DaysAfterExposure')}</span>`;
+    element.innerHTML = `<b>${i18n('timeLeftForStayingInSolitary')}</b><br><span class="green-text"> ${i18n('expire14DaysAfterExposure')}</span>`;
     clearInterval(intervalId);
   }
 
@@ -343,13 +343,13 @@ const processData = () => {
       firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
-      firstPoint.text += `<b>${i18n('visitingTimes')}: </b><br>`;
+      firstPoint.text += `<b>${i18n('visitingTimes')} </b><br>`;
       for (let i = 0; i < points.length; i++) {
         firstPoint.text += '<li>' + _textulize_visit_datetime(points[i]);
       }
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>${i18n('visitingTime')}: </b>${_textulize_visit_datetime(firstPoint)}<br>`;
+      firstPoint.text += `<b>${i18n('visitingTime')} </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
     firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
 
