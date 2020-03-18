@@ -5,9 +5,13 @@ A website that shows you whereabouts of people with verified Coronavirus. Data i
 Code is VanillaJS, so no framework required!
 
 ## How to run locally
-from the *public* dir, run
+from the *public* dir, run:
 ```shell script
 python -m SimpleHTTPServer
+```
+or for python3:
+```shell script
+python3 -m http.server
 ```
 and navigate to http://localhost:8000.
 
