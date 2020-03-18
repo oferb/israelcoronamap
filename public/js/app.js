@@ -4,7 +4,7 @@ let currentPositionMarker = null;
 
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
-let previousCenters = [];
+
 const isOnEmbedRoute = window.location.pathname.includes('embed');
 let gpsIconPath = 'assets/images/map-icons/gps.svg';
 let gpsBlueIconPath = 'assets/images/map-icons/gps-blue.svg';
@@ -205,7 +205,7 @@ const updateMap = () => {
         if (daysAgo) {
           params += `&daysAgo=${daysAgo}`;
         }
-        const url = isOnEmbedRoute ? 'embed/' : '';
+
         window.history.pushState("Corona map", "Corona map", params);
 
         updateCountdown(currPoint);
@@ -287,7 +287,7 @@ const setDaysAgo = (daysAgo) => {
   if(language){
     params += `&language=${language}`;
   }
-  const url = isOnEmbedRoute ? 'embed/' : '';
+
   window.history.pushState("Corona map", "Corona map", params);
   updateMap();
 };
@@ -410,7 +410,7 @@ const getData = (initMode = false) => {
       govData = processData(data);
       addFlightsMapPoint();
       // Map is filtered by default
-      if (initMode && !isOnEmbedRoute) {
+      if (initMode) {
         setDaysAgo(14);
       }
       updateMap();
@@ -439,7 +439,7 @@ const changeLanguage = (language) => {
   if (daysAgo) {
     params += `&daysAgo=${daysAgo}`;
   }
-  const url = isOnEmbedRoute ? 'embed/' : '';
+
   window.history.pushState("Corona map", "Corona map", params);
   $('#language-popup').modal('toggle');
   setLanguage(language);
