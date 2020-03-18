@@ -317,6 +317,26 @@ border-radius:5px;
 height: 300px;
 }
 
+.time-filter-btn{
+    background-color: #f9f9f9!important;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 5px!important;
+    outline: none!important;
+    font-weight: 600;
+}
+.active{
+    background-color: #00cf8a!important;
+    box-shadow:  0px 3px 30px #00CF8A33!important;;
+    border-radius: 5px!important;
+    outline: none!important;
+    color: white;
+    font-weight: 600;
+}
+.btn:not(:disabled):not(.disabled):active:focus,
+.btnfocus, .btn.focus{
+    box-shadow:  0px 3px 30px #00CF8A33!important;
+}
+
 
 
 /*========== links end ==========*/

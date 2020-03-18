@@ -15,7 +15,6 @@ if (isOnEmbedRoute) {
 
 const init = () => {
   initTranslation();
-  getButtonElements();
   getData();
 };
 
@@ -141,7 +140,7 @@ const updateMap = () => {
 
   const reqPointId = getQueryParam('id');
   for (let j = 0; j < govData.length; j++) {
-    
+
     const currPoint = govData[j];
     if (getTimestamp(currPoint.t_end) < daysAgoDate) {
       continue;
@@ -393,49 +392,24 @@ const getData = () => {
     .then((result) => {
       data = result;
       govData = processData(data);
-      
       addFlightsMapPoint();
+      // Map is filtered by default
+      setDaysAgo(14);
       updateMap();
     });
 };
 
 // eslint-disable-next-line no-unused-vars
 const selectFilter = (filterType) => {
-  threeDaysButton = document.getElementById('three-days-button');
-  allDaysButton = document.getElementById('all-days-button');
-  oneWeekButton = document.getElementById('one-weeks-button');
-  twoWeekButton = document.getElementById('two-weeks-button');
-  threeDaysButton.style.background = '#ffffff';
-  allDaysButton.style.background = '#ffffff';
-  oneWeekButton.style.background = '#ffffff';
-  twoWeekButton.style.background = '#ffffff';
   switch (filterType) {
   case 'twoWeeks':
     setDaysAgo(14);
-    twoWeekButton.style.background = '#FFCF4A';
-    break;
-  case 'week':
-    setDaysAgo(7);
-    oneWeekButton.style.background = '#FFCF4A';
-    break;
-  case '3Days':
-    setDaysAgo(3);
-    threeDaysButton.style.background = '#FFCF4A';
     break;
   case 'all':
     setDaysAgo(10000);
-    allDaysButton.style.background = '#FFCF4A';
     break;
   }
 };
-
-const getButtonElements = () => {
-  threeDaysButton = document.getElementById('three-days-button');
-  allDaysButton = document.getElementById('all-days-button');
-  oneWeekButton = document.getElementById('one-weeks-button');
-  twoWeekButton = document.getElementById('two-weeks-button');
-};
-
 
 const changeLanguage = (language) => {
   let params = `/?language=${language}`;

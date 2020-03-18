@@ -62,9 +62,14 @@
 
 <div id="map-wrapper" dir="rtl">
     <div id="map"></div>
-    <a id="zoom-to-location-button">
-        <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
-    </a>
+    <div class="floating-buttons">
+        <a class="floating-button" id="filters-pop-up-click">
+            <img src="../assets/images/map-icons/filters.svg" alt="icon">
+        </a>
+        <a class="floating-button" id="zoom-to-location-button">
+            <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
+        </a>
+    </div>
     <div class="map-reader">
         <img alt="map-reader" src="../assets/images/map-icons/mapReaderHe.svg" class="map-reader-img" width="350" />
     </div>
@@ -110,9 +115,41 @@
             </div>
         </div>
     </div>
-
 </div>
 <!--========== update-pop-up end ==========-->
+
+<!--========== filters pop-up ==========-->
+<div style="z-index: 99999;" class="modal fadeIn" id="filters" tabindex="-1" role="dialog" aria-labelledby="filters" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="filter-modal-title">פילטרים</h5>
+                <button id="filter-modal-close-button" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row text-right">
+                        <div class="col-12 " style="padding-right:0;">
+                            <h3 style="font-weight: 600;font-size: 20px;">סננו מפה לפי:</h3>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons" style="margin-top:5px;">
+                                <label class="btn time-filter-btn active" onclick="selectFilter('twoWeeks')">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked> 14 יום אחרונים
+                                </label>
+                                &nbsp;&nbsp;&nbsp;
+                                <label class="btn time-filter-btn" onclick="selectFilter('all')">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> כל הזמנים
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--========== filters pop-up end ==========-->
 
 <footer class="footer">
     <a style="" class="nav-link map-updated">
