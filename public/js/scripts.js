@@ -62,12 +62,18 @@ $(document).ready(() => {
   });
 
   $('#zoom-to-location-button').click(zoomToLocation);
+
   // open language pop-up
   $('.language-click').click(function () {
-  
+
     $('#language-popup').modal('toggle');
-  
+
   });
+
+  $('#filters-pop-up-click').click(() => {
+    $('#filters').modal('show');
+  });
+
 });
 
 
