@@ -83,8 +83,7 @@ function initMap() {
     minZoom: 7,
     maxZoom: 14,
     gestureHandling: "greedy",
-    streetViewControl: false,
-    zoomControl: false,
+    disableDefaultUI: true,
     restriction: {
       latLngBounds: ISRAEL_BOUNDS,
       strictBounds: false
@@ -98,6 +97,16 @@ function initMap() {
       window.history.pushState("Corona map", "Corona map", urlWithoutID);
     }
   });
+
+  google.maps.event.addDomListener(document.getElementById('zoomInButton'), 'click', function() {
+    map.setZoom(map.getZoom() + 1);
+  });
+
+  // Setup the click event listener - zoomOut
+  google.maps.event.addDomListener(document.getElementById('zoomOutButton'), 'click', function() {
+    map.setZoom(map.getZoom() - 1);
+  });
+
   init();
 }
 
