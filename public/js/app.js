@@ -15,7 +15,7 @@ if (isOnEmbedRoute) {
 
 const init = () => {
   initTranslation();
-  getData();
+  getData(true);
 };
 
 const zoomToLocation = () => {
@@ -94,7 +94,8 @@ function initMap() {
   map.addListener('mousedown', function () {
     if (infoWindow) {
       infoWindow.close();
-      window.history.pushState("Corona map", "Corona map", "/");
+      const urlWithoutID = removeURLParameter(window.location.href, 'id');
+      window.history.pushState("Corona map", "Corona map", urlWithoutID);
     }
   });
   init();
@@ -200,6 +201,11 @@ const updateMap = () => {
         if(language){
           params += `&language=${language}`;
         }
+        const daysAgo = parseInt(getQueryParam('daysAgo'));
+        if (daysAgo) {
+          params += `&daysAgo=${daysAgo}`;
+        }
+        const url = isOnEmbedRoute ? 'embed/' : '';
         window.history.pushState("Corona map", "Corona map", params);
 
         updateCountdown(currPoint);
@@ -272,7 +278,17 @@ const updateCountdown = currPoint => {
 };
 
 const setDaysAgo = (daysAgo) => {
-  window.history.pushState("Corona map", "Corona map", "/?daysAgo=" + daysAgo);
+  let params = `?daysAgo=${daysAgo}`;
+  const id = parseInt(getQueryParam('id'));
+  if(id){
+    params += `&id=${id}`;
+  }
+  const language = getQueryParam('language');
+  if(language){
+    params += `&language=${language}`;
+  }
+  const url = isOnEmbedRoute ? 'embed/' : '';
+  window.history.pushState("Corona map", "Corona map", params);
   updateMap();
 };
 
@@ -383,7 +399,7 @@ const isYesterday = (unixDate) => {
     date.getFullYear() === today.getFullYear();
 };
 
-const getData = () => {
+const getData = (initMode = false) => {
   const language = getLanguage();
   fetch(`/data/data${language}.json`)
     .then((response) => {
@@ -394,7 +410,9 @@ const getData = () => {
       govData = processData(data);
       addFlightsMapPoint();
       // Map is filtered by default
-      setDaysAgo(14);
+      if (initMode && !isOnEmbedRoute) {
+        setDaysAgo(14);
+      }
       updateMap();
     });
 };
@@ -417,10 +435,38 @@ const changeLanguage = (language) => {
   if(id){
     params += `&id=${id}`;
   }
+  const daysAgo = getQueryParam('daysAgo');
+  if (daysAgo) {
+    params += `&daysAgo=${daysAgo}`;
+  }
+  const url = isOnEmbedRoute ? 'embed/' : '';
   window.history.pushState("Corona map", "Corona map", params);
   $('#language-popup').modal('toggle');
   setLanguage(language);
   setTranslation(language);
   setTranslationInHTML();
   getData();
+};
+
+const removeURLParameter = (url, parameter) => {
+  //prefer to use l.search if you have a location/link object
+  const urlparts = url.split('?');
+  if (urlparts.length >= 2) {
+
+    const prefix = encodeURIComponent(parameter) + '=';
+    const pars = urlparts[1].split(/[&;]/g);
+
+    //reverse iteration as may be destructive
+    for (let i = pars.length; i-- > 0;) {
+      //idiom for string.startsWith
+      if (pars[i].lastIndexOf(prefix, 0) !== -1) {
+        pars.splice(i, 1);
+      }
+    }
+
+    url = urlparts[0] + '?' + pars.join('&');
+    return url;
+  } else {
+    return url;
+  }
 };

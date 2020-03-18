@@ -148,15 +148,15 @@ html, body {
     left: 0;
     bottom: 0;
     margin-left: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 93px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100px;
 }
 
 .floating-button {
     cursor: pointer;
+    margin: 5px 0;
 }
 
 .floating-button > img {
