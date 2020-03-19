@@ -14,7 +14,8 @@ if (isOnEmbedRoute) {
 }
 
 const init = () => {
-  initTranslation();
+  initializeLanguage();
+  setTranslationInHTML()
   getData(true);
 };
 
@@ -118,11 +119,6 @@ const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
 
-const getQueryParam = (name) => {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  return urlParams.get(name);
-};
 
 const clearMarkers = () => {
   for (let i = 0; i < markersArray.length; i++) {
@@ -410,8 +406,11 @@ const isYesterday = (unixDate) => {
 
 const getData = (initMode = false) => {
   const language = getLanguage();
+  console.log('language:', language);
+  
   fetch(`/data/data${language}.json`)
     .then((response) => {
+      
       return response.json();
     })
     .then((result) => {
@@ -478,4 +477,40 @@ const removeURLParameter = (url, parameter) => {
   } else {
     return url;
   }
+};
+
+
+const setTranslationInHTML = () => {
+  setTranslationByID('last-updated-text', 'lastUpdatedIn');
+  setTranslationByID('magen-david-adom', 'magenDavidAdom');
+  setTranslationByID('health-ministry', 'healthMinistry');
+  setTranslationByID('magen-david-adom-mobile', 'magenDavidAdom');
+  setTranslationByID('health-ministry-mobile', 'healthMinistry');
+  setTranslationByID('search-for-flights', 'searchForFlights');
+  setTranslationByID('embed-code', 'embedCodes');
+  setTranslationByID('about', 'about');
+  setTranslationByID('contact-use', 'contactUse');
+  setTranslationByID('sick-update-title', 'sickUpdateTitle');
+  setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
+  setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
+  setTranslationByID('number-of-deaths', 'numberOfDeaths');
+  setTranslationByID(
+    'number-of-people-in-quarantine',
+    'numberOfPeopleInQuarantine'
+  );
+  setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
+  setTranslationByID('select-language', 'selectLanguage');
+  setTranslationByID('select-language-header', 'selectLanguage');
+  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
+  setMapReader();
+};
+
+const setMapReader = () => {
+  const language = localStorage.getItem('language');
+  let mapReaderContainer = document.getElementById('map-reader');
+  if (!mapReaderContainer) return;
+
+  mapReaderContainer.innerHTML = `
+  <img alt="map-reader" src="assets/images/map-icons/mapReader${language}.svg" class="map-reader-img" width="350" />
+  `;
 };

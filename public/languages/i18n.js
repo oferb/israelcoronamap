@@ -33,31 +33,6 @@ const getDirection = () => {
   }
 };
 
-const setTranslationInHTML = () => {
-  setTranslationByID('last-updated-text', 'lastUpdatedIn');
-  setTranslationByID('magen-david-adom', 'magenDavidAdom');
-  setTranslationByID('health-ministry', 'healthMinistry');
-  setTranslationByID('magen-david-adom-mobile', 'magenDavidAdom');
-  setTranslationByID('health-ministry-mobile', 'healthMinistry');
-  setTranslationByID('search-for-flights', 'searchForFlights');
-  setTranslationByID('embed-code', 'embedCodes');
-  setTranslationByID('about', 'about');
-  setTranslationByID('contact-use', 'contactUse');
-  setTranslationByID('sick-update-title', 'sickUpdateTitle');
-  setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
-  setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
-  setTranslationByID('number-of-deaths', 'numberOfDeaths');
-  setTranslationByID(
-    'number-of-people-in-quarantine',
-    'numberOfPeopleInQuarantine'
-  );
-  setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
-  setTranslationByID('select-language', 'selectLanguage');
-  setTranslationByID('select-language-header', 'selectLanguage');
-  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
-  setMapReader();
-};
-
 const setTranslationByID = (id, text) => {
   const el = document.getElementById(id);
   if (el) {
@@ -75,22 +50,16 @@ const getLanguage = () => {
   return lang ? lang : 'He';
 };
 
-
-const setMapReader = () => {
-  const language = localStorage.getItem('language');
-  let mapReaderContainer = document.getElementById('map-reader');
-  if (!mapReaderContainer) return;
-
-  mapReaderContainer.innerHTML = `
-  <img alt="map-reader" src="assets/images/map-icons/mapReader${language}.svg" class="map-reader-img" width="350" />
-  `;
+const getQueryParam = (name) => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  return urlParams.get(name);
 };
 
-const initTranslation = () => {
+const initializeLanguage = () => {
   let language = 'He';
   if (window.location.pathname.includes('embed')) {
     setTranslation(language);
-    setTranslationInHTML();
     return;
   }
 
@@ -109,9 +78,8 @@ const initTranslation = () => {
       window.history.pushState('Corona map', 'Corona map', params);
     }
   }
-  console.log('language', language);
 
   localStorage.setItem('language', language);
   setTranslation(language);
-  setTranslationInHTML();
+  return;
 };

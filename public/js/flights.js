@@ -1,6 +1,11 @@
 let flights = [];
 
-const init = () => {
+const initFlights = () => {
+  getData();
+  initializeLanguage();
+};
+
+const getData =() =>{
   fetch('/data/flightsData.json')
     .then((response) => {
       return response.json();
@@ -10,7 +15,7 @@ const init = () => {
     }).then(() => {
       renderList(flights);
     });
-};
+}
 
 const createList = (flightsList) => {
   let strHtml = '<div>';
@@ -83,4 +88,28 @@ const renderList = (flights) => {
   flightListEl.innerHTML = list;
 };
 
-init();
+const setTranslationInHTML = () => {
+  setTranslationByID('last-updated-text', 'lastUpdatedIn');
+  setTranslationByID('magen-david-adom', 'magenDavidAdom');
+  setTranslationByID('health-ministry', 'healthMinistry');
+  // setTranslationByID('magen-david-adom-mobile', 'magenDavidAdom');
+  // setTranslationByID('health-ministry-mobile', 'healthMinistry');
+  // setTranslationByID('search-for-flights', 'searchForFlights');
+  // setTranslationByID('embed-code', 'embedCodes');
+  // setTranslationByID('about', 'about');
+  // setTranslationByID('contact-use', 'contactUse');
+  // setTranslationByID('sick-update-title', 'sickUpdateTitle');
+  // setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
+  // setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
+  // setTranslationByID('number-of-deaths', 'numberOfDeaths');
+  // setTranslationByID(
+  //   'number-of-people-in-quarantine',
+  //   'numberOfPeopleInQuarantine'
+  // );
+  // setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
+  // setTranslationByID('select-language', 'selectLanguage');
+  // setTranslationByID('select-language-header', 'selectLanguage');
+  // setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
+};
+
+initFlights();
