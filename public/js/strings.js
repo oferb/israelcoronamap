@@ -11,9 +11,9 @@ const initUpdatedTime = () => {
 };
 
 const sickDataUpdate = () => {
-  const updatedTime = "18.3.2020, 22:50";
-  const numberOfSickPeople = 433;
-  const numberOfRecovered = 11;
+  const updatedTime = "19.3.2020, 10:00";
+  const numberOfSickPeople = 529;
+  const numberOfRecovered = 12;
   const numberOfDeaths = 0;
   const numberOfPeopleInQuarantine = '50,337';
   document.getElementById("number-of-sick-people-text").textContent = numberOfSickPeople;
