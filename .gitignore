@@ -112,3 +112,5 @@ dist
 # IntelliJ IDEA
 .idea
 
+data-gen/data.txt
+data-gen/locations.txt
