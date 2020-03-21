@@ -11,7 +11,7 @@ const ar = {
   hours:'ساعات',
   minutes:'دقائق',
   secondes: 'ثواني',
-  betweenTheHours: 'بين الساعات',
+  betweenTheHours: '',
   'last-updated-text': ':آخر تحديث في',
   'magen-david-adom': 'نجمة داود الحمراء: 101',
   'health-ministry': 'وزارة الصحة: 5400*',
