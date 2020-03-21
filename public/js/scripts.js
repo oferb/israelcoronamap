@@ -43,6 +43,13 @@ $(document).ready(() => {
 
   $('.update-pop-up-click').click(function () {
 
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'SickPeoplePopUp',
+      eventAction: 'Click',
+      eventLabel: 'Open Sick People Pop-Up'
+    });
+
     $('#update').modal('show');
 
   });
@@ -66,11 +73,26 @@ $(document).ready(() => {
   // open language pop-up
   $('.language-click').click(function () {
 
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'SwitchLanguage',
+      eventAction: 'Click',
+      eventLabel: 'Open Language Pop-Up'
+    });
+
     $('#language-popup').modal('toggle');
 
   });
 
   $('#filters-pop-up-click').click(() => {
+
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'OpenFilters',
+      eventAction: 'Click',
+      eventLabel: 'Open Filters Modal'
+    });
+
     $('#filters').modal('show');
   });
 

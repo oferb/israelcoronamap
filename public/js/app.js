@@ -19,6 +19,14 @@ const init = () => {
 };
 
 const zoomToLocation = () => {
+
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'ZoomToLocation',
+    eventAction: 'Click',
+    eventLabel: 'Zoom to current position'
+  });
+
   // clear previous marker
   if (currentPositionMarker) {
     currentPositionMarker.setMap(null);
