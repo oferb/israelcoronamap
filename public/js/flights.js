@@ -2,6 +2,10 @@ let flights = [];
 
 const init = () => {
   initLanguage();
+  $("#flight-list").attr("dir", langDirection);
+  $("#search-input-dekstop").attr("dir", langDirection);
+  $("#search-input-dekstop").attr("placeholder", i18n('flightSearchPlaceholder'));
+  
   fetch('/data/flightsData.json')
     .then((response) => {
       return response.json();
@@ -16,29 +20,29 @@ const init = () => {
 const createList = (flightsList) => {
   let strHtml = '<div>';
   flightsList.reverse().forEach(flight => {
-    let card = `<div class="card" style="width: 18rem;">
+    let card = `<div class="card ${langDirection === 'ltr' ? 'text-left' : ''}" style="width: 18rem;">
                     <div class="card-body">
                     <div class="card-title-box">
                       <h5 class="card-title"> ${flight.flight_number}   ${flight.airline}</h5>
-                      <div class="patient-number">חולה מס': ${flight.patient_number}</div>
+                      <div class="patient-number">${i18n('patientNumberShort')}: ${flight.patient_number}</div>
                     </div>
                       <div class="card-contant-box">
                         <div class="card-text">
                           <i class="material-icons flip-icon">flight_takeoff</i>
-                           <div class="flight-detailes">המראה: ${flight["departure from"]}</div>
+                           <div class="flight-detailes">${i18n('departure')}: ${flight["departure from"]}</div>
                         </div>
                         <div class="time-text">${flight["departure day"]}</div>
                       </div>
                         <div class="card-contant-box">
                         <div class="card-text">
                           <i class="material-icons flip-icon">flight_land</i>
-                           <div class="flight-detailes">נחיתה:  ${flight.destination}</div>
+                           <div class="flight-detailes">${i18n('arrival')}:  ${flight.destination}</div>
                         </div>
                         <div class="time-text">${flight["arrival day"]}</div>
                       </div>
                       `;
     if (flight.health_gov_link) {
-      card += `<a href="${flight.health_gov_link}" class="card-link"> מידע נוסף מאתר משרד הבריאות</a>`;
+      card += `<a href="${flight.health_gov_link}" class="card-link">${i18n('linkToTheMinistryOfHealthPublication')}</a>`;
     }
 
     card += `</div>

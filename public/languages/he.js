@@ -1,6 +1,7 @@
 const he = {
   direction: 'rtl',
   patientNumber:  'מספר חולה',
+  patientNumberShort:  'חולה',
   visitingTimes: 'זמני ביקור',
   visitingTime: 'זמן ביקור',
   publishedDate: 'תאריך פרסום',
@@ -12,6 +13,9 @@ const he = {
   minutes:'דקות',
   secondes: 'שניות',
   betweenTheHours: 'בין השעות',
+  departure: 'המראה',
+  arrival: 'נחיתה',
+  flightSearchPlaceholder: 'חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס\' חולה',
   'last-updated-text': 'עדכון אחרון:',
   'magen-david-adom': 'מד"א: 101',
   'health-ministry': 'משרד הבריאות: 5400*',

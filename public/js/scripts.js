@@ -49,7 +49,7 @@ $(document).ready(() => {
       eventAction: 'Click',
       eventLabel: 'Open Sick People Pop-Up'
     });
-
+    $('#update').attr("dir", langDirection);
     $('#update').modal('show');
 
   });

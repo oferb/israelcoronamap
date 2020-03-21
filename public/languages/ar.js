@@ -1,6 +1,7 @@
 const ar = {
   direction: 'rtl',
   patientNumber:  'رقم المريض',
+  patientNumberShort:  'المريض',
   visitingTimes: 'أوقات الزيارة',
   visitingTime: 'وقت الزيارة',
   publishedDate: 'تاريخ النشر',
@@ -12,6 +13,8 @@ const ar = {
   minutes:'دقائق',
   secondes: 'ثواني',
   betweenTheHours: '',
+  departure: 'Departure',
+  arrival: 'Arrival',
   'last-updated-text': ':آخر تحديث في',
   'magen-david-adom': 'نجمة داود الحمراء: 101',
   'health-ministry': 'وزارة الصحة: 5400*',

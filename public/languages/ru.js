@@ -1,6 +1,7 @@
 const ru = {
   direction: 'ltr',
   patientNumber:  'Номера пациентов',
+  patientNumberShort:  'терпеливый',
   visitingTimes: 'Времена посещения',
   visitingTime: 'Время посещения',
   publishedDate: 'Дата публикации.',
@@ -12,6 +13,8 @@ const ru = {
   minutes:'минут',
   secondes: 'секунд',
   betweenTheHours: 'Между часами',
+  departure: 'Departure',
+  arrival: 'Arrival',
   'last-updated-text': 'Последнее обновление:',
   'magen-david-adom': 'Маген Давид Адом',
   'health-ministry': 'Министерство здравоохранения',
