@@ -14,7 +14,8 @@ if (isOnEmbedRoute) {
 }
 
 const init = () => {
-  initTranslation();
+  initLanguage();
+  setMapReader();
   getData(true);
 };
 
@@ -126,12 +127,6 @@ const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
 
-const getQueryParam = (name) => {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  return urlParams.get(name);
-};
-
 const clearMarkers = () => {
   for (let i = 0; i < markersArray.length; i++) {
     markersArray[i].setMap(null);
@@ -184,11 +179,10 @@ const updateMap = () => {
       },
       zIndex
     });
-    const direction = getDirection();
 
     const contentStringCal = `<div
                                 id="infowindow" 
-                                class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
+                                class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}"
                               >
                                 <div class="info-label">${currPoint.label}</div>
                                 <div class="info-description">${currPoint.text}</div>
@@ -213,17 +207,8 @@ const updateMap = () => {
 
         infoWindow.setContent(contentCelArr[i]);
         infoWindow.open(map, marker);
-        let params = `/?id=${id}`;
-        const language = getQueryParam('language');
-        if(language){
-          params += `&language=${language}`;
-        }
-        const daysAgo = parseInt(getQueryParam('daysAgo'));
-        if (daysAgo) {
-          params += `&daysAgo=${daysAgo}`;
-        }
 
-        window.history.pushState("Corona map", "Corona map", params);
+        setQueryParam('id', id);
 
         updateCountdown(currPoint);
         key = pointKey(currPoint);
@@ -252,12 +237,11 @@ const addFlightsMapPoint = () => {
     },
     zIndex: 5000
   });
-  const direction = getDirection();
   google.maps.event.addListener(marker, 'click', ((marker) => {
     return () => {
       const contentStringCal = `<div
         id="infowindow" 
-        class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
+        class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}"
       >
         <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
         <div class="info-description"><a href="/flights">לפירוט הטיסות</a></div>
@@ -295,17 +279,7 @@ const updateCountdown = currPoint => {
 };
 
 const setDaysAgo = (daysAgo) => {
-  let params = `?daysAgo=${daysAgo}`;
-  const id = parseInt(getQueryParam('id'));
-  if(id){
-    params += `&id=${id}`;
-  }
-  const language = getQueryParam('language');
-  if(language){
-    params += `&language=${language}`;
-  }
-
-  window.history.pushState("Corona map", "Corona map", params);
+  setQueryParam('daysAgo', daysAgo);
   updateMap();
 };
 
@@ -418,7 +392,7 @@ const isYesterday = (unixDate) => {
 
 const getData = (initMode = false) => {
   const language = getLanguage();
-  fetch(`/data/data${language}.json`)
+  fetch(`/data/data-${language}.json`)
     .then((response) => {
       return response.json();
     })
@@ -447,21 +421,8 @@ const selectFilter = (filterType) => {
 };
 
 const changeLanguage = (language) => {
-  let params = `/?language=${language}`;
-  const id = parseInt(getQueryParam('id'));
-  if(id){
-    params += `&id=${id}`;
-  }
-  const daysAgo = getQueryParam('daysAgo');
-  if (daysAgo) {
-    params += `&daysAgo=${daysAgo}`;
-  }
-
-  window.history.pushState("Corona map", "Corona map", params);
   $('#language-popup').modal('toggle');
   setLanguage(language);
-  setTranslation(language);
-  setTranslationInHTML();
   getData();
 };
 
@@ -486,4 +447,11 @@ const removeURLParameter = (url, parameter) => {
   } else {
     return url;
   }
+};
+
+const setMapReader = () => {
+  let mapReaderContainer = document.getElementById('map-reader');
+  mapReaderContainer.innerHTML = `
+  <img alt="map-reader" src="/assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
+  `;
 };

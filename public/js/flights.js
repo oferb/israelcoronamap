@@ -1,6 +1,7 @@
 let flights = [];
 
 const init = () => {
+  initLanguage();
   fetch('/data/flightsData.json')
     .then((response) => {
       return response.json();
