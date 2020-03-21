@@ -21,6 +21,7 @@ const setLanguage = (selectedLang) => {
   setQueryParam('lang', lang);
   langDirection = langs[lang].direction;
   setTranslationInHTML();
+  document.title = i18n('title');
 };
 
 const setTranslationInHTML = () => {

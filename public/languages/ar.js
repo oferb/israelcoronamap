@@ -1,5 +1,6 @@
 const ar = {
   direction: 'rtl',
+  title: 'Israel Corona Map',
   patientNumber:  'رقم المريض',
   patientNumberShort:  'المريض',
   visitingTimes: 'أوقات الزيارة',
@@ -15,6 +16,7 @@ const ar = {
   betweenTheHours: '',
   departure: 'Departure',
   arrival: 'Arrival',
+  flightSearchPlaceholder: 'Search by flight, location, date, patient number',
   'last-updated-text': ':آخر تحديث في',
   'magen-david-adom': 'نجمة داود الحمراء: 101',
   'health-ministry': 'وزارة الصحة: 5400*',

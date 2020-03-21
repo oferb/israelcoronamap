@@ -1,5 +1,6 @@
 const en = {
   direction: 'ltr',
+  title: 'Israel Corona Map',
   patientNumber:  'Patient number',
   patientNumberShort:  'Patient',
   visitingTimes: 'Visiting times',

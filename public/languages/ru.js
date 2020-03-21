@@ -1,5 +1,6 @@
 const ru = {
   direction: 'ltr',
+  title: 'Israel Corona Map',
   patientNumber:  'Номера пациентов',
   patientNumberShort:  'терпеливый',
   visitingTimes: 'Времена посещения',
@@ -15,6 +16,7 @@ const ru = {
   betweenTheHours: 'Между часами',
   departure: 'Departure',
   arrival: 'Arrival',
+  flightSearchPlaceholder: 'Search by flight, location, date, patient number',
   'last-updated-text': 'Последнее обновление:',
   'magen-david-adom': 'Маген Давид Адом',
   'health-ministry': 'Министерство здравоохранения',

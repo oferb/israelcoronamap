@@ -1,5 +1,6 @@
 const he = {
   direction: 'rtl',
+  title: 'מפת הקורונה של ישראל: כל המקומות שבהם שהו החולים בישראל',
   patientNumber:  'מספר חולה',
   patientNumberShort:  'חולה',
   visitingTimes: 'זמני ביקור',
