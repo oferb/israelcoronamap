@@ -423,6 +423,7 @@ const selectFilter = (filterType) => {
 const changeLanguage = (language) => {
   $('#language-popup').modal('toggle');
   setLanguage(language);
+  setMapReader();
   getData();
 };
 
