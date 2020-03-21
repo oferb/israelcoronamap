@@ -1046,14 +1046,14 @@ section{
     }
 
     .mada{
-     box-shadow: 0px 3px 10px #E5313180;
-        background-color: #DE3B3B;
+      /* box-shadow: 0px 3px 10px #E5313180; */
+      background-color: #BF2C3B;
     }
 
 
     .health{
-        background-color: #2FBAD8;
-        box-shadow: 0px 3px 10px #2FBAD880;
+       /* box-shadow: 0px 3px 10px #2FBAD880; */
+       background-color: #0E61ff;
     }
 
 /*========== nav-bar end ==========*/
