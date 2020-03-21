@@ -89,7 +89,7 @@ function initMap() {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
     zoom: windowWidth >= 500 ? 8 : 7,
     minZoom: 7,
-    maxZoom: 14,
+    maxZoom: 18,
     gestureHandling: "greedy",
     disableDefaultUI: true,
     restriction: {
