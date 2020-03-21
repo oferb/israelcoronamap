@@ -450,7 +450,6 @@ const removeURLParameter = (url, parameter) => {
 };
 
 const setMapReader = () => {
-  console.log("HEHEHEH" + getLanguage());
   let mapReaderContainer = document.getElementById('map-reader');
   mapReaderContainer.innerHTML = `
   <img alt="map-reader" src="/assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
