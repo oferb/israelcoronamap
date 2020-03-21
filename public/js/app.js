@@ -15,6 +15,7 @@ if (isOnEmbedRoute) {
 
 const init = () => {
   initLanguage();
+  setMapReader();
   getData(true);
 };
 
@@ -125,19 +126,6 @@ const dist = (p1, p2) => {
 const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
-
-const getQueryParam = (name) => {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  return urlParams.get(name);
-};
-
-const setQueryParam = (name, value) => {
-  let urlParams = new URLSearchParams(window.location.search);
-  urlParams.set(name, value);
-  urlParams.sort();
-  window.history.pushState('Corona map', 'Corona map', '/?' + urlParams.toString());
-}
 
 const clearMarkers = () => {
   for (let i = 0; i < markersArray.length; i++) {
@@ -459,4 +447,12 @@ const removeURLParameter = (url, parameter) => {
   } else {
     return url;
   }
+};
+
+const setMapReader = () => {
+  console.log("HEHEHEH" + getLanguage());
+  let mapReaderContainer = document.getElementById('map-reader');
+  mapReaderContainer.innerHTML = `
+  <img alt="map-reader" src="/assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
+  `;
 };

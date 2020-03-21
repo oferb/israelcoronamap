@@ -15,13 +15,12 @@ const getLanguage = () => {
 };
 
 // Save language in local storage if not already there, update HTML
-const setLanguage = (language) => {
-  lang = language;
+const setLanguage = (selectedLang) => {
+  lang = selectedLang;
   localStorage.setItem('language', lang);
   setQueryParam('lang', lang);
   langDirection = langs[lang].direction;
   setTranslationInHTML();
-  setMapReader();
 };
 
 const setTranslationInHTML = () => {
@@ -50,13 +49,6 @@ const i18n = langKey => {
     console.log(langKey);
     return langs['he'][langKey];
   }
-};
-
-const setMapReader = () => {
-  let mapReaderContainer = document.getElementById('map-reader');
-  mapReaderContainer.innerHTML = `
-  <img alt="map-reader" src="assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
-  `;
 };
 
 const initLanguage = () => {
