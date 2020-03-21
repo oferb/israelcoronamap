@@ -11,15 +11,13 @@ const initUpdatedTime = () => {
 };
 
 const sickDataUpdate = () => {
-  const updatedTime = "20.3.2020, 21:05";
-  const numberOfSickPeople = 705;
-  const numberOfRecovered = 14;
-  const numberOfDeaths = 0;
-  const numberOfPeopleInQuarantine = '50,337';
+  const updatedTime = "21.3.2020, 11:00";
+  const numberOfSickPeople = 883;
+  const numberOfRecovered = 36;
+  const numberOfDeaths = 1;
   document.getElementById("number-of-sick-people-text").textContent = numberOfSickPeople;
   document.getElementById("number-of-recovered-people-text").textContent = numberOfRecovered;
   document.getElementById("number-of-deaths-text").textContent = numberOfDeaths;
-  document.getElementById("number-of-people-in-quarantine-text").textContent = numberOfPeopleInQuarantine;
   document.getElementById("last-updated-time-sick").textContent = updatedTime;
 };
 

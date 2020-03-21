@@ -1101,6 +1101,12 @@ section{
     padding-top: 14px;
 }
 
+#sick-people-content-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 /* MOBILE */
 @media(min-width:768px) {
