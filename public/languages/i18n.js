@@ -1,117 +1,67 @@
-let translation = He;
+let langs = {};
+let lang;
+let langDirection;
 
-const setLanguage = selectedLanguage => {
-  localStorage.setItem('language', selectedLanguage);
-};
-
-const setTranslation = language => {
-  if (language === 'He') {
-    translation = He;
-  } else if (language === 'Ar') {
-    translation = Ar;
-  } else if (language === 'Ru') {
-    translation = Ru;
-  } else {
-    translation = En;
+const getLanguage = () => {
+  let lang = getQueryParam('lang');
+  if (lang) {
+    return lang.toLowerCase();
   }
-};
-
-const i18n = text => {
-  if (translation.hasOwnProperty(text)) {
-    return translation[text];
-  } else {
-    return text;
+  lang = localStorage.getItem('language');
+  if (lang) {
+    return lang.toLowerCase();
   }
+  return 'he';
 };
 
-const getDirection = () => {
-  const language = localStorage.getItem('language');
-  if (language === 'He' || language === 'Ar') {
-    return 'rtl';
-  } else {
-    return 'ltr';
-  }
-};
-
-const setTranslationInHTML = () => {
-  setTranslationByID('last-updated-text', 'lastUpdatedIn');
-  setTranslationByID('magen-david-adom', 'magenDavidAdom');
-  setTranslationByID('health-ministry', 'healthMinistry');
-  setTranslationByID('magen-david-adom-mobile', 'magenDavidAdom');
-  setTranslationByID('health-ministry-mobile', 'healthMinistry');
-  setTranslationByID('search-for-flights', 'searchForFlights');
-  setTranslationByID('embed-code', 'embedCodes');
-  setTranslationByID('about', 'about');
-  setTranslationByID('contact-use', 'contactUse');
-  setTranslationByID('sick-update-title', 'sickUpdateTitle');
-  setTranslationByID('number-of-sick-people', 'numberOfSickPeople');
-  setTranslationByID('number-of-recovered-people', 'numberOfRecoveredPeople');
-  setTranslationByID('number-of-deaths', 'numberOfDeaths');
-  setTranslationByID(
-    'number-of-people-in-quarantine',
-    'numberOfPeopleInQuarantine'
-  );
-  setTranslationByID('last-updated-title-sick', 'lastUpdatedIn');
-  setTranslationByID('select-language', 'selectLanguage');
-  setTranslationByID('select-language-header', 'selectLanguage');
-  setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
+// Save language in local storage if not already there, update HTML
+const setLanguage = (language) => {
+  lang = language;
+  localStorage.setItem('language', lang);
+  setQueryParam('lang', lang);
+  langDirection = langs[lang].direction;
+  setTranslationInHTML();
   setMapReader();
 };
 
-const setTranslationByID = (id, text) => {
+const setTranslationInHTML = () => {
+  // For keys that match element IDs:
+  for (var key in langs[lang]) {
+    setTranslationByID(key, key);
+  }
+  // For keys that don't, since 2 elements have the same text
+  setTranslationByID('magen-david-adom-mobile', 'magen-david-adom');
+  setTranslationByID('health-ministry-mobile', 'health-ministry');
+  setTranslationByID('last-updated-title-sick', 'last-updated-text');
+  setTranslationByID('select-language-header', 'select-language');
+};
+
+const setTranslationByID = (id, langKey) => {
   const el = document.getElementById(id);
   if (el) {
-    el.innerText = i18n(text);
+    el.innerText = i18n(langKey);
   }
 };
 
-const addClassByID = (id, className) => {
-  const el = document.getElementById(id);
-  el.classList.add(className);
+const i18n = langKey => {
+  if (langs[lang].hasOwnProperty(langKey)) {
+    return langs[lang][langKey];
+  } else {
+    console.log(langKey);
+    return langs['he'][langKey];
+  }
 };
-
-const getLanguage = () => {
-  const lang = localStorage.getItem('language');
-  return lang ? lang : 'He';
-};
-
 
 const setMapReader = () => {
-  const language = localStorage.getItem('language');
   let mapReaderContainer = document.getElementById('map-reader');
-  if (!mapReaderContainer) return;
-
   mapReaderContainer.innerHTML = `
-  <img alt="map-reader" src="assets/images/map-icons/mapReader${language}.svg" class="map-reader-img" width="350" />
+  <img alt="map-reader" src="assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
   `;
 };
 
-const initTranslation = () => {
-  let language = 'He';
-  if (window.location.pathname.includes('embed')) {
-    setTranslation(language);
-    setTranslationInHTML();
-    return;
-  }
-
-  const queryParamLanguage = getQueryParam('language');
-  if (queryParamLanguage) {
-    language = queryParamLanguage;
-  } else {
-    const LSLanguage = localStorage.getItem('language');
-    if (LSLanguage) {
-      language = LSLanguage;
-      let params = `/?language=${language}`;
-      const id = parseInt(getQueryParam('id'));
-      if (id) {
-        params += `&id=${id}`;
-      }
-      window.history.pushState('Corona map', 'Corona map', params);
-    }
-  }
-  console.log('language', language);
-
-  localStorage.setItem('language', language);
-  setTranslation(language);
-  setTranslationInHTML();
+const initLanguage = () => {
+  // Get language from url or local storage
+  lang = getLanguage();
+  // Set it, and update everything needed
+  setLanguage(lang);
 };

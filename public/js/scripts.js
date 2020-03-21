@@ -68,7 +68,9 @@ $(document).ready(() => {
     $('#map-reader-pop-up').fadeOut('fast');
   });
 
-  $('#zoom-to-location-button').click(zoomToLocation);
+  if (typeof zoomToLocation !== 'undefined') {
+    $('#zoom-to-location-button').click(zoomToLocation);
+  }
 
   // open language pop-up
   $('.language-click').click(function () {
