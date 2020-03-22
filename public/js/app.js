@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars, no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
+let map, infoWindow, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
 let currentPositionMarker = null;
+var govData;
 
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
@@ -16,6 +17,11 @@ if (isOnEmbedRoute) {
 const init = () => {
   initTranslation();
   getData(true);
+};
+
+const initNoMap = () => {
+  initTranslation();
+  getDataNoMap(true);
 };
 
 const zoomToLocation = () => {
@@ -78,7 +84,6 @@ const toggleGPSIconColorOnClick = () => {
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
-
   const ISRAEL_BOUNDS = {
     north: 36.440135095195288,
     south: 25.937822999999995,
@@ -187,7 +192,7 @@ const updateMap = () => {
     const direction = getDirection();
 
     const contentStringCal = `<div
-                                id="infowindow" 
+                                id="infowindow"
                                 class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
                               >
                                 <div class="info-label">${currPoint.label}</div>
@@ -256,7 +261,7 @@ const addFlightsMapPoint = () => {
   google.maps.event.addListener(marker, 'click', ((marker) => {
     return () => {
       const contentStringCal = `<div
-        id="infowindow" 
+        id="infowindow"
         class="infowindow ${direction === 'ltr' ? 'text-left' : ''}"
       >
         <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
@@ -316,7 +321,7 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')} 
+  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')}
     ${fixTime(d_start.getHours())}:${fixTime(d_start.getMinutes())}-${fixTime(d_end.getHours())}:${fixTime(d_end.getMinutes())}`;
   return datestring;
 };
@@ -431,6 +436,18 @@ const getData = (initMode = false) => {
         setDaysAgo(14);
       }
       updateMap();
+    });
+};
+
+const getDataNoMap = (initMode = false) => {
+  const language = getLanguage();
+  fetch(`/data/data${language}.json`)
+    .then((response) => {
+      return response.json();
+    })
+    .then((result) => {
+      data = result;
+      govData = data;
     });
 };
 

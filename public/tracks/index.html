@@ -84,17 +84,53 @@
             class="form-control mr-sm-2 search-input"
             id="search-input-dekstop"
             type="search"
-            placeholder="חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס' חולה"
+            placeholder="חפשו שם של מקום"
             aria-label="Search"
-            onkeyup="handleSearchDesktop()">
+            onkeyup="handleTracksSearchDesktop()">
         </form>
     </div>
 
-    <!--========== flight-list ==========-->
-    <div class="flight-list text-right">
+    <!--========== tracktable ==========-->
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2}
+
+        th {
+          background-color: #ffec66;
+          color: white;
+        }
+    </style>
+
+    <center>
+    <p>תאריך התחלה</p>
+    <input type="date" id="startDate" name="startDate">
+    <input type="time" id="startTime" name="startTime">
+
+    <br><br>
+    <p>תאריך סיום</p>
+    <input type="date" id="endDate" name="endDate">
+    <input type="time" id="endTime" name="endTime">
+
+    <br><br>
+    <input type="submit" value="submit" onclick="parseDateInputs();" />
+    <br><br>
+    </center>
+
+    <div id="tracks-table" class="flight-list text-right">
     <!-- innerHTML render here -->
     </div>
+    <br>
 
+    </div>
     <!--========== side-bar ==========-->
     <div class="side-bar" style="display: none;">
         <div class="container-fluid" style="padding:0;">
@@ -111,17 +147,6 @@
                             <img class="side-bar-img" style="margin-left:20px; "
                                 src="../assets/images/side-bar-icons/plane.svg" alt="icon">
                             חפשו טיסות
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="side-bar-box">
-                        <a style="margin-right: 30px;" class="side-bar-link" href="/tracks">
-                            <img class="side-bar-img" style="margin-left:20px; "
-                                src="assets/images/side-bar-icons/track.svg" alt="icon">
-                            <span id="search-for-tracks">
-                                חפשו מסלולים
-                            </span>
                         </a>
                     </div>
                 </div>
@@ -276,7 +301,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
     <script src="../js/scripts.js"></script>
-    <script src="../js/flights.js"></script>
+    <script src="../js/tracks.js"></script>
+    <script src="../languages/He.js"></script>
+    <script src="../languages/En.js"></script>
+    <script src="../languages/Ar.js"></script>
+    <script src="../languages/Ru.js"></script>
+    <script src="../languages/i18n.js"></script>
+    <script src="../js/app.js"></script>
+    <script>
+        initNoMap();
+        setTimeout(function(){  fillTable(govData, true); }, 1000);
+    </script>
+
+
 </body>
 
 </html>
