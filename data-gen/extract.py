@@ -112,4 +112,4 @@ def fixLoc():
       print(line)
 
 
-fixLoc()
+extractLocation()
