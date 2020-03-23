@@ -193,3 +193,6 @@ const getCounty = (cityId) => {
   return CITIES.find((city) => city.id === cityIdAsInt).county;
 };
 
+$('#close-feedback-popup').click(function () {
+  $('#report-pop-up').fadeOut('fast');
+});
