@@ -39,6 +39,10 @@
     display: none;
 }
 
+.select2-results__options {
+    -webkit-overflow-scrolling: touch;
+}
+
 .error-filling-feedback {
     display: none;
 }
@@ -91,9 +95,7 @@
 }
 
 .report-text{
-    font-size:18px;
     color: #26262C;
-    line-height: 45px;
 }
 
 .report-row{
