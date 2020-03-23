@@ -27,32 +27,19 @@ $.getScript("../data/cities.js", () => {
     dir: 'rtl',
     dropdownParent: $('.city-container'),
     placeholder: "הכניסו שם עיר או יישוב",
-    enoughRoomBelow: true,
-    enoughRoomAbove: false,
+    minimumInputLength: 1,
     width: 'element',
     language: {
       noResults: (_params) => {
         return "אין תוצאות";
-      }
+      },
+      inputTooShort: function(args) {
+        // args.minimum is the minimum required length
+        // args.input is the user-typed text
+        return '';
+      },
     }
   });
-
-  // // prevent scrolling cities - showing only keyboard
-  // window.select2typing = false;
-  // $(document).on("focus",".select2-search__field",function(){
-  //   if(window.select2typing === false){
-  //     $(this).blur();
-  //   }
-  // });
-  //
-  // $(document).on("click",".select2-search__field",function(){
-  //   window.select2typing = true;
-  //   $(this).focus();
-  // });
-  //
-  // $("select").on("select2:close",function(){
-  //   window.select2typing = false;
-  // });
 
   const cityId = localStorage.getItem('feedback-city-id');
   if (cityId) {
