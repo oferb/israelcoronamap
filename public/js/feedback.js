@@ -58,7 +58,7 @@ $( document ).ready(() => {
 
   $('#close-feedback-popup').click(() => {
     $('#report-pop-up').fadeOut('fast');
-    window.history.pushState("Corona map", "Corona map", "/");
+    deleteQueryParam('feedback');
   });
 
 });
@@ -71,7 +71,7 @@ const showFeedbackPopup = () => {
     eventLabel: 'User open feedback page'
   });
   $('#report-pop-up').fadeIn('fast');
-  window.history.pushState("Corona map", "Corona map", "/feedback");
+  setQueryParam('feedback', 'true');
 };
 
 $('#submit-feedback-button').click(async () => {
@@ -196,3 +196,7 @@ const getCounty = (cityId) => {
 $('#close-feedback-popup').click(function () {
   $('#report-pop-up').fadeOut('fast');
 });
+
+if (getQueryParam('feedback') == 'true') {
+  showFeedbackPopup();
+}
