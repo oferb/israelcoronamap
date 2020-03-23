@@ -11,11 +11,11 @@ const initUpdatedTime = () => {
 };
 
 const sickDataUpdate = () => {
-  const updatedTime = "22.3.2020, 22:10";
-  const numberOfSickPeople = 1071;
-  const numberOfSickPeopleToday = 188;
+  const updatedTime = "23.3.2020, 09:00";
+  const numberOfSickPeople = 1238;
+  const numberOfSickPeopleToday = 264;
   const numberOfRecovered = 37;
-  const numberOfRecoveredToday = 1;
+  const numberOfRecoveredToday = 0;
   const numberOfDeaths = 1;
   const numberOfDeathsToday = 0;
 
@@ -24,7 +24,7 @@ const sickDataUpdate = () => {
 
   document.getElementById("number-of-recovered-people-text").textContent = numberOfRecovered;
   document.getElementById("number-of-recovered-people-today").textContent = `${numberOfRecoveredToday} ${i18n('today')}`;
-  
+
   document.getElementById("number-of-deaths-text").textContent = numberOfDeaths;
   document.getElementById("number-of-deaths-today").textContent = `${numberOfDeathsToday} ${i18n('today')}`;
 

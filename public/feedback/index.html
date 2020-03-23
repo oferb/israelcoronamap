@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153454345-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+
+          gtag('config', 'UA-153454345-1');
+        </script>
+        <meta charset="utf-8">
+
+        <title>מפת הקורונה של ישראל</title>
+
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+        <!--========== web tags ==========-->
+        <meta name="description" content="מפת הקורונה של ישראל: כל המקומות שבהם שהו חולי נגיף קורונה בישראל. מתעדכן לפי המידע הרשמי של משרד הבריאות" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="QCadyck7Ws0MzeYVe3Cv0FPZxf2r--5fSd2CznTwi4Y" />
+
+        <!--========== social media tags ==========-->
+        <meta property="og:title" content="מפת הקורונה של ישראל" />
+        <meta property="og:description" content="מפת הקורונה של ישראל: כל המקומות שבהם שהו חולי נגיף קורונה בישראל. מתעדכן לפי המידע הרשמי של משרד הבריאות" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://israelcoronamap.co.il/" />
+        <meta property="og:image" content="https://israelcoronamap.co.il/assets/images/social-img.png" />
+
+        <!--========== Google fonts ==========-->
+        <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+
+        <!--========== css files ==========-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!--========== page-specific files ==========-->
+        <link rel="stylesheet" href="../css/feedback.css" />
+        <link rel="stylesheet" href="../css/styles.css" />
+
+    </head>
+
+    <body dir="rtl">
+
+
+    <!--========== report-pop-up ==========-->
+
+    <div id="report-pop-up" class="pop-up-area">
+        <div class="pop-up">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 ">
+                        <div class="box-size">
+                            <h1 class="pop-up-title">דווחו: איך אתם מרגישים?</h1>
+                            <hr class='hr-titles' style="width: 85px; align-content: center">
+                            <p>בשיתוף</p>
+                            <img src="../assets/images/weizmann-logo.jpg" style="width:100px;" alt="weizmann institute logo">
+                            <br>
+                            <br>
+                            <p class="report-text" >
+                                השאלון המקוצר כאן,
+                                ו<a target="_blank" href="https://docs.google.com/forms/d/1ygaokuvqOfN1wtKgDkKXJBcexnESsWF5UoNyaBHrJ1Q/viewform?edit_requested=true" style="text-decoration: underline;">השאלון המלא</a>
+                                בשיתוף מכון וייצמן נוצר כדי לסייע בחיזוי ואיתור של מוקדי ההתפשטות מגפת הקורונה בישראל כדי לעזור להגיע לחולים מהר יותר, על ידי הערכה של מספר האנשים בכל אזור שפיתחו תסמינים. השאלון הוא אנונימי לחלוטין
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center report-row"  >
+                <div class="col-12">
+                    <h3 style="font-weight: 700;font-size: 24px;">
+                        איפה אתם גרים?
+                    </h3>
+                    <br>
+                    <label class="city-container">
+                        <select id="select-city-input" class="city-input" name="state" style="width:100%">
+                            <option></option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-12">
+                    <h3 style="font-weight: 700;font-size: 24px;">
+                        איך אתם מרגישים?
+                    </h3>
+                </div>
+                <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
+                    <div class="feeling-box">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">סבבה לגמרי</p>
+                        <p class="feeling" style="font-weight: 400;font-size: 16px;"> מרגישים בריאים</p>
+                        <img src="../assets/images/emoji/smile.png" style="width:50px;" alt="feeling-good">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
+                    <div class="feeling-box">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">לא משהו</p>
+                        <p class="feeling" style="font-weight: 400;font-size: 16px;"> מרגישים התקררות קלה</p>
+                        <img src="../assets/images/emoji/sneezing.png" style="width:50px;" alt="feeling-cold">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
+                    <div class="feeling-box">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">על הפנים</p>
+                        <p class="feeling" style="font-weight: 400;font-size: 16px;">שיעולים / חום או שניהם</p>
+                        <img src="../assets/images/emoji/hot.png" style="width:50px;" alt="might-have-corona">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center report-row">
+                <div class="col-12 col-centered">
+                    <a href="#" id="submit-feedback-button" class="button" style="font-weight: 700;">
+                        <span id="feedback-button-text">שלחו דיווח</span>
+                        <span id="feedback-button-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    </a>
+                    <br>
+                    <!--  this is what popup if not all filled -->
+                    <br>
+                    <p class="error-filling-feedback" style="font-weight: 600;color:#FF5B5B;">
+                        <span>אנא מלאו את כל השדות הנדרשים:</span>
+                        <span id="missing-feedback-fields"></span>
+                    </p>
+                    <!--  this is what popup sent successfully -->
+                    <br>
+                    <p class="success-filling-feedback" style="font-weight: 600;color:#37C5AB;">
+                        <span>תודה! הפרטים שלך נקלטו בהצלחה</span>
+                    </p>
+                    <br>
+                    <a target="_blank" href="https://docs.google.com/forms/d/1ygaokuvqOfN1wtKgDkKXJBcexnESsWF5UoNyaBHrJ1Q/viewform?edit_requested=true" style="text-decoration: underline;">לשאלון המלא של מכון וייצמן</a>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+    </div>
+    <!--========== report-pop-up end ==========-->
+
+
+    <!--========== about-pop-up end ==========-->
+
+    <!---========== scripts ==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src="../js/feedback.js"></script>
+
+    </body>
+
+</html>
+
+<!-- Made With ♥ By Yossi Molcho -->
