@@ -5,6 +5,7 @@
 #close-feedback-popup {
     font-size: 2.5rem;
     line-height: 2;
+    z-index: 3000;
 }
 
 .city-container {
