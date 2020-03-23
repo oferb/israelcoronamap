@@ -99,7 +99,7 @@ const createList = (tracksList, initial) => {
 // eslint-disable-next-line no-unused-vars
 const handleTracksSearchDesktop = () => {
   // Declare variables
-  const input = document.getElementById('search-input-dekstop');
+  const input = document.getElementById('search-track-input-dekstop');
   const value = input.value.toUpperCase();
   let filteredTracks = filterTracks(fullTrackList, value);
   fillTable(filteredTracks, false);
@@ -112,6 +112,8 @@ const filterTracks = (trackList, value) => {
       let rangeMatch = false;
       if (selectedStart !== undefined && selectedEnd !== undefined) {
           rangeMatch = doDateRangesIntersect(selectedStart, selectedEnd, track.startDate, track.endDate);
+      } else {
+          rangeMatch = true;
       }
 
      if (value === "" || value === undefined) {
