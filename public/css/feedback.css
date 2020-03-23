@@ -47,8 +47,17 @@
     display: none;
 }
 
-.success-filling-feedback {
+.form-success-message {
     display: none;
+}
+
+#success-filling-feedback {
+    font-weight: 700;
+    font-size: larger;
+}
+
+#success-filling-feedback-refill {
+    font-weight: 600;
 }
 
 .disable-double-click {

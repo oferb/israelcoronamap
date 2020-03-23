@@ -164,7 +164,7 @@
 
     <!--========== map end ==========-->
 
-    <a class="report-btn report-pop-up-click text-right" style="display: none">
+    <a class="report-btn report-pop-up-click text-right">
         <span style="font-weight: 600;color: white;">דווחו: איך אתם מרגישים?</span>
         &nbsp;
         <img class="report-img" style="width: 20px;" src="assets/images/emoji/sneezing.png" alt="icon">
@@ -175,7 +175,6 @@
 
     <div id="report-pop-up" class="pop-up-area">
         <div class="pop-up">
-            <div class="container">
             <div class="container">
                 <img id='close-feedback-popup' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
                 <div class="row text-center">
@@ -240,13 +239,11 @@
             <br>
             <div class="row text-center report-row">
                 <div class="col-12 col-centered">
-                    <a href="#" id="submit-feedback-button" class="button" style="font-weight: 700;">
+                    <a href="#" id="submit-feedback-button" class="button" style="font-weight: 700; margin-bottom: 10px;">
                         <span id="feedback-button-text">שלחו דיווח</span>
                         <span id="feedback-button-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                     </a>
-                    <br>
                     <!--  this is what popup if not all filled -->
-                    <br>
                     <p class="error-filling-feedback" style="font-weight: 600;color:#FF5B5B;">
                         <span>אנא מלאו את כל השדות הנדרשים:</span>
                         <span id="missing-feedback-fields"></span>
@@ -255,10 +252,17 @@
                         <span>אירעה שגיאה. אנא נסה שנית.</span>
                     </p>
                     <!--  this is what popup sent successfully -->
+                    <div class="form-success-message">
+                        <img src="assets/images/form-success.svg" style="width:45px; margin-bottom: 15px;" alt="form-success-icon">
+                        <p id="success-filling-feedback">
+                            <span>תודה! הפרטים שלך נקלטו בהצלחה</span>
+                        </p>
+                        <p id="success-filling-feedback-refill">
+                            <span>תמיד תוכלו לשלוח דיווח מחדש על איך אתם מרגישים</span>
+                        </p>
+                        <a href="#" id="go-back-to-main-screen" class="button" style="font-weight: 700; color: white;">חזרו למפה</a>
+                    </div>
                     <br>
-                    <p class="success-filling-feedback" style="font-weight: 600;color:#37C5AB;">
-                        <span>תודה! הפרטים שלך נקלטו בהצלחה</span>
-                    </p>
                     <br>
                     <a target="_blank" href="https://coronaisrael.org" style="text-decoration: underline;">לשאלון המלא של מכון וייצמן באדיבות הסדנא לידע ציבורי</a>
                 </div>

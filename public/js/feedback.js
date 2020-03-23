@@ -56,7 +56,7 @@ $( document ).ready(() => {
 
   $('.report-pop-up-click').click(showFeedbackPopup);
 
-  $('#close-feedback-popup').click(() => {
+  $('#close-feedback-popup, #go-back-to-main-screen').click(() => {
     $('#report-pop-up').fadeOut('fast');
     deleteQueryParam('feedback');
   });
@@ -72,6 +72,8 @@ const showFeedbackPopup = () => {
   });
   $('#report-pop-up').fadeIn('fast');
   setQueryParam('feedback', 'true');
+  // clean previous success message
+  showSuccessMessage(false);
 };
 
 $('#submit-feedback-button').click(async () => {
@@ -91,11 +93,11 @@ $('#submit-feedback-button').click(async () => {
   const feedbackError = [];
 
   if (selectedCity === '') {
-    feedbackError[0] = 'עיר';
+    feedbackError.push('עיר');
   }
 
   if (!selectedFeeling.length) {
-    feedbackError[1] = 'הרגשה';
+    feedbackError.push('הרגשה');
   }
 
   if (feedbackError.length) {
@@ -145,7 +147,8 @@ const cleanErrors = () => {
 };
 
 const showSuccessMessage = (show) => {
-  $('.success-filling-feedback').css('display', show ? 'block' : 'none');
+  $('.form-success-message').css('display', show ? 'block' : 'none');
+  $('#submit-feedback-button').css('display', show ? 'none' : 'inline-block');
 };
 
 const saveFormToDB = async ({
@@ -197,6 +200,6 @@ $('#close-feedback-popup').click(function () {
   $('#report-pop-up').fadeOut('fast');
 });
 
-if (getQueryParam('feedback') == 'true') {
+if (getQueryParam('feedback') === 'true') {
   showFeedbackPopup();
 }
