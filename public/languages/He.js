@@ -25,5 +25,7 @@ const He = {
   numberOfDeaths: 'מספר המתים:',
   numberOfPeopleInQuarantine: 'מספר מבודדי בית:',
   stateOfPatientsInIsrael: 'מצב החולים בישראל',
+  trackStart: 'זמן התחלה',
+  trackEnd: 'זמן סיום',
+  trackPlaceholder: 'חפשו שם של מקום',
 };
-

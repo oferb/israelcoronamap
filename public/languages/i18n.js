@@ -55,6 +55,9 @@ const setTranslationInHTML = () => {
   setTranslationByID('select-language', 'selectLanguage');
   setTranslationByID('select-language-header', 'selectLanguage');
   setTranslationByID('state-of-patients-israel', 'stateOfPatientsInIsrael');
+  setPlaceholderTranslationByID('search-track-input-dekstop', 'trackPlaceholder');
+  setTranslationByID('track-start-time', 'trackStart');
+  setTranslationByID('track-end-time', 'trackEnd');
   setMapReader();
 };
 
@@ -62,6 +65,13 @@ const setTranslationByID = (id, text) => {
   const el = document.getElementById(id);
   if (el) {
     el.innerText = i18n(text);
+  }
+};
+
+const setPlaceholderTranslationByID = (id, text) => {
+  const el = $("#" + id);
+  if (el) {
+    el.attr("placeholder", i18n(text));
   }
 };
 

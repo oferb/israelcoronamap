@@ -25,6 +25,7 @@ const En = {
   numberOfDeaths: 'Deaths',
   numberOfPeopleInQuarantine: 'People In Quarantine',
   sickUpdateTitle: 'Patient statistics',
-
+  trackStart: 'Start Time',
+  trackEnd: 'End Time',
+  trackPlaceholder: 'Search for a location name',
 };
-
