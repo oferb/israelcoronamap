@@ -160,10 +160,8 @@ const saveFormToDB = async ({
     id,
     city,
     county,
-    feelings: [{
-      feeling,
-      date: new Date().getTime()
-    }]
+    feeling,
+    date: new Date().getTime()
   })
     .then(() => {
       setTimeout(() => {
