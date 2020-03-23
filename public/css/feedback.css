@@ -1,7 +1,10 @@
-body {
-    display:flex; flex-direction:column; justify-content:center;
-    min-height:100vh;
-    font-family: 'Assistant', sans-serif;
+#report-pop-up {
+    display: none;
+}
+
+#close-feedback-popup {
+    font-size: 2.5rem;
+    line-height: 2;
 }
 
 .city-container {
@@ -39,6 +42,10 @@ body {
     display: none;
 }
 
+.network-error-filling-feedback {
+    display: none;
+}
+
 .success-filling-feedback {
     display: none;
 }
@@ -61,7 +68,11 @@ body {
     cursor: pointer;
     background-color: #FF5B5B;
     transition: all .35s;
-
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin-top: 66px;
+    margin-left: 10px;
 }
 
 .report-btn:hover{
@@ -79,26 +90,6 @@ body {
     width: 90%;
     margin: auto;
 }
-
-/*.input {*/
-/*    padding-top: 15px;*/
-/*    padding-bottom: 15px;*/
-/*    box-shadow: 0 3px 30px #00000029;*/
-/*    background-color: white;*/
-/*    border: none;*/
-/*    width: 100%;*/
-/*    color:#475172;*/
-/*    font-size: 20px;*/
-/*    border-radius: 10px;*/
-/*    transition: all .2s ease-in-out;*/
-/*}*/
-
-/*.input:focus {*/
-
-/*    outline:none;*/
-/*    color:  #26262C;*/
-
-/*}*/
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #26262C;
@@ -148,7 +139,7 @@ body {
 
     .report-text{
         font-size:20px;
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 

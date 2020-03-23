@@ -20,7 +20,9 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 $.getScript("../data/cities.js", () => {
 
-  $('.city-input').select2({
+  const cityInput = $('.city-input');
+
+  cityInput.select2({
     data: CITIES,
     dir: 'rtl',
     dropdownParent: $('.city-container'),
@@ -33,17 +35,10 @@ $.getScript("../data/cities.js", () => {
     }
   });
 
-  // db.collection("users").add({
-  //   first: "Ada",
-  //   last: "Lovelace",
-  //   born: 1815
-  // })
-  //   .then(function(docRef) {
-  //     console.log("Document written with ID: ", docRef.id);
-  //   })
-  //   .catch(function(error) {
-  //     console.error("Error adding document: ", error);
-  //   });
+  const cityId = localStorage.getItem('feedback-city-id');
+  if (cityId) {
+    cityInput.val(cityId).trigger('change.select2')
+  }
 
 });
 
@@ -59,9 +54,37 @@ $( document ).ready(() => {
 
   });
 
+  $('.report-pop-up-click').click(showFeedbackPopup);
+
+  $('#close-feedback-popup').click(() => {
+    $('#report-pop-up').fadeOut('fast');
+    window.history.pushState("Corona map", "Corona map", "/");
+  });
+
 });
 
-$('#submit-feedback-button').click(() => {
+const showFeedbackPopup = () => {
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'ClickOnFeedbackPopUp',
+    eventAction: 'Click',
+    eventLabel: 'User open feedback page'
+  });
+  $('#report-pop-up').fadeIn('fast');
+  window.history.pushState("Corona map", "Corona map", "/feedback");
+};
+
+$('#submit-feedback-button').click(async () => {
+
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'SendFeedback',
+    eventAction: 'Click',
+    eventLabel: 'User send feedback'
+  });
+
+  cleanErrors();
+  showSuccessMessage(false);
   showLoaderAndPreventDoubleClick();
   const selectedCity = $('#select-city-input :selected').text();
   const selectedFeeling = $('.feeling-box.selected');
@@ -79,24 +102,28 @@ $('#submit-feedback-button').click(() => {
     // Missing fields
     $('.error-filling-feedback').css('display', 'block');
     $('#missing-feedback-fields').text(feedbackError.join(', '));
+    showSuccessMessage(false);
+    resetButton();
   } else {
 
     if (!isUserSigned) {
-      firebase.auth().signInAnonymously().catch((error) => {
-        // Handle Errors here.
-        console.log(error);
-        // ...
+      await firebase.auth().signInAnonymously().catch((error) => {
+        console.error(error);
       });
     }
-    console.log(firebase.auth().currentUser);
 
-    // Success filling form
-    $('.error-filling-feedback').css('display', 'none');
-    $('#missing-feedback-fields').text('');
-    $('.success-filling-feedback').css('display', 'block');
+    const userId = firebase.auth().currentUser.uid;
+    const cityId = $('#select-city-input').val();
+    const county = getCounty(cityId);
+    const feeling = $('.feeling-box.selected .feeling-text').text();
+    await saveFormToDB({
+      id: userId,
+      city: selectedCity,
+      cityId,
+      county,
+      feeling
+    });
   }
-
-  resetButton();
 });
 
 const showLoaderAndPreventDoubleClick = () => {
@@ -111,4 +138,60 @@ const resetButton = () => {
   $('#submit-feedback-button').removeClass('disable-double-click');
 };
 
+const cleanErrors = () => {
+  $('.error-filling-feedback').css('display', 'none');
+  $('#missing-feedback-fields').text('');
+  $('.network-error-filling-feedback').css('display', 'none');
+};
+
+const showSuccessMessage = (show) => {
+  $('.success-filling-feedback').css('display', show ? 'block' : 'none');
+};
+
+const saveFormToDB = async ({
+  id,
+  city,
+  cityId,
+  county,
+  feeling
+}) => {
+
+  db.collection("feedback").add({
+    id,
+    city,
+    county,
+    feelings: [{
+      feeling,
+      date: new Date().getTime()
+    }]
+  })
+    .then(() => {
+      setTimeout(() => {
+        resetButton();
+        showSuccessMessage(true);
+      }, 1000);
+      localStorage.setItem("feedback-city-id", cityId);
+    })
+    .catch((error) => {
+      console.error(error);
+
+      setTimeout(() => {
+        resetButton();
+        $('.network-error-filling-feedback').css('display', 'block');
+        showSuccessMessage(false);
+      }, 1000);
+
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'FeedbackFailedOnFirestore',
+        eventAction: 'Write',
+        eventLabel: 'Failed to write feedback to DB'
+      });
+    });
+};
+
+const getCounty = (cityId) => {
+  const cityIdAsInt = parseInt(cityId);
+  return CITIES.find((city) => city.id === cityIdAsInt).county;
+};
 
