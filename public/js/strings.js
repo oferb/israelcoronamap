@@ -2,7 +2,7 @@
 const isOnEmbed = window.location.pathname.includes('embed');
 
 const initUpdatedTime = () => {
-  const updatedTime = "22.3.2020, 17:45";
+  const updatedTime = "23.3.2020, 11:40";
   if (isOnEmbed) {
     document.getElementById("last-updated-time-embed").textContent = updatedTime;
   } else {
