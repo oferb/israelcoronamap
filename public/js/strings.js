@@ -11,11 +11,11 @@ const initUpdatedTime = () => {
 };
 
 const sickDataUpdate = () => {
-  const updatedTime = "23.3.2020, 21:00";
-  const numberOfSickPeople = 1442;
-  const numberOfSickPeopleYesterday = 1071;
-  const numberOfRecovered = 41;
-  const numberOfRecoveredYesterday = 37;
+  const updatedTime = "24.3.2020, 09:20";
+  const numberOfSickPeople = 1656;
+  const numberOfSickPeopleYesterday = 1442;
+  const numberOfRecovered = 49;
+  const numberOfRecoveredYesterday = 41;
   const numberOfDeaths = 1;
   const numberOfDeathsToday = 0;
 
