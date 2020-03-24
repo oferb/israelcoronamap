@@ -2,6 +2,14 @@
 <html>
 
 <head>
+    <script defer src="../languages/i18n.js"></script>
+    <script defer src="../languages/he.js"></script>
+    <script defer src="../languages/en.js"></script>
+    <script defer src="../languages/ar.js"></script>
+    <script defer src="../languages/ru.js"></script>
+    <script defer src="../js/utils.js"></script>
+    <script defer src="../js/flights.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153454345-1"></script>
     <script>
@@ -11,6 +19,7 @@
 
         gtag('config', 'UA-153454345-1');
     </script>
+    <script defer src="../js/scripts.js"></script>
     <script src="../js/embed.js"></script>
     <meta charset="utf-8">
 
@@ -34,7 +43,7 @@
     <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
 
     <!--========== css files ==========-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--========== page-specific files ==========-->
     <link rel="stylesheet" href="../css/info.css" />
@@ -58,18 +67,18 @@
                 </a>
             </li>
             <li class="wonder-nav-li" style="margin-right: 10px;">
-                <button class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
+                <button id="hamburgerOnMainScreen" class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span></span>
                 </button>
             </li>
             <li style="margin-right: 10px;" class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number mada" href="tel:101">
+                <a id="magen-david-adom" style="" class="nav-link sos-number mada" href="tel:101">
                     מד"א: 101
                 </a>
             </li>
             <li class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number health" href="tel:*5400">
+                <a id="health-ministry" style="" class="nav-link sos-number health" href="tel:*5400">
                     משרד הבריאות: 5400*
                 </a>
             </li>
@@ -84,14 +93,14 @@
             class="form-control mr-sm-2 search-input"
             id="search-input-dekstop"
             type="search"
-            placeholder="חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס' חולה"
+            placeholder=""
             aria-label="Search"
             onkeyup="handleSearchDesktop()">
         </form>
     </div>
 
     <!--========== flight-list ==========-->
-    <div class="flight-list text-right">
+    <div id="flight-list" class="flight-list text-right">
     <!-- innerHTML render here -->
     </div>
 
@@ -110,7 +119,9 @@
                         <a style="margin-right: 30px;" class="side-bar-link" href="/flights">
                             <img class="side-bar-img" style="margin-left:20px; "
                                 src="../assets/images/side-bar-icons/plane.svg" alt="icon">
-                            חפשו טיסות
+                            <span id="search-for-flights">
+                                חפשו טיסות
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -130,7 +141,9 @@
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
                             <img class="side-bar-img" style="margin-left:20px; "
                                 src="../assets/images/side-bar-icons/coding.svg" alt="icon">
-                            הטמיעו קוד באתר
+                            <span id="embed-code">
+                                הטמיעו קוד באתר
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -139,7 +152,9 @@
                         <a style="margin-right: 30px;" class="side-bar-link" href="/info">
                             <img class="side-bar-img" style="margin-left:20px;" src="../assets/images/side-bar-icons/info.svg"
                                 alt="icon">
-                            אודות המיזם
+                            <span id="about">
+                                אודות המיזם
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -149,7 +164,9 @@
                             href="mailto:blueofer@gmail.com" title="email">
                             <img class="side-bar-img" style="margin-left:20px;" src="../assets/images/side-bar-icons/email.svg"
                                 alt="icon">
-                           צרו קשר
+                            <span id="contact-use">
+                                צרו קשר
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -159,13 +176,17 @@
                     <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number mada" href="tel:101">
                         <img style="margin-left:20px; max-width: 25px;margin-right: 15px;" src="/assets/images/phone.svg"
                             alt="icon">
-                        מד"א
+                        <span id="magen-david-adom-mobile">
+                            מד"א
+                        </span>
                     </a>
                         <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number health"
                             href="tel:*5400">
                             <img class="side-bar-img" style="margin-left:20px; margin-right: 15px;"
                                 src="../assets/images/phone.svg" alt="icon">
-                            משרד הבריאות
+                            <span id="health-ministry-mobile">
+                                משרד הבריאות
+                            </span>
                         </a>
                 </div>
             </div>
@@ -200,6 +221,9 @@
                                 3. המפה כוללת אפשרות סינון זמנים, סינון הזמנים מתייחס לזמן שממנו אירע המקרה, לדוגמא אם מקרה
                                 אירע ב - 1.3, והתאריך היום הוא ה 15.3, אז זה אומר שתראו את המקרה, בלשונית "שבועיים אחרונים"
                                 ו"כל הזמנים" אבל לא בלשונית "שבוע אחרון" או "3 ימים אחרונים".
+                                <br>
+                                <br>
+                                4. המידע שגולשים מזינים באתר הינו פומבי. מפתחי האתר אינם אחראים על כל נזק עקב פרסום המידע.
                             </p>
                             <br>
                             <p class="pop-up-text">
@@ -271,12 +295,13 @@
     <!--========== map-reader-pop-up end ==========-->
 
     <!---========== scripts ==========-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-    <script src="../js/scripts.js"></script>
-    <script src="../js/flights.js"></script>
 </body>
 
 </html>

@@ -43,11 +43,11 @@ def getPoints(language):
                             "link": link})
     return points
 
-with open('public/data/dataHe.json', 'w', encoding='utf-8') as f:
+with open('public/data/data-he.json', 'w', encoding='utf-8') as f:
     json.dump(getPoints('hebrew'), f, ensure_ascii=False, indent=4)
 
-with open('public/data/dataAr.json', 'w', encoding='utf-8') as f:
+with open('public/data/data-ar.json', 'w', encoding='utf-8') as f:
     json.dump(getPoints('arabic'), f, ensure_ascii=False, indent=4)
 
-with open('public/data/dataEn.json', 'w', encoding='utf-8') as f:
+with open('public/data/data-en.json', 'w', encoding='utf-8') as f:
     json.dump(getPoints('english'), f, ensure_ascii=False, indent=4)

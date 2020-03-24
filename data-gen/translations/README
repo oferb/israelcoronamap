@@ -1,0 +1,20 @@
+To translate the hebrew data to a language:
+	
+	bash translate.sh <LANGUAGE>
+
+Where LANGUAGE is the two-letter language code, capitalized: En, Ar, Fr, etc.
+This outputs the translated data to data<LANGUAGE>.json, and maintains a cache at translation_cache_<LANGUAGE>.json
+
+
+To update the translated data and the translation cache with a manual translation, use:
+
+	python update.py <LANGUAGE> <PATH>
+
+Where PATH points to a JSON file with the manual translation, structured in the following way:
+[
+	{id: 1, label: 'Example label'},
+	{id: 2, label: 'Example label'},
+	...
+]
+
+The list of languages which have been updated with manual translations is maintained at updated.json.

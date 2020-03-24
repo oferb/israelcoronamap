@@ -98,6 +98,18 @@ def extractLocation():
     else:
       print()
 
-    
+
+
+def fixLoc():
+  contents = []
+  with open('data-gen/data.txt', newline='') as f:
+    contents = f.read()
+  for line in contents.splitlines():
+    split = line.split(", ")
+    if len(split) == 2:
+      print(split[1].strip() + ", " + split[0].strip())
+    else:
+      print(line)
+
 
 extractLocation()
