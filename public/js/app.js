@@ -162,15 +162,17 @@ const updateMap = () => {
       lat: currPoint.lat,
       lng: currPoint.lon
     };
-    let icon = '/assets/images/map-icons/allTime.svg';
-    let zIndex = 1000;
-    if (isYesterday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/yesterday.svg';
-      zIndex = 2000;
-    } else if (isToday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/today.svg';
-      zIndex = 3000;
-    }
+    // let icon = '/assets/images/map-icons/allTime.svg';
+    // let zIndex = 1000;
+    // if (isYesterday(currPoint.pub_ts)) {
+    //   icon = '/assets/images/map-icons/yesterday.svg';
+    //   zIndex = 2000;
+    // } else if (isToday(currPoint.pub_ts)) {
+    //   icon = '/assets/images/map-icons/today.svg';
+    //   zIndex = 3000;
+    // }
+    icon = '/assets/images/map-icons/yesterday.svg';
+    zIndex = 2000;
     const marker = new google.maps.Marker({
       position,
       map,
