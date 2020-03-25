@@ -114,3 +114,5 @@ dist
 
 data-gen/data.txt
 data-gen/locations.txt
+
+__pycache__
