@@ -346,7 +346,7 @@ const processData = () => {
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
+      // firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
       firstPoint.text += `<b>${i18n('visitingTimes')} </b><br>`;
@@ -357,7 +357,7 @@ const processData = () => {
     } else {
       firstPoint.text += `<b>${i18n('visitingTime')} </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-    firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
+    // firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
 
     const lastPoint = points[points.length - 1];
     firstPoint.last_end = lastPoint.t_end;
