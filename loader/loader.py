@@ -15,13 +15,13 @@ def load():
 
     
     for i, p in enumerate(inputData['features']):
-        print(p)
         x, y = p['geometry']['coordinates'][0], p['geometry']['coordinates'][1]
         point = {"id": p['id'],
                  "lat": y,
                  "lon": x,
                  "label": p['properties']['Place'],
                  "text": '',
+                 "stayTimes": p['properties']['stayTimes'],
                  "t_start": (datetime.fromtimestamp(p['properties']['fromTime'] / 1000) - timedelta(hours=2)).isoformat(),
                  "t_end": (datetime.fromtimestamp(p['properties']['toTime'] / 1000) - timedelta(hours=2)).isoformat(),
                  "link": ''}
