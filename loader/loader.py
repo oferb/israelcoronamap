@@ -36,7 +36,13 @@ def load():
     print('total', len(outputData))
 
     with open('public/data/data-he.json', 'w') as f:
-        json.dump(outputData, f, indent =2, ensure_ascii=False)
+        json.dump(outputData, f, indent = 2, ensure_ascii=False)
+
+    with open('public/data/data-ar.json', 'w', encoding='utf-8') as f:
+        json.dump(outputData, f, ensure_ascii=False, indent=2)
+
+    with open('public/data/data-en.json', 'w', encoding='utf-8') as f:
+        json.dump(outputData, f, ensure_ascii=False, indent=2)
 
 
 load()
