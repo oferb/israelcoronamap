@@ -31,6 +31,7 @@ const zoomToLocation = () => {
   // clear previous marker
   if (currentPositionMarker) {
     currentPositionMarker.setMap(null);
+    currentPositionMarker.circle.setMap(null);
   }
 
   if (navigator.geolocation) {
@@ -42,13 +43,37 @@ const zoomToLocation = () => {
       };
 
       map.setCenter(pos);
-      map.setZoom(13);
+      map.setZoom(17);
 
       currentPositionMarker = new google.maps.Marker({
         position: pos,
         map,
         zIndex: 5000
       });
+      const circle = new google.maps.Circle({
+        strokeColor: '#1eb2a6',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#d4f8e8',
+        fillOpacity: 0.35,
+        map: map,
+        center: pos,
+        radius: 100
+      });
+
+      google.maps.event.addListener(circle, 'click', () => {
+        const text = `<div style="padding: 3px;
+                                  text-align: center;
+                                  font-size: 16px;
+                                  font-weight: 600;">זה טווח של 100 מטרים מהמיקום הנוכחי שלך.</div>`;
+        infoWindow.setPosition(circle.getCenter());
+        infoWindow.setContent(text);
+        infoWindow.open(map);
+      });
+
+      circle.bindTo('center', currentPositionMarker, 'position');
+      currentPositionMarker.circle = circle;
+
       currentPositionMarker.setMap(map);
     }, () => {
       handleLocationError('לא אישרת מיקום');
