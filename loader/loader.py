@@ -1,5 +1,6 @@
 import json
 from datetime import datetime, timedelta
+import time
 
 import requests
 
@@ -9,10 +10,8 @@ URL = 'https://services5.arcgis.com/dlrDjz89gx9qyfev/ArcGIS/rest/services/Corona
 def load():
     outputData = []
     inputData = []
-    # resp = requests.get(URL)
-    with open('public/data/moh-data.json', newline='') as f:
-        inputData = json.load(f)
-
+    resp = requests.get(URL)
+    inputData = json.loads(resp.content)
     
     for i, p in enumerate(inputData['features']):
         x, y = p['geometry']['coordinates'][0], p['geometry']['coordinates'][1]
@@ -27,13 +26,13 @@ def load():
                  "link": ''}
         if 'קו אוטובוס' not in (p['properties']['Comments'] or '') and 'אוטובוס' not in (p['properties']['Place'] or ''):
             outputData.append(point)
-            print(p['properties']['Place'], i)
         else:
-            print('Ignoring:')
-            print(p['properties']['Place'], i)
+            pass
 
 
-    print('total', len(outputData))
+    print('Total', len(outputData))
+    currentTime = round(time.time())
+    outputData = {'points': outputData, 'update_time': currentTime}
 
     with open('public/data/data-he.json', 'w') as f:
         json.dump(outputData, f, indent = 2, ensure_ascii=False)

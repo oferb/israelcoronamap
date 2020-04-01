@@ -351,8 +351,9 @@ const uniquifyArray = (array) => {
 
 const processData = () => {
   const pointsDict = new Object();
-  for (let i = 0; i < data.length; i++) {
-    const point = data[i];
+  const pointsData = data['points'];
+  for (let i = 0; i < pointsData.length; i++) {
+    const point = pointsData[i];
     const key = String([point.lat, point.lon]);
     if (!(key in pointsDict)) {
       pointsDict[key] = [point];
@@ -425,6 +426,7 @@ const getData = (initMode = false) => {
     .then((result) => {
       data = result;
       govData = processData(data);
+      initUpdatedTime(data['update_time']);
       addFlightsMapPoint();
       // Map is filtered by default
       if (initMode) {
@@ -432,6 +434,21 @@ const getData = (initMode = false) => {
       }
       updateMap();
     });
+};
+
+const initUpdatedTime = (updatedTime) => {
+  const date = new Date(updatedTime * 1000);
+  // Hours part from the timestamp
+  const hours = date.getHours();
+  // Minutes part from the timestamp
+  const minutes = date.getMinutes();
+  const updatedTimeString = hours + ':' + minutes;
+  const embedDatetime = document.getElementById("last-updated-time-embed");
+  if (embedDatetime) {
+    embedDatetime.textContent = updatedTimeString;
+  } else {
+    document.getElementById("last-updated-time").textContent = updatedTimeString;
+  }
 };
 
 // eslint-disable-next-line no-unused-vars

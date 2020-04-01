@@ -1,15 +1,4 @@
 
-const isOnEmbed = window.location.pathname.includes('embed');
-
-const initUpdatedTime = () => {
-  const updatedTime = "1.4.2020, 12:00";
-  if (isOnEmbed) {
-    document.getElementById("last-updated-time-embed").textContent = updatedTime;
-  } else {
-    document.getElementById("last-updated-time").textContent = updatedTime;
-  }
-};
-
 const sickDataUpdate = () => {
   const updatedTime = "1.4.2020, 12:00";
   const numberOfSickPeople = 5591;
@@ -31,5 +20,4 @@ const sickDataUpdate = () => {
   document.getElementById("last-updated-time-sick").textContent = updatedTime;
 };
 
-initUpdatedTime();
 sickDataUpdate();
