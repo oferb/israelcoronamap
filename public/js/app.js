@@ -427,7 +427,7 @@ const getData = (initMode = false) => {
       data = result;
       govData = processData(data);
       initUpdatedTime(data['update_time']);
-      addFlightsMapPoint();
+      //addFlightsMapPoint();
       // Map is filtered by default
       if (initMode) {
         setDaysAgo(14);

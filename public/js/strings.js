@@ -1,6 +1,6 @@
 
 const sickDataUpdate = () => {
-  const updatedTime = "1.4.2020, 12:00";
+  const updatedTime = "1.4.2020 20:20";
   const numberOfSickPeople = 5591;
   const numberOfSickPeopleYesterday = 2030;
   const numberOfRecovered = 226;
