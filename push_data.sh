@@ -2,7 +2,7 @@
 
 set -ex
 
-python3 data-gen/process.py
+python3 loader/loader.py
 git add -A
 git commit -m 'Data update'
 git push
