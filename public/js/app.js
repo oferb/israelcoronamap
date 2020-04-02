@@ -21,7 +21,6 @@ const init = () => {
 };
 
 const initNoMap = () => {
-  initTranslation();
   getDataNoMap(true);
 };
 
@@ -443,7 +442,7 @@ const getData = (initMode = false) => {
 
 const getDataNoMap = (initMode = false) => {
   const language = getLanguage();
-  fetch(`/data/data${language}.json`)
+  fetch(`/data/data-${language}.json`)
     .then((response) => {
       return response.json();
     })
@@ -453,7 +452,7 @@ const getDataNoMap = (initMode = false) => {
     });
 }
 
-  
+
 const initUpdatedTime = (updatedTime) => {
   const date = new Date(updatedTime * 1000);
   // Hours part from the timestamp

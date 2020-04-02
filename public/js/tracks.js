@@ -40,7 +40,7 @@ const createList = (tracksList, initial) => {
                     <div class="card-body">
                      <div class="card-title-box">
                       <h5 class="card-title"> ${track.label}</h5>
-                      <div class="patient-number">חולה מס': ${track.pat_num}</div>
+                      
                      </div>
                       <div class="card-contant-box">
                         <div class="card-text">
@@ -107,7 +107,6 @@ const handleTracksSearchDesktop = () => {
 
 const filterTracks = (trackList, value) => {
   value = value.trim();
-  console.log(value);
   let filterdTracks = trackList.filter((track) => {
       let rangeMatch = false;
       if (selectedStart !== undefined && selectedEnd !== undefined) {
@@ -120,7 +119,7 @@ const filterTracks = (trackList, value) => {
          return rangeMatch;
      }
 
-    return (track.label.toString().includes(value) ||
+    return ((track.label && track.label.toString().includes(value)) ||
       (track.startTime && track.startTime.toString().includes(value)) ||
       (track.endTime && track.endTime.toString().includes(value)) ||
       (track.pat_num && track.pat_num.toString().includes(value)) ||
