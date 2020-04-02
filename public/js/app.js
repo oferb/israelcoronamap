@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars, no-undef */
-let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
+let map, infoWindow, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
 let currentPositionMarker = null;
+var govData;
 
 const windowWidth = window.screen.availWidth;
 let markersArray = [];
@@ -17,6 +18,10 @@ const init = () => {
   initLanguage();
   setMapReader();
   getData(true);
+};
+
+const initNoMap = () => {
+  getDataNoMap(true);
 };
 
 const zoomToLocation = () => {
@@ -104,7 +109,6 @@ const toggleGPSIconColorOnClick = () => {
 // This should remain with function syntax since it is called in the google maps callback
 // eslint-disable-next-line func-style, no-unused-vars
 function initMap() {
-
   const ISRAEL_BOUNDS = {
     north: 36.440135095195288,
     south: 25.937822999999995,
@@ -208,7 +212,7 @@ const updateMap = () => {
     });
 
     const contentStringCal = `<div
-                                id="infowindow" 
+                                id="infowindow"
                                 class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}"
                               >
                                 <div class="info-label">${currPoint.label}</div>
@@ -267,7 +271,7 @@ const addFlightsMapPoint = () => {
   google.maps.event.addListener(marker, 'click', ((marker) => {
     return () => {
       const contentStringCal = `<div
-        id="infowindow" 
+        id="infowindow"
         class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}"
       >
         <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
@@ -435,6 +439,19 @@ const getData = (initMode = false) => {
       updateMap();
     });
 };
+
+const getDataNoMap = (initMode = false) => {
+  const language = getLanguage();
+  fetch(`/data/data-${language}.json`)
+    .then((response) => {
+      return response.json();
+    })
+    .then((result) => {
+      data = result;
+      govData = data;
+    });
+}
+
 
 const initUpdatedTime = (updatedTime) => {
   const date = new Date(updatedTime * 1000);

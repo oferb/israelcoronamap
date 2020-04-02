@@ -34,6 +34,11 @@ const setTranslationInHTML = () => {
   setTranslationByID('health-ministry-mobile', 'health-ministry');
   setTranslationByID('last-updated-title-sick', 'last-updated-text');
   setTranslationByID('select-language-header', 'select-language');
+
+  setPlaceholderTranslationByID('search-track-input-dekstop', 'trackPlaceholder');
+  setTranslationByID('track-start-time', 'trackStart');
+  setTranslationByID('track-end-time', 'trackEnd');
+
 };
 
 const setTranslationByID = (id, langKey) => {
@@ -49,6 +54,13 @@ const i18n = langKey => {
   } else {
     console.log(langKey);
     return langs['he'][langKey];
+  }
+};
+
+const setPlaceholderTranslationByID = (id, text) => {
+  const el = $("#" + id);
+  if (el) {
+    el.attr("placeholder", i18n(text));
   }
 };
 

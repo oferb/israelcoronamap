@@ -26,12 +26,11 @@ const he = {
   'contact-use': 'צרו קשר',
   'select-language': 'בחרו שפה',
   'state-of-patients-israel': 'מצב החולים בישראל',
-  'number-of-sick-people': 'מספר הנדבקים:',
+  'number-of-sick-people': 'מספר החולים:',
   'number-of-recovered-people': 'מספר המחלימים:',
   'number-of-deaths': 'מספר המתים:',
   'number-of-people-in-quarantine': 'מספר מבודדי בית:',
   'sick-update-title': 'מצב החולים בישראל',
-  today: 'מהבוקר'
 };
 langs['he'] = he;
 
