@@ -40,7 +40,7 @@ const createList = (tracksList, initial) => {
                     <div class="card-body">
                      <div class="card-title-box">
                       <h5 class="card-title"> ${track.label}</h5>
-                      
+
                      </div>
                       <div class="card-contant-box">
                         <div class="card-text">
@@ -165,10 +165,10 @@ function inputParseDate(dateString, timeString) {
 }
 
 function parseDateInputs() {
-    let startDateString = $("#startDate").val();
-    let endDateString = $("#endDate").val();
-    let startTimeString = $("#startTime").val();
-    let endTimeString = $("#endTime").val();
+    let startDateString = "";
+    let endDateString = "";
+    let startTimeString = "";
+    let endTimeString = "";
 
     if (startDateString === "") {
         return;
