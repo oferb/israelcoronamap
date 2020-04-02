@@ -1,22 +1,11 @@
 
-const isOnEmbed = window.location.pathname.includes('embed');
-
-const initUpdatedTime = () => {
-  const updatedTime = "23.3.2020, 11:40";
-  if (isOnEmbed) {
-    document.getElementById("last-updated-time-embed").textContent = updatedTime;
-  } else {
-    document.getElementById("last-updated-time").textContent = updatedTime;
-  }
-};
-
 const sickDataUpdate = () => {
-  const updatedTime = "24.3.2020, 09:20";
-  const numberOfSickPeople = 1656;
-  const numberOfSickPeopleYesterday = 1442;
-  const numberOfRecovered = 49;
-  const numberOfRecoveredYesterday = 41;
-  const numberOfDeaths = 1;
+  const updatedTime = "2.4.2020 12:20";
+  const numberOfSickPeople = 6211;
+  const numberOfSickPeopleYesterday = 2030;
+  const numberOfRecovered = 289;
+  const numberOfRecoveredYesterday = 58;
+  const numberOfDeaths = 29;
   const numberOfDeathsToday = 0;
 
   document.getElementById("number-of-sick-people-text").textContent = numberOfSickPeople;
@@ -31,5 +20,4 @@ const sickDataUpdate = () => {
   document.getElementById("last-updated-time-sick").textContent = updatedTime;
 };
 
-initUpdatedTime();
 sickDataUpdate();

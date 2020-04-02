@@ -60,7 +60,7 @@ $( document ).ready(() => {
 
   });
 
-  $('.report-pop-up-click').click(showFeedbackPopup);
+  // $('.report-pop-up-click').click(showFeedbackPopup);
 
   $('#close-feedback-popup, #go-back-to-main-screen').click(() => {
     $('#report-pop-up').fadeOut('fast');
@@ -206,6 +206,6 @@ $('#close-feedback-popup').click(function () {
   $('#report-pop-up').fadeOut('fast');
 });
 
-if (getQueryParam('feedback') === 'true') {
-  showFeedbackPopup();
-}
+// if (getQueryParam('feedback') === 'true') {
+//   showFeedbackPopup();
+// }

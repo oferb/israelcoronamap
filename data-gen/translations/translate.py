@@ -2,52 +2,64 @@ from sys import argv
 import urllib, json
 from google.cloud import translate_v2 as translate
 
-try:
-	with open('translation_cache_%s.json' % argv[2], 'r', encoding='utf8') as raw_cache:
-		cache = json.load(raw_cache)
-except FileNotFoundError:
-	cache = {}
+# Set GOOGLE_APPLICATION_CREDENTIALS=<google services json>
+LANGS = ['ar', 'en']
+CLIENT = translate.Client()
 
-def main(src, dst):
-	src_url = "https://raw.githubusercontent.com/oferb/israelcoronamap/master/public/data/data%s.json" % src
-	dst_name = "data{}.json".format(dst)
-	src, dst = src.lower(), dst.lower()
-	data = get_data(src_url)
-	print('Received %d entries' % len(data))
-	translate_labels(data, src, dst)
-	with open(dst_name, 'w') as outfile:
-		json.dump(data, outfile, ensure_ascii=False)
-	print('Translated %d entries to %s' % (len(data), dst_name))
-	
+def main(targetLang):
+  data = []
+  with open("../../public/data/data-he.json", newline='') as f:
+    data = json.load(f)
 
-def translate_labels(data, src, dst):
-	t = translate.Client()
-	for index, entry in enumerate(data):
-		_id, label = entry['id'], entry['label']
-		entry['label'] = translate_label(_id, label, dst, t)
-		if index % 10 == 0:
-			save_cache()
+  print('%d entries' % len(data))
+  translateLabels(data[0:12], targetLang)
+  with open("../../public/data/data-{}.json".format(targetLang), 'w') as f:
+    json.dump(data, f, indent =2, ensure_ascii=False)
+  print('Translated %d entries to %s' % (len(data), targetLang))
 
-def translate_label(_id, label, dst, client):
-	cached_result = cache.get(_id)
-	if cached_result:
-		return cached_result
-	result = client.translate(label, target_language=dst)['translatedText']
-	cache.update({_id: result})
-	print('%s -> %s (%s)' % (label, result, dst))
-	return result
+def getCache(lang):
+  try:
+    with open('../../translation_cache_%s.json' % lang, 'r', encoding='utf8') as raw_cache:
+      return json.load(raw_cache)
+  except FileNotFoundError:
+    return {}
 
-def get_data(url):
-	data = None
-	with urllib.request.urlopen(url) as resp:
-		data = json.loads(resp.read().decode('utf-8'))
-	return data
+def saveCache(targetLang, cache):
+  with open('translation_cache_%s.json' % targetLang, 'w', encoding='utf8') as cache_out:
+    json.dump(cache, cache_out, indent=2, ensure_ascii=False)
 
-def save_cache():
-	with open('translation_cache_%s.json' % argv[2], 'w', encoding='utf8') as cache_out:
-		json.dump(cache, cache_out, ensure_ascii=False)
+def getManualTranslations(lang):
+  try:
+    with open('manual_translations_%s.json' % lang, 'r', encoding='utf8') as raw_cache:
+      return json.load(raw_cache)
+  except FileNotFoundError:
+    return {}
+
+def translateLabels(data, targetLang):
+  cache = getCache(targetLang)
+  manual = getManualTranslations(targetLang)
+
+  for index, entry in enumerate(data):
+    label = entry['label']
+    entry['label'] = translateLabel(label, targetLang, cache, manual)
+    if index % 10 == 0:
+      saveCache(targetLang, cache)
+
+def translateLabel(label, dst, cache, manual):
+  manualResult = manual.get(label)
+  print(label)
+  if manualResult:
+    print("Using manual " + manualResult)
+    return manualResult
+  cachedResult = cache.get(label)
+  if cachedResult:
+    return cachedResult
+  result = CLIENT.translate(label, target_language=dst)['translatedText']
+  cache.update({label: result})
+  print('%s -> %s (%s)' % (label, result, dst))
+  return result
+
 
 if __name__ == "__main__":
-	src, dst = argv[1], argv[2]
-	main(src, dst)
-	save_cache()
+  main(LANGS[0])
+  #save_cache()

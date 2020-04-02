@@ -37,6 +37,7 @@ const zoomToLocation = () => {
   // clear previous marker
   if (currentPositionMarker) {
     currentPositionMarker.setMap(null);
+    currentPositionMarker.circle.setMap(null);
   }
 
   if (navigator.geolocation) {
@@ -48,13 +49,37 @@ const zoomToLocation = () => {
       };
 
       map.setCenter(pos);
-      map.setZoom(13);
+      map.setZoom(17);
 
       currentPositionMarker = new google.maps.Marker({
         position: pos,
         map,
         zIndex: 5000
       });
+      const circle = new google.maps.Circle({
+        strokeColor: '#1eb2a6',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#d4f8e8',
+        fillOpacity: 0.35,
+        map: map,
+        center: pos,
+        radius: 100
+      });
+
+      google.maps.event.addListener(circle, 'click', () => {
+        const text = `<div style="padding: 3px;
+                                  text-align: center;
+                                  font-size: 16px;
+                                  font-weight: 600;">זה טווח של 100 מטרים מהמיקום הנוכחי שלך.</div>`;
+        infoWindow.setPosition(circle.getCenter());
+        infoWindow.setContent(text);
+        infoWindow.open(map);
+      });
+
+      circle.bindTo('center', currentPositionMarker, 'position');
+      currentPositionMarker.circle = circle;
+
       currentPositionMarker.setMap(map);
     }, () => {
       handleLocationError('לא אישרת מיקום');
@@ -167,15 +192,17 @@ const updateMap = () => {
       lat: currPoint.lat,
       lng: currPoint.lon
     };
-    let icon = '/assets/images/map-icons/allTime.svg';
-    let zIndex = 1000;
-    if (isYesterday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/yesterday.svg';
-      zIndex = 2000;
-    } else if (isToday(currPoint.pub_ts)) {
-      icon = '/assets/images/map-icons/today.svg';
-      zIndex = 3000;
-    }
+    // let icon = '/assets/images/map-icons/allTime.svg';
+    // let zIndex = 1000;
+    // if (isYesterday(currPoint.pub_ts)) {
+    //   icon = '/assets/images/map-icons/yesterday.svg';
+    //   zIndex = 2000;
+    // } else if (isToday(currPoint.pub_ts)) {
+    //   icon = '/assets/images/map-icons/today.svg';
+    //   zIndex = 3000;
+    // }
+    icon = '/assets/images/map-icons/yesterday.svg';
+    zIndex = 2000;
     const marker = new google.maps.Marker({
       position,
       map,
@@ -295,8 +322,7 @@ const fixTime = (time) => {
 const _textulize_visit_datetime = (point) => {
   let d_start = new Date(point.t_start);
   let d_end = new Date(point.t_end);
-  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')}
-    ${fixTime(d_start.getHours())}:${fixTime(d_start.getMinutes())}-${fixTime(d_end.getHours())}:${fixTime(d_end.getMinutes())}`;
+  let datestring = `${fixTime(d_start.getDate())}/${fixTime(d_start.getMonth() + 1)} ${i18n('betweenTheHours')}${point.stayTimes}`;
   return datestring;
 };
 
@@ -330,8 +356,9 @@ const uniquifyArray = (array) => {
 
 const processData = () => {
   const pointsDict = new Object();
-  for (let i = 0; i < data.length; i++) {
-    const point = data[i];
+  const pointsData = data['points'];
+  for (let i = 0; i < pointsData.length; i++) {
+    const point = pointsData[i];
     const key = String([point.lat, point.lon]);
     if (!(key in pointsDict)) {
       pointsDict[key] = [point];
@@ -351,7 +378,7 @@ const processData = () => {
     if (firstPoint.text.length !== 0) {
       firstPoint.text += '<br><br>';
     } else {
-      firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
+      // firstPoint.text += `<b>${i18n('patientNumber')}: </b>${uniquePatNums.join(', ')}<br><br>`;
     }
     if (points.length > 1) {
       firstPoint.text += `<b>${i18n('visitingTimes')} </b><br>`;
@@ -362,7 +389,7 @@ const processData = () => {
     } else {
       firstPoint.text += `<b>${i18n('visitingTime')} </b>${_textulize_visit_datetime(firstPoint)}<br>`;
     }
-    firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
+    // firstPoint.text += `<span class="pub_date"><b>${i18n('publishedDate')}: </b>${firstPoint.pub_date}</span><br>`;
 
     const lastPoint = points[points.length - 1];
     firstPoint.last_end = lastPoint.t_end;
@@ -404,7 +431,8 @@ const getData = (initMode = false) => {
     .then((result) => {
       data = result;
       govData = processData(data);
-      addFlightsMapPoint();
+      initUpdatedTime(data['update_time']);
+      //addFlightsMapPoint();
       // Map is filtered by default
       if (initMode) {
         setDaysAgo(14);
@@ -423,6 +451,22 @@ const getDataNoMap = (initMode = false) => {
       data = result;
       govData = data;
     });
+}
+
+  
+const initUpdatedTime = (updatedTime) => {
+  const date = new Date(updatedTime * 1000);
+  // Hours part from the timestamp
+  const hours = date.getHours();
+  // Minutes part from the timestamp
+  const minutes = date.getMinutes();
+  const updatedTimeString = hours + ':' + minutes;
+  const embedDatetime = document.getElementById("last-updated-time-embed");
+  if (embedDatetime) {
+    embedDatetime.textContent = updatedTimeString;
+  } else {
+    document.getElementById("last-updated-time").textContent = updatedTimeString;
+  }
 };
 
 // eslint-disable-next-line no-unused-vars

@@ -13,7 +13,7 @@ const he = {
   hours:'שעות',
   minutes:'דקות',
   secondes: 'שניות',
-  betweenTheHours: 'בין השעות',
+  betweenTheHours: '',
   departure: 'המראה',
   arrival: 'נחיתה',
   flightSearchPlaceholder: 'חפש טיסה לפי מספר ,תאריך, יעד, מקור או מס\' חולה',
