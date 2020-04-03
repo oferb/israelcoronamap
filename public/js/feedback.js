@@ -81,7 +81,7 @@ $(document).ready(() => {
       hitType: 'event',
       eventCategory: 'ClickOnSurvey',
       eventAction: 'Click',
-      eventLabel: 'risis survey'
+      eventLabel: 'Crisis survey'
     });
   });
 

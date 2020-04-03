@@ -31,17 +31,20 @@ def load():
 
 
     print('Total', len(outputData))
-    currentTime = round(time.time())
-    outputData = {'points': outputData, 'update_time': currentTime}
+    if (len(outputData) > 100):
+        currentTime = round(time.time())
+        outputData = {'points': outputData, 'update_time': currentTime}
 
-    with open('public/data/data-he.json', 'w') as f:
-        json.dump(outputData, f, indent = 2, ensure_ascii=False)
+        with open('public/data/data-he.json', 'w') as f:
+            json.dump(outputData, f, indent = 2, ensure_ascii=False)
 
-    with open('public/data/data-ar.json', 'w', encoding='utf-8') as f:
-        json.dump(outputData, f, ensure_ascii=False, indent=2)
+        with open('public/data/data-ar.json', 'w', encoding='utf-8') as f:
+            json.dump(outputData, f, ensure_ascii=False, indent=2)
 
-    with open('public/data/data-en.json', 'w', encoding='utf-8') as f:
-        json.dump(outputData, f, ensure_ascii=False, indent=2)
+        with open('public/data/data-en.json', 'w', encoding='utf-8') as f:
+            json.dump(outputData, f, ensure_ascii=False, indent=2)
+    else:
+        print("Error: Less than 100 points in data")
 
 
 load()
