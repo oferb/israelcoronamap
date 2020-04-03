@@ -39,12 +39,16 @@
     <link rel="stylesheet" href="../css/embed.css">
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/map.css" />
+    <link rel="stylesheet" href="../css/feedback.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="../languages/i18n.js"></script>
     <script src="../languages/he.js"></script>
     <script src="../languages/en.js"></script>
     <script src="../languages/ar.js"></script>
     <script src="../js/utils.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/feedback.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUJdl2h2JqN7NWOUKgG05emvLRY57-Fpg&callback=initMap"></script>
 
 </head>
@@ -81,6 +85,10 @@
         <img alt="map-reader" src="../assets/images/map-icons/mapReader-he.svg" class="map-reader-img" width="350" />
     </div>
 </div>
+
+<a style="z-index: 99999;" class="report-btn report-pop-up-click">
+    <span style="font-weight: 600;color: white;">שאלונים: על החיים בצל הקורונה</span>
+</a>
 
 <!--========== filters pop-up ==========-->
 <div style="z-index: 99999;" class="modal fadeIn" id="filters" tabindex="-1" role="dialog" aria-labelledby="filters" aria-hidden="true">
