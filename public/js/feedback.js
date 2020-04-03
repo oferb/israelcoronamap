@@ -60,7 +60,39 @@ $(document).ready(() => {
 
   });
 
-  // $('.report-pop-up-click').click(showFeedbackPopup);
+  $('.report-pop-up-click').click(showFeedbackPopup);
+
+  $('#report-close-x').click(() => {
+    $('#report-pop-up').fadeOut('fast');
+    deleteQueryParam('feedback');
+  });
+
+  $('#parenthood_survey').click(() => {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'ClickOnSurvey',
+      eventAction: 'Click',
+      eventLabel: 'Parenthood survey'
+    });
+  });
+
+  $('#crisis_survey').click(() => {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'ClickOnSurvey',
+      eventAction: 'Click',
+      eventLabel: 'risis survey'
+    });
+  });
+
+  $('#hope_survey').click(() => {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'ClickOnSurvey',
+      eventAction: 'Click',
+      eventLabel: 'Hope survey'
+    });
+  });
 
   $('#close-feedback-popup, #go-back-to-main-screen').click(() => {
     $('#report-pop-up').fadeOut('fast');
@@ -202,19 +234,6 @@ const getCounty = (cityId) => {
   return CITIES.find((city) => city.id === cityIdAsInt).county;
 };
 
-// const showFeedbackPopup = () => {
-//   ga('send', {
-//     hitType: 'event',
-//     eventCategory: 'ClickOnFeedbackPopUp',
-//     eventAction: 'Click',
-//     eventLabel: 'User open feedback page'
-//   });
-//   $('#report-pop-up').fadeIn("fast");
-//   setQueryParam('feedback', 'true');
-//   // clean previous success message
-//   showSuccessMessage(false);
-// };
-
-// if (getQueryParam('feedback') === 'true') {
-//   showFeedbackPopup();
-// };
+if (getQueryParam('feedback') === 'true') {
+  showFeedbackPopup();
+};

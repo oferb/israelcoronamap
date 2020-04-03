@@ -1,11 +1,11 @@
 
 const sickDataUpdate = () => {
-  const updatedTime = "2.4.2020 21:30";
-  const numberOfSickPeople = 6857;
+  const updatedTime = "3.4.2020 13:49";
+  const numberOfSickPeople = 7030;
   const numberOfSickPeopleYesterday = 2030;
-  const numberOfRecovered = 338;
+  const numberOfRecovered = 357;
   const numberOfRecoveredYesterday = 58;
-  const numberOfDeaths = 34;
+  const numberOfDeaths = 37;
   const numberOfDeathsToday = 0;
 
   document.getElementById("number-of-sick-people-text").textContent = numberOfSickPeople;

@@ -52,7 +52,6 @@ const i18n = langKey => {
   if (langs[lang].hasOwnProperty(langKey)) {
     return langs[lang][langKey];
   } else {
-    console.log(langKey);
     return langs['he'][langKey];
   }
 };

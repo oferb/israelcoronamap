@@ -8,6 +8,29 @@
     z-index: 3000;
 }
 
+.q-button{
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px!important;
+    color: #ffffff!important;
+    background-color: #147CC2;
+    box-shadow: 0px 3px 30px #00000029;
+    font-weight: 600;
+    
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .35s;
+
+}
+
+.q-button:hover{
+    transform: scale(0.98);
+    text-decoration: none!important;
+}
+
 .city-container {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -79,10 +102,10 @@ select.select2-hidden-accessible { visibility: hidden; }
 .report-btn{
     border-radius: 30px;
     padding: 10px 20px;
-    box-shadow: 0 3px 30px #00000029;
+    box-shadow: 0px 3px 30px #00000029;
     font-size: 14px;
     cursor: pointer;
-    background-color: #FF5B5B;
+    background-color: #147CC2;
     transition: all .35s;
     left: 0;
     top: 0;
@@ -110,46 +133,46 @@ select.select2-hidden-accessible { visibility: hidden; }
     opacity: 1; /* Firefox */
 }
 
+.hr-titels-tau{
+box-shadow: 0px 3px 30px #56AFD98F;
+border: 2px solid #147CC2;
+opacity: 1;
+border-radius: 30px;
+}
+
 .feeling-box{
-    display: flex;
+    display: flex; 
     flex-direction:column ;
     justify-content: center;
     align-items: center;
-    width:200px;
-    height: 200px;
-    margin: auto;
+    width:339px; 
+    height: 270px;
+    margin: auto; 
     border-radius: 10px;
-    box-shadow: 0 3px 30px #00000029;
+    box-shadow: 0px 3px 30px #00000029;
     background-color: white;
     transition-duration: 0.1s;
-    cursor: pointer;
-}
-
-
-.feeling-box.selected {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
-    border: 5px solid #FFCF4A;
-}
-
-.feeling-box:hover{
-    transform: scale(0.98);
-    color: #232b43;
-    opacity: 0.9;
-    text-decoration: none!important;
 }
 
 
 
+.report-row{
+    width: 90%;
+    margin: auto;
+}    
 @media(min-width:768px) {
+
+  .report-row{
+    width: 1100px;
+    margin: auto;
+
+}    
 
     .input {
         font-size: 20px;
     }
 
-    .report-row{
-        width: 700px;
-        margin: auto;}
+    
 
     .report-text{
         font-size:20px;

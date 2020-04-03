@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars, no-undef */
-let map, infoWindow, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
+let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButton, twoWeekButton, intervalId;
 let currentPositionMarker = null;
-var govData;
 
 const windowWidth = window.screen.availWidth;
 let markersArray = [];

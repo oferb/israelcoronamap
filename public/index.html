@@ -8,7 +8,7 @@
     <meta property="article:tag" content="נגיף הקורונה,קורונה,בידוד">
     <meta name="news_keywords" content="נגיף הקורונה,קורונה,בידוד">
 
-    <!--    og meta -->
+    <!--og meta -->
     <meta property="og:site_name" content="מפת הקורונה של ישראל">
     <meta property="og:title" content="מפת הקורונה של ישראל: כל המקומות שבהם שהו חולי נגיף קורונה בישראל. מתעדכן לפי המידע הרשמי של משרד הבריאות">
     <meta property="og:description" content="מפת הקורונה של ישראל: כל המקומות שבהם שהו חולי נגיף קורונה בישראל. מתעדכן לפי המידע הרשמי של משרד הבריאות">
@@ -160,124 +160,103 @@
         </div>
     </div>
 
-
-
-    <!--========== map end ==========-->
-
-    <a class="report-btn report-pop-up-click text-right" target="_blank" href="https://coronaisrael.org">
-        <span style="font-weight: 600;color: white;">דווחו: איך אתם מרגישים?</span>
-        &nbsp;
-        <img class="report-img" style="width: 20px;" src="assets/images/emoji/sneezing.png" alt="icon">
-    </a>
-
-
     <!--========== report-pop-up ==========-->
-
-    <div id="report-pop-up" class="pop-up-area">
+    <div id="report-pop-up" class="pop-up-area" style="display: none;">
         <div class="pop-up">
             <div class="container">
-                <img id='close-feedback-popup' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
                 <div class="row text-center">
                     <div class="col-12 ">
                         <div class="box-size">
-                            <h1 class="pop-up-title">דווחו: איך אתם מרגישים?</h1>
-                            <hr class='hr-titles' style="width: 85px; align-content: center">
+                            <h1 class="pop-up-title">הזדמנות להביע את דעתכם: שאלונים בצל הקורונה</h1>
+                            <hr class='hr-titels-tau' width="30%" align="center">
+                            <p class="report-text" style="margin-top:25px;" >
+באוניברסיטת תל אביב בימים אלו נערכים מחקרים מיידים שנועדו לעזור למפות נושאים וסוגיות שיכולים לסייע למקבלי ההחלטות ולכלל האוכלוסייה.
                             <br>
+                            <br>
+ההשתתפות במחקרים דורשת מילוי שאלונים מקוונים אנונימיים, שאינם כוללים פרטים מזהים. הנתונים נאספים באתר מאובטח וישמשו לצורכי מחקר בלבד. דרושים מתנדבים ומתנדבות מגיל   18 ומעלה, יודעי עברית, היכולים להקדיש את הזמן הדרוש למילוי השאלונים. שימו לב לדרישות ההשתתפות המיוחדות בכל אחד מהשאלונים.
+                            <br>
+                            <br>
+                            <span style="font-weight: 600;">
+                              המעוניינים להשתתף במילוי השאלונים מוזמנים לבחור את אחד מהלינקים הבאים:
+                            </span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row text-center report-row"  >
-                <div class="col-12">
-                    <h3 style="font-weight: 700;font-size: 24px;">
-                        איפה אתם גרים?
-                    </h3>
-                    <br>
-                    <div id="test">
-                        <label class="city-container">
-                            <select id="select-city-input" class="city-input" name="state" style="width:100%">
-                                <option></option>
-                            </select>
-                        </label>
-                    </div>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-12">
-                    <h3 style="font-weight: 700;font-size: 24px;">
-                        איך אתם מרגישים?
-                    </h3>
-                </div>
+            <div class="row text-center report-row">
                 <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
                     <div class="feeling-box">
-                        <p class="feeling-text" style="font-weight: 700;font-size: 18px;margin-bottom: 0;">סבבה לגמרי</p>
-                        <p class="feeling" style="font-weight: 400;font-size: 16px;"> מרגישים בריאים</p>
-                        <img src="assets/images/emoji/smile.png" style="width:50px;" alt="feeling-good">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">הורות בימי קורונה</p>
+                        <hr class='hr-titels-tau' width="30%" align="center">
+                        <p style="font-weight: 400;font-size: 16px;padding-left: 30px;padding-right: 30px;">
+מטרת המחקר היא ללמוד על התנהגות הורית ופעילות בבית עם ילדים בגיל הרך בימי הקורונה.
+                        </p>
+                        <br>
+                        <a id="parenthood_survey" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScr-1QH5hqdZ5JjHax9UmybYXDLcYrWz4s3l_-Rcf2jLeBePg/viewform" class="q-button">
+                          לשאלון>>
+                        </a>    
+                        <p style="font-weight: 400;font-size: 12px;margin-bottom: 0;margin-top: 10px;color: #707070">מילוי השאלון עורך כ- 10 דקות</p>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
                     <div class="feeling-box">
-                        <p class="feeling-text" style="font-weight: 700;font-size: 18px;margin-bottom: 0;">לא משהו</p>
-                        <p class="feeling" style="font-weight: 400;font-size: 16px;"> מרגישים התקררות קלה</p>
-                        <img src="assets/images/emoji/sneezing.png" style="width:50px;" alt="feeling-cold">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">מחשבות על בריאות בימי הקורונה</p>
+                        <hr class='hr-titels-tau' width="30%" align="center">
+                        <p style="font-weight: 400;font-size: 16px;padding-left: 30px;padding-right: 30px;">
+מטרת המחקר היא ללמוד על איך אנשים תופסים את משבר הקורונה ומתמודדים עם המצב.
+                        </p>
+                        <br>
+                        <a id="crisis_survey" target="_blank" href="https://telaviv.qualtrics.com/jfe/form/SV_1Tb2kNCj2isQuzj" class="q-button">
+                          לשאלון>>
+                        </a>
+                        <p style="font-weight: 400;font-size: 12px;margin-bottom: 0;margin-top: 10px;color: #707070">מילוי השאלון עורך כ- 30 דקות</p>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 text-center" style="margin-top:25px;">
                     <div class="feeling-box">
-                        <p class="feeling-text" style="font-weight: 700;font-size: 18px;margin-bottom: 0;">על הפנים</p>
-                        <p class="feeling" style="font-weight: 400;font-size: 16px;">שיעולים / חום או שניהם</p>
-                        <img src="assets/images/emoji/hot.png" style="width:50px;" alt="might-have-corona">
+                        <p style="font-weight: 700;font-size: 18px;margin-bottom: 0;">תקווה בימי הקורונה</p>
+                        <hr class='hr-titels-tau' width="30%" align="center">
+                        <p style="font-weight: 400;font-size: 16px;padding-left: 30px;padding-right: 30px;">
+הבנת התקווה בתקופות משבר יאפשר פיתוח איזונים נכונים יותר בין ייאוש, פחדים ואי וודאות.
+                        </p>
+                        <br>
+                        <a id="hope_survey" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSctPfxpoYjYkMp_UzWvwN4q7ItZ7e_Qe3C09EFzjb0Ka2M8RQ/viewform" class="q-button">
+                          לשאלון>>
+                        </a>    
+                        <p style="font-weight: 400;font-size: 12px;margin-bottom: 0;margin-top: 10px;color: #707070">מילוי השאלון עורך כ- 5 דקות</p>
                     </div>
                 </div>
             </div>
             <br>
             <br>
             <div class="row text-center report-row">
-                <div class="col-12 col-centered" style="margin-bottom: 80px">
-                    <button href="#" id="submit-feedback-button" class="btn button" style="font-weight: 700; margin-bottom: 10px;">
-                        <span id="feedback-button-text">שלחו דיווח</span>
-                        <span id="feedback-button-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                    </button>
-                    <!--  this is what popup if not all filled -->
-                    <p class="error-filling-feedback" style="font-weight: 600;color:#FF5B5B;">
-                        <span>אנא מלאו את כל השדות הנדרשים:</span>
-                        <span id="missing-feedback-fields"></span>
-                    </p>
-                    <p class="network-error-filling-feedback" style="font-weight: 600;color:#FF5B5B;">
-                        <span>אירעה שגיאה. אנא נסה שנית.</span>
-                    </p>
-                    <!--  this is what popup sent successfully -->
-                    <div class="form-success-message">
-                        <img src="assets/images/form-success.svg" style="width:45px; margin-bottom: 15px;" alt="form-success-icon">
-                        <p id="success-filling-feedback">
-                            <span>תודה! הפרטים שלך נקלטו בהצלחה</span>
-                        </p>
-                        <p id="success-filling-feedback-refill">
-                            <span>תמיד תוכלו לשלוח דיווח מחדש על איך אתם מרגישים</span>
-                        </p>
-                        <a href="#" id="go-back-to-main-screen" class="button" style="font-weight: 700; color: white;">חזרו למפה</a>
-                    </div>
+                <div class="col-12">
                     <br>
+                    <p style="font-weight: 700;">בהובלת:</p>
+                    <img src="assets/images/tau-logo.svg" style="width:130px;" alt="weizmann institute logo">
                     <br>
-                    <br>
-<!--                    <p>בשיתוף</p>-->
-<!--                    <img src="assets/images/weizmann-logo.jpg" style="width:100px;" alt="weizmann institute logo">-->
-<!--                    <br>-->
-<!--                    <br>-->
-                    <p class="report-text" >
-                        שאלון זה נוצר כדי לסייע בחיזוי ואיתור של מוקדי התפשטות מגפת הקורונה בישראל כדי לעזור להגיע לחולים מהר יותר, על ידי הערכה של מספר האנשים בכל אזור שפיתחו תסמינים. השאלון אנונימי לחלוטין והמידע ישותף באופן פומבי עם הציבור.
-                    </p>
-                    <br>
-                    <br>
-<!--                    <a target="_blank" href="https://coronaisrael.org" style="text-decoration: underline;">לשאלון המלא של מכון וייצמן באדיבות הסדנא לידע ציבורי</a>-->
                 </div>
             </div>
             <br>
             <br>
+            <img id='report-close-x' class="close-pop-up" src="assets/images/x-icon.svg" alt="x-icon">
         </div>
-    </div>
+
     </div>
     <!--========== report-pop-up end ==========-->
+
+
+    <!--========== map end ==========-->
+
+      <a class="report-btn report-pop-up-click">
+        <span style="font-weight: 600;color: white;">שאלונים: על החיים בצל הקורונה</span>
+    </a>
+
+
+  
     <!--========== header end ==========-->
 
     <!--========== side-bar ==========-->
@@ -398,24 +377,19 @@
                     <div class="col-12 ">
                         <div class="box-size">
                             <h1 class="pop-up-title">תנאי שימוש באתר</h1>
-                            <hr class='hr-titels' width="85px" align="right">
-                            <p>תנאי שימוש מעודכנים ל - 7.3.20</p>
+                            <hr class='hr-titles' width="85px" align="right">
+                            <p>תנאי שימוש מעודכנים ל - 3.4.20</p>
                             <p class="pop-up-text">
-                                1. האתר הכולל מפה שמרכזת את כלל מקרי הקורונה בישראל, נבנתה מתוך רצון טוב, בהתנדבות ובתצורת
-                                קוד פתוח עבור כלל הציבור, יחד עם זאת האחראים על פיתוח האתר אינם אחראים על כל נזק עקב שימוש
-                                במפה או באתר.
+                              1.	האתר הכולל מפה שמרכזת את כלל מקרי הקורונה בישראל, נבנתה מתוך רצון טוב, בהתנדבות ובתצורת קוד פתוח עבור כלל הציבור, יחד עם זאת האחראים על פיתוח האתר אינם אחראים על כל נזק עקב שימוש במפה או באתר.
                                 <br>
                                 <br>
-                                2. יש לשים לב: יתכנו עיקובים במידע המוצג על המפה, מכיוון שהמידע מתקבל קודם כל ממשרד הבריאות
-                                ורק לאחר מכן מוזן במפה, יש תמיד להתעדכן באתר משרד הבריאות ולעקוב אחר הפרסומים וההצהרות שלו.
+2.	יש לשים לב: יתכנו עיכובים במידע המוצג על המפה, מכיוון שהמידע מתקבל קודם כל ממשרד הבריאות ורק לאחר מכן מוזן במפה, יש תמיד להתעדכן באתר משרד הבריאות ולעקוב אחר הפרסומים וההצהרות שלו.
                                 <br>
                                 <br>
-                                3. המפה כוללת אפשרות סינון זמנים, סינון הזמנים מתייחס לזמן שממנו אירע המקרה, לדוגמא אם מקרה
-                                אירע ב - 1.3, והתאריך היום הוא ה 15.3, אז זה אומר שתראו את המקרה, בלשונית "שבועיים אחרונים"
-                                ו"כל הזמנים" אבל לא בלשונית "שבוע אחרון" או "3 ימים אחרונים".
+3.	האתר כולל בתוכו מעקב של שירות Google analytics שמטרתו לדעת את מספר ואופן השימושים באתר לרבות: מעקב על כפתורים שנלחצו. 
                                 <br>
                                 <br>
-                                4. המידע שגולשים מזינים באתר הינו פומבי. מפתחי האתר אינם אחראים על כל נזק עקב פרסום המידע.
+4.	המידע המוצג על המפה רלוונטי ל - 14 ימים אחרונים, במידה ותרצו לדעת מה קרה מתחילת ההתפרצות בישראל, תוכלו לגשת לפילטרים ולבחור באופציית כל הזמנים.
                             </p>
                             <br>
                             <p class="pop-up-text">
