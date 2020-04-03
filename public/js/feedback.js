@@ -8,7 +8,7 @@ firebase.initializeApp({
 const db = firebase.firestore();
 let isUserSigned = false;
 
-firebase.auth().onAuthStateChanged(function(user) {
+firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
     isUserSigned = true;
     // User is signed in.
@@ -33,7 +33,7 @@ $.getScript("../data/cities.js", () => {
       noResults: (_params) => {
         return "אין תוצאות";
       },
-      inputTooShort: function(args) {
+      inputTooShort: function (args) {
         // args.minimum is the minimum required length
         // args.input is the user-typed text
         return '';
@@ -48,7 +48,7 @@ $.getScript("../data/cities.js", () => {
 
 });
 
-$( document ).ready(() => {
+$(document).ready(() => {
   // feeling-box selected
   $('.feeling-box').click((el) => {
 
@@ -202,10 +202,19 @@ const getCounty = (cityId) => {
   return CITIES.find((city) => city.id === cityIdAsInt).county;
 };
 
-$('#close-feedback-popup').click(function () {
-  $('#report-pop-up').fadeOut('fast');
-});
+// const showFeedbackPopup = () => {
+//   ga('send', {
+//     hitType: 'event',
+//     eventCategory: 'ClickOnFeedbackPopUp',
+//     eventAction: 'Click',
+//     eventLabel: 'User open feedback page'
+//   });
+//   $('#report-pop-up').fadeIn("fast");
+//   setQueryParam('feedback', 'true');
+//   // clean previous success message
+//   showSuccessMessage(false);
+// };
 
 // if (getQueryParam('feedback') === 'true') {
 //   showFeedbackPopup();
-// }
+// };
