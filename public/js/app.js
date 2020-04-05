@@ -114,9 +114,14 @@ function initMap() {
     west: 30.65619800118771,
     east: 39.000322999999995,
   };
-  map = new google.maps.Map(document.getElementById('map'), {
+  const {center, zoom} = getBoundsFromLocalStorage() || {
     center: windowWidth >= 500 ? { lat: 31.6, lng: 34.969073 } : { lat: 31.1, lng: 34.969073 },
-    zoom: windowWidth >= 500 ? 8 : 7,
+    zoom: windowWidth >= 500 ? 8 : 7
+  };
+
+  map = new google.maps.Map(document.getElementById('map'), {
+    center,
+    zoom,
     minZoom: 7,
     maxZoom: 18,
     gestureHandling: "greedy",
@@ -133,6 +138,18 @@ function initMap() {
       const urlWithoutID = removeURLParameter(window.location.href, 'id');
       window.history.pushState("Corona map", "Corona map", urlWithoutID);
     }
+  });
+
+  map.addListener('bounds_changed', function() {
+    const center = map.getCenter();
+    const mapLocation = {
+      zoom: map.getZoom(),
+      center: {
+        lat: center.lat(),
+        lng: center.lng()
+      }
+    }
+    setBoundsToLocalStorage(mapLocation);
   });
 
   google.maps.event.addDomListener(document.getElementById('zoomInButton'), 'click', function() {
