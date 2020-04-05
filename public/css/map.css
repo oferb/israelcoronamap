@@ -179,6 +179,24 @@ html, body {
     display: none;
 }
 
+#sick-people-city-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 110px;
+}
+
+.sick-city-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sick-city-label {
+    font-weight: 700
+}
+
 
 @media(max-width:768px) {
 

@@ -42,3 +42,7 @@ const setBoundsToLocalStorage = (mapLocation) => {
 const getBoundsFromLocalStorage = () => {
   return JSON.parse(localStorage.getItem('mapLocation') || 'null');
 }
+
+const convertNumberToStringWithCommas = (x) => {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

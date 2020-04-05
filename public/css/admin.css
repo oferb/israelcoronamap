@@ -1,0 +1,34 @@
+body {
+
+    width: 100%;
+    margin:0;
+    padding:0;
+    background: #f4f4f4;
+    color: #26262C;
+    font-family: 'Assistant', sans-serif;
+}
+
+#sick-pop-up-admin-container {
+    padding: 50px;
+    direction: rtl;
+}
+
+.input-labels {
+    float: right;
+}
+
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sick-input-status {
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+#submit-success, #submit-failed {
+    display: none;
+}
