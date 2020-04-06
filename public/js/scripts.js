@@ -72,6 +72,17 @@ $(document).ready(() => {
     $('#zoom-to-location-button').click(zoomToLocation);
   }
 
+
+   // open report pop-up
+    $('.jobs-pop-up-click').click(function () {
+      $('#jobs-pop-up').fadeIn("fast");
+    });
+    
+      // terms-close-x icon
+    $('#jobs-close-x').click(function () {
+      $('#jobs-pop-up').fadeOut('fast');
+    });
+
   // open language pop-up
   $('.language-click').click(function () {
 
