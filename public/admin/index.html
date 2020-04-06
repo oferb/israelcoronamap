@@ -7,25 +7,32 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous">
-    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
     <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+
+    <!--    Editable-->
+    <link href="https://cdn.jsdelivr.net/gh/Talv/x-editable@develop/dist/bootstrap4-editable/css/bootstrap-editable.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/Talv/x-editable@develop/dist/bootstrap4-editable/js/bootstrap-editable.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.4/dist/extensions/editable/bootstrap-table-editable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/extensions/cell-input/bootstrap-table-cell-input.min.js"></script>
+
     <script src="../js/firestore.js"></script>
+    <script src="../js/utils.js"></script>
     <script src="../js/admin.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--========== goolge fonts ==========-->
     <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
-
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous"
-    >
     <link rel="stylesheet" href="../css/admin.css" />
 
 </head>
@@ -33,23 +40,45 @@
 <body dir="rtl" >
     <div class="admin-container">
         <p class="title-sick-input-status">עדכון מצב החולים בישראל</p>
+        <div>
+            <span>עדכון אחרון: </span>
+            <span id="latest-time-update"></span>
+        </div>
         <form id="sick-pop-up-admin-container">
-            <div class="form-group">
+            <div class="form-group text-right">
                 <label class="input-labels" for="sickPeopleInput">מספר החולים</label>
                 <input type="number" class="form-control" id="sickPeopleInput" placeholder="הזן את מספר החולים" required>
+                <div class="current-status">
+                    <span>מספר החולים עכשווי: </span>
+                    <span id="current-sick-number"></span>
+                </div>
             </div>
-            <div class="form-group">
+            <div class="form-group text-right">
                 <label class="input-labels" for="recoveredPeopleInput">מספר המחלימים</label>
                 <input type="number" class="form-control" id="recoveredPeopleInput" placeholder="הזן את מספר המחלימים" required>
+                <div class="current-status">
+                    <span>מספר מחלימים עכשווי: </span>
+                    <span id="current-recovered-number"></span>
+                </div>
             </div>
-            <div class="form-group">
+            <div class="form-group text-right">
                 <label class="input-labels" for="deathPeopleInput">מספר המתים</label>
                 <input type="number" class="form-control" id="deathPeopleInput" placeholder="הזן את מספר המתים" required>
+                <div class="current-status">
+                    <span>מספר מתים עכשווי: </span>
+                    <span id="current-death-number"></span>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">שליחה</button>
+            <button type="submit" class="btn btn-primary">עדכן מצב חולים</button>
         </form>
         <p id="submit-success">נשלח בהצלחה</p>
         <p id="submit-failed">אנא נסה שנית</p>
+        <div class="cities-container">
+            <button id="update-cities-data" type="submit" class="btn btn-primary">עדכן נתוני ערים</button>
+            <p id="submit-cities-success">נתוני ערים עודכנו בהצלחה</p>
+            <p id="submit-cities-failed">אנא נסה שנית</p>
+            <table id="cities-table" class="table-striped text-center"></table>
+        </div>
     </div>
 </body>
 </html>

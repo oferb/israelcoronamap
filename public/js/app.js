@@ -12,8 +12,6 @@ if (isOnEmbedRoute) {
   gpsIconPath = `../${gpsIconPath}`;
   gpsBlueIconPath = `../${gpsBlueIconPath}`;
 }
-const HIGH_SICK_PEOPLE = 800;
-const MODERATE_SICK_PEOPLE = 200;
 
 const init = () => {
   initLanguage();
@@ -150,7 +148,7 @@ function initMap() {
         lat: center.lat(),
         lng: center.lng()
       }
-    }
+    };
     setBoundsToLocalStorage(mapLocation);
   });
 
@@ -188,7 +186,6 @@ const centerAndZoomToPoint = (point) => {
 };
 
 const updateMap = () => {
-  clearMarkers();
 
   let daysAgo = parseInt(getQueryParam('daysAgo'));
   if (isNaN(daysAgo)) {
@@ -209,15 +206,7 @@ const updateMap = () => {
       lat: currPoint.lat,
       lng: currPoint.lon
     };
-    // let icon = '/assets/images/map-icons/allTime.svg';
-    // let zIndex = 1000;
-    // if (isYesterday(currPoint.pub_ts)) {
-    //   icon = '/assets/images/map-icons/yesterday.svg';
-    //   zIndex = 2000;
-    // } else if (isToday(currPoint.pub_ts)) {
-    //   icon = '/assets/images/map-icons/today.svg';
-    //   zIndex = 3000;
-    // }
+
     icon = '/assets/images/map-icons/yesterday.svg';
     zIndex = 2000;
     const marker = new google.maps.Marker({
@@ -272,37 +261,39 @@ const updateMap = () => {
   }
 };
 
-const setTopCitiesMarkers = () => {
-  clearMarkers();
+const setTopCitiesMarkers = (cities) => {
+  const HIGH_SICK_PEOPLE = 800;
+  const MODERATE_SICK_PEOPLE = 150;
+  const CIRCLE_COLOR = '#FFD300';
 
-  TOP_CITIES.forEach((city, index) => {
+  cities.forEach((city) => {
 
-    let radius = 2000;
+    let opacity = 0.15;
+    let radius = 2500;
     const numberOfSickPeople = parseInt(city.sick);
-    console.log(numberOfSickPeople);
 
     if (numberOfSickPeople >= HIGH_SICK_PEOPLE) {
-      radius = 5000;
+      opacity = 0.8;
+      radius = 5500;
     }
 
     if (numberOfSickPeople >= MODERATE_SICK_PEOPLE && numberOfSickPeople < HIGH_SICK_PEOPLE) {
-      radius = 3500;
+      opacity = 0.5;
+      radius = 4000;
     }
-    if (index < 2) {
 
-      console.log(radius);
-      const circle = new google.maps.Circle({
-        strokeColor: '#2d2d61',
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillColor: '#2282ff',
-        fillOpacity: 0.35,
-        map: map,
-        center: city.position,
-        radius: radius
-      });
-      google.maps.event.addListener(circle, 'click', () => {
-        const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
+    const circle = new google.maps.Circle({
+      strokeColor: CIRCLE_COLOR,
+      strokeWeight: 2.5,
+      fillColor: CIRCLE_COLOR,
+      fillOpacity: opacity,
+      map: map,
+      center: city.position,
+      radius: radius
+    });
+
+    google.maps.event.addListener(circle, 'click', () => {
+      const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
                          <div class="sick-city-title">${city.city}</div>
                          <div class="sick-city-population">
                               <span class="sick-city-label">מספר תושבים: </span>
@@ -317,13 +308,11 @@ const setTopCitiesMarkers = () => {
                              <span class="sick-city-value">${convertNumberToStringWithCommas('1132')}</span>
                          </div>
                       </div>`;
-        infoWindow.setPosition(circle.getCenter());
-        infoWindow.setContent(text);
-        infoWindow.open(map);
-      });
-    }
+      infoWindow.setPosition(circle.getCenter());
+      infoWindow.setContent(text);
+      infoWindow.open(map);
+    });
   });
-
 };
 
 const addFlightsMapPoint = () => {
@@ -408,8 +397,7 @@ const sortPoints = (points) => {
   return points;
 };
 
-const filterPoints = points =>
-  points.filter((point, index) => {
+const filterPoints = points => points.filter((point, index) => {
     if (index > 0 &&
       points[index - 1].t_start === point.t_start &&
       points[index - 1].t_end === point.t_end) {
@@ -509,7 +497,7 @@ const getData = (initMode = false) => {
         setDaysAgo(14);
       }
       updateMap();
-      //setTopCitiesMarkers();
+      //getCitiesData(setTopCitiesMarkers);
     });
 };
 
@@ -523,7 +511,7 @@ const getDataNoMap = (initMode = false) => {
       data = result;
       govData = data;
     });
-}
+};
 
 
 const initUpdatedTime = (updatedTime) => {
