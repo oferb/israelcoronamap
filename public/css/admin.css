@@ -32,3 +32,30 @@ body {
 #submit-success, #submit-failed {
     display: none;
 }
+
+#submit-cities-success, #submit-cities-failed {
+    display: none;
+}
+
+.current-status {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bootstrap-table {
+    width: 70%;
+    padding: 20px;
+}
+
+.cities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#update-cities-data {
+    margin-bottom: 8px;
+}

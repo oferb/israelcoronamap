@@ -9,18 +9,9 @@ const db = firebase.firestore();
 
 const getSickPeopleData = (callback = undefined) => {
   db.collection("sick-pop-up").doc('data').get().then((doc) => {
-    console.log(doc.data());
     const {death, recover, sick, timestamp} = doc.data();
     if (callback) {
-      const date = new Date(timestamp);
-      const dd = String(date.getDate()).padStart(2, '0');
-      const mm = String(date.getMonth() + 1).padStart(2, '0');
-      const yyyy = date.getFullYear();
-
-      const minutes = date.getMinutes();
-      const hour = date.getHours();
-
-      const updateTime = `${dd}.${mm}.${yyyy} ${hour}:${minutes}`;
+      const updateTime = convertTimestampToDateAndTime(timestamp);
 
       callback(updateTime, sick, recover, death);
     }
@@ -43,4 +34,35 @@ const setSickPeopleDate = (sickNumber, recoverNumber, deathNumber) => {
       $('#submit-failed').css('display', 'block');
       console.error(error);
     });
+};
+
+const setCitiesData = (data) => {
+  db.collection("cities").doc("data").set({
+    cities: data,
+    lastUpdate: (new Date()).getTime()
+  })
+    .then(() => {
+      $('#submit-cities-success').css('display', 'block');
+      $('#submit-cities-failed').css('display', 'none');
+    })
+    .catch((error) => {
+      $('#submit-cities-success').css('display', 'none');
+      $('#submit-cities-failed').css('display', 'block');
+      console.error(error);
+    });
+};
+
+const getCitiesData = async (callback = undefined) => {
+  let data = {};
+  await db.collection("cities").doc("data").get()
+    .then((doc) => {
+      if (callback) {
+        callback(doc.data().cities);
+      }
+      data = doc.data();
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+  return data;
 };
