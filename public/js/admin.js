@@ -27,7 +27,6 @@ const addLabelsToInputsForCurrentStatus = (updateTime, sick, recover, death) => 
 getSickPeopleData(addLabelsToInputsForCurrentStatus);
 
 const initAdminCitiesTable = (cities, table) => {
-  console.log('initAdminCitiesTable');
   table.bootstrapTable({
     data: cities,
     cellInputEnabled: true,
@@ -55,11 +54,12 @@ const initAdminCitiesTable = (cities, table) => {
 
 $(document).ready(async () => {
   const table = $('#cities-table');
-  const cities = await getCitiesData();
-  const citiesWithFormatedPopulation = cities.map((city) => {
+  const {cities, lastUpdate} = await getCitiesData();
+  $('#latest-time-cities-update').text(convertTimestampToDateAndTime(lastUpdate));
+  const citiesWithFormattedPopulation = cities.map((city) => {
     return Object.assign(city, {population: convertNumberToStringWithCommas(city.population)});
   });
-  initAdminCitiesTable(citiesWithFormatedPopulation, table);
+  initAdminCitiesTable(citiesWithFormattedPopulation, table);
 
   $('#update-cities-data').click(() => {
     const dataFromTable = table.bootstrapTable('getData', {unfiltered: true});

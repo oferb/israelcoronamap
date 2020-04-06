@@ -11,16 +11,7 @@ const getSickPeopleData = (callback = undefined) => {
   db.collection("sick-pop-up").doc('data').get().then((doc) => {
     const {death, recover, sick, timestamp} = doc.data();
     if (callback) {
-      const date = new Date(timestamp);
-      const dd = String(date.getDate()).padStart(2, '0');
-      const mm = String(date.getMonth() + 1).padStart(2, '0');
-      const yyyy = date.getFullYear();
-
-      let minutes = date.getMinutes();
-      minutes = (minutes < 10 ? '0' : '') + minutes;
-      const hour = date.getHours();
-
-      const updateTime = `${dd}.${mm}.${yyyy} ${hour}:${minutes}`;
+      const updateTime = convertTimestampToDateAndTime(timestamp);
 
       callback(updateTime, sick, recover, death);
     }
@@ -47,7 +38,8 @@ const setSickPeopleDate = (sickNumber, recoverNumber, deathNumber) => {
 
 const setCitiesData = (data) => {
   db.collection("cities").doc("data").set({
-    cities: data
+    cities: data,
+    lastUpdate: (new Date()).getTime()
   })
     .then(() => {
       $('#submit-cities-success').css('display', 'block');
@@ -61,16 +53,16 @@ const setCitiesData = (data) => {
 };
 
 const getCitiesData = async (callback = undefined) => {
-  let cities = [];
+  let data = {};
   await db.collection("cities").doc("data").get()
     .then((doc) => {
       if (callback) {
         callback(doc.data().cities);
       }
-      cities = doc.data().cities;
+      data = doc.data();
     })
     .catch((error) => {
       console.error(error);
     });
-  return cities;
+  return data;
 };

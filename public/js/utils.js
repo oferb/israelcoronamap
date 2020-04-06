@@ -46,3 +46,16 @@ const getBoundsFromLocalStorage = () => {
 const convertNumberToStringWithCommas = (x) => {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+const convertTimestampToDateAndTime = (timestamp) => {
+  const date = new Date(timestamp);
+  const dd = String(date.getDate()).padStart(2, '0');
+  const mm = String(date.getMonth() + 1).padStart(2, '0');
+  const yyyy = date.getFullYear();
+
+  let minutes = date.getMinutes();
+  minutes = (minutes < 10 ? '0' : '') + minutes;
+  const hour = date.getHours();
+
+  return `${dd}.${mm}.${yyyy} ${hour}:${minutes}`;
+}
