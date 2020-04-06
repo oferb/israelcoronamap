@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <title>admin</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="../js/firestore.js"></script>
+    <script src="../js/admin.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== goolge fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="../css/admin.css" />
+
+</head>
+
+<body dir="rtl" >
+    <div class="admin-container">
+        <p class="title-sick-input-status">עדכון מצב החולים בישראל</p>
+        <form id="sick-pop-up-admin-container">
+            <div class="form-group">
+                <label class="input-labels" for="sickPeopleInput">מספר החולים</label>
+                <input type="number" class="form-control" id="sickPeopleInput" placeholder="הזן את מספר החולים" required>
+            </div>
+            <div class="form-group">
+                <label class="input-labels" for="recoveredPeopleInput">מספר המחלימים</label>
+                <input type="number" class="form-control" id="recoveredPeopleInput" placeholder="הזן את מספר המחלימים" required>
+            </div>
+            <div class="form-group">
+                <label class="input-labels" for="deathPeopleInput">מספר המתים</label>
+                <input type="number" class="form-control" id="deathPeopleInput" placeholder="הזן את מספר המתים" required>
+            </div>
+            <button type="submit" class="btn btn-primary">שליחה</button>
+        </form>
+        <p id="submit-success">נשלח בהצלחה</p>
+        <p id="submit-failed">אנא נסה שנית</p>
+    </div>
+</body>
+</html>
+

@@ -12,6 +12,8 @@ if (isOnEmbedRoute) {
   gpsIconPath = `../${gpsIconPath}`;
   gpsBlueIconPath = `../${gpsBlueIconPath}`;
 }
+const HIGH_SICK_PEOPLE = 800;
+const MODERATE_SICK_PEOPLE = 200;
 
 const init = () => {
   initLanguage();
@@ -270,6 +272,60 @@ const updateMap = () => {
   }
 };
 
+const setTopCitiesMarkers = () => {
+  clearMarkers();
+
+  TOP_CITIES.forEach((city, index) => {
+
+    let radius = 2000;
+    const numberOfSickPeople = parseInt(city.sick);
+    console.log(numberOfSickPeople);
+
+    if (numberOfSickPeople >= HIGH_SICK_PEOPLE) {
+      radius = 5000;
+    }
+
+    if (numberOfSickPeople >= MODERATE_SICK_PEOPLE && numberOfSickPeople < HIGH_SICK_PEOPLE) {
+      radius = 3500;
+    }
+    if (index < 2) {
+
+      console.log(radius);
+      const circle = new google.maps.Circle({
+        strokeColor: '#2d2d61',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#2282ff',
+        fillOpacity: 0.35,
+        map: map,
+        center: city.position,
+        radius: radius
+      });
+      google.maps.event.addListener(circle, 'click', () => {
+        const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
+                         <div class="sick-city-title">${city.city}</div>
+                         <div class="sick-city-population">
+                              <span class="sick-city-label">מספר תושבים: </span>
+                              <span class="sick-city-value">${convertNumberToStringWithCommas(city.population)}</span>
+                         </div>
+                         <div class="sick-city-number-of-sickness">
+                             <span class="sick-city-label">מספר חולים מאומתים: </span>
+                             <span class="sick-city-value">${convertNumberToStringWithCommas(city.sick)}</span>
+                         </div>
+                         <div class="sick-city-quarantine">
+                             <span class="sick-city-label">מספר מבודדי בית: </span>
+                             <span class="sick-city-value">${convertNumberToStringWithCommas('1132')}</span>
+                         </div>
+                      </div>`;
+        infoWindow.setPosition(circle.getCenter());
+        infoWindow.setContent(text);
+        infoWindow.open(map);
+      });
+    }
+  });
+
+};
+
 const addFlightsMapPoint = () => {
   const position = {
     lat: 32.005528,
@@ -453,6 +509,7 @@ const getData = (initMode = false) => {
         setDaysAgo(14);
       }
       updateMap();
+      //setTopCitiesMarkers();
     });
 };
 
