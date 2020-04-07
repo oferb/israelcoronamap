@@ -3,7 +3,8 @@ let map, infoWindow, govData, data, threeDaysButton, allDaysButton, oneWeekButto
 let currentPositionMarker = null;
 
 const windowWidth = window.screen.availWidth;
-let markersArray = [];
+let trackMarkersArray = [];
+let citiesCirclesArray = [];
 
 const isOnEmbedRoute = window.location.pathname.includes('embed');
 let gpsIconPath = 'assets/images/map-icons/gps.svg';
@@ -17,6 +18,7 @@ const init = () => {
   initLanguage();
   setMapReader();
   getData(true);
+  getCitiesData(setTopCitiesMarkers);
 };
 
 const initNoMap = () => {
@@ -172,20 +174,13 @@ const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
 
-const clearMarkers = () => {
-  for (let i = 0; i < markersArray.length; i++) {
-    markersArray[i].setMap(null);
-  }
-  markersArray.length = 0;
-};
-
 const centerAndZoomToPoint = (point) => {
   const center = new google.maps.LatLng(point.lat, point.lon);
   map.panTo(center);
   map.setZoom(12);
 };
 
-const updateMap = () => {
+const setSickPeopleTrackMarkers = () => {
 
   let daysAgo = parseInt(getQueryParam('daysAgo'));
   if (isNaN(daysAgo)) {
@@ -257,18 +252,19 @@ const updateMap = () => {
       };
     })(marker, j, id));
 
-    markersArray.push(marker);
+    trackMarkersArray.push(marker);
   }
 };
 
 const setTopCitiesMarkers = (cities) => {
   const HIGH_SICK_PEOPLE = 800;
   const MODERATE_SICK_PEOPLE = 150;
-  const CIRCLE_COLOR = '#FFD300';
+  const CIRCLE_COLOR = '#FB8604';
+  const STROKE_COLOR = '#CB6600';
 
   cities.forEach((city) => {
 
-    let opacity = 0.15;
+    let opacity = 0.2;
     let radius = 2500;
     const numberOfSickPeople = parseInt(city.sick);
 
@@ -283,7 +279,7 @@ const setTopCitiesMarkers = (cities) => {
     }
 
     const circle = new google.maps.Circle({
-      strokeColor: CIRCLE_COLOR,
+      strokeColor: STROKE_COLOR,
       strokeWeight: 2.5,
       fillColor: CIRCLE_COLOR,
       fillOpacity: opacity,
@@ -291,6 +287,8 @@ const setTopCitiesMarkers = (cities) => {
       center: city.position,
       radius: radius
     });
+
+    citiesCirclesArray.push(circle);
 
     google.maps.event.addListener(circle, 'click', () => {
       const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
@@ -303,47 +301,12 @@ const setTopCitiesMarkers = (cities) => {
                              <span class="sick-city-label">מספר חולים מאומתים: </span>
                              <span class="sick-city-value">${convertNumberToStringWithCommas(city.sick)}</span>
                          </div>
-                         <div class="sick-city-quarantine">
-                             <span class="sick-city-label">מספר מבודדי בית: </span>
-                             <span class="sick-city-value">${convertNumberToStringWithCommas('1132')}</span>
-                         </div>
                       </div>`;
       infoWindow.setPosition(circle.getCenter());
       infoWindow.setContent(text);
       infoWindow.open(map);
     });
   });
-};
-
-const addFlightsMapPoint = () => {
-  const position = {
-    lat: 32.005528,
-    lng: 34.885392
-  };
-  const icon = '/assets/images/map-icons/plane-map-icon.svg';
-  const marker = new google.maps.Marker({
-    position,
-    map,
-    icon: {
-      url: icon
-    },
-    zIndex: 5000
-  });
-  google.maps.event.addListener(marker, 'click', ((marker) => {
-    return () => {
-      const contentStringCal = `<div
-        id="infowindow"
-        class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}"
-      >
-        <div class="info-label">טיסות שבהן שהו חולי קורונה</div>
-        <div class="info-description"><a href="/flights">לפירוט הטיסות</a></div>
-      </div>`;
-
-      infoWindow.setContent(contentStringCal);
-      infoWindow.open(map, marker);
-      window.history.pushState("Corona map", "Corona map", "/");
-    };
-  })(marker));
 };
 
 const updateCountdown = currPoint => {
@@ -372,7 +335,7 @@ const updateCountdown = currPoint => {
 
 const setDaysAgo = (daysAgo) => {
   setQueryParam('daysAgo', daysAgo);
-  updateMap();
+  setSickPeopleTrackMarkers();
 };
 
 const fixTime = (time) => {
@@ -473,14 +436,6 @@ const isToday = (unixDate) => {
     date.getFullYear() === today.getFullYear();
 };
 
-const isYesterday = (unixDate) => {
-  const today = new Date();
-  const date = new Date(unixDate * 1000);
-  return date.getDate() === today.getDate() - 1 &&
-    date.getMonth() === today.getMonth() &&
-    date.getFullYear() === today.getFullYear();
-};
-
 const getData = (initMode = false) => {
   const language = getLanguage();
   fetch(`/data/data-${language}.json`)
@@ -496,8 +451,7 @@ const getData = (initMode = false) => {
       if (initMode) {
         setDaysAgo(14);
       }
-      updateMap();
-      //getCitiesData(setTopCitiesMarkers);
+      setSickPeopleTrackMarkers();
     });
 };
 
@@ -576,4 +530,17 @@ const setMapReader = () => {
   mapReaderContainer.innerHTML = `
   <img alt="map-reader" src="/assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
   `;
+};
+
+const toggleCitiesOnMap = ({shouldShowCities}) => {
+  citiesCirclesArray.forEach((city) => {
+    city.setMap(shouldShowCities ? map : null);
+  });
+
+};
+
+const toggleSickTracksOnMap = ({shouldShowTracks}) => {
+  trackMarkersArray.forEach((track) => {
+    track.setVisible(shouldShowTracks);
+  });
 };

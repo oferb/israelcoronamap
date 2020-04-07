@@ -72,17 +72,6 @@ $(document).ready(() => {
     $('#zoom-to-location-button').click(zoomToLocation);
   }
 
-
-   // open report pop-up
-    $('.jobs-pop-up-click').click(function () {
-      $('#jobs-pop-up').fadeIn("fast");
-    });
-    
-      // terms-close-x icon
-    $('#jobs-close-x').click(function () {
-      $('#jobs-pop-up').fadeOut('fast');
-    });
-
   // open language pop-up
   $('.language-click').click(function () {
 
@@ -94,21 +83,19 @@ $(document).ready(() => {
     });
 
     $('#language-popup').modal('toggle');
-
   });
 
-  $('#filters-pop-up-click').click(() => {
-
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'OpenFilters',
-      eventAction: 'Click',
-      eventLabel: 'Open Filters Modal'
-    });
-
-    $('#filters').modal('show');
+  $('#show-sick-people-track').click(() => {
+    const showTracksButton = $('#show-sick-people-track');
+    showTracksButton.toggleClass('selected');
+    toggleSickTracksOnMap({shouldShowTracks: showTracksButton.hasClass('selected')});
   });
 
+  $('#show-top-corona-cities').click(() => {
+    const citiesButton = $('#show-top-corona-cities');
+    citiesButton.toggleClass('selected');
+    toggleCitiesOnMap({shouldShowCities: citiesButton.hasClass('selected')});
+  });
 });
 
 

@@ -95,14 +95,22 @@ html, body {
     top: 16vh;
 }
 
+.map-filters {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .filter-button {
-   font-size: 19px;
-    padding: 9px 19px;
-    border-radius: 30px;
-    background: yellow;
-    margin: 10px 5px;
-    box-shadow: 1px 1px 6px -1px #6a6b68;
-    text-align: center;
+    background-color: white;
+    width: 12%;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.filter-button.selected {
+    background-color: #37C5AB;
+    color: white;
 }
 
 .info-label {
@@ -143,21 +151,23 @@ html, body {
   margin-bottom: 50px;
 }
 
-.floating-buttons {
+.left-section-buttons {
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-left: 10px;
+    width: 100%;
     margin-bottom: 52px;
+}
+
+.floating-buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 .floating-button {
     cursor: pointer;
-    margin: 5px 0;
+    margin: 5px 0 5px 10px;
 }
 
 .floating-button > img {
@@ -168,6 +178,7 @@ html, body {
 .zoom-control-buttons {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .zoom-control-buttons > img {
@@ -214,10 +225,25 @@ html, body {
 
     #zoom-to-location-icon {
         display: block;
+        margin-bottom: 5px;
+    }
+
+    #zoom-to-location-button {
+        display: flex;
+        justify-content: flex-end;
     }
 
     .zoom-control-buttons {
         display: none;
+    }
+
+    .map-filters {
+        justify-content: space-evenly;
+    }
+
+    .filter-button {
+        width: 48%;
+        margin: 0;
     }
 
 }
