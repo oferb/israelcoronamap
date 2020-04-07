@@ -452,6 +452,7 @@ const getData = (initMode = false) => {
         setDaysAgo(14);
       }
       setSickPeopleTrackMarkers();
+      toggleSickTracksOnMap({shouldShowTracks: false});
     });
 };
 
