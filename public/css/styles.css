@@ -1512,7 +1512,6 @@ max-width: 300px;
         margin-left: 3px;
         margin-right: -5px;
         width: 15px;
-
     }
 
 
@@ -1530,13 +1529,13 @@ max-width: 300px;
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
     .sick-btn{
         width: 8px;
     }
 
     .sick-update{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
