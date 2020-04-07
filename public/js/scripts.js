@@ -91,6 +91,16 @@ $(document).ready(() => {
     const isSelected = showTracksButton.hasClass('selected');
     $('#show-filter-text-sick-people').text(isSelected ? 'הסתר: ' : 'הצג: ');
     toggleSickTracksOnMap({shouldShowTracks: isSelected});
+
+    const eventCategory = isSelected ? 'Show People Tracks' : 'Hide People Tracks';
+
+    ga('send', {
+      hitType: 'event',
+      eventCategory: eventCategory,
+      eventAction: 'Click',
+      eventLabel: 'Sick people track filter'
+    });
+
   });
 
   $('#show-top-corona-cities').click(() => {
@@ -99,6 +109,15 @@ $(document).ready(() => {
     const isSelected = citiesButton.hasClass('selected');
     $('#show-filter-text-top-cities').text(isSelected ? 'הסתר: ' : 'הצג: ');
     toggleCitiesOnMap({shouldShowCities: citiesButton.hasClass('selected')});
+
+    const eventCategory = isSelected ? 'Show Top Cities' : 'Hide Top Cities';
+
+    ga('send', {
+      hitType: 'event',
+      eventCategory: eventCategory,
+      eventAction: 'Click',
+      eventLabel: 'Sick people track filter'
+    });
   });
 });
 
