@@ -102,7 +102,7 @@ html, body {
 
 .filter-button {
     background-color: white;
-    width: 15%;
+    width: 200px;
     font-weight: 600;
     margin-left: 10px;
     margin-right: 5px;
@@ -256,12 +256,12 @@ html, body {
 
 }
 
-@media(max-width: 330px) {
+@media(max-width: 400px) {
 
     .filter-button {
-        width: 48%;
+        width: 46%;
         margin: 0;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #zoom-to-location-icon {

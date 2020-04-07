@@ -53,7 +53,8 @@ const zoomToLocation = () => {
       currentPositionMarker = new google.maps.Marker({
         position: pos,
         map,
-        zIndex: 5000
+    zIndex: 5
+
       });
       const circle = new google.maps.Circle({
         strokeColor: '#1eb2a6',

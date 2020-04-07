@@ -21,6 +21,63 @@ $(document).ready(() => {
     $('#overlay').toggleClass('overlay');
   });
 
+   // jobs report pop-up
+    $('.jobs-pop-up-click').click(function () {
+
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'jobsClick',
+        eventAction: 'Click',
+        eventLabel: 'Open jobs Pop-Up'
+      });
+
+      $('#jobs-pop-up').fadeIn("fast");
+    });
+    
+      // jobs-close-x icon
+    $('#jobs-close-x').click(function () {
+      $('#jobs-pop-up').fadeOut('fast');
+    });
+
+     $('#keepondoing_careers').click(() => {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'ClickOnKeepondoingCareers',
+        eventAction: 'Click',
+        eventLabel: 'Open keepondoing careers link'
+      });
+    });
+
+    $('#techjobscorona_careers').click(() => {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'ClickOnTechjobscoronaCareers',
+        eventAction: 'Click',
+        eventLabel: 'Open Techjobscorona careers link'
+      });
+    });
+
+    $('#facebook_group_careers').click(() => {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'ClickOnFacebookGroupCareers',
+        eventAction: 'Click',
+        eventLabel: 'Open facebook group careers link'
+      });
+    });
+
+      $('#rouths').click(() => {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'ClickOnRouths',
+        eventAction: 'Click',
+        eventLabel: 'Open rouths page'
+      });
+    });
+
+
+
+
   // terms-close-x icon
   $('#terms-close-x').click(() => {
     $('#terms-of-use-pop-up').fadeOut('fast');
