@@ -198,16 +198,20 @@ html, body {
 }
 
 .sick-city-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: underline;
     text-align: center;
 }
 
 .sick-city-label {
+    font-size: 16px;
     font-weight: 700
 }
 
+.sick-city-value{
+    font-size: 16px;
+}
 
 @media(max-width:768px) {
 
