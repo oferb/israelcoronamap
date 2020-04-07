@@ -250,6 +250,10 @@ html, body {
         margin: 0;
     }
 
+    .left-section-buttons {
+        margin-bottom: 45px;
+    }
+
 }
 
 @media(max-width: 330px) {

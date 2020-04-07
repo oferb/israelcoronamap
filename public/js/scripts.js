@@ -88,12 +88,16 @@ $(document).ready(() => {
   $('#show-sick-people-track').click(() => {
     const showTracksButton = $('#show-sick-people-track');
     showTracksButton.toggleClass('selected');
-    toggleSickTracksOnMap({shouldShowTracks: showTracksButton.hasClass('selected')});
+    const isSelected = showTracksButton.hasClass('selected');
+    $('#show-filter-text-sick-people').text(isSelected ? 'הסתר: ' : 'הצג: ');
+    toggleSickTracksOnMap({shouldShowTracks: isSelected});
   });
 
   $('#show-top-corona-cities').click(() => {
     const citiesButton = $('#show-top-corona-cities');
     citiesButton.toggleClass('selected');
+    const isSelected = citiesButton.hasClass('selected');
+    $('#show-filter-text-top-cities').text(isSelected ? 'הסתר: ' : 'הצג: ');
     toggleCitiesOnMap({shouldShowCities: citiesButton.hasClass('selected')});
   });
 });
