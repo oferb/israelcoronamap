@@ -81,19 +81,32 @@
 
 <div id="map-wrapper" dir="rtl">
     <div id="map"></div>
-    <div class="floating-buttons">
-        <a class="floating-button">
-            <div class="zoom-control-buttons">
-                <img id="zoomInButton" src="../assets/images/map-icons/plus.svg" alt="icon">
-                <img id="zoomOutButton" src="../assets/images/map-icons/min.svg" alt="icon">
-            </div>
-        </a>
-        <a class="floating-button" id="zoom-to-location-button">
-            <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
-        </a>
-    </div>
-    <div id="map-reader" class="map-reader;display:none">
-        <img alt="map-reader" src="../assets/images/map-icons/mapReader-he.svg" class="map-reader-img" width="350" />
+    <div class="left-section-buttons">
+        <div class="floating-buttons">
+            <a class="floating-button">
+                <div class="zoom-control-buttons">
+                    <img id="zoomInButton" src="../assets/images/map-icons/plus.svg" alt="icon">
+                    <img id="zoomOutButton" src="../assets/images/map-icons/min.svg" alt="icon">
+                </div>
+            </a>
+            <a class="floating-button" id="zoom-to-location-button">
+                <img id="zoom-to-location-icon" src="../assets/images/map-icons/gps.svg" alt="zoom-to-location">
+            </a>
+        </div>
+        <div class="map-filters">
+            <button
+                    id="show-sick-people-track"
+                    type="button"
+                    class="btn filter-button selected">
+                הצג: מסלולי חולים
+            </button>
+            <button
+                    id="show-top-corona-cities"
+                    type="button"
+                    class="btn filter-button selected">
+                הצג: ערי קורונה מובילות
+            </button>
+        </div>
     </div>
 </div>
 
