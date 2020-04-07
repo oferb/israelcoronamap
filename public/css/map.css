@@ -248,4 +248,16 @@ html, body {
 
 }
 
+@media(max-width: 330px) {
 
+    .filter-button {
+        width: 48%;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    #zoom-to-location-icon {
+        width: 37px;
+    }
+
+}

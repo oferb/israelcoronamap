@@ -1523,9 +1523,6 @@ max-width: 300px;
 
 
     }
-
-
-
 }
 
 
@@ -1536,6 +1533,16 @@ max-width: 300px;
 
     .sick-update{
         font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .sick-btn{
+        width: 8px;
+    }
+
+    .sick-update{
+        font-size: 10px;
     }
 }
 

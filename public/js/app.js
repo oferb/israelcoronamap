@@ -16,7 +16,6 @@ if (isOnEmbedRoute) {
 
 const init = () => {
   initLanguage();
-  setMapReader();
   getData(true);
   getCitiesData(setTopCitiesMarkers);
 };
