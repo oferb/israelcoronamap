@@ -79,4 +79,25 @@ $(document).ready(async () => {
     }
   });
 
+  $('#sign-in-with-google-btn').click(signInWithGoogle);
+
+  $('#sign-out-from-google-btn').click(() => firebase.auth().signOut());
+
+});
+
+const signInWithGoogle = () => {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  firebase.auth().signInWithRedirect(provider);
+};
+
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    console.log('logged', user);
+    $('#user-email').text(user.email);
+  } else {
+    // No user is signed in.
+    console.log('not logged' ,user);
+    $('.admin-container').css('display', 'none');
+    $('.login-container').css('display', 'flex');
+  }
 });

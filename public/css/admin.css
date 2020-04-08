@@ -29,6 +29,15 @@ body {
     margin-top: 20px;
 }
 
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
 #submit-success, #submit-failed {
     display: none;
 }
@@ -58,4 +67,11 @@ body {
 
 #update-cities-data {
     margin-bottom: 8px;
+}
+
+.login-container {
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
