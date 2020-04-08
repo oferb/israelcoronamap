@@ -30,6 +30,9 @@ const initAdminCitiesTable = (cities, table) => {
   table.bootstrapTable({
     data: cities,
     cellInputEnabled: true,
+    onClickRow: (_row, element) => {
+      element.css('background-color', '#cbffc0');
+    },
     columns: [
       {
         field: 'city',
