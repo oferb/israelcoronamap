@@ -163,6 +163,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .floating-button {
@@ -230,11 +231,6 @@ html, body {
     #zoom-to-location-icon {
         display: block;
         margin-bottom: 5px;
-    }
-
-    #zoom-to-location-button {
-        display: flex;
-        justify-content: flex-end;
     }
 
     .zoom-control-buttons {
