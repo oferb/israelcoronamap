@@ -18,22 +18,21 @@ const init = () => {
   initLanguage();
   getData(true);
   getCitiesData(setTopCitiesMarkers);
-  getIsolationsByCity();
 };
 
 const initNoMap = () => {
   getDataNoMap(true);
 };
 
-const getIsolationsByCity = () => {
-  fetch('https://services5.arcgis.com/dlrDjz89gx9qyfev/ArcGIS/rest/services/Corona_Muni_Isolations_VIEW2/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnHiddenFields=false&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=PVObvxtqMHW4v4QpznU_-TA3OVZO3JL-6wzucGinCJnUnswPHdR7DVfSxEmyzERdyqRd5VGgTKKkAEMnH7wOVj2tjkor8cGjnV1aU8h2uFhrxqCCEHgsbhy4ZjI2P9i-Cce8bpCTmIjmT7k-UKAaMSZTXANXZfICZYL89Yztjn6CTNaLMtdErTeO71zAKRJ9yiqeG78EdXTYzFUkdexnI4Slatc4y6q7hq6nD9dO6VGhK5gesIhFCXXWe4kD9jhf')
+const getIsolationsByCity = async () => {
+  let isolations = [];
+  await fetch('https://services5.arcgis.com/dlrDjz89gx9qyfev/ArcGIS/rest/services/Corona_Muni_Isolations_VIEW2/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnHiddenFields=false&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=PVObvxtqMHW4v4QpznU_-TA3OVZO3JL-6wzucGinCJnUnswPHdR7DVfSxEmyzERdyqRd5VGgTKKkAEMnH7wOVj2tjkor8cGjnV1aU8h2uFhrxqCCEHgsbhy4ZjI2P9i-Cce8bpCTmIjmT7k-UKAaMSZTXANXZfICZYL89Yztjn6CTNaLMtdErTeO71zAKRJ9yiqeG78EdXTYzFUkdexnI4Slatc4y6q7hq6nD9dO6VGhK5gesIhFCXXWe4kD9jhf')
     .then((response) => {return response.json();})
     .then((data) => {
-      console.log(data);
-
+      isolations = data.features;
     });
-
-}
+  return isolations;
+};
 
 const zoomToLocation = () => {
 
@@ -301,6 +300,12 @@ const setTopCitiesMarkers = (cities) => {
 
     citiesCirclesArray.push(circle);
 
+    const numberOfIsolations = city.iso ?
+      `<div class="sick-city-number-of-isolations">
+          <span class="sick-city-label">מספר מבודדי בית: </span>
+          <span class="sick-city-value">${convertNumberToStringWithCommas(city.iso)}</span>
+       </div>` : `<div/>`;
+
     google.maps.event.addListener(circle, 'click', () => {
       const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
                          <div class="sick-city-title">${city.city}</div>
@@ -312,6 +317,7 @@ const setTopCitiesMarkers = (cities) => {
                              <span class="sick-city-label">מספר חולים מאומתים: </span>
                              <span class="sick-city-value">${convertNumberToStringWithCommas(city.sick)}</span>
                          </div>
+                         ${numberOfIsolations}
                       </div>`;
       infoWindow.setPosition(circle.getCenter());
       infoWindow.setContent(text);
