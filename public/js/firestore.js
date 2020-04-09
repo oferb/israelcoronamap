@@ -53,11 +53,16 @@ const setCitiesData = (data) => {
 };
 
 const getCitiesData = async (callback = undefined) => {
+
+  const isolations = await getIsolationsByCity();
+
   let data = {};
   await db.collection("cities").doc("data").get()
     .then((doc) => {
       if (callback) {
-        callback(doc.data().cities);
+        const cities = doc.data().cities;
+        const citiesWithIsolations = isolations.length ? migrateNumberOfIsolationsPerCityFromMoh(cities, isolations) : cities;
+        callback(citiesWithIsolations);
       }
       data = doc.data();
     })
@@ -65,4 +70,20 @@ const getCitiesData = async (callback = undefined) => {
       console.error(error);
     });
   return data;
+};
+
+const migrateNumberOfIsolationsPerCityFromMoh = (cities, isolations) => {
+  const idsOnMoh = cities.map((city) => city.id_on_moh);
+  const isolationsFromMoh = isolations.reduce((acc, el) => {
+    const {attributes : {Municipality, Isolations}} = el;
+    if (idsOnMoh.includes(Municipality)) {
+      acc[Municipality] = Isolations;
+    }
+    return acc;
+  }, {});
+
+  return cities.map((city) => {
+    city.iso = isolationsFromMoh[city.id_on_moh];
+    return city;
+  });
 };
