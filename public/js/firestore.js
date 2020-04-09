@@ -53,13 +53,11 @@ const setCitiesData = (data) => {
 };
 
 const getCitiesData = async (callback = undefined) => {
-
-  const isolations = await getIsolationsByCity();
-
   let data = {};
   await db.collection("cities").doc("data").get()
     .then((doc) => {
       if (callback) {
+        const isolations = await getIsolationsByCity();
         const cities = doc.data().cities;
         const citiesWithIsolations = isolations.length ? migrateNumberOfIsolationsPerCityFromMoh(cities, isolations) : cities;
         callback(citiesWithIsolations);
