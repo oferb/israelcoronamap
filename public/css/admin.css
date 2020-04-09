@@ -32,7 +32,7 @@ body {
 .btn-google {
     color: white;
     background-color: #ea4335;
-    width: 200px;
+    width: 230px;
     font-size: 15px;
     font-weight: 700;
     border-radius: 25px;
@@ -69,9 +69,17 @@ body {
     margin-bottom: 8px;
 }
 
+#user-email {
+    text-transform: lowercase;
+}
+
 .login-container {
     display: none;
     height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+#sign-in-with-google-text {
+    margin-left: 10px;
 }
