@@ -55,7 +55,7 @@ const setCitiesData = (data) => {
 const getCitiesData = async (callback = undefined) => {
   let data = {};
   await db.collection("cities").doc("data").get()
-    .then((doc) => {
+    .then(async (doc) => {
       if (callback) {
         const isolations = await getIsolationsByCity();
         const cities = doc.data().cities;

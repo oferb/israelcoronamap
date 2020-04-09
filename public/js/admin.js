@@ -95,11 +95,8 @@ const signInWithGoogle = () => {
 
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
-    console.log('logged', user);
     $('#user-email').text(user.email);
   } else {
-    // No user is signed in.
-    console.log('not logged' ,user);
     $('.admin-container').css('display', 'none');
     $('.login-container').css('display', 'flex');
   }
