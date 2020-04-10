@@ -65,6 +65,10 @@ border-radius: 30px;
     align-items: center;
 }
 
+.input-labels {
+    text-align: right;
+}
+
 .info{
     background: #FFCF4A;
     padding: 80px 0px 80px 0px;
@@ -929,7 +933,8 @@ border-radius: 30px;
 .side-bar-box{
  padding-top:15px;
  padding-bottom: 15px;
-  border-bottom:solid 0.7px #e5e5e5;
+ border-bottom:solid 0.7px #e5e5e5;
+ cursor: pointer;
 }
 
 #language-select-container {

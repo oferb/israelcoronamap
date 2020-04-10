@@ -21,7 +21,7 @@ h5:after {
     -moz-box-shadow:inset 0 3px 30px #FFCF4A99;
 }
 
-.btn-copy-clipboard, .btn-copy-clipboard-success{
+.btn-copy-clipboard, .btn-copy-clipboard-success, .btn-copy-clipboard-error{
     font-weight: 700;
     letter-spacing: 0.05em;
 }
@@ -30,8 +30,18 @@ h5:after {
     color: #00a4eb;
 }
 
+.btn-copy-clipboard:hover {
+    color: #00a4eb;
+}
+
 .btn-copy-clipboard-success {
     color: #00cf8a;
+    pointer-events: none;
+}
+
+.btn-copy-clipboard-error {
+    color: #DE3B3B;
+    pointer-events: none;
 }
 
 .btn-copy-clipboard:focus, .btn-copy-clipboard:active,

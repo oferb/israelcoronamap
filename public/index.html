@@ -428,15 +428,12 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="side-bar-box">
-                        <a style="margin-right: 30px;" class="side-bar-link" target="_blank"
-                            href="mailto:blueofer@gmail.com" title="email">
+                    <div id="contact-us" class="side-bar-box" style="margin-right: 30px;">
                             <img class="side-bar-img" style="margin-left:20px;" src="assets/images/side-bar-icons/email.svg"
                                 alt="icon">
                             <span id="contact-use">
                                 צרו קשר
                             </span>
-                        </a>
                     </div>
                 </div>
                 <br>
@@ -533,7 +530,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!--========== embed-pop-up end ==========-->
 
@@ -627,8 +623,45 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+    <!--========== contact-us-pop-up ==========-->
+    <div style="z-index: 99999;" class="modal fadeIn" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMap" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactUsTitle">צרו קשר</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="contact-us-container">
+                        <div class="form-group text-right">
+                            <label class="input-labels" for="contact-us-name">שם</label>
+                            <input type="text" class="form-control" id="contact-us-name" placeholder="הזן שם מלא" required oninvalid="this.setCustomValidity('אנא מלא את השדה')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="input-labels" for="contact-us-mail">מייל</label>
+                            <input type="email" class="form-control" id="contact-us-mail" placeholder="הזן מייל (לא חובה)">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="input-labels" for="contact-us-message">הודעה</label>
+                            <textarea maxlength="255" class="form-control" id="contact-us-message" rows="3" required oninvalid="this.setCustomValidity('אנא מלא את השדה')" oninput="setCustomValidity('')"></textarea>
+                        </div>
+                        <button
+                                type="submit"
+                                id="contactUsButton"
+                                class="btn btn-copy-clipboard"
+                                >
+                            שלח
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========== contact-us-pop-up end ==========-->
     <!--========== language-pop-up end ==========-->
     <!--========== map-reader-pop-up end ==========-->
     <footer class="footer">

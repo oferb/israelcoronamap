@@ -33,7 +33,7 @@ $(document).ready(() => {
 
       $('#jobs-pop-up').fadeIn("fast");
     });
-    
+
       // jobs-close-x icon
     $('#jobs-close-x').click(function () {
       $('#jobs-pop-up').fadeOut('fast');
@@ -96,6 +96,17 @@ $(document).ready(() => {
     $('#embedCoronaMap').modal('show');
     $('#hamburgerOnMainScreen').modal('hide');
 
+  });
+
+  $('#contact-us').click(() => {
+    $('#contactUsModal').modal('show');
+    $('#hamburgerOnMainScreen').modal('hide');
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Open Contact Us Form',
+      eventAction: 'Click',
+      eventLabel: 'Open Contact Us Form'
+    });
   });
 
   $('.update-pop-up-click').click(function () {
@@ -211,4 +222,60 @@ $(document).ready(() => {
 
 })(document.body);
 
+$('#contact-us-container').on('submit', (e) => {
+  e.preventDefault();
+  const button = $('#contactUsButton');
+  const name = $('#contact-us-name').val();
+  const mail = $('#contact-us-mail').val();
+  const message = $('#contact-us-message').val();
+  db.collection("contact-us").add({
+    name,
+    mail,
+    message,
+    timestamp: (new Date()).getTime()
+  })
+    .then(() => {
+      onContactUsSuccess(button);
+      resetSubmitText(button, 5000);
+      setTimeout(() => {$('#contact-us-container').get(0).reset();}, 3000);
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Send Contact Us Form Success',
+        eventAction: 'Click',
+        eventLabel: 'Send form success'
+      });
+    })
+    .catch((error) => {
+      onContactUsError(button);
+      resetSubmitText(button, 2000);
+      console.error(error);
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Send Contact Us Form Failed',
+        eventAction: 'Click',
+        eventLabel: 'Send form failed'
+      });
+    });
+});
+
+const onContactUsSuccess = (button) => {
+  button.text("נשלח");
+  button.removeClass("btn-copy-clipboard");
+  button.addClass("btn-copy-clipboard-success");
+};
+
+const onContactUsError = (button) => {
+  button.text("אנא נסה שנית");
+  button.removeClass("btn-copy-clipboard");
+  button.addClass("btn-copy-clipboard-error");
+};
+
+const resetSubmitText = (button, time = 5000) => {
+  setTimeout(() => {
+    button.text("שלח");
+    button.addClass("btn-copy-clipboard");
+    button.removeClass("btn-copy-clipboard-success");
+    button.removeClass("btn-copy-clipboard-error");
+  }, time);
+};
 
