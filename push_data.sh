@@ -9,5 +9,5 @@ do
     git commit -m 'Data update'
     git push
     firebase deploy --project coronavirus-il
-    sleep 600
+    sleep 1800
 done
