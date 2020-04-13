@@ -7,6 +7,16 @@ $(document).ready(() => {
     deleteQueryParam('feedback');
   });
 
+  $('#behavior_survey').click(() => {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'ClickOnSurvey',
+      eventAction: 'Click',
+      eventLabel: 'behavior survey'
+    });
+  });
+
+
   $('#parenthood_survey').click(() => {
     ga('send', {
       hitType: 'event',

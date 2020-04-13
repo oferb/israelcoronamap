@@ -142,7 +142,13 @@ border-radius: 30px;
 .report-row{
     width: 100%;
     margin: auto;
+}   
+
+.jobs-row{
+    width: 100%;
+    margin: auto;
 }    
+    
     
 
 .feeling-box{
@@ -183,8 +189,12 @@ border-radius: 30px;
 }
 
  .report-row{
+    max-width: 700px;
+}  
+
+.jobs-row{
     max-width: 1100px;
-}    
+}   
 
 .feeling-box{
     display: flex; 
