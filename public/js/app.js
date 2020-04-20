@@ -268,43 +268,32 @@ const setSickPeopleTrackMarkers = () => {
 
 const setTopCitiesMarkers = (cities) => {
   const HIGH_SICK_PEOPLE = 800;
-  const MODERATE_SICK_PEOPLE = 150;
-  const CIRCLE_COLOR = '#FB8604';
-  const STROKE_COLOR = '#CB6600';
+  const MODERATE_SICK_PEOPLE = 200;
 
   cities.forEach((city) => {
 
-    let opacity = 0.2;
-    let radius = 2500;
+    let icon = '/assets/images/map-icons/city-small.svg';
+
     const numberOfSickPeople = parseInt(city.sick);
 
     if (numberOfSickPeople >= HIGH_SICK_PEOPLE) {
-      opacity = 0.8;
-      radius = 5500;
+      icon = '/assets/images/map-icons/city-l.svg';
     }
 
     if (numberOfSickPeople >= MODERATE_SICK_PEOPLE && numberOfSickPeople < HIGH_SICK_PEOPLE) {
-      opacity = 0.5;
-      radius = 4000;
+      icon = '/assets/images/map-icons/city-m.svg';
     }
 
-    const circle = new google.maps.Circle({
-      strokeColor: STROKE_COLOR,
-      strokeWeight: 2.5,
-      fillColor: CIRCLE_COLOR,
-      fillOpacity: opacity,
-      map: map,
-      center: city.position,
-      radius: radius
+    const circle = new google.maps.Marker({
+      position: city.position,
+      map,
+      icon: {
+        url: icon
+      },
+      zIndex: 3000
     });
 
     citiesCirclesArray.push(circle);
-
-    const numberOfIsolations = city.iso ?
-      `<div class="sick-city-number-of-isolations">
-          <span class="sick-city-label">מספר מבודדי בית: </span>
-          <span class="sick-city-value">${convertNumberToStringWithCommas(city.iso)}</span>
-       </div>` : `<div/>`;
 
     google.maps.event.addListener(circle, 'click', () => {
       const text = `<div id="sick-people-city-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
@@ -317,11 +306,10 @@ const setTopCitiesMarkers = (cities) => {
                              <span class="sick-city-label">מספר חולים מאומתים: </span>
                              <span class="sick-city-value">${convertNumberToStringWithCommas(city.sick)}</span>
                          </div>
-                         ${numberOfIsolations}
                       </div>`;
-      infoWindow.setPosition(circle.getCenter());
+
       infoWindow.setContent(text);
-      infoWindow.open(map);
+      infoWindow.open(map, circle);
     });
   });
 };
@@ -498,18 +486,6 @@ const initUpdatedTime = (updatedTime) => {
     embedDatetime.textContent = updatedTimeString;
   } else {
     document.getElementById("last-updated-time").textContent = updatedTimeString;
-  }
-};
-
-// eslint-disable-next-line no-unused-vars
-const selectFilter = (filterType) => {
-  switch (filterType) {
-  case 'twoWeeks':
-    setDaysAgo(14);
-    break;
-  case 'all':
-    setDaysAgo(10000);
-    break;
   }
 };
 
