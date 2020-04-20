@@ -18,6 +18,7 @@ const init = () => {
   initLanguage();
   getData(true);
   getCitiesData(setTopCitiesMarkers);
+  addJobsPoints();
 };
 
 const initNoMap = () => {
@@ -63,7 +64,7 @@ const zoomToLocation = () => {
       currentPositionMarker = new google.maps.Marker({
         position: pos,
         map,
-    zIndex: 5
+        zIndex: 5
 
       });
       const circle = new google.maps.Circle({
@@ -176,10 +177,6 @@ function initMap() {
   init();
 }
 
-const dist = (p1, p2) => {
-  return Math.sqrt(Math.pow(p2.lat() - p1.lat(),2) + Math.pow(p2.lng() - p1.lng(),2));
-};
-
 const getTimestamp = (stringTime) => {
   return new Date(stringTime).getTime();
 };
@@ -264,6 +261,72 @@ const setSickPeopleTrackMarkers = () => {
 
     trackMarkersArray.push(marker);
   }
+};
+
+const addJobsPoints = () => {
+  const doorToDor = new google.maps.Marker({
+    position: {
+      lat: 32.075049,
+      lng: 34.774725
+    },
+    map,
+    icon: {
+      url: '/assets/images/map-icons/delivery-icon.svg'
+    },
+    zIndex: 4000
+  });
+  google.maps.event.addListener(doorToDor, 'click', () => {
+    const text = `<div id="jobs-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
+                         <div class="jobs-title">Door 2 Dor</div>
+                         <div class="jobs-subtitle">מיזם בהתנדבות לאוכלוסיה בסיכון, מביאים עד הבית אוכל ותרופות</div>
+                         <div class="jobs-group">
+                              <div class="jobs-label">אזורי חלוקה</div>
+                              <div class="jobs-value">כל הארץ</div>
+                         </div>
+                         <div class="jobs-group">
+                             <div class="jobs-label">עלות המשלוח</div>
+                             <div class="jobs-value">ללא - מיזם בהתנדבות</div>
+                         </div>
+                         <div class="jobs-group">
+                           <div class="door-2-dor-link">
+                              <div class="jobs-label">לינק למיזם</div>
+                              <a target="_blank" href="https://www.door2dor.co.il/" style="font-size: 15px">www.door2dor.co.il</a>
+                           </div>
+                         </div>
+                      </div>`;
+
+    infoWindow.setContent(text);
+    infoWindow.open(map, doorToDor);
+  });
+
+  const carmiFalafel = new google.maps.Marker({
+    position: {
+      lat: 31.809849,
+      lng: 34.654607
+    },
+    map,
+    icon: {
+      url: '/assets/images/map-icons/street-food-icon.svg'
+    },
+    zIndex: 4000
+  });
+  google.maps.event.addListener(carmiFalafel, 'click', () => {
+    const text = `<div id="jobs-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
+                         <div class="jobs-title">פלאפל כרמי</div>
+                         <div class="jobs-subtitle">פלאפל כרמי, תזמינו פלאפל טעים מאיש עם לב רחב, ברחוב זבוטינסקי באשדוד</div>
+                         <div class="jobs-group">
+                              <div class="jobs-label">משלוחים</div>
+                              <div class="jobs-value">מבצע משלוחים</div>
+                         </div>
+                         <div class="jobs-group">
+                             <div class="jobs-label">טלפון להזמנות</div>
+                             <div class="jobs-value">054-4421366</div>
+                         </div>
+                      </div>`;
+
+    infoWindow.setContent(text);
+    infoWindow.open(map, carmiFalafel);
+  });
 };
 
 const setTopCitiesMarkers = (cities) => {
@@ -366,14 +429,14 @@ const sortPoints = (points) => {
 };
 
 const filterPoints = points => points.filter((point, index) => {
-    if (index > 0 &&
+  if (index > 0 &&
       points[index - 1].t_start === point.t_start &&
       points[index - 1].t_end === point.t_end) {
-      return false;
-    }
+    return false;
+  }
 
-    return true;
-  });
+  return true;
+});
 
 const uniquifyArray = (array) => {
   const arraySet = new Set(array);
@@ -492,7 +555,6 @@ const initUpdatedTime = (updatedTime) => {
 const changeLanguage = (language) => {
   $('#language-popup').modal('toggle');
   setLanguage(language);
-  setMapReader();
   getData();
 };
 
@@ -519,12 +581,6 @@ const removeURLParameter = (url, parameter) => {
   }
 };
 
-const setMapReader = () => {
-  let mapReaderContainer = document.getElementById('map-reader');
-  mapReaderContainer.innerHTML = `
-  <img alt="map-reader" src="/assets/images/map-icons/mapReader-${getLanguage()}.svg" class="map-reader-img" width="350" />
-  `;
-};
 
 const toggleCitiesOnMap = ({shouldShowCities}) => {
   citiesCirclesArray.forEach((city) => {

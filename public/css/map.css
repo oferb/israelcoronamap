@@ -214,6 +214,36 @@ html, body {
     font-size: 16px;
 }
 
+.jobs-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.jobs-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.jobs-label {
+    font-size: 15px;
+    font-weight: 700
+}
+
+.jobs-value {
+    font-size: 15px;
+}
+
+.jobs-group {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 @media(max-width:768px) {
 
     .map-reader-img{
