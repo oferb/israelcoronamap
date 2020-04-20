@@ -297,6 +297,12 @@ const addJobsPoints = () => {
 
     infoWindow.setContent(text);
     infoWindow.open(map, doorToDor);
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'DoorToDorClick',
+      eventAction: 'Click',
+      eventLabel: 'Door to dor'
+    });
   });
 
   const carmiFalafel = new google.maps.Marker({
@@ -326,6 +332,12 @@ const addJobsPoints = () => {
 
     infoWindow.setContent(text);
     infoWindow.open(map, carmiFalafel);
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'FalafelCarmiClick',
+      eventAction: 'Click',
+      eventLabel: 'Falafel Carmi'
+    });
   });
 };
 
