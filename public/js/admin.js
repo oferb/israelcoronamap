@@ -1,3 +1,5 @@
+let citiesParsed = [];
+
 $(() => {
   $('#sick-pop-up-admin-container').on('submit', (e) => {
     e.preventDefault();
@@ -86,6 +88,30 @@ $(document).ready(async () => {
 
   $('#sign-out-from-google-btn').click(() => firebase.auth().signOut());
 
+  $('#inputGroupFile01').change((evt) => {
+    const selectedFile = evt.target.files[0];
+    $('#excel-file-name').text(selectedFile.name);
+    const reader = new FileReader();
+    reader.onload = function(event) {
+      const data = event.target.result;
+      const workbook = XLSX.read(data, {
+        type: 'binary'
+      });
+      workbook.SheetNames.forEach(function(sheetName) {
+
+        const XL_row_object = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+        const cities_array = JSON.stringify(XL_row_object);
+        parseCities(XL_row_object);
+      });
+    };
+
+    reader.onerror = function(event) {
+      console.error("File could not be read! Code " + event.target.error.code);
+    };
+
+    reader.readAsBinaryString(selectedFile);
+  });
+
 });
 
 const signInWithGoogle = () => {
@@ -101,3 +127,27 @@ firebase.auth().onAuthStateChanged(function(user) {
     $('.login-container').css('display', 'flex');
   }
 });
+
+const parseCities = (cities) => {
+  citiesParsed = cities.map((city) => {
+    const cityName = city['עיר'];
+    const population = city['אוכלוסיה נכון ל-2018'];
+    const howManyPeopleTested = city['מספר נבדקים עד כה'];
+    const infectedPeople = city['חולים מאומתים שהתגלו עד כה'];
+    const recovered = city['מספר מחלימים'];
+    const increaseInPercentageInTheLastThreeDays = city['שיעור הגידול של חולים מאומתים ב-3 ימים אחרונים'];
+    const increaseInPercentageInTheLastWeek = city['שיעור הגידול בשבוע האחרון של חולים מאומתים'];
+    const sicknessPercentageForOneHundredThousand = city['שיעור תחלואה בפועל** ל-100,000'];
+    return {
+      cityName,
+      population,
+      howManyPeopleTested,
+      infectedPeople,
+      recovered,
+      increaseInPercentageInTheLastThreeDays,
+      increaseInPercentageInTheLastWeek,
+      sicknessPercentageForOneHundredThousand
+    };
+  });
+  console.log(citiesParsed);
+};

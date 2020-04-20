@@ -56,24 +56,28 @@
                 <a href="/">
                     <img src="../assets/images/icm.svg" style="width: 120px;margin-left: 10px;" alt="icon">
                 </a>
+
             </li>
+
             <li class="wonder-nav-li" style="margin-right: 10px;">
-                <button class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal">
+                <button id="hamburgerOnMainScreen" class="hamburger hamburger--minus menu-icon" type="button" data-toggle="modal" aria-label="menu button">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span></span>
                 </button>
             </li>
             <li style="margin-right: 10px;" class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number mada" href="tel:101">
+                <a id="magen-david-adom" style="" class="nav-link sos-number mada" href="tel:101">
                     מד"א: 101
                 </a>
             </li>
             <li class="wonder-nav-li d-none d-md-block">
-                <a style="" class="nav-link sos-number health" href="tel:*5400">
+                <a id="health-ministry" style="" class="nav-link sos-number health" href="tel:*5400">
                     משרד הבריאות: 5400*
                 </a>
             </li>
+
         </ul>
+
 
     </nav>
     <!--========== navbar end ==========-->
@@ -110,15 +114,12 @@
         }
     </style>
 
-    <center>
-    </center>
 
     <div id="tracks-table" class="flight-list text-right">
     <!-- innerHTML render here -->
     </div>
     <br>
 
-    </div>
     <!--========== side-bar ==========-->
     <div class="side-bar" style="display: none;">
         <div class="container-fluid" style="padding:0;">
@@ -126,15 +127,30 @@
                 <div class="col-12">
                     <div class="side-bar-box">
                         <img class="side-bar-logo mx-auto d-block" style="margin-left:10px; max-width: 140px;"
-                                src="../assets/images/icm.svg" alt="icon">
+                             src="../assets/images/icm.svg" alt="icon">
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="side-bar-box">
-                        <a style="margin-right: 30px;" class="side-bar-link" href="/flights">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link jobs-pop-up-click">
+                            <img class="side-bar-img" style="margin-left:20px;"
+                                 src="../assets/images/side-bar-icons/bag.svg" alt="icon">
+                            חפשו משרות
+                            &nbsp;
+                            <span class="new">חדש!</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a id="rouths" style="margin-right: 30px;" class="side-bar-link" href="/tracks">
                             <img class="side-bar-img" style="margin-left:20px; "
-                                src="../assets/images/side-bar-icons/plane.svg" alt="icon">
-                            חפשו טיסות
+                                 src="../assets/images/side-bar-icons/routh.svg" alt="icon">
+                            <span id="search-for-tracks">
+                                חפשו מקומות
+                            </span>
+                            &nbsp;
+                            <span class="new">חדש!</span>
                         </a>
                     </div>
                 </div>
@@ -142,8 +158,21 @@
                     <div class="side-bar-box">
                         <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link code-embed-pop-up-click">
                             <img class="side-bar-img" style="margin-left:20px; "
-                                src="../assets/images/side-bar-icons/coding.svg" alt="icon">
-                            הטמיעו קוד באתר
+                                 src="../assets/images/side-bar-icons/coding.svg" alt="icon">
+                            <span id="embed-code">
+                                הטמיעו קוד באתר
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="side-bar-box">
+                        <a style="margin-right: 30px;cursor: pointer;" class="side-bar-link language-click">
+                            <img class="side-bar-img" style="margin-left:20px; "
+                                 src="../assets/images/side-bar-icons/language.svg" alt="icon">
+                            <span id="select-language">
+                                     בחרו שפה
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -151,40 +180,48 @@
                     <div class="side-bar-box">
                         <a style="margin-right: 30px;" class="side-bar-link" href="/info">
                             <img class="side-bar-img" style="margin-left:20px;" src="../assets/images/side-bar-icons/info.svg"
-                                alt="icon">
-                            אודות המיזם
+                                 alt="icon">
+                            <span id="about">
+                                אודות המיזם
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="side-bar-box">
-                        <a style="margin-right: 30px;" class="side-bar-link" target="_blank"
-                            href="mailto:blueofer@gmail.com" title="email">
-                            <img class="side-bar-img" style="margin-left:20px;" src="../assets/images/side-bar-icons/email.svg"
-                                alt="icon">
-                           צרו קשר
-                        </a>
+                    <div id="contact-us" class="side-bar-box" style="margin-right: 30px;">
+                        <img class="side-bar-img" style="margin-left:20px;" src="../assets/images/side-bar-icons/email.svg"
+                             alt="icon">
+                        <span id="contact-use">
+                                צרו קשר
+                            </span>
                     </div>
                 </div>
                 <br>
                 <br>
                 <div class="col-12 d-md-none">
                     <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number mada" href="tel:101">
-                        <img style="margin-left:20px; max-width: 25px;margin-right: 15px;" src="/assets/images/phone.svg"
-                            alt="icon">
-                        מד"א
+                        <img style="margin-left:20px; max-width: 25px;margin-right: 15px;" src="assets/images/phone.svg"
+                             alt="icon">
+                        <span id="magen-david-adom-mobile">
+                                מד"א
+                            </span>
                     </a>
-                        <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number health"
-                            href="tel:*5400">
-                            <img class="side-bar-img" style="margin-left:20px; margin-right: 15px;"
-                                src="../assets/images/phone.svg" alt="icon">
-                            משרד הבריאות
-                        </a>
+                    <a style="padding-top:15px;padding-bottom: 15px;font-size: 13px;" class="nav-link sos-number health"
+                       href="tel:*5400">
+                        <img class="side-bar-img" style="margin-left:20px; margin-right: 15px;"
+                             src="assets/images/phone.svg" alt="icon">
+                        <span id="health-ministry-mobile">
+                                    משרד הבריאות
+                                </span>
+                    </a>
                 </div>
             </div>
         </div>
+
         <a class="terms-link terms-of-use-pop-up-click ">
-            תנאי שימוש באתר
+            <span id="terms-of-Use">
+                תנאי שימוש באתר
+            </span>
         </a>
     </div>
     <!--========== side-bar end ==========-->
@@ -232,56 +269,6 @@
 
     </div>
     <!--========== terms-of-use-pop-up end ==========-->
-
-    <!--========== embed-pop-up ==========-->
-    <div style="z-index: 99999;" class="modal fadeIn" id="embedCoronaMap" tabindex="-1" role="dialog" aria-labelledby="embedCoronaMap" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="embedCoronaMapLongTitle">הטמיעו קוד באתר</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div id="iframeCodeBlock" dir="ltr">
-                        <samp id="copyToClipboardContent">
-                            &lt;iframe style="width:100%"; width="600" height="450" src="https://israelcoronamap.co.il/embed" allow="geolocation" allowfullscreen&gt;&lt;/iframe&gt;
-                        </samp>
-                    </div>
-                    <button type="button" id="copyToClipboardButton" data-clipboard-target="#copyToClipboardContent" class="btn btn-copy-clipboard" onclick="copyToClipboard()">העתקה</button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--========== embed-pop-up end ==========-->
-
-    <!--========== map-reader-pop-up ==========-->
-    <div id="map-reader-pop-up" class="pop-up-area" style="display: none;">
-
-        <div class="pop-up">
-            <div class="container">
-                <div class="row text-right">
-                    <div class="col-12 ">
-                        <div class="box-size">
-                            <h1 class="pop-up-title">מקרא מפה</h1>
-                            <hr class='hr-titels' width="85px" align="right">
-                            <p class="pop-up-text">
-                           מקרא מפה
-                            </p>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img id='map-reader-close-x' class="close-pop-up" src="../assets/images/x-icon.svg" alt="x-icon">
-
-        </div>
-
-    </div>
-    <!--========== map-reader-pop-up end ==========-->
 
     <!---========== scripts ==========-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

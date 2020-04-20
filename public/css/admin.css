@@ -83,3 +83,16 @@ body {
 #sign-in-with-google-text {
     margin-left: 10px;
 }
+
+.input-group {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    display: none;
+}
+
+.input-group>.custom-file {
+    text-align: right;
+}

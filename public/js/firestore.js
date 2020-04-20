@@ -85,3 +85,17 @@ const migrateNumberOfIsolationsPerCityFromMoh = (cities, isolations) => {
     return city;
   });
 };
+
+
+const setAllCitiesFromExcelData = (data) => {
+  db.collection("cities").doc("all-cities").set({
+    cities: data,
+    lastUpdate: (new Date()).getTime()
+  })
+    .then(() => {
+      console.log('success');
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+};
