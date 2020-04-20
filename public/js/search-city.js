@@ -36,6 +36,10 @@ const getCitiesByName = async () => {
 
 $(document).ready(async () => {
   await getCitiesByName();
+  const lastUpdateDateFormat = convertTimestampToDateAndTime(lastUpdateOfCities);
+
+  $('#last-updated-time-city-search').text(lastUpdateDateFormat);
+
   $('#city-search-input .typeahead').typeahead({
     highlight: true,
     minLength: 1
