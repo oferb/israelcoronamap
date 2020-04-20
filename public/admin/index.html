@@ -88,17 +88,19 @@
         <p id="submit-failed">אנא נסה שנית</p>
         <div class="input-group">
             <div class="input-group-prepend">
-                <span class="input-group-text">העלאה</span>
+                <span class="input-group-text" id="upload-excel-button">העלאה</span>
             </div>
             <div class="custom-file">
                 <input type="file" class="custom-file-input" id="inputGroupFile01">
                 <label class="custom-file-label" for="inputGroupFile01">בחר קובץ</label>
             </div>
         </div>
-        <p>
+        <p class="excel-file-name">
             שם הקובץ:
             <span id="excel-file-name"></span>
         </p>
+        <p id="submit-excel-success">קובץ אקסל עלה בהצלחה</p>
+        <p id="submit-excel-failed">אנא נסה שנית</p>
         <div class="cities-container">
             <button id="update-cities-data" type="submit" class="btn btn-primary">עדכן נתוני ערים</button>
             <p id="submit-cities-success">נתוני ערים עודכנו בהצלחה</p>

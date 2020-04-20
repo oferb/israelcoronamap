@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <title>חיפוש חולים לפי עיר</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.6/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+
+
+    <script src="../js/typeahead.bundle.js"></script>
+    <script src="../js/firestore.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/search-city.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== goolge fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="../css/search-city.css" />
+
+</head>
+
+<body dir="rtl" >
+
+    <div class="search-city-container">
+        <div class="search-city-titles">
+            <p class="search-city-title">חיפוש מידע על חולי קורונה לפי עיר</p>
+            <hr class='search-city-divider' width="30%" align="center">
+            <p class="search-city-subtitle">תיאור תיאור תיאור</p>
+        </div>
+        <div id="city-search-input">
+            <label>
+                <input class="typeahead" type="text" placeholder="חיפוש לפי שם עיר">
+            </label>
+        </div>
+        <div class="chosen-city-container">
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-label" id="city-name"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">אוכולוסיה נכון ל-2018</p>
+                <p class="chosen-city-label" id="city-population"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">מספר נבדקים עד כה</p>
+                <p class="chosen-city-label" id="city-tested"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">חולים מאומתים שהתגלו עד כה</p>
+                <p class="chosen-city-label" id="city-infected"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">מספר מחלימים</p>
+                <p class="chosen-city-label" id="city-recovered"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">שיעור הגידול של חולים מאומתים ב-3 ימים אחרונים</p>
+                <p class="chosen-city-label" id="city-increase-sick-three-days"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">שיעור הגידול בשבוע האחרון של חולים מאומתים</p>
+                <p class="chosen-city-label" id="city-increase-sick-week"></p>
+            </div>
+
+            <div class="chosen-city-value-group">
+                <p class="chosen-city-title">שיעור תחלואה בפועל ל-100,000</p>
+                <p class="chosen-city-label" id="city-percentage"></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+

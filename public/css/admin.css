@@ -96,3 +96,11 @@ body {
 .input-group>.custom-file {
     text-align: right;
 }
+
+.excel-file-name {
+    display: none;
+}
+
+#submit-excel-failed, #submit-excel-success {
+    display: none;
+}

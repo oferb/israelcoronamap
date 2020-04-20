@@ -88,9 +88,14 @@ $(document).ready(async () => {
 
   $('#sign-out-from-google-btn').click(() => firebase.auth().signOut());
 
+  $('#upload-excel-button').click(() => {
+    setAllCitiesFromExcelData(citiesParsed);
+  });
+
   $('#inputGroupFile01').change((evt) => {
     const selectedFile = evt.target.files[0];
     $('#excel-file-name').text(selectedFile.name);
+    $('.excel-file-name').css('display', 'block');
     const reader = new FileReader();
     reader.onload = function(event) {
       const data = event.target.result;
@@ -149,5 +154,4 @@ const parseCities = (cities) => {
       sicknessPercentageForOneHundredThousand
     };
   });
-  console.log(citiesParsed);
 };
