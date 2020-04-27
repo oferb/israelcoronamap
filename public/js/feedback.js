@@ -7,6 +7,15 @@ $(document).ready(() => {
     deleteQueryParam('feedback');
   });
 
+   $('#health_habits_survey').click(() => {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'ClickOnSurvey',
+      eventAction: 'Click',
+      eventLabel: 'health_habits_survey'
+    });
+  });
+
   $('#behavior_survey').click(() => {
     ga('send', {
       hitType: 'event',
