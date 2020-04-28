@@ -2,6 +2,8 @@
 <html dir="rtl" lang="he">
 
 <head>
+    <meta charset="UTF-8">
+
     <title>חיפוש חולים לפי עיר</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -24,7 +26,6 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
           crossorigin="anonymous">
 
-
     <script src="../js/typeahead.bundle.js"></script>
     <script src="../js/firestore.js"></script>
     <script src="../js/utils.js"></script>
@@ -43,59 +44,68 @@
         <div class="search-city-titles">
             <p class="search-city-title">חיפוש מידע על חולי קורונה לפי עיר</p>
             <hr class='search-city-divider' width="30%" align="center">
-            <p class="search-city-subtitle">תיאור תיאור תיאור</p>
+            <p class="search-city-subtitle">חפשו את העיר שלכם וגלו את נתוני קורונה העדכניים ביותר לגביהם</p>
         </div>
-        <div>
-            <span id="last-updated-title-city-search" style="font-weight: 600;">עדכון אחרון:</span>
+        <div class="new">
+            <span id="last-updated-title-city-search" style="font-weight: 600;">עודכן לאחרונה:</span>
             <span id="last-updated-time-city-search"></span>
         </div>
+        <br>
         <div id="city-search-input">
             <label>
                 <input class="typeahead" type="text" placeholder="חיפוש לפי שם עיר">
             </label>
         </div>
-        <div class="chosen-city-container">
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-label" id="city-name"></p>
+        <br>
+       <div class="container chosen-city-container">
+  <div class="row text-center">
+ <div class="col-12">
+              <div class="chosen-city-value-group">
+                  <p class="chosen-city-label big" id="city-name"></p>
+                              <hr class='search-city-divider' width="10%" align="center">
+   <br>
+        <br>
+              </div>
             </div>
+         
 
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">אוכולוסיה נכון ל-2018</p>
-                <p class="chosen-city-label" id="city-population"></p>
+    <div class="col-lg-3 col-12">
+      <div class="chosen-city-value-group">
+
+                  <p class="chosen-city-title">אוכולוסיה נכון ל-2018</p>
+                  <p class="chosen-city-label" id="city-population"></p>
             </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">מספר נבדקים עד כה</p>
-                <p class="chosen-city-label" id="city-tested"></p>
-            </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">חולים מאומתים שהתגלו עד כה</p>
-                <p class="chosen-city-label" id="city-infected"></p>
-            </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">מספר מחלימים</p>
-                <p class="chosen-city-label" id="city-recovered"></p>
-            </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">שיעור הגידול של חולים מאומתים ב-3 ימים אחרונים</p>
-                <p class="chosen-city-label" id="city-increase-sick-three-days"></p>
-            </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">שיעור הגידול בשבוע האחרון של חולים מאומתים</p>
-                <p class="chosen-city-label" id="city-increase-sick-week"></p>
-            </div>
-
-            <div class="chosen-city-value-group">
-                <p class="chosen-city-title">שיעור תחלואה בפועל ל-100,000</p>
-                <p class="chosen-city-label" id="city-percentage"></p>
-            </div>
-
-        </div>
     </div>
+    <div class="col-lg-3 col-12">
+         <div class="chosen-city-value-group">
+                <p class="chosen-city-title">חולים מאומתים</p>
+                <p class="chosen-city-label" id="city-infected"></p>
+          </div>
+    </div>
+    <div class="col col-lg-3">
+      <div class="chosen-city-value-group">
+                  <p class="chosen-city-title">מספר מחלימים</p>
+                  <p class="chosen-city-label" id="city-recovered"></p>
+            </div>
+    </div>
+    <div class="col-lg-3 col-12">
+      <div class="chosen-city-value-group">
+
+        <p class="chosen-city-title">תחלואה ל-100,000</p>
+        <p class="chosen-city-label" id="city-percentage"></p>
+    
+      </div>
+    </div>
+  
+    </div>
+  </div>
+ 
+
+    </div>
+
+  
+
+</div>
 </body>
 </html>
 

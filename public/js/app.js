@@ -264,6 +264,52 @@ const setSickPeopleTrackMarkers = () => {
 };
 
 const addJobsPoints = () => {
+
+   const yedidim = new google.maps.Marker({
+    position: {
+      lat: 32.0768437,
+      lng: 34.7904423
+    },
+    map,
+    icon: {
+      url: '/assets/images/map-icons/help.svg'
+    },
+    zIndex: 4000
+  });
+  google.maps.event.addListener(yedidim, 'click', () => {
+    const text = `<div id="jobs-container" class="infowindow ${langDirection === 'ltr' ? 'text-left' : ''}">
+                         <div class="jobs-title">ידידים סיוע בדרכים</div>
+                         <div class="jobs-subtitle">לאפליקציה יש פיצ'ר חדש שכל מטרתו היא לתת מענה מהיר ופשוט בתקופת הנוכחית לכל האנשים שלא יכולים לצאת מהבית, שצריכים סיוע בשינוע תרופות, קניית מצרכים, ובכלל - כל מה שהאחר צריך..</div>
+                         <div class="jobs-group">
+                              <div class="jobs-label">אזורי חלוקה</div>
+                              <div class="jobs-value">כל הארץ</div>
+                         </div>
+                         <div class="jobs-group">
+                             <div class="jobs-label">עלות השירות</div>
+                             <div class="jobs-value">ללא - מיזם בהתנדבות, בשיתוף עמותת סטארט-אח</div>
+                         </div>
+                         <div class="jobs-group">
+                           <div class="door-2-dor-link">
+                              <div class="jobs-label">לינקים להורדה:</div>
+                              <a target="_blank" href="https://play.google.com/store/apps/details?id=sos.yedidim.org" style="font-size: 15px">הורדה למכשירי אנדרואיד</a>
+                              <br>
+                              <br>
+                              <a target="_blank" href="https://apps.apple.com/il/app/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D/id1410708732" style="font-size: 15px">הורדה למכשירי אפל</a>
+
+                           </div>
+                         </div>
+                      </div>`;
+
+    infoWindow.setContent(text);
+    infoWindow.open(map, yedidim);
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'yedidimClick',
+      eventAction: 'Click',
+      eventLabel: 'yedidim'
+    });
+  });
+
   const doorToDor = new google.maps.Marker({
     position: {
       lat: 32.075049,

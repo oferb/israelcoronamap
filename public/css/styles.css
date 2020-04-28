@@ -106,18 +106,14 @@ border-radius: 30px;
 footer{
     display: flex;
     justify-content: center;
-    background-color: #FCFBF6;
-    box-shadow: 0px 3px 30px #00000029;
     width: 100%;
     height: auto;
-    padding: 30px 0 ;
+    padding: 30px 0;
     position: absolute;
     bottom: 0;
     left: 0;
-    bottom: 0;
-    border-top:solid 0.4px #e5e5e5;
-
-
+    box-shadow: 0px 3px 30px #00000029;
+    background-color: #FCFBF6;
 }
 
 .footer-love-icon{

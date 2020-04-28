@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.306" height="29.306" viewBox="0 0 29.306 29.306">
+  <g id="Group_553" data-name="Group 553" transform="translate(-661 -343)">
+    <g id="Group_538" data-name="Group 538">
+      <g id="delivery-icon" transform="translate(53 -11)">
+        <g id="delivery-icon-2" data-name="delivery-icon" transform="translate(-36.573 -180.261)">
+          <g id="Group_526" data-name="Group 526" transform="translate(1477 10450)">
+            <g id="Group_377" data-name="Group 377" transform="translate(-832.427 -9915.739)">
+              <g id="Path_463" data-name="Path 463">
+                <path id="Path_492" data-name="Path 492" d="M237.653,10A14.653,14.653,0,1,1,223,24.653,14.653,14.653,0,0,1,237.653,10Z" transform="translate(-223 -10)" fill="#9967ff"/>
+              </g>
+              <g id="Path_464" data-name="Path 464" transform="translate(0 0)">
+                <path id="Path_493" data-name="Path 493" d="M237.653,39.306a14.653,14.653,0,1,1,14.653-14.653,14.653,14.653,0,0,1-14.653,14.653Zm0-27.919a13.266,13.266,0,1,0,13.266,13.266A13.266,13.266,0,0,0,237.653,11.387Z" transform="translate(-223 -10)" fill="#2d2d61"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="megaphone" transform="translate(639.1 350)">
+      <g id="Group_540" data-name="Group 540" transform="translate(35.807 0.125)">
+        <g id="Group_539" data-name="Group 539">
+          <path id="Path_1638" data-name="Path 1638" d="M223.812,10.455l-6.087-6.088a.915.915,0,1,0-1.294,1.294l6.088,6.088a.914.914,0,0,0,1.293-1.293Z" transform="translate(-216.163 -4.1)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_542" data-name="Group 542" transform="translate(33.408 2.527)">
+        <g id="Group_541" data-name="Group 541" transform="translate(0)">
+          <path id="Path_1639" data-name="Path 1639" d="M139.708,82.9l-.046.23a9.83,9.83,0,0,1-2.168,4.391l3.312,3.312a9.8,9.8,0,0,1,4.37-2.189l.23-.046Z" transform="translate(-137.494 -82.905)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_544" data-name="Group 544" transform="translate(30.136 7.834)">
+        <g id="Group_543" data-name="Group 543">
+          <path id="Path_1640" data-name="Path 1640" d="M32.8,256.989l-2.263,2.263a1.372,1.372,0,0,0,0,1.94l1.293,1.293a1.372,1.372,0,0,0,1.94,0l2.263-2.263Zm.323,3.557a.457.457,0,0,1-.647-.647l.647-.647a.457.457,0,0,1,.647.647Z" transform="translate(-30.136 -256.989)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_546" data-name="Group 546" transform="translate(35.064 10.55)">
+        <g id="Group_545" data-name="Group 545">
+          <path id="Path_1641" data-name="Path 1641" d="M194.692,349.1l.622-.622a1.371,1.371,0,0,0,0-1.94l-.462-.462a8.657,8.657,0,0,0-.736.557l.552.553a.456.456,0,0,1,0,.646l-.632.632-.929-.9-1.293,1.293,2.075,2.01a.915.915,0,0,0,1.293-1.294Z" transform="translate(-191.813 -346.075)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_548" data-name="Group 548" transform="translate(39.334)">
+        <g id="Group_547" data-name="Group 547">
+          <path id="Path_1642" data-name="Path 1642" d="M332.321,0a.457.457,0,0,0-.457.457v.914a.457.457,0,0,0,.915,0V.457A.457.457,0,0,0,332.321,0Z" transform="translate(-331.864)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_550" data-name="Group 550" transform="translate(42.077 3.658)">
+        <g id="Group_549" data-name="Group 549">
+          <path id="Path_1643" data-name="Path 1643" d="M423.236,120h-.915a.457.457,0,0,0,0,.915h.915a.457.457,0,0,0,0-.915Z" transform="translate(-421.864 -120)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_552" data-name="Group 552" transform="translate(41.163 0.914)">
+        <g id="Group_551" data-name="Group 551">
+          <path id="Path_1644" data-name="Path 1644" d="M393.559,30.134a.457.457,0,0,0-.647,0l-.915.914a.457.457,0,0,0,.647.647l.914-.915A.457.457,0,0,0,393.559,30.134Z" transform="translate(-391.864 -30)" fill="#ffc107" stroke="#000" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
