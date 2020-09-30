@@ -1,10 +1,10 @@
-# Israel Coronavirus Map
+# Israel Coronavirus Cases by Map
 
 A website that shows you whereabouts of people with verified Coronavirus. Data is published by the Ministry of Health.
 
 Code is VanillaJS, so no framework required!
 
-## How to run locally
+## How you run  this locally
 from the *public* dir, run:
 ```shell script
 python -m SimpleHTTPServer
